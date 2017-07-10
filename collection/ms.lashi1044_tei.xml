@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>LASHI</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Lashio</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>LASHI</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Lashio</settlement>
+<institution>Lashio</institution>
+<repository>Burma, Shan State (north)</repository>
+<collection>Unknown</collection>
+<idno>LASHI1044</idno>
+<altIdentifier type="other"><idno>Tapung 27</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang/>
+<msItem n="W1116">
+<author><persName xml:lang="shn-Latn-x-lc">care&#x2BA; e&#x2BA; kyo&#x2BB;&#x328; </persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">u&#x2BA; vimala (cav&#x2BB;&#x310; sr&#x105;&#x304; to&#x2BB;&#x328; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; kut&#x2BB;&#x310;?) tatiya 10 toi&#x2BA;</title>
+<title xml:lang="shn-Latn-x-lc"/>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  abhidhamma,meditation,sermon </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W1116</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form=""><supportDesc material="">
+<extent><dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p/><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium=""><desc/></handNote></handDesc>
+<bindingDesc><p/><decoNote/>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1330
+</p><p/><p>
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: po&#x310;&#x310;&#x310;&#x2BB; sa&#x1E45;&#x2BB; p&#x12B;&#x2BA; m&#xE8;&#x310; s&#x101;&#x1E45;&#x2BB;&#x328; n&#x101;&#x1E45;&#x2BB;&#x2BA; mya
+
+</p><p/><p/><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J332</idno>
+<altIdentifier type="other"><idno>024</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W343">
+<author><persName xml:lang="shn-Latn-x-lc">cav ka&#x1E45; s&#x16B;iv</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101D;&#x103A;&#x1088;&#x1075;&#x1062;&#x1004;&#x103A;&#x1038;&#x101E;&#x102D;&#x1030;&#x101D;&#x103A;</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">lik vesantar&#x101;</title>
+<title xml:lang="shn-Latn-x-lc">Vesatara J&#x101;taka</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x101C;&#x102D;&#x1075;&#x103A;&#x1088;&#x101D;&#x1030;&#x107A;&#x103A;&#x1087;&#x101E;&#x107C;&#x103A;&#x1087;&#x1010;&#x101B;&#x1083;&#x1087;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Lik  
+Rhyming system: sau&#x1E45; kiv
+Rhyming system (shan): <foreign xml:lang="shn">&#x101E;&#x103D;&#x1004;&#x103A;&#x1075;&#x102D;&#x101D;&#x103A;</foreign> 
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W343</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="mai sang (bamboo shoot) paper">
+<extent>460 / 920<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 10</p></foliation>
+<condition><p>excellent</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+Cover material: 
+<material>papier mache</material>
+</p><decoNote/>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1365
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p>Present copy's donor: po thav cai l&#x16B;&#x1E45; phau&#x1E45; kyiv
+Present copy's donor (shan): <foreign xml:lang="shn">&#x1015;&#x1031;&#x1083;&#x1088;&#x1011;&#x101D;&#x103A;&#x1088;&#x1078;&#x1086;&#x1062;&#x1038;&#x101C;&#x1030;&#x1004;&#x103A; &#x107D;&#x103D;&#x1004;&#x103A;&#x1038;&#x1075;&#x1085;&#x101D;&#x103A;&#x1088;</foreign>
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

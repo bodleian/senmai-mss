@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_T</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Tiyasathan</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_T</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Tiyasathan</settlement>
+<institution>Wat Tiyasathan</institution>
+<repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
+<collection>shrine room hidden</collection>
+<idno>WAT_T4</idno>
+<altIdentifier type="other"><idno>7</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang/>
+<msItem n="W4">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB; pu&#xF1;&#xF1;as&#x101;ra (v&#x101;n'' y&#x16B;k'' ke" s&#x12B;")</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101D;&#x103A;&#x1088;&#x1015;&#x102F;&#x1004;&#x103A;&#x1087;&#x107A;&#x101E;&#x1083;&#x1087;&#x101B; (&#x101D;&#x1062;&#x107C;&#x103A;&#x1088;&#x101A;&#x1030;&#x1075;&#x103A;&#x1087;&#x1075;&#x1031;&#x1038;&#x101E;&#x102E;&#x1038;)</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">&#x2BC;alau&#x1E45;&#x2BB;&#x2BA; sumedh&#x101; p&#x101;ram&#x12B; phe&#x2B9; kh&#x101;n&#x2BB;&#x2BA;</title>
+<title xml:lang="shn-Latn-x-lc">Sumedha's life on fullfilling the work of perfections</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x1022;&#x101C;&#x103D;&#x1004;&#x103A;&#x1038;&#x101E;&#x102F;&#x1019;&#x1031;&#x1011;&#x1083;&#x1087; &#x1015;&#x1083;&#x1087;&#x101B;&#x1019;&#x102E;&#x1087;&#x107D;&#x1031;&#x1089;&#x1076;&#x1062;&#x107C;&#x103A;&#x1038;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Lik  
+Rhyming system: s&#x101;m'' kio'' 
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese,pali</textLang>
+<note>Work ID: W4</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent><dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>reasonable</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: gold
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: gilt</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1261
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1286
+</p></origin>
+<provenance>Former owner: Wat Tiyasath&#x101;n</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: L&#x16B;&#x1E45;''\ s&#x101;&#x1E45;'' k&#x101;n''\
+
+</p><p/><p>Present copy's donor: L&#x16B;&#x1E45;''
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

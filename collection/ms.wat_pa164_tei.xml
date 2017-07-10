@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_PA</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Pang Mu</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_PA</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Pang Mu</settlement>
+<institution>Wat Pang Mu</institution>
+<repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+<collection>shrine room stacked</collection>
+<idno>WAT_PA164</idno>
+<altIdentifier type="other"><idno>032</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W169">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">sutta sa&#x1E47;gaha chatta m&#x101;nava lu la&#x1E45;&#x2BB; suk&#x2BB;</title>
+<title xml:lang="shn-Latn-x-lc">A Collection of Discourses: a discourse on a young man called Satta m&#x101;nava</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: sau&#x1E45;&#x2BB; kiv&#x2BB;
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note>A story of a young man who learned about five precepts from the Buddha. Once he could memorize how to recite the words of the precepts, he recited it day and night. One day while traveling on a long journey, he met robbers, who robbed and killed him taking away his belongings. The young man, before he died, he recited the precept words and was reborn in heaven.</note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,commentary </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W169</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>80 / 160<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 10</p></foliation>
+<condition><p>poor</p><p>wear,human</p><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): buddhist era
+</p><p>Date of composition (year): 2416
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1244
+</p></origin>
+<provenance>Former owner: Wat Pang Mu</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: phr&#x101;&#x2BA; ta k&#x101; si&#x1E45;&#x2BB; m&#x12B;
+
+</p><p/><p>Present copy's donor: po&#x2BB; mau&#x1E45;&#x2BB; m&#xE8; mau&#x1E45;&#x2BB;
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

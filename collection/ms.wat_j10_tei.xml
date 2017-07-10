@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J10</idno>
+<altIdentifier type="other"><idno>037</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang/>
+<msItem n="W10">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB; amat l&#x16B;&#x1E45;' mui&#x1E45;&#x2BB;&#x2BA; nau&#x1E45;&#x2BB;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101D;&#x103A;&#x1088;&#x1022;&#x1019;&#x1062;&#x1010;&#x103A;&#x1088;&#x101C;&#x1030;&#x1004;&#x103A;&#x1019;&#x102D;&#x1030;&#x1004;&#x103A;&#x1038;&#x107C;&#x103D;&#x1004;&#x103A;</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">u" ti&#x1E45;'' na</title>
+<title xml:lang="shn-Latn-x-lc">The Story of Utinna</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x1022;&#x1030;&#x1038;&#x1010;&#x102D;&#x1004;&#x103A;&#x1087;&#x107C;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Alaung  
+Rhyming system: s&#x101;m'' kiv''
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note>During the time of King Purantabba, the queen while being pregnant was having a sun bath on the veranda of the palace. A giant bird called Tilangka came down and took her away. The queen gave birth to her child on a big tree. In the morning, a hermit went to the tree to collect bones/ remains, often dropped by the giant bird after it had eaten all the flesh, but this time the hermit heard a woman voice and a baby crying on that tree. He took them with him to his cave temple. When the boy got older, the hermit taught him magic power .... </note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,folk stories,canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W10</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>276<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>excellent</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: black
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1249
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1301
+</p></origin>
+<provenance>Former owner: Wat Jong Klang</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: Lu&#x1E45;''\ mai kham''\ P&#x101; mai kham''\
+
+</p><p/><p>Present copy's donor: Sa&#x1E45;'' vicint&#x101;
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

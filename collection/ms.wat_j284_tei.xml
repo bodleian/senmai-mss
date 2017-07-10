@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J284</idno>
+<altIdentifier type="other"><idno>013</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W294">
+<author><persName xml:lang="shn-Latn-x-lc">care&#x2BA; jina (m&#x16B;i&#x1E45;&#x2BB;&#x2BA; ya&#x1E45;&#x2BB;&#x2BA; l&#xE8;&#x1E45;&#x2BB;)</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">sams&#x101;racakka pak&#x101;san&#x12B;</title>
+<title xml:lang="shn-Latn-x-lc">Comprehensive Text on the Lifecycle </title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor:  tra 
+Rhyming system: s&#x101;m&#x2BB; kiv&#x2BB;
+Introduction: yes
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Historical biographies of Sariputta and Mokkallana, two great pupils of the Buddha.</note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,sermon </note>
+<incipit/>
+<explicit/>
+<colophon>Colophon:yes Colophon type:donor </colophon>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese,pali</textLang>
+<note>Work ID: W294</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>204 / 408<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>reasonable</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: black
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1278
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1318
+</p></origin>
+<provenance>Former owner: Wat Jong Klang.</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: care&#x2BA; ku&#x1E45;&#x2BB;&#x328; m&#x101;&#x328; p&#x101;&#x310; ca&#x1E45;&#x2BB;&#x2BA; k&#xE8;v&#x2BB;&#x310;
+Original donor information: introduction
+</p><p>Original place of donation: Wan Mai
+</p><p>Present copy's donor: care&#x2BA; pi&#x1E45;&#x2BB; &#x1E47;&#x101;&#x328; (v&#x101;n&#x2BB;&#x310; n&#x101;&#x2BA; l&#x16B;&#x1E45;&#x2BB;)
+Present copy information: introduction
+</p><p>Place name for present copy: Wat Jong Klang, Maehongson.
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

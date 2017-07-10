@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_PA</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Pang Mu</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_PA</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Pang Mu</settlement>
+<institution>Wat Pang Mu</institution>
+<repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+<collection>shrine room stacked</collection>
+<idno>WAT_PA14</idno>
+<altIdentifier type="other"><idno>035</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn">&#x1040;&#x1043;&#x1045;</foreign></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W14">
+<author><persName xml:lang="shn-Latn-x-lc">care&#x2BA; van&#x2BB; ci&#x1E45;&#x2BB;&#x2BA;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101B;&#x1031;&#x1038;&#x101D;&#x1062;&#x107C;&#x103A;&#x1088;&#x1078;&#x102D;&#x1004;&#x103A;&#x1038;</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">n&#x101;&#x1E45;&#x2BB;&#x2BA; vis&#x101;kh&#x101;</title>
+<title xml:lang="shn-Latn-x-lc">The Story of Lady Visakha</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x107C;&#x1062;&#x1004;&#x103A;&#x1038;&#x101D;&#x102D;&#x101E;&#x1083;&#x1076;&#x1083;&#x1087;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: s&#x101;m'' kiv''
+Rhyming system (shan): <foreign xml:lang="shn">&#x101E;&#x1062;&#x1019;&#x103A;&#x1075;&#x102D;&#x101D;&#x103A;</foreign> Shan
+</note><note>General remarks on work: Note for Shan font: working on the google chrome on PC, the Shan fonts, with Nance''s keyboard layouts, are rendering very well. 
+This is the first time I have seen almost all the Shan fonts are rendering correctly! Excellent! </note>
+<note/>
+<note xml:lang="shn"/>
+<note>About Lady Visakha''s donation of monastery. The text also mentions that Lady Visakha has 70 daughters, 400 grand daughters and 800 great grand daughters, when she and her children donated the Veluvana monastery.</note>
+<note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">&#x101C;&#x103D;&#x1004;&#x103A;&#x1088;&#x107C;&#x1062;&#x1004;&#x103A;&#x1038;&#x101D;&#x102D;&#x101E;&#x1083;&#x1087;&#x101C;&#x1030;&#x1087;&#x1010;&#x107C;&#x103A;&#x1038;&#x1075;&#x103B;&#x103D;&#x1004;&#x103A;&#x1038;- &#x1081;&#x1030;&#x101D;&#x103A;&#x1081;&#x102F;&#x1015;&#x103A;&#x1088;&#x1010;&#x102E;&#x1088;&#x1075;&#x1085;&#x1015;&#x103A;&#x1088;&#x107C;&#x1082;&#x103A;&#x1038;&#x101C;&#x102D;&#x1075;&#x103A;&#x1088;&#x107C;&#x1086;&#x1089; &#x1015;&#x1035;&#x107C;&#x103A;&#x101E;&#x102D;&#x1030;&#x1075;&#x103A;&#x1088;&#x1015;&#x102D;&#x102F;&#x107C;&#x103A;&#x1038;&#x107C;&#x1062;&#x1004;&#x103A;&#x1038;&#x101D;&#x102D;&#x101E;&#x1083;&#x1087;&#x1076;&#x1083;&#x1087;&#x1019;&#x102E;&#x1038;&#x101C;&#x102F;&#x1075;&#x103A;&#x1088;&#x101A;&#x102D;&#x1004;&#x103A;&#x1038;&#x1047;&#x1040; &#x101C;&#x1062;&#x107C;&#x103A;&#x101A;&#x102D;&#x1004;&#x103A;&#x1038;&#x1044;&#x1040;&#x1040; &#x101C;&#x102D;&#x107C;&#x103A;&#x101A;&#x102D;&#x1004;&#x103A;&#x1038; &#x1048;&#x1040;&#x1040;&#x1040; &#x1076;&#x101D;&#x103A;&#x1078;&#x101D;&#x103A;&#x1088;&#x1019;&#x1031;&#x103A;&#x101C;&#x102F;&#x1075;&#x103A;&#x1088;&#x101C;&#x1086;&#x1088;&#x101C;&#x1030;&#x1087;&#x1010;&#x107C;&#x103A;&#x1038;&#x1075;&#x103B;&#x103D;&#x1004;&#x103A;&#x1038;&#x101D;&#x1031;&#x101C;&#x102F;&#x101D;&#x102F;&#x107C;&#x103A;&#x1087;&#x101C;&#x1030;&#x1004;&#x103A;&#x101E;&#x1031; &#x101C;&#x1086;&#x1022;&#x101D;&#x103A;&#x1015;&#x1035;&#x107C;&#x103A;&#x1010;&#x1083;&#x107C; &#x1010;&#x1062;&#x1004;&#x103A;&#x1038;&#x101C;&#x102E;&#x1076;&#x101D;&#x103A;&#x1019;&#x1031;&#x1088;&#x101C;&#x102F;&#x1075;&#x103A;&#x101C;&#x1062;&#x107C;&#x103A;&#x101C;&#x102D;&#x107C;&#x103A;&#x1010;&#x1004;&#x103A;&#x1038;&#x1019;&#x1030;&#x1010;&#x103A;&#x1038;&#x1010;&#x1004;&#x103A;&#x1038;&#x101E;&#x1035;&#x1004;&#x103A;&#x1088;&#x101A;&#x101D;&#x103A;&#x1089;&#x104A;&#x104A;</foreign></note>
+<note>Subject:  commentary,canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese,pali</textLang>
+<note>Work ID: W14</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>284<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>excellent</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1321
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1349
+</p></origin>
+<provenance>Former owner: Wat Pang Mu</provenance>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p>Present copy's donor: Suras&#x16B;it'' ko pen'' me N&#x101;&#x1E45;''
+Present copy's donor (shan): <foreign xml:lang="shn">&#x101E;&#x1030;&#x101B;&#x101E;&#x102D;&#x1030;&#x1010;&#x103A;&#x1087; &#x1075;&#x1031;&#x1083;&#x1089;&#x1015;&#x1035;&#x107C;&#x103A;&#x1019;&#x1031;&#x1038;&#x107C;&#x1062;&#x1004;&#x103A;&#x1038;&#x1022;&#x102F;&#x1010;&#x103A;&#x1089;</foreign>
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

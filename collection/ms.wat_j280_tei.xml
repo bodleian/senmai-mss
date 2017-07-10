@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J280</idno>
+<altIdentifier type="other"><idno>008</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W290">
+<author><persName xml:lang="shn-Latn-x-lc">care&#x2BA; van&#x2BB;&#x310; ci&#x1E45;&#x2BB;&#x2BA; (m&#x16B;i&#x1E45;&#x2BB;&#x2BA; nau&#x1E45;&#x2BB;)</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">pet&#x2BB; l&#xE8;&#x1E45;&#x2BB; &#x2BC;auk&#x2BB;&#x328; yaut&#x2BB;&#x310;</title>
+<title xml:lang="shn-Latn-x-lc"/>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt">&#x2BC;alau&#x1E45;&#x2BB;&#x2BA; kin&#x2BB; naun&#x2BB;</title>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Alaung  
+Rhyming system: s&#x101;m&#x2BB; kiv&#x2BB;
+Introduction: yes
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Story a Bodhisatta who ate worms, as both his parents died when he was still a baby. His father died first, then his mother died soon afterwards. When his mother died, he didn't know it, he kept having breast milk from her dead mother until worms came out of his dead mother's breast and he continued to have the milk including the worms. As the house was far outside the village, no one knew about it. The story goes on to tell that the Baby had to eat the worms because his previous Karma, when he was a king, he asked others to eat worms.</note>
+<note xml:lang="shn"/>
+<note>Subject:  non canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W290</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>130 / 260<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>reasonable</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+Cover material: 
+<material>papier mache</material>
+</p><decoNote/>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1352
+</p></origin>
+<provenance>Former owner: Wat Jong Klang.</provenance>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p>Present copy's donor: me&#x2BB; thav&#x2BB; ca&#x1E45;&#x2BB;&#x2BA; &#x1E47;&#x16B;v&#x2BB; (Mother of Ven. Vicitta, abbot of Wat Jong Klang)
+Present copy information: introduction
+</p><p>Place name for present copy: Wat Jong Klang, Maehongson.
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

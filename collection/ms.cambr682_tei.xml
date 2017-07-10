@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>CAMBR</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>University Library, Cambridge University</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>CAMBR</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>University Library, Cambridge University</settlement>
+<institution>University Library, Cambridge University</institution>
+<repository>Cambridge, United Kingdom</repository>
+<collection>Unknown</collection>
+<idno>CAMBR682</idno>
+<altIdentifier type="other"><idno>LR.14.27-28</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in khun script</textLang>
+<msItem n="W733">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">V&#x14D;h&#x101;n Dhammap&#x101;da, Ma&#x1E0D; &#x1E56;&#x101;i Ph&#x16B;k S&#x1EB;&#x1E45; &amp; Ph&#x16B;k Ce&#x1E0D; Ma&#x1E0D; &#x1E56;&#x101;i</title>
+<title xml:lang="shn-Latn-x-lc">Dhammapada Commentary, Final Bundle, Fascicle 2 &amp; Fascicle 7, Final Bundle</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,commentary </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> pali,khuen</textLang>
+<note>Work ID: W733</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="palm leaf"><supportDesc material="">
+<extent>44<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p/><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium=""><desc/></handNote></handDesc>
+<bindingDesc><p/><decoNote/>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p/><p>
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p/><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

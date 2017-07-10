@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>OXFOR</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Bodleian Library, Oxford University</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>OXFOR</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Bodleian Library, Oxford University</settlement>
+<institution>Bodleian Library, Oxford University</institution>
+<repository>Oxford, United Kingdom</repository>
+<collection>Unknown</collection>
+<idno>OXFOR22</idno>
+<altIdentifier type="other"><idno>MS Asiat. Misc. b. 7 (R)</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W22">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">t&#x101;na&#x2BA; puk&#x2BB; tha&#x2BA; van&#x2BB; &#x2BC;athak&#x101;th&#x101;</title>
+<title xml:lang="shn-Latn-x-lc">commentary on the teaching related to the Buddha</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p>Illustrated (ornamentation): none</p><p> Illustrated (diagrams): none</p><p>Illustrated (pictures): none</p></decoNote></decoDesc>
+<note>Shan text descriptor:  tra 
+Introduction: yes
+</note><note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete. </note>
+<note>Summary intro: Containing the text title, name of the donor, his family, and standard dedication for Nibb&#x101;na.</note>
+<note xml:lang="shn"/>
+<note>It is a sermon on generosity, conduct and meditation (d&#x101;na, sIla and bh&#x101;van&#x101;).</note>
+<note xml:lang="shn"/>
+<note>Subject:  sermon </note>
+<incipit/>
+<explicit/>
+<colophon>Colophon:no </colophon>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W22</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="rolled book"><supportDesc material="sa (mulberry) paper">
+<extent>50pp/ff (burmese numbering)
+<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 22</p></foliation>
+<condition><p>reasonable</p><p>water,wear</p><p>damaged front and back</p></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover material: 
+<material>cloth</material>
+</p><decoNote/>
+<condition>no</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p/><p>
+</p></origin>
+<provenance>Former owner: unknown</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: phra tak&#x101;&#x2BB; p&#x16B; loi san&#x2BB; kan&#x2BB;&#x2BA;
+Original donor information: introduction
+</p><p/><p>Present copy's donor: phra tak&#x101;&#x2BB; p&#x16B; loi
+Present copy information: introduction
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

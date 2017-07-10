@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_PA</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Pang Mu</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_PA</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Pang Mu</settlement>
+<institution>Wat Pang Mu</institution>
+<repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+<collection>shrine room stacked</collection>
+<idno>WAT_PA18</idno>
+<altIdentifier type="other"><idno>060</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang/>
+<msItem n="W18">
+<author><persName xml:lang="shn-Latn-x-lc">sr&#x101;&#x328; zina (mui&#x1E45;&#x2BB;&#x2BA; ya&#x1E45;&#x2BB;&#x2BA; li&#x1E45;&#x2BB;)</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">mah&#x101; ki&#x1E45;&#x2BB;cana vatthu</title>
+<title xml:lang="shn-Latn-x-lc">The Story of Mah&#x101;ki&#xF1;cana</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p>Illustrated (ornamentation): colour</p></decoNote></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: sam&#x2BB; kiv&#x2BB;
+Rhyming system (shan): <foreign xml:lang="shn">&#x1078;&#x101E;&#x1019;&#x103A;&#x1075;&#x102D;&#x107A;&#x103A;</foreign> Shan
+</note><note>General remarks on work: The cover is painted in red colour.</note>
+<note>Summary intro: Once up on a time in the country of P&#x101;r&#x101;&#x1E47;as&#x12B;, there was a rich Brahmana couple. The husband was handsome and the wife was beautiful. They were generous giving things away but their money in bank was ever decreased. Later, they had two children - a boy and a daughter. The boy was called Mah&#x101;ki&#xF1;cana and the daughter was called Ki&#xF1;canadev&#x12B;. The couple noticed that their son, Mah&#x101;ki&#xF1;cana, did not seem to be enjoying with life. He looked boring. So, his father arranged for him to get married with a beautiful lady. However Mah&#x101;ki&#xF1;cana told his father that he did not want to get married. Instead, he wanted to renounce the worldly life and get ordained. ...</note>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,commentary,folk stories,non canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese,pali</textLang>
+<note>Work ID: W18</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>284<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>excellent</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: red
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1275
+</p><p/><p>
+</p></origin>
+<provenance>Former owner: Wat Pang Mu</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: na&#x1E45;&#x2BB;&#x2BA; si&#x1E45;&#x2BB; kham&#x2BB;&#x2BA;
+
+</p><p>Original place of donation: &#x1076;Karenni State?
+</p><p>Present copy's donor: lu&#x1E45;&#x2BB;&#x2BA; kham&#x2BB;&#x2BA; li&#x1E45;&#x2BB; p&#x101; l&#x12B;
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>
