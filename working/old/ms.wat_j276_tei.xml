@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J276</idno>
+<altIdentifier type="other"><idno>004</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W286">
+<author><persName xml:lang="shn-Latn-x-lc">mun&#x2BB; ca&#x1E45;&#x2BB;&#x2BA; nau&#x1E45;&#x2BB; ken&#x2BB; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; n&#x101;i&#x2BA;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">satipathan&#x2BB;&#x328; vatthu pa&#x1E6D;&#x1E6D;hama toi&#x2BA;</title>
+<title xml:lang="shn-Latn-x-lc">Story of Satipa&#x1E6D;&#x1E6D;h&#x101;na, volume one</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor:  Kyam Vatthu 
+Rhyming system: s&#x101;m&#x2BB; kiv&#x2BB;
+</note><note>General remarks on work: This text is missing from the chest/cabinet when the second fieldwork was conducted in January 2014. It is possible that it was taken out for recitation and not yet returned, as it is the case with other texts that after taken out for recitation, they were kept in the Buddha's shrine instead of returning them to the chest. There is a fragile ms with no. 004 in the chest but it is not the text with this title. It's possible that there were duplicates or some mistakes when collecting the data in 2009.</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Story of a rich man who left his house, wife, children and all properties behind to become a forest monk practising meditation. In his temple ground there is big banyan tree. One day, a giant bird 'Kalun' had caught a dragon 'Naga' and came to that big banyan tree. The Kalun bird then changed his body as a human and went to the monk and asked if that big bird did something wrong unwholesome for bringing the dragon. The monk replied: "It is very much depending on his mind. If his mind has intention to destroy others, then it is wrong doing, but if he has no intention of destroying others, then he has done nothing wrong". The man (the Kalun) was so happy and offer some special mantra of protection and medicine to the monk.</note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W286</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>166 / 228<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>reasonable</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+</p><decoNote/>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1245
+</p><p/><p>
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: p&#x101;&#x310; kyau&#x1E45;&#x2BB;&#x2BA; n&#x101;&#x1E45;&#x2BB;&#x2BA; ci&#x1E45;&#x2BB;&#x328; 
+
+</p><p/><p>Present copy's donor: p&#x101;&#x310; &#x2BC;au of Maehongson
+Present copy information: colophon
+</p><p>Place name for present copy: Wat Jong Klang, Maehongson.
+Place name information: introduction
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

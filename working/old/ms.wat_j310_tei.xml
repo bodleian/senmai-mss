@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J310</idno>
+<altIdentifier type="other"><idno>041</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W320">
+<author><persName xml:lang="shn-Latn-x-lc">unknown</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">cat to cav ne mi</title>
+<title xml:lang="shn-Latn-x-lc">Story of Nemi jataka</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Lik  
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W320</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>112 / 224<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 10</p></foliation>
+<condition><p>poor</p><p>animal</p><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: gold
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>no</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1242
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1266
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: me sa&#x1E45; kan ta ka na&#x1E45; kha&#x1E45; (vin loi &#x1E45;uin)
+
+</p><p>Original place of donation: Loi Nguen town
+</p><p>Present copy's donor: na&#x1E45; can ta
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

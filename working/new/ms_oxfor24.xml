@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>OXFOR</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Bodleian Library, Oxford University</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>OXFOR</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Bodleian Library, Oxford University</settlement>
+<institution>Bodleian Library, Oxford University</institution>
+<repository>Oxford, United Kingdom</repository>
+<collection>Unknown</collection>
+<idno>OXFOR24</idno>
+<altIdentifier type="other"><idno>MS. Asiat Misc. a. 16</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W24">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">lik&#x2BB; phr&#x101;&#x2BA; sav&#x2BB;&#x2BA; pit&#x2BB; ik&#x2BB; ta&#x1E45;&#x2BB; sa&#x1E45;&#x2BB; uk&#x2BB; puk&#x2BB; pit&#x2BB; p&#x101;&#x2BA; kau&#x1E45;&#x2BB; m&#x16B; su&#xF1;&#x2BB; ta ku&#x1E45;&#x2BB; phra ya khyi&#x1E45;&#x2BB; cak&#x2BB; to y&#x101; cat&#x2BB; khya&#x1E43; s&#x101; satta th&#x101; na cit&#x2BB; t&#x12B;</title>
+<title xml:lang="shn-Latn-x-lc">A text on the 28 Buddhas, 8 special monks, Shwedagon pagoda, Mandalay Mahamuni Buddha, Buddha's footprint, former lives of the Buddha, and 7 places (ater enlightenment) </title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x101C;&#x102D;&#x1075;&#x103A;&#x1088;&#x107D;&#x103C;&#x1083;&#x1038;&#x101E;&#x1062;&#x101D;&#x103A;&#x1038;&#x1015;&#x1085;&#x1010;&#x103A;&#x1087;&#x1022;&#x102D;&#x1075;&#x103A;&#x1087;&#x1010;&#x1004;&#x103A;&#x1038;&#x101E;&#x1062;&#x1004;&#x103A;&#x1087;&#x1022;&#x102F;&#x1075;&#x103A;&#x1088;&#x1015;&#x102F;&#x1075;&#x103A;&#x1088;&#x1015;&#x1085;&#x1010;&#x103A;&#x1087;&#x1015;&#x1083;&#x1038; &#x1075;&#x103D;&#x1004;&#x103A;&#x1038;&#x1019;&#x1030;&#x1038;&#x101E;&#x1030;&#x107A;&#x103A;&#x1087;&#x1010;&#x1075;&#x102F;&#x1004;&#x103A;&#x1087; &#x107D;&#x103C;&#x1083;&#x1038;&#x101A;&#x1076;&#x1085;&#x1004;&#x103A;&#x1087; &#x1078;&#x1062;&#x1075;&#x103A;&#x1088;&#x1010;&#x1031;&#x1083;&#x1087;&#x101A;&#x1083;&#x1087; &#x1078;&#x1062;&#x1010;&#x103A;&#x1088;&#x1076;&#x103B;&#x1062;&#x1019;&#x103A;&#x1038;&#x101E;&#x1083;&#x1087; &#x101E;&#x1010;&#x103A;&#x1010;&#x1011;&#x1083;&#x1087;&#x107C;&#x1078;&#x1035;&#x1010;&#x103A;&#x1038;&#x1010;&#x102E;&#x1088;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p>Illustrated (ornamentation): none</p><p> Illustrated (diagrams): none</p><p>Illustrated (pictures): colour</p></decoNote></decoDesc>
+<note>Shan text descriptor: Lik  
+Rhyming system: sau&#x1E45;&#x2BB; kiv&#x2BB;
+Rhyming system (shan): <foreign xml:lang="shn">&#x101E;&#x103D;&#x1004;&#x103A;&#x1075;&#x102D;&#x101D;&#x103A;</foreign> 
+Introduction: yes
+Text at other location: OXFOR23
+</note><note>General remarks on work: Final one or two pages missing.</note>
+<note>Summary intro: Containing the text title, donor's name, places and standard dedication for Nibbana.</note>
+<note xml:lang="shn"/>
+<note>Containing drawing images of the 28 Buddhas, bodhi tree, pagodas,  images 8 special monks, Swedagon pagoda image, Mandaly Mahamuni Buddha image,footprint (Buddhap&#x101;da), 16 former lives of the Buddha as animals,Buddhas of 8 directions. Also cotaining texts related the images described.</note>
+<note xml:lang="shn"/>
+<note>Subject:  instruction Subject comments: Discussion of 28 Buddhas etc.</note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese</textLang>
+<note>Work ID: W24</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="rolled book"><supportDesc material="sa (mulberry) paper">
+<extent>15<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 25</p></foliation>
+<condition><p>poor</p><p>wear</p><p>damaged front and lower edge.</p></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover material: 
+<material>cloth</material>
+</p><decoNote/>
+<condition>no</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1268
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p>Present copy's donor: *kham&#x2BB;&#x2BA;
+Present copy information: introduction
+</p><p>Place name for present copy: man&#x2BB; loi luk&#x2BB; van&#x2BB;&#x2BA; &#x2BC;auk&#x2BB;
+Place name information: introduction
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_285">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>CAMBR</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>CAMBR</idno>
+            <idno type="msID">CAMBR906</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CAMBR906" xml:lang="en">
+               <msIdentifier>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <institution>University Library, Cambridge University</institution>
+                  <repository>Cambridge, United Kingdom</repository>
+                  <collection>Unknown </collection>
+                  <idno>CAMBR906</idno>
+                  <altIdentifier type="other">
+                     <idno>LR.11.82</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in khun script</textLang>
+                  <msItem xml:id="CAMBR906-item1" n="W974">
+                     <author/>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">Pathama Māleyyavatthu</title>
+                     <title xml:lang="">Paṭhama Maleyyavatthu of Vessantara Jātaka</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  commentary </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> pali,khuen</textLang>
+                     <note>Work ID: W974</note>
+                  </msItem>
+                  <msItem xml:id="CAMBR906-item2" n="W975">
+                     <author/>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">Dasavaragāthā</title>
+                     <title xml:lang="">Dasavaragāthā of Vessantara Jātaka</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  canonical jataka </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> pali,khuen</textLang>
+                     <note>Work ID: W975</note>
+                  </msItem>
+                  <msItem xml:id="CAMBR906-item3" n="W976">
+                     <author/>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">Himavantavaṇṇanā Kaṇḍa Pariccheda</title>
+                     <title xml:lang="">Himavantavaṇṇanā of Vessantara Jātaka</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  canonical jataka </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> pali,khuen</textLang>
+                     <note>Work ID: W976</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="palm leaf">
+                     <supportDesc>
+                        <extent>15<dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation>
+                              <p>Lines (per folio:) Unknown </p>
+                           </foliation>
+                           <condition/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">
+                        <desc/>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <decoNote/>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of composition (era): Unknown 
+</p>
+                     <p>Date of composition (year): Unknown 
+</p>
+                     <p>Date of copying (era): sakkaraja era
+</p>
+                     <p>Date of copying (year): 1105
+</p>
+                  </origin>
+                  <provenance/>
+                  <provenance>
+</provenance>
+                  <acquisition>
+                     <p>Original donor: Unknown 
+Original donor (shan): Unknown Unknown 
+Original donor information: Unknown 
+</p>
+                     <p>Original place of donation: Unknown 
+Original place of donation (shan): Unknown Unknown 
+Original donor place information: Unknown 
+</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

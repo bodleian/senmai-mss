@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_PA</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Pang Mu</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_PA</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Pang Mu</settlement>
+<institution>Wat Pang Mu</institution>
+<repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+<collection>shrine room stacked</collection>
+<idno>WAT_PA3</idno>
+<altIdentifier type="other"><idno>001</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W3">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB; k&#x101;&#x1E45;&#x2BB;&#x2BA; suiv&#x2BB;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101D;&#x103A;&#x1088;&#x1075;&#x1062;&#x1004;&#x103A;&#x1038;&#x101E;&#x102D;&#x1030;&#x101D;&#x103A;</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">&#x2BC;alau&#x1E45;&#x2BB;&#x2BA; hoi khav&#x2BB;</title>
+<title xml:lang="shn-Latn-x-lc">The story of the white snail, the buddha-to-be</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x1022;&#x101C;&#x103D;&#x1004;&#x103A;&#x1038;&#x1081;&#x103D;&#x1086;&#x1076;&#x1062;&#x101D;&#x103A;</foreign></title>
+<title xml:lang="eng" type="alt">&#x2BC;alau&#x1E45;&#x2BB;&#x2BA; hoi khav&#x2BB; n&#x101;&#x1E45;&#x2BB;&#x2BA; k&#x101;n&#x2BB; y&#x16B;&#x1E45;&#x2BB;</title>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Alaung  
+Rhyming system: sau&#x1E45;'' kiv&#x2BB;
+Introduction: no
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Once up on a time, there is a country called P&#x101;r&#x101;nas&#x12B;. The king and the queen of this country has no son nor daughter. As they wanted to have a baby, one day the kind asked the queen to observe the precept and then request/make a wish for a baby. Consequently, the Bodhisatta While Snail came down from the heaven and started life with the queen (she became pregnant). After ten months, she (the queen) gave her birth to a white snail. </note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta,folk stories,non canonical jataka Subject comments: only ''sutta'' is recorded in the data sheet</note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W3</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="">
+<extent>560<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>poor</p><p>human</p><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: black
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1205
+</p></origin>
+<provenance>Former owner: Wat Pang Mu</provenance>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p/><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

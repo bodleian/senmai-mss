@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>LASHI</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Lashio</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>LASHI</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Lashio</settlement>
+<institution>Lashio</institution>
+<repository>Burma, Shan State (north)</repository>
+<collection>abbots room</collection>
+<idno>LASHI52</idno>
+<altIdentifier type="other"><idno>73</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W52">
+<author><persName xml:lang="shn-Latn-x-lc">ca re&#x2BB;&#x2BA; mau&#x1E45;&#x2BB;&#x328; &#x1E45;&#x2BB;&#x328;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">tr&#x101;&#x2BA; cav&#x2BB;&#x310; sa&#x1E45;&#x2BB;&#x328; vu&#xF1;&#x2BB;ka vatthu</title>
+<title xml:lang="shn-Latn-x-lc">The sermon on the teaching of spiritual shock (sa&#x1E43;vega)</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt">sa&#x1E45;&#x2BB;&#x328; vu&#xF1;&#x2BB;ka vatthu</title>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p>Illustrated (ornamentation): colour</p><p> Illustrated (diagrams): none</p><p>Illustrated (pictures): colour</p></decoNote></decoDesc>
+<note>Shan text descriptor: Alaung  
+Rhyming system: sam&#x2BB; kiv&#x2BB; yav&#x2BB;&#x2BA;
+Introduction: yes
+Text at other location: W14
+</note><note>General remarks on work: High quality paintings on 6 folios.</note>
+<note>Summary intro: Composed to mark the funeral of donor's mother.</note>
+<note xml:lang="shn"/>
+<note>Story of Adinna-puppaka, the millionaire whose son was passed away. He cried all the way to the cemetery. </note>
+<note xml:lang="shn"/>
+<note>Subject:  instruction Subject comments: learned text</note>
+<incipit/>
+<explicit/>
+<colophon>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Colophon:yes Additional colophon:no </colophon>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W52</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="rolled book"><supportDesc material="sa (mulberry) paper">
+<extent>31pp/ff (shan numbering)
+<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 25</p></foliation>
+<condition><p>reasonable</p><p>wear,human</p><p>high quality copy</p></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: other
+Cover material: 
+<material>cloth</material>
+</p><decoNote/>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1271
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1302
+</p></origin>
+<provenance>Former owner: ko&#x2BA; san&#x2BB; la</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: pi&#x310; na&#x1E45;&#x2BB;&#x2BA; kham&#x2BB;&#x2BA;
+Original donor information: introduction
+</p><p>Original place of donation: po&#x310; ca&#x1E45;&#x2BB;&#x2BA; pu&#x1E45;&#x2BB; &#xF1;a&#x2B9;
+Original donor place information: introduction
+</p><p>Present copy's donor: po&#x2BB;&#x310; sa&#x1E45;&#x2BB;&#x328; kin&#x2BB; me&#x2BB;&#x310; sa&#x1E45;&#x2BB;&#x328; i&#x1E45;&#x2BB;&#x328;
+Present copy information: colophon
+</p><p>Place name for present copy: kyau&#x1E45;''" sunanta na&#x1E45;&#x2BB;&#x2BA; nu
+Place name information: colophon
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

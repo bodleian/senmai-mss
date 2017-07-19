@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_793">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>WAT_PA</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Wat Pang Mu</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA61</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA61" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>shrine room stacked</collection>
+                  <idno>WAT_PA61</idno>
+                  <altIdentifier type="other">
+                     <idno>212</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATPA61-item1" n="W66">
+                     <author>ca reʺ sā yą̄ kyaukʻʹ mauṅʻʺ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">patipatti-pakāsanī</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote>
+                           <p>Illustrated (ornamentation): colour</p>
+                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (pictures): none</p>
+                        </decoNote>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+Rhyming system: samʻ kivʻ
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  commentary,meditation </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> shan</textLang>
+                     <note>Work ID: W66</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina book">
+                     <supportDesc material="sa (mulberry) paper">
+                        <extent>260/ 528<dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation>
+                              <p>Lines (per folio:) 10</p>
+                           </foliation>
+                           <condition>
+                              <p>reasonable</p>
+                           </condition>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): black</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes
+Cover colour: black,gold
+Cover material: 
+<material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of composition (era): sakkaraja era
+</p>
+                     <p>Date of composition (year): 1228
+</p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <provenance>
+</provenance>
+                  <acquisition>
+                     <p>Original donor: taką̄ luṅʻʺ mauṅʻ̨
+
+</p>
+                     <p>Present copy's donor: mè̐ sāṅʻ̨  coʺ uʺ
+</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

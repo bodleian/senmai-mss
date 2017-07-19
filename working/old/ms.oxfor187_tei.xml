@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>OXFOR</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Bodleian Library, Oxford University</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>OXFOR</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Bodleian Library, Oxford University</settlement>
+<institution>Bodleian Library, Oxford University</institution>
+<repository>Oxford, United Kingdom</repository>
+<collection>Unknown</collection>
+<idno>OXFOR187</idno>
+<altIdentifier type="other"><idno>MS. Burm. a. 16</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in pa-o script</textLang>
+<msItem n="W193">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">maho&#x2BB; saddh&#x101; pattama &#x2BC;a tvay&#x2BB;</title>
+<title xml:lang="shn-Latn-x-lc">Mahosadh&#x101; J&#x101;taka, vol. 1</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p>Illustrated (ornamentation): none</p><p> Illustrated (diagrams): none</p><p>Illustrated (pictures): none</p></decoNote></decoDesc>
+<note>Shan text descriptor:  Vatthu 
+Introduction: yes
+</note><note>General remarks on work: Pagination, using alphabets from Ka to Gha:
+In Pa-o poetry.
+From the estate of Helen Dunstan.</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Story of Mahosadh&#x101; J&#x101;taka.</note>
+<note xml:lang="shn"/>
+<note>Subject:  canonical jataka </note>
+<incipit/>
+<explicit/>
+<colophon>Making wishes for liberation from suffering and attainment of Nibbana.Colophon:yes </colophon>
+<listBibl/>
+<textLang mainLang="shn"> pa-o</textLang>
+<note>Work ID: W193</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form=""><supportDesc material="">
+<extent>102pp/ff (burmese numbering)
+<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 28</p></foliation>
+<condition><p>reasonable</p><p>water,wear</p><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium=""><desc/></handNote></handDesc>
+<bindingDesc><p>Covers: no
+</p><decoNote/>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p/><p>
+</p></origin>
+<provenance>Former owner: Helen Dunstan</provenance>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p/><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

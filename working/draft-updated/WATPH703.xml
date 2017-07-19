@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_843">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>WAT_PH</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Wat Pha Nuan</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PH</idno>
+            <idno type="msID">WATPH703</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPH703" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pha Nuan</settlement>
+                  <institution>Wat Pha Nuan</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_PH703</idno>
+                  <altIdentifier type="other">
+                     <idno>hand list no. 12</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATPH703-item1" n="W754">
+                     <author>cavʻ̐̐̐̐̐̐̐̐̐̐̐̐ srā toʻ mūiṅʻʺ naunʻ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">jātiabhava saṅʻveʻga vatthu toiʺ saunʻ</title>
+                     <title xml:lang="">Story of the spiritual shock on the state of birth volume two</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor:  tra Vatthu 
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  abhidhamma,meditation,sermon </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <note>Work ID: W754</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina book">
+                     <supportDesc>
+                        <extent>
+                           <dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation/>
+                           <condition/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">
+                        <desc/>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <decoNote/>
+                     <condition/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of composition (era): sakkaraja era
+</p>
+                     <p>Date of composition (year): 1330
+</p>
+                  </origin>
+                  <provenance/>
+                  <provenance>
+</provenance>
+                  <acquisition>
+</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

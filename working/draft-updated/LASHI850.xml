@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_410">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>LASHI</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Lashio</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>LASHI</idno>
+            <idno type="msID">LASHI850</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LASHI850" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lashio</settlement>
+                  <institution>Lashio</institution>
+                  <repository>Burma, Shan State (north)</repository>
+                  <collection>Unknown </collection>
+                  <idno>LASHI850</idno>
+                  <altIdentifier type="other">
+                     <idno>Tapung 15</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in shan script</textLang>
+                  <msItem xml:id="LASHI850-item1" n="W914">
+                     <author>cavʻ̐̐̐̐̐̐ kolį̄ muiṅʻʺpanʻ̨</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">vineʺ parivą̄</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  vinaya </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> shan</textLang>
+                     <note>Work ID: W914</note>
+                  </msItem>
+                  <msItem xml:id="LASHI850-item2" n="W915">
+                     <author>cavʻ̐̐̐̐̐̐ kolį̄ muiṅʻʺpanʻ̨</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">vinīʺ pārājikanʻ</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  vinaya </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> </textLang>
+                     <note>Work ID: W915</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>Unknown <dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation/>
+                           <condition/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">
+                        <desc/>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <decoNote/>
+                     <condition/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of copying (era): sakkaraja era
+</p>
+                     <p>Date of copying (year): 1275
+</p>
+                  </origin>
+                  <provenance/>
+                  <provenance>
+</provenance>
+                  <acquisition>
+                     <p>Present copy's donor: ʼukʻkyīʺ sèṅʻ sái (kyauṅʻʺ cū ʼuṅʻʺpauṅʻ)
+</p>
+                     <p>Place name for present copy: Wat Tapung, Lashio, Northern Shan State.
+</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

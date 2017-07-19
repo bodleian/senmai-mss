@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_740">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>WAT_PA</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Wat Pang Mu</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA145</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA145" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>shrine room stacked</collection>
+                  <idno>WAT_PA145</idno>
+                  <altIdentifier type="other">
+                     <idno>018</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATPA145-item1" n="W150">
+                     <author>careʺ nāʺ kivʻ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">cintāmuni</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor:  Phuen Lik 
+Rhyming system: sauṅʻ kivʻ
+Introduction: no
+</note>
+                     <note>General remarks on work: Floral art on the cover.</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Story of a generous king making great offering ceremony, a female giant dragon participated in the ceremony; the king and the female giant were married, and then they had a son together; one day their son asked his father why his mother was a human in day time but a giant at night. The son asked his father to return to human world. The female giant mother followed them but she couldn't find them. In the end, she wrote a stenza (gāthā) and left it for her son on the river's bank, asking her son to memorize. She then died and was reborn in the Brahma world.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  commentary,non canonical jataka </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> shan</textLang>
+                     <note>Work ID: W150</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina book">
+                     <supportDesc material="sa (mulberry) paper">
+                        <extent>130 / 260<dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation/>
+                           <condition>
+                              <p>excellent</p>
+                           </condition>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes
+Cover colour: red
+Cover material: 
+<material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac,embossed</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of composition (era): sakkaraja era
+</p>
+                     <p>Date of composition (year): 1254
+</p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <provenance>
+</provenance>
+                  <acquisition>
+                     <p>Original donor: cavʻ pha muiṅʻʺ tuṅʻʺ
+
+</p>
+                     <p>Original place of donation: muiṅʻʺ tuṅʻʺ
+</p>
+                     <p>Present copy's donor: pā̐ sèṅʻ
+</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

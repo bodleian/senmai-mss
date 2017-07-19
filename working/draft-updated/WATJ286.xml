@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_547">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>WAT_J</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Wat Jong Klang</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ286</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ286" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J286</idno>
+                  <altIdentifier type="other">
+                     <idno>015</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATJ286-item1" n="W296">
+                     <author>careʺ muiṅʻʺnaṅʻʺ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">naṅʻʺ mathūrā vutʻ thu</title>
+                     <title xml:lang="">Story of Lady Madhurā</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote/>
+                     </decoDesc>
+                     <note>Shan text descriptor:  Nang 
+Rhyming system: sauṅʻ kivʻ
+Introduction: yes
+</note>
+                     <note>General remarks on work: This looks the original work, as there is no information about copying date nor copy's donors.</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Story about two brothers went to studies at Takkasīla university. And a story about a king and a theft met on the road at night. The theft did not know that the person he met was the king. They went together to a minister's house and stole all properties of the minister. The theft was arrested on the next day.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  canonical jataka </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon>Colophon:yes Colophon type:scribal </colophon>
+
+                     <textLang mainLang="shn"> shan</textLang>
+                     <note>Work ID: W296</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina book">
+                     <supportDesc material="sa (mulberry) paper">
+                        <extent>112 / 224<dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation/>
+                           <condition>
+                              <p>poor</p>
+                              <p>animal,wear,human</p>
+                              <p>Gold gilded on red lacquer, some pages and back cover missing.</p>
+                           </condition>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes
+Cover colour: red
+Cover material: 
+<material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <p>Date of composition (era): sakkaraja era
+</p>
+                     <p>Date of composition (year): 1267
+</p>
+                  </origin>
+                  <provenance>Former owner: Wat Jong Klang.</provenance>
+                  <provenance>
+</provenance>
+                  <acquisition>
+                     <p>Original donor: luṅʻʺ kyauṅʻʺ khamʻʺ pā̐ kyauṅʻʺ nāṅʻʺ (mè̐ hauṅʻ̐ saunʻ)
+Original donor information: colophon
+</p>
+                     <p>Original place of donation: Maehongson.
+</p>
+                     <p>Present copy information: introduction
+</p>
+                     <p>Place name for present copy: Maehongson
+</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_PA</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Pang Mu</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_PA</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Pang Mu</settlement>
+<institution>Wat Pang Mu</institution>
+<repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+<collection>shrine room stacked</collection>
+<idno>WAT_PA47</idno>
+<altIdentifier type="other"><idno>221</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W47">
+<author><persName xml:lang="shn-Latn-x-lc">ca re&#x2BA; a&#x16B;&#x2BA; mui&#x1E45;&#x2BB;&#x2BA; l&#x12B;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">catudhammas&#x101;ra kui&#x2BA; khan&#x2BB;&#x2BA; c&#x101;</title>
+<title xml:lang="shn-Latn-x-lc">The essence of the four teachings and 9 sections of text</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote><p> Illustrated (diagrams): mono</p></decoNote></decoDesc>
+<note>Shan text descriptor: Lik  
+Rhyming system: sam&#x2BB; kiv&#x2BB; yav&#x2BB;&#x2BA;
+</note><note>General remarks on work: Flor arts at the end of each sections.</note>
+<note/>
+<note xml:lang="shn"/>
+<note>(((Long summary and hard to read. Will read again later))))</note>
+<note xml:lang="shn"/>
+<note>Subject:  sutta </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W47</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent><dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p>poor</p><p>wear</p><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: natural
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: embossed</decoNote>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1234
+</p><p/><p>
+</p></origin>
+<provenance>Former owner: Wat Pang Mu</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: khun&#x2BB; mui&#x1E45;&#x2BB;&#x2BA; mauk&#x2BB; mai
+
+</p><p>Original place of donation: Mauk Mai (Mokmai) Southern Shan State
+</p><p>Present copy's donor: kyau&#x1E45;&#x2BB;&#x2BA; kyo&#x2BB;
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

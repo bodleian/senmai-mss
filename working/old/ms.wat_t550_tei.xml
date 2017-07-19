@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_T</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Tiyasathan</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_T</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Tiyasathan</settlement>
+<institution>Wat Tiyasathan</institution>
+<repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
+<collection>abbots room</collection>
+<idno>WAT_T550</idno>
+<altIdentifier type="other"><idno>133</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan,burmese script</textLang>
+<msItem n="W589">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB;&#x310;&#x310;&#x310;&#x310; ko&#x2BA; l&#x12F;&#x304; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; pan&#x2BB;&#x328;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">vine&#x2BA; pariv&#x105;&#x304;</title>
+<title xml:lang="shn-Latn-x-lc">The Priv&#x101;ra vagga of Vinaya pitaka</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Lik  
+Rhyming system: sam&#x2BB; kiv&#x2BB; ph&#x12B;l&#x101;
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  vinaya </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W589</note>
+</msItem>
+<msItem n="W590">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB;&#x310;&#x310;&#x310;&#x310; ko&#x2BA; l&#x12F;&#x304; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; pan&#x2BB;&#x328;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">dhammasa&#x1E45;gan&#x12B;</title>
+<title xml:lang="shn-Latn-x-lc"/>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: sam&#x2BB; kiv&#x2BB; ph&#x12B;l&#x101;
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  abhidhamma </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W590</note>
+</msItem>
+<msItem n="W591">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB;&#x310;&#x310;&#x310;&#x310; ko&#x2BA; l&#x12F;&#x304; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; pan&#x2BB;&#x328;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">vibha&#x1E45;&#x2BB;&#x2BA;</title>
+<title xml:lang="shn-Latn-x-lc"/>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: sam&#x2BB; kiv&#x2BB; ph&#x12B;l&#x101;
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  abhidhamma </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W591</note>
+</msItem>
+<msItem n="W592">
+<author><persName xml:lang="shn-Latn-x-lc">cav&#x2BB;&#x310;&#x310;&#x310;&#x310; ko&#x2BA; l&#x12F;&#x304; m&#x16B;i&#x1E45;&#x2BB;&#x2BA; pan&#x2BB;&#x328;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">dh&#x101;tukath&#x101;</title>
+<title xml:lang="shn-Latn-x-lc"/>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: sam&#x2BB; kiv&#x2BB; ph&#x12B;l&#x101;
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  abhidhamma </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W592</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>Unknown <dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) Unknown </p></foliation>
+<condition><p/><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: black
+</p><decoNote>Cover embellishment: lac</decoNote>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): Unknown 
+</p><p>Date of composition (year): Unknown 
+</p><p>Date of copying (era): buddhist era
+</p><p>Date of copying (year): 2451
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: Unknown 
+Original donor (shan): Unknown Unknown 
+Original donor information: Unknown 
+</p><p>Original place of donation: Unknown 
+Original place of donation (shan): Unknown Unknown 
+Original donor place information: Unknown 
+</p><p/><p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

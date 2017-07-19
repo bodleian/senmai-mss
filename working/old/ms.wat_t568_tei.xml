@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_T</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Tiyasathan</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_T</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Tiyasathan</settlement>
+<institution>Wat Tiyasathan</institution>
+<repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
+<collection>abbots room</collection>
+<idno>WAT_T568</idno>
+<altIdentifier type="other"><idno>151</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W613">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">t&#x16B;v&#x2BB; m&#xE8;&#x310; lik&#x2BB;&#x310; tai&#x2BA;</title>
+<title xml:lang="shn-Latn-x-lc">Shan alphabets (and grammar or basic book for learning Tai writing?)</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Lik  
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  instruction </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan</textLang>
+<note>Work ID: W613</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="rolled book"><supportDesc material="">
+<extent><dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation/>
+<condition><p/><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium=""><desc/></handNote></handDesc>
+<bindingDesc><p/><decoNote/>
+<condition/>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p/><p>
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p/><p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.
+</p></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

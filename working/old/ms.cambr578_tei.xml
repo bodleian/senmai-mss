@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>CAMBR</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>University Library, Cambridge University</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>CAMBR</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>University Library, Cambridge University</settlement>
+<institution>University Library, Cambridge University</institution>
+<repository>Cambridge, United Kingdom</repository>
+<collection>Unknown</collection>
+<idno>CAMBR578</idno>
+<altIdentifier type="other"><idno>UL.1.1</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang>Written in shan script</textLang>
+<msItem n="W624">
+<author><persName xml:lang="shn-Latn-x-lc"/></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">Suk&#x2018; S&#x12B;lakhan&#x2018; toi &#x1E45;av&#x2018;</title>
+<title xml:lang="shn-Latn-x-lc">Sutta Sil&#x101;kkandha [vagga], first part</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+</note>
+<note/>
+<note xml:lang="shn"/>
+<note/>
+<note xml:lang="shn"/>
+<note>Subject:  sutta Subject comments: The first division of D&#x12B;gha Nik&#x101;ya of Sutta Pi&#x1E6D;aka</note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,pali</textLang>
+<note>Work ID: W624</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="rolled book"><supportDesc material="sa (mulberry) paper">
+<extent>208<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 21-22</p></foliation>
+<condition><p/><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc/></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: other
+Cover material: 
+<material>cloth</material>
+</p><decoNote/>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p/><p>
+</p><p>Date of copying (era): sakkaraja era
+</p><p>Date of copying (year): 1252
+</p></origin>
+<provenance/>
+<provenance>
+</provenance><acquisition>
+<p>
+</p><p/><p>Present copy's donor: &#x2019;Ais&#x101;&#x1E45;&#x2018; V&#x101;li&#x1E45;&#x2018;ta
+</p><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>

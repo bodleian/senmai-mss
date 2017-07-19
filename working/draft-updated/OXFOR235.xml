@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_473">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <date calendar="Gregorian"/>
+            <publisher>OXFOR</publisher>
+            <pubPlace>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <street/>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <postCode/>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR235</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR235" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR235</idno>
+                  <altIdentifier type="other">
+                     <idno>MS. Asiat. Mis. d. 25</idno>
+                  </altIdentifier>
+                  <altIdentifier type="other">
+                     <idno>
+                        <foreign xml:lang="shn"/>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+                  <textLang>Written in khun script</textLang>
+                  <msItem xml:id="OXFOR235-item1" n="W245">
+                     <author/>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">unknown</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+                            xml:lang=""
+                            xsi:type="alt">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoDesc>
+                        <decoNote>
+                           <p> Illustrated (diagrams): mono</p>
+                           <p>Illustrated (pictures): mono</p>
+                        </decoNote>
+                     </decoDesc>
+                     <note>Shan text descriptor: Not specified  
+</note>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  astrology </note>
+                     <incipit/>
+                     <explicit/>
+                     <colophon/>
+
+                     <textLang mainLang="shn"> khuen</textLang>
+                     <note>Work ID: W245</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="rolled book">
+                     <supportDesc material="sa (mulberry) paper">
+                        <extent>
+                           <dimensions type="written" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                           <foliation/>
+                           <condition/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <decoNote/>
+                     <condition/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                  </origin>
+                  <provenance/>
+                  <provenance>
+</provenance>
+                  <acquisition>
+</acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-19">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+</TEI>

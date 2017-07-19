@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title/><funder>Dhammakaya Foundation</funder><principal>Gillian Evison</principal></titleStmt>
+<publicationStmt><date calendar="Gregorian"/>
+<publisher>WAT_J</publisher>
+<pubPlace><address><addrLine/><addrLine/><street/><settlement>Wat Jong Klang</settlement><postCode/><addrLine><ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref></addrLine><addrLine><email>andrew.skilton@bodleian.ox.ac.uk</email></addrLine></address></pubPlace>
+<idno>WAT_J</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc xml:id="OCIMO" xml:lang="en">
+<msIdentifier>
+<settlement>Wat Jong Klang</settlement>
+<institution>Wat Jong Klang</institution>
+<repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+<collection>museum</collection>
+<idno>WAT_J11</idno>
+<altIdentifier type="other"><idno>047</idno></altIdentifier>
+<altIdentifier type="other"><idno><foreign xml:lang="shn"/></idno></altIdentifier>
+</msIdentifier>
+<msContents><summary/>
+<textLang/>
+<msItem n="W11">
+<author><persName xml:lang="shn-Latn-x-lc">care" la&#x1E45;'&#x2BA; khuiv&#x2BB;&#x2BA;</persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn">&#x1078;&#x101B;&#x1031;&#x1038;&#x101C;&#x1062;&#x1004;&#x103A;&#x1038;&#x1076;&#x102D;&#x1030;&#x101D;&#x103A;&#x1038;</foreign></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<author><persName xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></persName></author>
+<title xml:lang="shn-Latn-x-lc">sa&#x1E45;&#x2BB; k&#x101; ratan&#x101; ta&#x1E45;&#x2BB;</title>
+<title xml:lang="shn-Latn-x-lc">On the Buddhist Councils (Sa&#x1E45;g&#x101;yan&#x101;)</title>
+<title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn">&#x101E;&#x1004;&#x103A;&#x1087;&#x1075;&#x1083;&#x1087;&#x101B;&#x1010;&#x107C;&#x1083;&#x1087;&#x1010;&#x1062;&#x1004;&#x103A;&#x1087;</foreign></title>
+<title xml:lang="eng" type="alt"/>
+<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
+<decoDesc><decoNote/></decoDesc>
+<note>Shan text descriptor: Not specified  
+Rhyming system: s&#x101;m'' kiv''
+</note><note>General remarks on work: The cover has flora design in yellow (gold?) colour.</note>
+<note/>
+<note xml:lang="shn"/>
+<note>Story of Sutinna? who had broken the monastic rule, alerting the Buddha to issue the monastic rule, vinaya ...</note>
+<note xml:lang="shn"/>
+<note>Subject:  commentary,history </note>
+<incipit/>
+<explicit/>
+<colophon/>
+<listBibl/>
+<textLang mainLang="shn"> shan,burmese,pali</textLang>
+<note>Work ID: W11</note>
+</msItem>
+</msContents>
+<physDesc><objectDesc form="concertina book"><supportDesc material="sa (mulberry) paper">
+<extent>368<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
+<foliation><p>Lines (per folio:) 10</p></foliation>
+<condition><p>excellent</p><p/><p/></condition>
+</extent></supportDesc></objectDesc>
+<handDesc><handNote scope="major" medium="black ink"><desc>Appearance (paper): white</desc></handNote></handDesc>
+<bindingDesc><p>Covers: yes
+Cover colour: gold
+Cover material: 
+<material>papier mache</material>
+</p><decoNote>Cover embellishment: gilt</decoNote>
+<condition>yes</condition>
+</bindingDesc></physDesc>
+<history><origin><p/>
+<date calendar="Gregorian" when="seecommentbelow"/>
+<p>Date of composition (era): sakkaraja era
+</p><p>Date of composition (year): 1226
+</p><p/><p>
+</p></origin>
+<provenance>Former owner: Wat Jong Klang</provenance>
+<provenance>
+</provenance><acquisition>
+<p>Original donor: Kyau&#x1E45;''\ ta k&#x101; Huv'' khuv'' La&#x1E45;''\ khuiv''\
+
+</p><p>Original place of donation: Lang Khur
+</p><p/><p/></acquisition></history></msDesc></sourceDesc></fileDesc></teiHeader></TEI>
