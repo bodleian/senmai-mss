@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J266</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J266</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>052</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ266-item1" n="W276">
                      <author>ca reʺ thunʻʺ khyiṅʻ</author>
@@ -76,35 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Alaung  
-Rhyming system: samʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Alaung   Rhyming system: samʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
-                     <note>Story of Āddicca, a Brahmana, father of Kassapa Thera. Āddica was a virtuous man and had superstitious power that he can treat all kinds of patients by giving the washing-water of his beads. </note>
+                     <note>Story of Āddicca, a Brahmana, father of Kassapa Thera. Āddica was a virtuous man and had superstitious power that he can treat all kinds of patients by giving the washing-water of his beads.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W276</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>38 / 76<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>38 / 76<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                               <p>wear</p>
@@ -118,10 +92,7 @@ Introduction: no
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>no</condition>
@@ -129,24 +100,24 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: poʻ saṅʻ panʻ thu ra
-
-</p>
+                     <p>Original donor: poʻ saṅʻ panʻ thu ra</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

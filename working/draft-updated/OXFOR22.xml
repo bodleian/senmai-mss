@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR22</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR22</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS Asiat. Misc. b. 7 (R)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR22-item1" n="W22">
                      <author/>
@@ -79,36 +69,26 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  tra 
-Introduction: yes
-</note>
-                     <note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete. </note>
+                     <note>Shan text descriptor:  tra Introduction: yes</note>
+                     <note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete.</note>
                      <note>Summary intro: Containing the text title, name of the donor, his family, and standard dedication for Nibbāna.</note>
                      <note xml:lang="shn"/>
                      <note>It is a sermon on generosity, conduct and meditation (dāna, sIla and bhāvanā).</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  sermon </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W22</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>50pp/ff (burmese numbering)
-<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>50pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 22</p>
                            </foliation>
@@ -126,37 +106,33 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover material: 
-<material>cloth</material>
+                     <p>Covers: yes Cover material: <material>cloth</material>
                      </p>
-                     <decoNote/>
                      <condition>no</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: unknown</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: phra takāʻ pū loi sanʻ kanʻʺ
-Original donor information: introduction
-</p>
-                     <p>Present copy's donor: phra takāʻ pū loi
-Present copy information: introduction
-</p>
+                     <p>Original donor: phra takāʻ pū loi sanʻ kanʻʺ Original donor information: introduction</p>
+                     <p>Present copy's donor: phra takāʻ pū loi Present copy information: introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

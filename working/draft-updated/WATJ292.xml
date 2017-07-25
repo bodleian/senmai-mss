@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J292</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J292</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>022</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ292-item1" n="W302">
                      <author>Unknown [only mentioned that the author lived near a wet rice field]</author>
@@ -76,36 +66,21 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sauṅʻ kivʻ
-Introduction: yes
-</note>
+                     <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Likely original work.</note>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>The text content covers the story of Aung Ze Ya, the Burmese King, in the 18th century, about the king removing some inappropriate words/terms from Buddhist canonical texts.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  sermon </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W302</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>136 / 272<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>136 / 272<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                               <p>wear,human</p>
@@ -120,40 +95,35 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: no
-</p>
-                     <decoNote/>
+                     <p>Covers: no</p>
                      <condition>no</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1245
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1245</p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: pā̐ kyauṅʻʺ kā moʺ lè lukʻ caiʺ saṅʻ nu lukʻ páį naṅʻʺ vuvʻʺ tauṅʻʺ (mè̐ hauṅʻ̐ saunʻ)
-Original donor information: introduction
-</p>
-                     <p>Original place of donation: Maehongson.
-</p>
-                     <p>Place name for present copy: Maehongson
-</p>
+                     <p>Original donor: pā̐ kyauṅʻʺ kā moʺ lè lukʻ caiʺ saṅʻ nu lukʻ páį naṅʻʺ vuvʻʺ tauṅʻʺ (mè̐ hauṅʻ̐ saunʻ) Original donor information: introduction</p>
+                     <p>Original place of donation: Maehongson.</p>
+                     <p>Place name for present copy: Maehongson</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

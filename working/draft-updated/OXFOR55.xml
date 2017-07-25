@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR55</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR55</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>Dep Stol 80</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR55-item1" n="W55">
                      <author/>
@@ -79,35 +69,25 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): colour</p>
-                           <p> Illustrated (diagrams): colour</p>
+                           <p>Illustrated (diagrams): colour</p>
                            <p>Illustrated (pictures): colour</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Introduction: no
-</note>
-                     <note>General remarks on work: mainly red, black and blue. Some texts are in red. Some graffiti in red ink. </note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Introduction: no</note>
+                     <note>General remarks on work: mainly red, black and blue. Some texts are in red. Some graffiti in red ink.</note>
                      <note xml:lang="shn"/>
-                     <note>Manual for magical work of yantra/mantra including magical candles, tattooing, match-making, auspicious time calculating. </note>
+                     <note>Manual for magical work of yantra/mantra including magical candles, tattooing, match-making, auspicious time calculating.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  astrology Subject comments: magical work of yantra/mantra</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W55</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
+                  <objectDesc form="concertina_book">
                      <supportDesc>
-                        <extent>46 /92<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                        <extent>46 /92<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 10-11</p>
                            </foliation>
@@ -124,10 +104,7 @@ Introduction: no
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -135,21 +112,22 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Stolper</provenance>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

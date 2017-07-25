@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR57</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -37,19 +33,13 @@
                   <settlement>Bodleian Library, Oxford University</settlement>
                   <institution>Bodleian Library, Oxford University</institution>
                   <repository>Oxford, United Kingdom</repository>
-                  <collection>Unknown </collection>
+                  <collection>Unknown</collection>
                   <idno>OXFOR57</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>Dep Stol 203</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR57-item1" n="W57">
                      <author/>
@@ -79,24 +69,18 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): mono</p>
-                           <p> Illustrated (diagrams): mono</p>
+                           <p>Illustrated (diagrams): mono</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  Kyam 
-Introduction: no
-</note>
-                     <note>General remarks on work: Several hand writings. </note>
-                     <note/>
+                     <note>Shan text descriptor:  Kyam Introduction: no</note>
+                     <note>General remarks on work: Several hand writings.</note>
                      <note xml:lang="shn"/>
-                     <note>First 19 folios are on magical works including spells, charts, diagrams, and texts. </note>
+                     <note>First 19 folios are on magical works including spells, charts, diagrams, and texts.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  astrology Subject comments: magical work</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W57</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item2" n="W58">
@@ -127,24 +111,17 @@ Introduction: no
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): mono</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sauṅʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>Commentary on the 52 cetasika in the second chapter of the abhidhammattha-sangaha.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma,commentary </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W58</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item3" n="W59">
@@ -177,20 +154,13 @@ Introduction: no
                            <p>Illustrated (ornamentation): mono</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  tra 
-Rhyming system: sauṅʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>A Shan Poetry on 40 meditation objects connected with death, for recitation by meditators</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma,meditation Subject comments: Work on the 40 meditation objects connected with death</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W59</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item4" n="W60">
@@ -218,23 +188,13 @@ Introduction: no
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  tra 
-Rhyming system: sauṅʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>Shan poetry on death for recitation by meditators.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  meditation </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W60</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item5" n="W61">
@@ -262,23 +222,13 @@ Introduction: no
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sauṅʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>Shan poetic translation of Mangala Sutta.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W61</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item6" n="W62">
@@ -306,36 +256,22 @@ Introduction: no
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  tra 
-Rhyming system: sauṅʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>Shan Poetry on the decomposition of the body, for recitation by meditators.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W62</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>31 / 62<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>31 / 62<dimensions type="written" unit="cm"/>
                            <foliation>
-                              <p>Lines (per folio:) Unknown </p>
+                              <p>Lines (per folio:) Unknown</p>
                            </foliation>
                            <condition>
                               <p>reasonable</p>
@@ -350,10 +286,7 @@ Introduction: no
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: black
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: black Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -361,37 +294,30 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): Unknown 
-</p>
-                     <p>Date of composition (year): Unknown 
-</p>
-                     <p>Date of copying (era): Unknown 
-</p>
-                     <p>Date of copying (year): Unknown 
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): Unknown</p>
+                     <p>Date of composition (year): Unknown</p>
+                     <p>Date of copying (era): Unknown</p>
+                     <p>Date of copying (year): Unknown</p>
                   </origin>
                   <provenance>Former owner: Stolper</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: Unknown 
-Original donor (shan): Unknown Unknown 
-Original donor information: Unknown 
-</p>
-                     <p>Original place of donation: Unknown 
-Original place of donation (shan): Unknown Unknown 
-Original donor place information: Unknown 
-</p>
+                     <p>Original donor: Unknown Original donor (shan): Unknown Unknown Original donor information: Unknown</p>
+                     <p>Original place of donation: Unknown Original place of donation (shan): Unknown Unknown Original donor place information: Unknown</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

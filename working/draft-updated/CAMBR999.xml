@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>CAMBR999</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>CAMBR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>University Library, Cambridge University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -37,19 +33,13 @@
                   <settlement>University Library, Cambridge University</settlement>
                   <institution>University Library, Cambridge University</institution>
                   <repository>Cambridge, United Kingdom</repository>
-                  <collection>Unknown </collection>
+                  <collection>Unknown</collection>
                   <idno>CAMBR999</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>LR.14.2</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in khun script</textLang>
                   <msItem xml:id="CAMBR999-item1" n="W1069">
                      <author/>
@@ -76,21 +66,11 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  vinaya </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> pali,khuen</textLang>
+                     <textLang mainLang="shn">pali,khuen</textLang>
                      <note>Work ID: W1069</note>
                   </msItem>
                   <msItem xml:id="CAMBR999-item2" n="W1070">
@@ -118,21 +98,11 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> pali</textLang>
+                     <textLang mainLang="shn">pali</textLang>
                      <note>Work ID: W1070</note>
                   </msItem>
                   <msItem xml:id="CAMBR999-item3" n="W1071">
@@ -160,82 +130,56 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma Subject comments: Also includes recitations for accepting dāna.</note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> pali</textLang>
+                     <textLang mainLang="shn">pali</textLang>
                      <note>Work ID: W1071</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
+                  <objectDesc form="concertina_book">
                      <supportDesc>
-                        <extent>42<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                        <extent>42<dimensions type="written" unit="cm"/>
                            <foliation>
-                              <p>Lines (per folio:) Unknown </p>
+                              <p>Lines (per folio:) Unknown</p>
                            </foliation>
-                           <condition/>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major">
-                        <desc/>
-                     </handNote>
+                     <handNote scope="major"/>
                   </handDesc>
                   <bindingDesc>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): Unknown 
-</p>
-                     <p>Date of composition (year): Unknown 
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1237
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): Unknown</p>
+                     <p>Date of composition (year): Unknown</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1237</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: Unknown 
-Original donor (shan): Unknown Unknown 
-Original donor information: Unknown 
-</p>
-                     <p>Original place of donation: Unknown 
-Original place of donation (shan): Unknown Unknown 
-Original donor place information: Unknown 
-</p>
+                     <p>Original donor: Unknown Original donor (shan): Unknown Unknown Original donor information: Unknown</p>
+                     <p>Original place of donation: Unknown Original place of donation (shan): Unknown Unknown Original donor place information: Unknown</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

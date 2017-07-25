@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR208</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR208</idno>
-                  <altIdentifier type="other">
-                     <idno>MS. Asiat. Mis. C. 37 (R): </idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
+                  <altIdentifier>
+                     <idno>MS. Asiat. Mis. C. 37 (R):</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,khun script</textLang>
                   <msItem xml:id="OXFOR208-item1" n="W216">
                      <author/>
@@ -78,33 +68,22 @@
                      </title>
                      <decoDesc>
                         <decoNote>
-                           <p> Illustrated (diagrams): mono</p>
+                           <p>Illustrated (diagrams): mono</p>
                            <p>Illustrated (pictures): mono</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  astrology Subject comments: manuals and instructions on atrology and spells</note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali,khuen</textLang>
+                     <textLang mainLang="shn">shan,pali,khuen</textLang>
                      <note>Work ID: W216</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>7 / 14<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>7 / 14<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 18-20</p>
                            </foliation>
@@ -122,29 +101,27 @@
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: no
-</p>
-                     <decoNote/>
+                     <p>Covers: no</p>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

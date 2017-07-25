@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J454</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,20 +35,14 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>abbots room</collection>
                   <idno>WAT_J454</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>37</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ454-item1" n="W470">
-                     <author>cavʻ̐̐̐ amātʻ lūṅʻ muiṅʻʺ nauṅʻ </author>
+                     <author>cavʻ̐̐̐ amātʻ lūṅʻ muiṅʻʺ nauṅʻ</author>
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
@@ -66,7 +56,7 @@
                         <foreign xml:lang="shn"/>
                      </author>
                      <title xml:lang="">catʻ̐ tǫ alauṅʻʺ cavʻ̐ satʻ tanʻ̨ maṅʻʺ khunʻ cāṅʻʹ phuikʻ̨</title>
-                     <title xml:lang="">Story of Chaddan, the while elephant </title>
+                     <title xml:lang="">Story of Chaddan, the while elephant</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
                      </title>
@@ -76,34 +66,18 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ 
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta,canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W470</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>131/262<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>131/262<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                               <p>wear</p>
@@ -117,10 +91,7 @@ Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: black
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: black Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -128,38 +99,31 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1238
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1256
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1238</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1256</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: kyauṅʻʺ phrāʺ taką la iṅʻ̨ sèṅʻ (vānʻ̐ lūṅʻ sāʺ tǫ mūiṅʻʺ yāṅʻʺ lèṅʻ)
-
-</p>
-                     <p>Original place of donation: Sa Taw village
-</p>
-                     <p>Present copy's donor: luṅʻʺ kyauṅʻʺ kāñʻʹ pā̐ kyauṅʻʺ kāṅʻʹ (Pha Wong village, Maehongson)
-</p>
-                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.
-</p>
+                     <p>Original donor: kyauṅʻʺ phrāʺ taką la iṅʻ̨ sèṅʻ (vānʻ̐ lūṅʻ sāʺ tǫ mūiṅʻʺ yāṅʻʺ lèṅʻ)</p>
+                     <p>Original place of donation: Sa Taw village</p>
+                     <p>Present copy's donor: luṅʻʺ kyauṅʻʺ kāñʻʹ pā̐ kyauṅʻʺ kāṅʻʹ (Pha Wong village, Maehongson)</p>
+                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

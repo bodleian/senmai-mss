@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR195</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR195</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS Asiat. Misc. b. 9 (R)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR195-item1" n="W201">
                      <author>cavʻ srā (?)</author>
@@ -79,36 +69,24 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: laṅʻ kā aunʻ 
-Introduction: yes
-</note>
+                     <note>Shan text descriptor: Not specified   Rhyming system: laṅʻ kā aunʻ Introduction: yes</note>
                      <note>General remarks on work: Dating 1281 and 1291 SE on 32-33 (1919-29). Fang is now a district of Chiang Mai province in Northern Thailand.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  folk stories </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Information about title, author and donor.Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W201</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>17 /34<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>17 /34<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 28-29</p>
                            </foliation>
@@ -126,48 +104,39 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover material: 
-<material>cloth</material>
+                     <p>Covers: yes Cover material: <material>cloth</material>
                      </p>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1281
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1291
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1281</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1291</p>
                   </origin>
                   <provenance>Former owner: cavʻ srā muiṅʻʺ phaṅʻ</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: naṅʻʺ ñuvʻ
-
-</p>
-                     <p>Original place of donation: muiṅʻʺ phaṅʻ ?
-</p>
-                     <p>Present copy's donor: pū kyauṅʻʺ ti , kyauṅʻʺ ta kā ma naṅʻʺ ʼauṅʻ
-</p>
-                     <p>Place name for present copy: Fang
-</p>
+                     <p>Original donor: naṅʻʺ ñuvʻ</p>
+                     <p>Original place of donation: muiṅʻʺ phaṅʻ ?</p>
+                     <p>Present copy's donor: pū kyauṅʻʺ ti , kyauṅʻʺ ta kā ma naṅʻʺ ʼauṅʻ</p>
+                     <p>Place name for present copy: Fang</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

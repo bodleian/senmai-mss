@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR183</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR183</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS. Burm. a. 9</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="OXFOR183-item1" n="W189">
                      <author/>
@@ -79,44 +69,31 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sauṅʻ kivʻ
-Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign> 
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>
                      </note>
                      <note>General remarks on work: Bought from J. Tregaskis, 1 April 1905.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  instruction,non canonical jataka,sermon </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> </textLang>
+                     <textLang mainLang="shn"/>
                      <note>Work ID: W189</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>66pp/ff (arabic numbering)
-<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>66pp/ff (arabic numbering)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 26</p>
                            </foliation>
                            <condition>
                               <p>reasonable</p>
                               <p>human</p>
-                              <p>Light damage restored, bound in hard cover. Two front pages are missing (cut off). The top edge of the second page, which was cut off, sill contains a line of text. </p>
+                              <p>Light damage restored, bound in hard cover. Two front pages are missing (cut off). The top edge of the second page, which was cut off, sill contains a line of text.</p>
                            </condition>
                         </extent>
                      </supportDesc>
@@ -127,33 +104,29 @@ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreig
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: no
-</p>
-                     <decoNote/>
+                     <p>Covers: no</p>
                      <condition>no</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1202
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1202</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

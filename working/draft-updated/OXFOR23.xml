@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR23</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR23</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS. Asiat Misc. a. 12 (R)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR23-item1" n="W23">
                      <author/>
@@ -79,37 +69,26 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): colour</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sauṅʻ kivʻ
-Introduction: yes
-Text at other location: OXFOR24
-</note>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Introduction: yes Text at other location: OXFOR24</note>
                      <note>General remarks on work: 17 sheets. No numbering. Not certain if this is an original or a copy; to check if this text is kept at other library/temple collections.</note>
                      <note>Summary intro: It contains the text title, donor's name and place, and standard dedication for Nibbāna.</note>
                      <note xml:lang="shn"/>
-                     <note>Containing drawing images of the 28 Buddhas, bodhi tree, pagodas,  images 8 special monks, Swedagon pagoda image, Mandaly Mahamuni Buddha image,footprint (Buddhapāda), 16 former lives of the Buddha as animals,Buddhas of 8 directions. Also containing texts related the images described.</note>
+                     <note>Containing drawing images of the 28 Buddhas, bodhi tree, pagodas, images 8 special monks, Swedagon pagoda image, Mandaly Mahamuni Buddha image,footprint (Buddhapāda), 16 former lives of the Buddha as animals,Buddhas of 8 directions. Also containing texts related the images described.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  instruction Subject comments: Discussion of 28 Buddhas etc.</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W23</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>17<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>17<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 24</p>
                            </foliation>
@@ -126,41 +105,34 @@ Text at other location: OXFOR24
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover material: 
-<material>cloth</material>
+                     <p>Covers: yes Cover material: <material>cloth</material>
                      </p>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1276
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1276</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: ʼaukʻ khamʻ huiṅʻ kiṅʻ havʻ
-Present copy information: introduction
-</p>
-                     <p>Place name for present copy: vanʻ loi vanʻ tukʻ
-Place name information: introduction
-</p>
+                     <p>Present copy's donor: ʼaukʻ khamʻ huiṅʻ kiṅʻ havʻ Present copy information: introduction</p>
+                     <p>Place name for present copy: vanʻ loi vanʻ tukʻ Place name information: introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

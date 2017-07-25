@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA99</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA99</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>215</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA99-item1" n="W104">
                      <author>unknown</author>
@@ -76,34 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: samʻ kivʻ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Lik   Rhyming system: samʻ kivʻ</note>
                      <note xml:lang="shn"/>
                      <note>On the noble eight-fold path.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  meditation </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W104</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>124 / 248<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>124 / 248<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>reasonable</p>
                            </condition>
@@ -116,34 +91,32 @@ Rhyming system: samʻ kivʻ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
-                     <condition/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: luṅʻʺ caṅʻʺ khavʻ cavʻ (taṅʻʺ huinʻʺ taṅʻʺ yeʺ yū muiṅʻʺ keṅʻʺ mai)
-</p>
+                     <p>Present copy's donor: luṅʻʺ caṅʻʺ khavʻ cavʻ (taṅʻʺ huinʻʺ taṅʻʺ yeʺ yū muiṅʻʺ keṅʻʺ mai)</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

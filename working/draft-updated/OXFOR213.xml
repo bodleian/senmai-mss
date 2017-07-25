@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR213</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -37,19 +33,13 @@
                   <settlement>Bodleian Library, Oxford University</settlement>
                   <institution>Bodleian Library, Oxford University</institution>
                   <repository>Oxford, United Kingdom</repository>
-                  <collection>Unknown </collection>
+                  <collection>Unknown</collection>
                   <idno>OXFOR213</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS. Asiat. Mis. c. 42</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in khun script</textLang>
                   <msItem xml:id="OXFOR213-item1" n="W222">
                      <author/>
@@ -79,22 +69,15 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): mono</p>
+                           <p>Illustrated (diagrams): mono</p>
                            <p>Illustrated (pictures): mono</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  commentary </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> pali,khuen</textLang>
+                     <textLang mainLang="shn">pali,khuen</textLang>
                      <note>Work ID: W222</note>
                   </msItem>
                   <msItem xml:id="OXFOR213-item2" n="W223">
@@ -124,33 +107,22 @@
                      </title>
                      <decoDesc>
                         <decoNote>
-                           <p> Illustrated (diagrams): mono</p>
+                           <p>Illustrated (diagrams): mono</p>
                            <p>Illustrated (pictures): mono</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  astrology </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> khuen</textLang>
+                     <textLang mainLang="shn">khuen</textLang>
                      <note>Work ID: W223</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
+                  <objectDesc form="rolled_book">
                      <supportDesc>
-                        <extent>35 / 69<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                        <extent>35 / 69<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 17</p>
                            </foliation>
@@ -168,32 +140,28 @@
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>cloth</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>cloth</material>
                      </p>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

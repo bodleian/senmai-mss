@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J269</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J269</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>01</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ269-item1" n="W279">
                      <author/>
@@ -76,36 +66,18 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Rhyming system: samʻ kivʻ
-Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign> 
-Text at other location: Wat Pha Naun, Wat Pang Mu
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Text at other location: Wat Pha Naun, Wat Pang Mu</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W279</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>124 / 248<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>124 / 248<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>reasonable</p>
                            </condition>
@@ -118,29 +90,19 @@ Text at other location: Wat Pha Naun, Wat Pang Mu
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
                      </p>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1346
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1346</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: cavʻ srā vicikʻta (jong klang)
-Present copy's donor (shan): <foreign xml:lang="shn">ၸဝ်ႈသြႃႇဝိၸိၵ်ႉတ (ၵျွင်းၵၢင်)</foreign>
+                     <p>Present copy's donor: cavʻ srā vicikʻta (jong klang) Present copy's donor (shan): <foreign xml:lang="shn">ၸဝ်ႈသြႃႇဝိၸိၵ်ႉတ (ၵျွင်းၵၢင်)</foreign>
                      </p>
                   </acquisition>
                </history>
@@ -148,9 +110,14 @@ Present copy's donor (shan): <foreign xml:lang="shn">ၸဝ်ႈသြႃႇ�
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

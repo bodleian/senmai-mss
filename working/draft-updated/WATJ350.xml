@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J350</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J350</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>078</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ350-item1" n="W361">
                      <author>cavʻ amatʻ luṅʻ muiṅʻ nauṅʻ (ca reʺ khaukʻ noiʹ )</author>
@@ -76,35 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  tra 
-Rhyming system: sam kiv yav
-Introduction: yes
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Lik  tra Rhyming system: sam kiv yav Introduction: yes</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sermon </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W361</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>132 / 254<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>132 / 254<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                               <p>Word arts of section ending marks. One of the beautiful manuscripts in this collection.</p>
@@ -118,10 +92,7 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural,gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural,gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac,embossed</decoNote>
                      <condition>yes</condition>
@@ -129,30 +100,26 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor (shan): <foreign xmlns="" xml:lang="shn">ၸဝ်ႈၽူႈဢုၵ်ႉမူဝ်းၸူဝ်းၸၢမ်ႇသီႇဝိရတ်ႉထ</foreign>
-Original donor information: introduction
-</p>
-                     <p>Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇၼၼ်ႇတိယ မႄႈသၢင်ႇၼၢင်းသူၺ်ႇ ဝဵင်းမႄႈႁွင်ႈသွၼ်</foreign>
-Present copy information: introduction
-</p>
-                     <p>Place name for present copy: Wat Jong Klang, Maehongson
-Place name information: colophon,introduction
-</p>
+                     <p>Original donor (shan): <foreign xmlns="" xml:lang="shn">ၸဝ်ႈၽူႈဢုၵ်ႉမူဝ်းၸူဝ်းၸၢမ်ႇသီႇဝိရတ်ႉထ</foreign>Original donor information: introduction</p>
+                     <p>Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇၼၼ်ႇတိယ မႄႈသၢင်ႇၼၢင်းသူၺ်ႇ ဝဵင်းမႄႈႁွင်ႈသွၼ်</foreign>Present copy information: introduction</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson Place name information: colophon,introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

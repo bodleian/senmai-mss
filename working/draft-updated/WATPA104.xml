@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA104</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA104</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>007</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA104-item1" n="W109">
                      <author>unknown</author>
@@ -76,33 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Rhyming system: sauṅʻ kivʻ
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: sauṅʻ kivʻ</note>
                      <note xml:lang="shn"/>
                      <note>Once upon a time, in the country, people were very generous and virtuous. But after the passing away, people forgot about generosity and morality. Then, there was Nang Silavun, a virtuous lady, who was by the arrangement of her parents married to an immoral man. She tried to help husband to be a virtuous man, e.g. not to kill animals, but her husband never listen to her. One day, she asked her husband for forgiveness and left him and their sons but took her daughter with her. Both of them were taken away 'as live humans' by gods to heaven.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  non canonical jataka,sermon </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W109</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>47 / 94<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>47 / 94<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 10</p>
                            </foliation>
@@ -119,10 +95,7 @@ Rhyming system: sauṅʻ kivʻ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -130,23 +103,25 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: luṅʻʺ saṅʻ laṅʻʺ sī
-</p>
+                     <p>Present copy's donor: luṅʻʺ saṅʻ laṅʻʺ sī</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J295</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J295</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>026</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ295-item1" n="W305">
                      <author>cavʻ̐ koʺ lį̄ muiṅʻʺ panʻ̨</author>
@@ -81,32 +71,20 @@
                            <p>Illustrated (ornamentation): mono</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Lik  tra 
-Rhyming system: sāmʻ kivʻ
-Introduction: yes
-</note>
+                     <note>Shan text descriptor: Lik  tra Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Neat and clear hand writing.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma,sutta,vinaya </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W305</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>142 / 284<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>142 / 284<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 11</p>
                            </foliation>
@@ -123,10 +101,7 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac,gilt,embossed</decoNote>
                      <condition>yes</condition>
@@ -134,26 +109,25 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: luṅʻʺ caṅʻʺ voʻ (yų̄ vanʻ kunʻ nāʺ)
-Present copy information: introduction
-</p>
-                     <p>Place name for present copy: Kun Na village.
-</p>
+                     <p>Present copy's donor: luṅʻʺ caṅʻʺ voʻ (yų̄ vanʻ kunʻ nāʺ) Present copy information: introduction</p>
+                     <p>Place name for present copy: Kun Na village.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

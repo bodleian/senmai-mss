@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR187</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR187</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS. Burm. a. 16</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in pa-o script</textLang>
                   <msItem xml:id="OXFOR187-item1" n="W193">
                      <author/>
@@ -79,38 +69,25 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Introduction: yes
-</note>
-                     <note>General remarks on work: Pagination, using alphabets from Ka to Gha:
-In Pa-o poetry.
-From the estate of Helen Dunstan.</note>
-                     <note/>
+                     <note>Shan text descriptor:  Vatthu Introduction: yes</note>
+                     <note>General remarks on work: Pagination, using alphabets from Ka to Gha: In Pa-o poetry. From the estate of Helen Dunstan.</note>
                      <note xml:lang="shn"/>
                      <note>Story of Mahosadhā Jātaka.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Making wishes for liberation from suffering and attainment of Nibbana.Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> pa-o</textLang>
+                     <textLang mainLang="shn">pa-o</textLang>
                      <note>Work ID: W193</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>102pp/ff (burmese numbering)
-<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                        <extent>102pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 28</p>
                            </foliation>
@@ -122,34 +99,30 @@ From the estate of Helen Dunstan.</note>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major">
-                        <desc/>
-                     </handNote>
+                     <handNote scope="major"/>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: no
-</p>
-                     <decoNote/>
-                     <condition/>
+                     <p>Covers: no</p>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Helen Dunstan</provenance>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

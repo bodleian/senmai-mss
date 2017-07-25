@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA14</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,16 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA14</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>035</idno>
                   </altIdentifier>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>
                         <foreign xml:lang="shn">၀၃၅</foreign>
                      </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA14-item1" n="W14">
                      <author>careʺ vanʻ ciṅʻʺ</author>
@@ -76,38 +71,21 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sām'' kiv''
-Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign> Shan
-</note>
-                     <note>General remarks on work: Note for Shan font: working on the google chrome on PC, the Shan fonts, with Nance''s keyboard layouts, are rendering very well. 
-This is the first time I have seen almost all the Shan fonts are rendering correctly! Excellent! </note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sām'' kiv'' Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Shan</note>
+                     <note>General remarks on work: Note for Shan font: working on the google chrome on PC, the Shan fonts, with Nance''s keyboard layouts, are rendering very well. This is the first time I have seen almost all the Shan fonts are rendering correctly! Excellent!</note>
                      <note xml:lang="shn"/>
                      <note>About Lady Visakha''s donation of monastery. The text also mentions that Lady Visakha has 70 daughters, 400 grand daughters and 800 great grand daughters, when she and her children donated the Veluvana monastery.</note>
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">လွင်ႈၼၢင်းဝိသႃႇလူႇတၼ်းၵျွင်း- ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈၼႆႉ ပဵၼ်သိူၵ်ႈပိုၼ်းၼၢင်းဝိသႃႇၶႃႇမီးလုၵ်ႈယိင်း၇၀ လၢၼ်ယိင်း၄၀၀ လိၼ်ယိင်း ၈၀၀၀ ၶဝ်ၸဝ်ႈမေ်လုၵ်ႈလႆႈလူႇတၼ်းၵျွင်းဝေလုဝုၼ်ႇလူင်သေ လႆဢဝ်ပဵၼ်တႃၼ တၢင်းလီၶဝ်မေႈလုၵ်လၢၼ်လိၼ်တင်းမူတ်းတင်းသဵင်ႈယဝ်ႉ၊၊</foreign>
                      </note>
                      <note>Subject:  commentary,canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W14</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>284<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>284<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                            </condition>
@@ -120,10 +98,7 @@ This is the first time I have seen almost all the Shan fonts are rendering corre
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -131,22 +106,15 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1321
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1349
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1321</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1349</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: Surasūit'' ko pen'' me Nāṅ''
-Present copy's donor (shan): <foreign xml:lang="shn">သူရသိူတ်ႇ ၵေႃႉပဵၼ်မေးၼၢင်းဢုတ်ႉ</foreign>
+                     <p>Present copy's donor: Surasūit'' ko pen'' me Nāṅ'' Present copy's donor (shan): <foreign xml:lang="shn">သူရသိူတ်ႇ ၵေႃႉပဵၼ်မေးၼၢင်းဢုတ်ႉ</foreign>
                      </p>
                   </acquisition>
                </history>
@@ -154,9 +122,14 @@ Present copy's donor (shan): <foreign xml:lang="shn">သူရသိူတ်�
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

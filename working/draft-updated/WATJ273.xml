@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J273</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J273</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>001</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ273-item1" n="W283">
                      <author>Unknown</author>
@@ -76,37 +66,22 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sāmʻ kivʻ
-Introduction: yes
-Text at other location: Wat Pha Non and Wat Pang Mu
-</note>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sāmʻ kivʻ Introduction: yes Text at other location: Wat Pha Non and Wat Pang Mu</note>
                      <note>General remarks on work: The year of copying this text 1346 SE (1984 CE) is mentioned at the end of the text, and the year of donating this text 1347 SE (1985) and 2528 BE are mentioned on the first page, the donor page.</note>
                      <note>Summary intro: This text was translated from a Burmese version.</note>
                      <note xml:lang="shn"/>
                      <note>The text on the teaching of generosity 'dāna' - mainly on two types of giving: 1) Making dāna offering to the moral person and 2) that of the immoral person. Making offering to moral person will bear better results than doing it to the immoral person. Venerable Sīvali had done such good deeds to the moral person in his previous life, so that in this life when he became a monk, he has so many devotees and followers.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W283</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>124 / 248<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>124 / 248<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                               <p>Word arts for section ending marks.</p>
@@ -120,10 +95,7 @@ Text at other location: Wat Pha Non and Wat Pang Mu
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: black
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: black Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -132,28 +104,26 @@ Cover material: 
                <history>
                   <origin>
                      <p>It would be useful to compare this text with the duplicated copies at Wat Jong Klang to find more information on the history of this text such as the author and original donor of the text.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1346
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1346</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: Ven. Vicitta, abbot of Wat Jong Klang.
-Present copy information: colophon
-</p>
+                     <p>Present copy's donor: Ven. Vicitta, abbot of Wat Jong Klang. Present copy information: colophon</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

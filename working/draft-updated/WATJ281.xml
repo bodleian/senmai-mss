@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J281</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J281</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>009</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ281-item1" n="W291">
                      <author>careʺ sūriyā (maeʻ̐ hauṅʻ̐ saunʻ)</author>
@@ -81,35 +71,23 @@
                            <p>Illustrated (ornamentation): colour</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sāmʻ kivʻ
-Introduction: yes
-</note>
+                     <note>Shan text descriptor: Lik   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Original work.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note>Story of a trading sailors acrossing big ocean; on that ship, there was young Brhamana. The ship was broken and all people died, except the Brahmana and a friend of his, both were swimming across the ocean, they came across a post standing above the ocean, they hang on to it, as it's on a holy day, they observed the precepts there. A Sakra saw them and saved their lives. </note>
+                     <note>Story of a trading sailors acrossing big ocean; on that ship, there was young Brhamana. The ship was broken and all people died, except the Brahmana and a friend of his, both were swimming across the ocean, they came across a post standing above the ocean, they hang on to it, as it's on a holy day, they observed the precepts there. A Sakra saw them and saved their lives.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta,canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes Colophon type:scribal </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W291</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>142 / 284<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>142 / 284<dimensions type="written" unit="cm"/>
                            <condition>
-                              <p>Gold gilded on red lacquer </p>
+                              <p>Gold gilded on red lacquer</p>
                            </condition>
                         </extent>
                      </supportDesc>
@@ -120,10 +98,7 @@ Introduction: yes
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red,gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac,gilt,embossed</decoNote>
                      <condition>yes</condition>
@@ -132,36 +107,30 @@ Cover material: 
                <history>
                   <origin>
                      <p>This is the original work.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1300
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1300</p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang.</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: po̐ caṅʻʺ mūnʻʺ mè̐ caṅʻʺ ciṅʻ̨ 
-Original donor information: introduction
-</p>
-                     <p>Original place of donation: Maehongson.
-Original donor place information: colophon
-</p>
-                     <p>Present copy information: colophon,introduction
-</p>
-                     <p>Place name for present copy: Maehongson
-Place name information: colophon,introduction
-</p>
+                     <p>Original donor: po̐ caṅʻʺ mūnʻʺ mè̐ caṅʻʺ ciṅʻ̨ Original donor information: introduction</p>
+                     <p>Original place of donation: Maehongson. Original donor place information: colophon</p>
+                     <p>Present copy information: colophon,introduction</p>
+                     <p>Place name for present copy: Maehongson Place name information: colophon,introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

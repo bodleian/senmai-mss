@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J277</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J277</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>005</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ277-item1" n="W287">
                      <author>cavʻ̐ ʼamatʻ̐ lūṅʻ mūiṅʻʺ nauṅʻ (Sao Amat Loung of Mueang Naung)</author>
@@ -76,34 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  tra 
-Rhyming system: sāmʻ kivʻ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Lik  tra Rhyming system: sāmʻ kivʻ</note>
                      <note xml:lang="shn"/>
                      <note>Story of a hunter, who met the Buddha while hunting, he couldn't find animals accept the Buddha sitting under a Bodhi tree. When he tried to shoot the Buddha with his arrows, his arms and body were dead (couldn't move). His wife, their seven children and wives followed and tried to the same but all faced the same problem. Eventually the Buddha taught them and all attained 'Sotāpanna' the Stream Entrance to the Enlightenment.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W287</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>144 / 288<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>144 / 288<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>reasonable</p>
                            </condition>
@@ -116,9 +91,7 @@ Rhyming system: sāmʻ kivʻ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -127,40 +100,32 @@ Cover material: 
                <history>
                   <origin>
                      <p>This text was composed when Sao Amat Loung was on trip to Karenni State.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1237
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1315
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1237</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1315</p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang.</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: cā ta kā taṅʻʺ keʺ sīri 
-
-</p>
-                     <p>Original place of donation: mūiṅʻʺ yaṅʻʺ lèṅʻ (Karenni State)
-Original donor place information: introduction
-</p>
-                     <p>Present copy's donor: po̐ caṅʻʺ ariya
-</p>
-                     <p>Place name for present copy: Wat Jong Klang, Maehongson.
-Place name information: introduction
-</p>
+                     <p>Original donor: cā ta kā taṅʻʺ keʺ sīri</p>
+                     <p>Original place of donation: mūiṅʻʺ yaṅʻʺ lèṅʻ (Karenni State) Original donor place information: introduction</p>
+                     <p>Present copy's donor: po̐ caṅʻʺ ariya</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson. Place name information: introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

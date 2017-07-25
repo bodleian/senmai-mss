@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA165</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA165</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>219</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA165-item1" n="W170">
                      <author>ca reʺ piṅʻ ñā</author>
@@ -76,33 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ</note>
                      <note xml:lang="shn"/>
                      <note>Story of a poor man who cut and sell firewood for living. One day he went to sell his firewood to a rich old woman. The rich woman not only bought his firewood but also gave him food and cloths to the poor man. Then, there was a poor lady whose job for living was washing and cleaning. One day, she went to the old rich woman to do washing and cleaning. The old woman and asked the poor woman to live with her. Later the old rich woman arranged for the poor man and the poor man to get married each other. One day, the king of the country made great festival of offering. The poor man wanted to take part in the festival but the king refused and asked him to do separately. So, he made the Buddha image with sticky soil, the gods (sakka) helped him to do the Buddha image and organize his festival, which was much greater than the king's festival!</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  non canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W170</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>138 / 276<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>138 / 276<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 10</p>
                            </foliation>
@@ -119,10 +95,7 @@ Rhyming system: samʻ kivʻ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red,black
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red,black Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -130,29 +103,28 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1318
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1318</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: mè naṅʻʺciṅʻ (and family)
-</p>
-                     <p>Place name for present copy: Pang Mu village, Maehongson
-</p>
+                     <p>Present copy's donor: mè naṅʻʺciṅʻ (and family)</p>
+                     <p>Place name for present copy: Pang Mu village, Maehongson</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

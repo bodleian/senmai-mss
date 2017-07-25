@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>OXFOR182</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>OXFOR</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Bodleian Library, Oxford University</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -37,19 +33,13 @@
                   <settlement>Bodleian Library, Oxford University</settlement>
                   <institution>Bodleian Library, Oxford University</institution>
                   <repository>Oxford, United Kingdom</repository>
-                  <collection>Unknown </collection>
+                  <collection>Unknown</collection>
                   <idno>OXFOR182</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS. Asiat. Misc. b. 10 (R)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="OXFOR182-item1" n="W187">
                      <author>unknown</author>
@@ -79,24 +69,17 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): colour</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ 
-Introduction: yes
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: yes</note>
                      <note xml:lang="shn"/>
                      <note>The texts contain names and images of famous pagodas in Brahma-loka, Burma, Thailand, and India. The text also gives praise of pagodas and local legends.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  instruction Subject comments: Pagodas</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Making wishes for Nibbāna and dedication to family members (on page 21). Colophon repeated for each subsequent section of text.Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W187</note>
                   </msItem>
                   <msItem xml:id="OXFOR182-item2" n="W188">
@@ -127,35 +110,23 @@ Introduction: yes
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): none</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ
-Introduction: no
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma,sutta,commentary Subject comments: A text on suññatā and relics</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>scribal wishes for the attainment of Nibbāna.Colophon:yes Additional colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W188</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>82 (21-102)<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>82 (21-102)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 10</p>
                            </foliation>
@@ -173,10 +144,7 @@ Introduction: no
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red,gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac,gilt,stencil</decoNote>
                      <condition>no</condition>
@@ -184,27 +152,25 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: khiṅʻ greāṅʻ tanʻ
-Present copy information: colophon
-</p>
-                     <p>Place name for present copy: Mong Hang
-Place name information: colophon
-</p>
+                     <p>Present copy's donor: khiṅʻ greāṅʻ tanʻ Present copy information: colophon</p>
+                     <p>Place name for present copy: Mong Hang Place name information: colophon</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

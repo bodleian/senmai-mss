@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA114</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA114</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>125</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA114-item1" n="W119">
                      <author>munʻ cānʻʺ phunʻʺ krīʺ</author>
@@ -66,7 +56,7 @@
                         <foreign xml:lang="shn"/>
                      </author>
                      <title xml:lang="">gihicāritta</title>
-                     <title xml:lang="">Rules of practices for the laity (houeholder) </title>
+                     <title xml:lang="">Rules of practices for the laity (houeholder)</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
                      </title>
@@ -76,34 +66,18 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  tra 
-Rhyming system: samʻ kivʻ pautʻʺ
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ pautʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta,sermon </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W119</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>144 / 288<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>144 / 288<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                            </condition>
@@ -116,41 +90,35 @@ Rhyming system: samʻ kivʻ pautʻʺ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
                      </p>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1219
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1219</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: phrāʺ takā mauṅʻ 
-
-</p>
-                     <p>Original place of donation: Na Pung village
-</p>
+                     <p>Original donor: phrāʺ takā mauṅʻ</p>
+                     <p>Original place of donation: Na Pung village</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

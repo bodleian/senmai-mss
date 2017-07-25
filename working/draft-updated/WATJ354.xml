@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J354</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J354</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>082</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ354-item1" n="W365">
                      <author>ca re muin nauṅ</author>
@@ -76,34 +66,21 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Rhyming system: sam kiv yav
-</note>
-                     <note/>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: sam kiv yav</note>
                      <note xml:lang="shn"/>
-                     <note>Story about a rich man called Veteyya making great ceremony of offering. </note>
-                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မိူဝ်ႈၼၼ်ႉ ယင်းမီးသထေးလူင်ၵေႃႉၼိုင်ႈၸိုဝ်ႈဝႃႈဝေတေယျ၊ ငိုၼ်းၶမ်းၵေႃႈၼမ် လွင်ႈၵျၢင်ႉတၢင်းၵမ်ၵေႃႈလီ၊ ႁႅၼ်းလူႇႁႅၼ်းတၢၼ်းပွႆးၸႃႇၵလူင်၊၊ </foreign>
+                     <note>Story about a rich man called Veteyya making great ceremony of offering.</note>
+                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မိူဝ်ႈၼၼ်ႉ ယင်းမီးသထေးလူင်ၵေႃႉၼိုင်ႈၸိုဝ်ႈဝႃႈဝေတေယျ၊ ငိုၼ်းၶမ်းၵေႃႈၼမ် လွင်ႈၵျၢင်ႉတၢင်းၵမ်ၵေႃႈလီ၊ ႁႅၼ်းလူႇႁႅၼ်းတၢၼ်းပွႆးၸႃႇၵလူင်၊၊</foreign>
                      </note>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W365</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>243 / 466<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>243 / 466<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 9`</p>
                            </foliation>
@@ -119,36 +96,23 @@ Rhyming system: sam kiv yav
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
-                     <condition/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1252
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1252</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: phrā ta kā kham leng ta kā ma naṅ seṅ thaun
-Original donor (shan): <foreign xmlns="" xml:lang="shn">ၽြႃးတၵႃၶမ်းလႅင် တၵႃႇမၼၢင်းသႅင်ထွၼ်း</foreign>
-
+                     <p>Original donor: phrā ta kā kham leng ta kā ma naṅ seṅ thaun Original donor (shan): <foreign xmlns="" xml:lang="shn">ၽြႃးတၵႃၶမ်းလႅင် တၵႃႇမၼၢင်းသႅင်ထွၼ်း</foreign>
                      </p>
-                     <p>Original place of donation: maṅ luin (Mang Lern)
-Original place of donation (shan): <foreign xmlns="" xml:lang="shn">မင်းလိူၼ်း</foreign>
+                     <p>Original place of donation: maṅ luin (Mang Lern) Original place of donation (shan): <foreign xmlns="" xml:lang="shn">မင်းလိူၼ်း</foreign>
                      </p>
-                     <p>Present copy's donor: po saṅ phuik me saṅ e ciṅ
-Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇၽိူၵ်ႇ မႄႈသၢင်ႇဢေးၸိင်ႇ</foreign>
+                     <p>Present copy's donor: po saṅ phuik me saṅ e ciṅ Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇၽိူၵ်ႇ မႄႈသၢင်ႇဢေးၸိင်ႇ</foreign>
                      </p>
                   </acquisition>
                </history>
@@ -156,9 +120,14 @@ Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်�
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

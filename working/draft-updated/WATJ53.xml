@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J53</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>shrine room hidden</collection>
                   <idno>WAT_J53</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>127</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ53-item1" n="W53">
                      <author>cavʻ kaṅʻʺ suivʻ</author>
@@ -79,39 +69,26 @@
                      <decoDesc>
                         <decoNote>
                            <p>Illustrated (ornamentation): mono</p>
-                           <p> Illustrated (diagrams): none</p>
+                           <p>Illustrated (diagrams): none</p>
                            <p>Illustrated (pictures): none</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  Vatthu 
-Rhyming system: samʻ kivʻ
-Introduction: no
-Text at other location: W32
-</note>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Introduction: no Text at other location: W32</note>
                      <note>General remarks on work: section markers.</note>
-                     <note>Summary intro: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </note>
+                     <note>Summary intro: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</note>
                      <note xml:lang="shn"/>
-                     <note>King Suddhodhana, father of the Buddha, asked Kalutar, the Buddha's friend and classmate, to invite the Buddha to visit Kapilavatthu. The Buddha gave a sermon to the king. </note>
+                     <note>King Suddhodhana, father of the Buddha, asked Kalutar, the Buddha's friend and classmate, to invite the Buddha to visit Kapilavatthu. The Buddha gave a sermon to the king.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  commentary Subject comments: narrative from commentarial story</note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Duis aute irure dolor in reprehenderit in voluptate velit esse Colophon:yes Additional colophon:no </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W53</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="palm leaf">
-                     <supportDesc material="palm leaf">
-                        <extent>7pp/ff (shan numbering)
-<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="palm_leaf">
+                     <supportDesc material="palm_leaf">
+                        <extent>7pp/ff (shan numbering)<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                               <p>wear</p>
@@ -126,43 +103,36 @@ Text at other location: W32
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: no
-</p>
-                     <decoNote/>
+                     <p>Covers: no</p>
                      <condition>no</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1327
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1391
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1327</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1391</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: Neque porro 
-Original donor information: colophon
-</p>
-                     <p>Original place of donation: Quis autem vel eum iure reprehenderit 
-Original donor place information: colophon
-</p>
+                     <p>Original donor: Neque porro Original donor information: colophon</p>
+                     <p>Original place of donation: Quis autem vel eum iure reprehenderit Original donor place information: colophon</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

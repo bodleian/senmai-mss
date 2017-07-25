@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J283</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J283</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>012</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ283-item1" n="W293">
                      <author>careʺ nandā (khunʻ hiṅʻʺ)</author>
@@ -66,7 +56,7 @@
                         <foreign xml:lang="shn"/>
                      </author>
                      <title xml:lang="">puinʻʺ phrāʺ maiʹ saṅʻʺ sanʻ</title>
-                     <title xml:lang="">History of a woven Buddha image </title>
+                     <title xml:lang="">History of a woven Buddha image</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
                      </title>
@@ -76,24 +66,14 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sāmʻ kivʻ
-Introduction: yes
-</note>
-                     <note>General remarks on work: This is the original text and possibly the only text of its kind. </note>
-                     <note/>
+                     <note>Shan text descriptor: Lik   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
+                     <note>General remarks on work: This is the original text and possibly the only text of its kind.</note>
                      <note xml:lang="shn"/>
                      <note>The text is about the history of a bamboo Buddha statue at Wat Jong Klang. This Buddha statue was made in 2003. Its throne was made of fragile manuscripts.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  history </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W293</note>
                   </msItem>
                </msContents>
@@ -101,49 +81,39 @@ Introduction: yes
                   <objectDesc>
                      <supportDesc>
                         <extent>
-                           <dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
-                           <condition/>
+                           <dimensions type="written" unit="cm"/>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major">
-                        <desc/>
-                     </handNote>
+                     <handNote scope="major"/>
                   </handDesc>
                   <bindingDesc>
-                     <decoNote/>
                      <condition>yes</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1365
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1365</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Place name for present copy: Wat Jong Klang, Maehongson.
-</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

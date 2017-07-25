@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>LN_SO58</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>LN_SO</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>SOAS Library, School of Oriental and African Studies</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>London, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>LN_SO58</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>MS 191790</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="LNSO58-item1" n="W63">
                      <author/>
@@ -66,7 +56,7 @@
                         <foreign xml:lang="shn"/>
                      </author>
                      <title xml:lang="">ʼa lauṅʻʺ kvā ʼavʻ caṅʻʹ samʻ ṇāʺ</title>
-                     <title xml:lang="">Story of a Bodhisatta going to get the elephant that has three horns. </title>
+                     <title xml:lang="">Story of a Bodhisatta going to get the elephant that has three horns.</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ဢလွင်းၵႂႃႇဢဝ်ၸၢင်ႉသၢမ်ငႃး</foreign>
                      </title>
@@ -76,36 +66,21 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Alaung  
-Introduction: yes
-</note>
-                     <note>General remarks on work: Pagination on verso only.
-The author of this text seemed to be a Mao Shan (Far Northern Shan who live along the Mao (Shweli) river, now along the Burma-China border. The reason is that he uses the Tai Mao accent 'la' for the 'na' sound as used by other Shans.</note>
-                     <note/>
+                     <note>Shan text descriptor: Alaung   Introduction: yes</note>
+                     <note>General remarks on work: Pagination on verso only. The author of this text seemed to be a Mao Shan (Far Northern Shan who live along the Mao (Shweli) river, now along the Burma-China border. The reason is that he uses the Tai Mao accent 'la' for the 'na' sound as used by other Shans.</note>
                      <note xml:lang="shn"/>
                      <note>A Shan lik long poetic text on the story of a bodhisatta who was hunting for an elephant that has three horns.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  non canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>introduction texts on the front page are faded/hard to read.Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W63</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="rolled book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>135 / 270pp/ff (burmese numbering)
-<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>135 / 270pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 22</p>
                            </foliation>
@@ -122,33 +97,28 @@ The author of this text seemed to be a Mao Shan (Far Northern Shan who live alon
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-</p>
-                     <decoNote/>
-                     <condition/>
+                     <p>Covers: yes</p>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1275
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1275</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
-                  <acquisition>
-</acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J376</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,18 +35,8 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J376</idno>
-                  <altIdentifier type="other">
-                     <idno/>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
-                  <textLang/>
                   <msItem xml:id="WATJ376-item1" n="W387">
                      <author>cavʻ̐ nǫ khamʻʺ (muiṅʻʺ kuiṅʻ)</author>
                      <author>
@@ -76,24 +62,12 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sam kiv
-Introduction: yes
-Text at other location: Wat Pang Mu
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sam kiv Introduction: yes Text at other location: Wat Pang Mu</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
                      <colophon>Colophon:yes </colophon>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W387</note>
                   </msItem>
                   <msItem xml:id="WATJ376-item2" n="W388">
@@ -121,32 +95,18 @@ Text at other location: Wat Pang Mu
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified  </note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sermon </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> </textLang>
+                     <textLang mainLang="shn"/>
                      <note>Work ID: W388</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>100/200<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                        <extent>100/200<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 11</p>
                            </foliation>
@@ -157,41 +117,35 @@ Text at other location: Wat Pang Mu
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major">
-                        <desc/>
-                     </handNote>
+                     <handNote scope="major"/>
                   </handDesc>
                   <bindingDesc>
-                     <decoNote/>
                      <condition>no</condition>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): buddhist era
-</p>
-                     <p>Date of composition (year): 2437
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): 2437</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: cav pha wan zam (kye si)
-
-</p>
-                     <p>Present copy's donor: naṅʻʺ puʺ khamʻʺ lé meʻ̐ kyauṅʻʺ naṅʻʺ iṅʻ̨ khaʻ caʻ̐
-</p>
+                     <p>Original donor: cav pha wan zam (kye si)</p>
+                     <p>Present copy's donor: naṅʻʺ puʺ khamʻʺ lé meʻ̐ kyauṅʻʺ naṅʻʺ iṅʻ̨ khaʻ caʻ̐</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

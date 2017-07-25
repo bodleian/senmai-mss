@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_T455</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_T</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Tiyasathan</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
                   <collection>abbots room</collection>
                   <idno>WAT_T455</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>38</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATT455-item1" n="W471">
                      <author>cavʻ̐̐̐̐ koʺ lį̄ mūiṅʻʺ panʻ̨</author>
@@ -65,7 +55,7 @@
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
-                     <title xml:lang="">phikkhunī tanʻʺ </title>
+                     <title xml:lang="">phikkhunī tanʻʺ</title>
                      <title xml:lang=""/>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
@@ -76,22 +66,11 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: sauṅʻ kivʻ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W471</note>
                   </msItem>
                   <msItem xml:id="WATT455-item2" n="W472">
@@ -108,7 +87,7 @@ Rhyming system: sauṅʻ kivʻ
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
-                     <title xml:lang="">vānacariya vū toʺ mauṅʻ̨ </title>
+                     <title xml:lang="">vānacariya vū toʺ mauṅʻ̨</title>
                      <title xml:lang=""/>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
@@ -119,35 +98,20 @@ Rhyming system: sauṅʻ kivʻ
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ phīlā
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ phīlā</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,pali</textLang>
+                     <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W472</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>140/280<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>140/280<dimensions type="written" unit="cm"/>
                            <foliation>
-                              <p>Lines (per folio:) Unknown </p>
+                              <p>Lines (per folio:) Unknown</p>
                            </foliation>
                            <condition>
                               <p>reasonable</p>
@@ -162,41 +126,35 @@ Rhyming system: samʻ kivʻ phīlā
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Cover colour: red,gold
-</p>
+                     <p>Cover colour: red,gold</p>
                      <decoNote>Cover embellishment: lac,stencil</decoNote>
-                     <condition/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): buddhist era
-</p>
-                     <p>Date of composition (year): 2392
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1283
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): 2392</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1283</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: luṅʻʺ kyauṅʻʺ khauṅʻ ku (mè̐ tèṅʻ)
-</p>
-                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.
-</p>
+                     <p>Present copy's donor: luṅʻʺ kyauṅʻʺ khauṅʻ ku (mè̐ tèṅʻ)</p>
+                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

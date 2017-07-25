@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_T19</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_T</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Tiyasathan</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,18 +35,11 @@
                   <repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
                   <collection>shrine room hidden</collection>
                   <idno>WAT_T19</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>10</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
-                  <textLang/>
                   <msItem xml:id="WATT19-item1" n="W19">
                      <author/>
                      <author>
@@ -81,32 +70,19 @@
                            <p>Illustrated (ornamentation): colour</p>
                         </decoNote>
                      </decoDesc>
-                     <note>Shan text descriptor:  Kyam 
-Rhyming system: sāmʻ kivʻ kvāmʻʺ nūñʻʺ
-Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂၢမ်းၼူၺ်း</foreign> Shan
-</note>
+                     <note>Shan text descriptor:  Kyam Rhyming system: sāmʻ kivʻ kvāmʻʺ nūñʻʺ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂၢမ်းၼူၺ်း</foreign>Shan</note>
                      <note>General remarks on work: gold-gilded cover.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta,commentary </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W19</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>166 opens (332 folios)?)<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>166 opens (332 folios)?)<dimensions type="written" unit="cm"/>
                            <foliation>
                               <p>Lines (per folio:) 11</p>
                            </foliation>
@@ -122,10 +98,7 @@ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂ�
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: gilt</decoNote>
                      <condition>yes</condition>
@@ -133,35 +106,31 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1228
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1252
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1228</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1252</p>
                   </origin>
                   <provenance>Former owner: Wat Tiyasathān</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original place of donation: kyauṅʻʺ mauṅ̨ʻ cǫ
-</p>
-                     <p>Present copy's donor: pī̐ aun̨ʻ naṅʻʺ aun̨ʻ (vānʻ̐ nauṅʻ kèvʻ̐)
-</p>
-                     <p>Place name for present copy: Naung Kaeo Village
-</p>
+                     <p>Original place of donation: kyauṅʻʺ mauṅ̨ʻ cǫ</p>
+                     <p>Present copy's donor: pī̐ aun̨ʻ naṅʻʺ aun̨ʻ (vānʻ̐ nauṅʻ kèvʻ̐)</p>
+                     <p>Place name for present copy: Naung Kaeo Village</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J282</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J282</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>010</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ282-item1" n="W292">
                      <author>cavʻ̐ nǫ khamʻʺ mūiṅʻʺ kuiṅʻ</author>
@@ -65,7 +55,7 @@
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
-                     <title xml:lang="">lokanīti </title>
+                     <title xml:lang="">lokanīti</title>
                      <title xml:lang="">The essence of the world</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
@@ -76,37 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Lik  
-Rhyming system: sāmʻ kivʻ
-Introduction: yes
-Text at other location: Wat Pang Mu
-</note>
+                     <note>Shan text descriptor: Lik   Rhyming system: sāmʻ kivʻ Introduction: yes Text at other location: Wat Pang Mu</note>
                      <note>General remarks on work: The text was translated from a Burmese version.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W292</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
+                  <objectDesc form="concertina_book">
                      <supportDesc>
-                        <extent>138 / 276<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                        <extent>138 / 276<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                               <p>wear,human</p>
@@ -121,10 +93,7 @@ Text at other location: Wat Pang Mu
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: black
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: black Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>no</condition>
@@ -132,39 +101,31 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): buddhist era
-</p>
-                     <p>Date of composition (year): 2424
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1296
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): 2424</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1296</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: pī̐ kyauṅʻʺ saṅʻ̨ vānʻʺ
-Original donor information: introduction
-</p>
-                     <p>Original place of donation: Mong Kung
-</p>
-                     <p>Present copy's donor: luṅʻʺ cāṅʻʺ noiʹ vūṅʻʺ pā̐ caṅʻʺ yūṅʻ̨
-</p>
-                     <p>Place name for present copy: Wat Jong Klang, Maehongson.
-Place name information: introduction
-</p>
+                     <p>Original donor: pī̐ kyauṅʻʺ saṅʻ̨ vānʻʺ Original donor information: introduction</p>
+                     <p>Original place of donation: Mong Kung</p>
+                     <p>Present copy's donor: luṅʻʺ cāṅʻʺ noiʹ vūṅʻʺ pā̐ caṅʻʺ yūṅʻ̨</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson. Place name information: introduction</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

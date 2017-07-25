@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA15</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,16 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA15</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>006</idno>
                   </altIdentifier>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>
                         <foreign xml:lang="shn">၀၀၆</foreign>
                      </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA15-item1" n="W15">
                      <author>careʺ muiṅʻʺ nauṅʻ</author>
@@ -76,36 +71,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ pautʻʺ
-Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂၢမ်းပွတ်း</foreign> Shan
-</note>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ pautʻʺ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂၢမ်းပွတ်း</foreign>Shan</note>
                      <note>General remarks on work: note for testing: working on Google Chrome with Macbook, the Shan scripts not rendering correctly (though it works with GC in PC)</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  abhidhamma </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W15</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>172<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>172<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                            </condition>
@@ -113,15 +91,10 @@ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂ�
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" medium="black ink">
-                        <desc/>
-                     </handNote>
+                     <handNote scope="major" medium="black ink"/>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -129,33 +102,29 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1244
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1311
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1244</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1311</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: meʻ sāṅʻ nāṅʻʺ cī
-Original donor (shan): <foreign xmlns="" xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၸီႇ</foreign>Shan
-
-</p>
+                     <p>Original donor: meʻ sāṅʻ nāṅʻʺ cī Original donor (shan): <foreign xmlns="" xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၸီႇ</foreign>Shan</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

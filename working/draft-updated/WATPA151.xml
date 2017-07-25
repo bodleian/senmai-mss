@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA151</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,20 +35,14 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA151</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>057</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA151-item1" n="W156">
-                     <author>ca reʺ ñāna </author>
+                     <author>ca reʺ ñāna</author>
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
@@ -76,34 +66,19 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ yavʻʺ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ yavʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note>Story about a king of Zampanako country, who had got a baby girl (angel) from heaven. His astrologer gave a predication that when the angel reached the age of ten, princes from 16 countries would fight for the angel. One day a hermit went to the King's palace. The king offered him alms. The hermit gave a sermon to the king, a dhamma related to the angel issue. The angel returned to heaven. </note>
+                     <note>Story about a king of Zampanako country, who had got a baby girl (angel) from heaven. His astrologer gave a predication that when the angel reached the age of ten, princes from 16 countries would fight for the angel. One day a hermit went to the King's palace. The king offered him alms. The hermit gave a sermon to the king, a dhamma related to the angel issue. The angel returned to heaven.</note>
                      <note xml:lang="shn"/>
                      <note>Subject:  non canonical jataka,sermon </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W156</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
+                  <objectDesc form="concertina_book">
                      <supportDesc>
-                        <extent>140 / 280<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                        <extent>140 / 280<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>excellent</p>
                            </condition>
@@ -116,34 +91,31 @@ Rhyming system: samʻ kivʻ yavʻʺ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-</p>
-                     <decoNote/>
-                     <condition/>
+                     <p>Covers: yes Cover colour: natural</p>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Present copy's donor: munʻ cavʻ mahā thamʻ ma (kyauṅʻʺ luṅʻ paṅʻ mū)
-</p>
-                     <p>Place name for present copy: Pang Mu Temple, Maehongson
-</p>
+                     <p>Present copy's donor: munʻ cavʻ mahā thamʻ ma (kyauṅʻʺ luṅʻ paṅʻ mū)</p>
+                     <p>Place name for present copy: Pang Mu Temple, Maehongson</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

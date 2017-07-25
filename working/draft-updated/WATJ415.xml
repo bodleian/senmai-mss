@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_J415</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_J</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Jong Klang</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J415</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>148</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ415-item1" n="W428">
                      <author>ca reʺ muiṅʻʺ nauṅʻ (ta peʻʺ cavʻ seʻʺ kuṅʻʺ vanʻ ciṅʻʺ)</author>
@@ -65,7 +55,7 @@
                      <author>
                         <foreign xml:lang="shn"/>
                      </author>
-                     <title xml:lang="">ʼalauṅʻʺ dukkha sīlavā </title>
+                     <title xml:lang="">ʼalauṅʻʺ dukkha sīlavā</title>
                      <title xml:lang="">Story of Bodhisatta Dukkhasīlavā</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn"/>
@@ -76,34 +66,18 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Alaung  
-Rhyming system: samʻ kivʻ yāvʻʺ
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Alaung   Rhyming system: samʻ kivʻ yāvʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  non canonical jataka </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W428</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>132<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>132<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>reasonable</p>
                            </condition>
@@ -116,46 +90,35 @@ Rhyming system: samʻ kivʻ yāvʻʺ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: natural
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
                      </p>
-                     <decoNote/>
-                     <condition/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1315
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1315</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: phrāʺ ta kā poʻ saṅʻ pha cikʻʺ ta 
-Original donor information: colophon
-</p>
-                     <p>Original place of donation: Lang Khur
-Original donor place information: introduction
-</p>
-                     <p>Present copy's donor: poʻ thavʻ caṅʻʺ nuiṅʻʺ meʻ thavʻ caṅʻʺ la (Lang Khur)
-</p>
-                     <p>Place name for present copy: Wat Jong Klang, Maehongson.
-</p>
+                     <p>Original donor: phrāʺ ta kā poʻ saṅʻ pha cikʻʺ ta Original donor information: colophon</p>
+                     <p>Original place of donation: Lang Khur Original donor place information: introduction</p>
+                     <p>Present copy's donor: poʻ thavʻ caṅʻʺ nuiṅʻʺ meʻ thavʻ caṅʻʺ la (Lang Khur)</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

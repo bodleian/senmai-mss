@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_T549</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_T</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Tiyasathan</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
                   <collection>abbots room</collection>
                   <idno>WAT_T549</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>132</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATT549-item1" n="W586">
                      <author>cavʻ̐̐̐̐ koʺ lį̄ mūiṅʻʺ panʻ̨</author>
@@ -76,22 +66,11 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ 
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W586</note>
                   </msItem>
                   <msItem xml:id="WATT549-item2" n="W587">
@@ -119,22 +98,11 @@ Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ 
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> </textLang>
+                     <textLang mainLang="shn"/>
                      <note>Work ID: W587</note>
                   </msItem>
                   <msItem xml:id="WATT549-item3" n="W588">
@@ -162,37 +130,21 @@ Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor: Not specified  
-Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ 
-</note>
-                     <note/>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
-                     <note/>
                      <note xml:lang="shn"/>
                      <note>Subject:  sutta </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W588</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>Unknown <dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>Unknown<dimensions type="written" unit="cm"/>
                            <foliation>
-                              <p>Lines (per folio:) Unknown </p>
+                              <p>Lines (per folio:) Unknown</p>
                            </foliation>
-                           <condition/>
                         </extent>
                      </supportDesc>
                   </objectDesc>
@@ -202,50 +154,37 @@ Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red,gold
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
-                     <condition/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): Unknown 
-</p>
-                     <p>Date of composition (year): Unknown 
-</p>
-                     <p>Date of copying (era): buddhist era
-</p>
-                     <p>Date of copying (year): 2471
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): Unknown</p>
+                     <p>Date of composition (year): Unknown</p>
+                     <p>Date of copying (era): buddhist era</p>
+                     <p>Date of copying (year): 2471</p>
                   </origin>
-                  <provenance/>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: Unknown 
-Original donor (shan): Unknown Unknown 
-Original donor information: Unknown 
-</p>
-                     <p>Original place of donation: Unknown 
-Original place of donation (shan): Unknown Unknown 
-Original donor place information: Unknown 
-</p>
-                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.
-</p>
+                     <p>Original donor: Unknown Original donor (shan): Unknown Unknown Original donor information: Unknown</p>
+                     <p>Original place of donation: Unknown Original place of donation (shan): Unknown Unknown Original donor place information: Unknown</p>
+                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>
                   </acquisition>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>

@@ -5,20 +5,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>WAT_PA16</title>
             <funder>Dhammakaya Foundation</funder>
             <principal>Gillian Evison</principal>
          </titleStmt>
          <publicationStmt>
-            <date calendar="Gregorian"/>
             <publisher>WAT_PA</publisher>
+            <date calendar="Gregorian"/>
             <pubPlace>
                <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <street/>
                   <settlement>Wat Pang Mu</settlement>
-                  <postCode/>
                   <addrLine>
                      <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
                   </addrLine>
@@ -39,17 +35,11 @@
                   <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
                   <collection>shrine room stacked</collection>
                   <idno>WAT_PA16</idno>
-                  <altIdentifier type="other">
+                  <altIdentifier>
                      <idno>079</idno>
-                  </altIdentifier>
-                  <altIdentifier type="other">
-                     <idno>
-                        <foreign xml:lang="shn"/>
-                     </idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary/>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA16-item1" n="W16">
                      <author>soʺ phiṅʻ naʹ mauṅ'' ṅeʻ (cav'' amat lūṅ'' ūiṅ''" nauṅ'')</author>
@@ -76,37 +66,21 @@
                             xsi:type="alt">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote/>
-                     </decoDesc>
-                     <note>Shan text descriptor:  Kyam 
-Rhyming system: sām'' kiv''
-Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign> Shan
-</note>
+                     <note>Shan text descriptor:  Kyam Rhyming system: sām'' kiv'' Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Shan</note>
                      <note>General remarks on work: note for testing: working on PC with Google Chrome and Nance''s keyboard layout, not sure which Shan font, as I can''t see the font name nor format menue in this form.</note>
-                     <note/>
                      <note xml:lang="shn"/>
-                     <note>A story about a millionaire who was fed up with worldly things. He asked permission from his wife and went to donate his body to the Buddha. He handed his all properties to his wife, became a monk, practising meditation .... </note>
-                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈထမ်ႇမရႃႇသီႇၼႆႉ ၶႆႈလူၺ်ႈလုၵ်ႈၸႆၢးသထေးၵေႃႉငိၼ်းဢိမ်ႇၸၢၼ်ႈၼႂ်းလေႃးၵၶိူဝ်းသင်ႇၶႃႇ ရလူင်ၼႆႉယဝ်ႉလႄႈ ယွၼ်းဢဝ်ဢၶႂၢင်ႉၵေႃႉမေးသေယဝ်ႉ ၵႂႃႇလူႇတူဝ်လူႇၶိင်းၶၢမ်ႇပဵၼ်ရသေႉရႁၢၼ်း၊ ၵႃႈပဵၼ် ဢုၵ်ႉၸႃႇရတၼႃႇတင်းသဵင်ႈ ဢၢပ်ႈပၼ်မေးၼၢင်းသဵင်ႈသဵင်ႈသေယဝ်ႉ မိူဝ်းႁဵတ်းတပေးၽြႃးၵျၢင်ႉၵမ်ၵမ်ႇမထၢၼ်း ဝိပသ်သၼႃႇ --- </foreign>
+                     <note>A story about a millionaire who was fed up with worldly things. He asked permission from his wife and went to donate his body to the Buddha. He handed his all properties to his wife, became a monk, practising meditation ....</note>
+                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈထမ်ႇမရႃႇသီႇၼႆႉ ၶႆႈလူၺ်ႈလုၵ်ႈၸႆၢးသထေးၵေႃႉငိၼ်းဢိမ်ႇၸၢၼ်ႈၼႂ်းလေႃးၵၶိူဝ်းသင်ႇၶႃႇ ရလူင်ၼႆႉယဝ်ႉလႄႈ ယွၼ်းဢဝ်ဢၶႂၢင်ႉၵေႃႉမေးသေယဝ်ႉ ၵႂႃႇလူႇတူဝ်လူႇၶိင်းၶၢမ်ႇပဵၼ်ရသေႉရႁၢၼ်း၊ ၵႃႈပဵၼ် ဢုၵ်ႉၸႃႇရတၼႃႇတင်းသဵင်ႈ ဢၢပ်ႈပၼ်မေးၼၢင်းသဵင်ႈသဵင်ႈသေယဝ်ႉ မိူဝ်းႁဵတ်းတပေးၽြႃးၵျၢင်ႉၵမ်ၵမ်ႇမထၢၼ်း ဝိပသ်သၼႃႇ ---</foreign>
                      </note>
                      <note>Subject:  abhidhamma,sutta,commentary </note>
-                     <incipit/>
-                     <explicit/>
-                     <colophon/>
-
-                     <textLang mainLang="shn"> shan,burmese,pali</textLang>
+                     <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W16</note>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina book">
-                     <supportDesc material="sa (mulberry) paper">
-                        <extent>268<dimensions type="written" unit="cm">
-                              <height/>
-                              <width/>
-                              <depth/>
-                           </dimensions>
-                           <foliation/>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>268<dimensions type="written" unit="cm"/>
                            <condition>
                               <p>poor</p>
                            </condition>
@@ -119,10 +93,7 @@ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreig
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <p>Covers: yes
-Cover colour: red
-Cover material: 
-<material>papier mache</material>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
                      </p>
                      <decoNote>Cover embellishment: lac</decoNote>
                      <condition>yes</condition>
@@ -130,26 +101,16 @@ Cover material: 
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow"/>
-                     <p>Date of composition (era): sakkaraja era
-</p>
-                     <p>Date of composition (year): 1234
-</p>
-                     <p>Date of copying (era): sakkaraja era
-</p>
-                     <p>Date of copying (year): 1322
-</p>
+                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1234</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1322</p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
-                  <provenance>
-</provenance>
                   <acquisition>
-                     <p>Original donor: Luṅ''\ tāṅ''\ ke ceṅ''
-Original donor (shan): <foreign xmlns="" xml:lang="shn">လုင်းတၢင်းၵေးၸိင်</foreign>Shan
-
-</p>
-                     <p>Present copy's donor: Nāṅ''
-Present copy's donor (shan): <foreign xml:lang="shn">ၼၢင်းဢိၼ်းၸႃး ဢႆၢႈၼွင်ႉဢိၼ်းၸႃး </foreign>
+                     <p>Original donor: Luṅ''\ tāṅ''\ ke ceṅ'' Original donor (shan): <foreign xmlns="" xml:lang="shn">လုင်းတၢင်းၵေးၸိင်</foreign>Shan</p>
+                     <p>Present copy's donor: Nāṅ'' Present copy's donor (shan): <foreign xml:lang="shn">ၼၢင်းဢိၼ်းၸႃး ဢႆၢႈၼွင်ႉဢိၼ်းၸႃး</foreign>
                      </p>
                   </acquisition>
                </history>
@@ -157,9 +118,14 @@ Present copy's donor (shan): <foreign xml:lang="shn">ၼၢင်းဢိၼ�
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2017-07-19">
-            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl">https://github.com/bodleian/fihrist-mss/tree/master/processing/convertFihrist2Bodley.xsl</ref>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
       </revisionDesc>
    </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
 </TEI>
