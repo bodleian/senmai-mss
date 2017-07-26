@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>CAMBR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>University Library, Cambridge University</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified  </note>
@@ -90,7 +88,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1238</p>
                   </origin>

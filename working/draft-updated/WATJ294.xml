@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,16 +61,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work:  Very neat and clear hand writing.</note>
                      <note xml:lang="shn"/>
@@ -85,11 +81,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc>
                         <extent>190 / 380<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>excellent</p>
-                              <p>The covers are decorated with glass-cuts and gold gilded, one of the most beautiful manuscripts in the Wat Jong Klang collection of manuscripts.</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>excellent</p>
+                           <p>The covers are decorated with glass-cuts and gold gilded, one of the most beautiful manuscripts in the Wat Jong Klang collection of manuscripts.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -107,7 +103,7 @@
                <history>
                   <origin>
                      <p>This manuscript was made in Mong Nai, Southern Shan State. It is not clear how it was ended up in Jong Klang collection, possibly brought in by a lay devotee who came from Shan State or a trader.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1260</p>
                      <p>Date of copying (era): sakkaraja era</p>
@@ -115,7 +111,7 @@
                   </origin>
                   <provenance>Former owner: Saopha, ruling prince, of Mong Nai, Southern Shan State</provenance>
                   <acquisition>
-                     <p>Original donor: kyauṅʻʺ taką̄ khamʻʺ saunʻʺ kyauṅʻʺ taką̄ma naṅʻʺ uṅʻ Original donor (shan): <foreign xmlns="" xml:lang="shn">ၵျွင်းတၵႃႇၶမ်းသွၼ်း ၵျွင်းတၵႃႇမၼင်းဢုင်ႇ</foreign>Original donor information: introduction</p>
+                     <p>Original donor: kyauṅʻʺ taką̄ khamʻʺ saunʻʺ kyauṅʻʺ taką̄ma naṅʻʺ uṅʻ Original donor (shan): <foreign xml:lang="shn">ၵျွင်းတၵႃႇၶမ်းသွၼ်း ၵျွင်းတၵႃႇမၼင်းဢုင်ႇ</foreign>Original donor information: introduction</p>
                      <p>Original donor place information: colophon</p>
                      <p>Present copy's donor: cavʻ̐ pha mūiṅʻʺ naiʺ Present copy information: introduction</p>
                      <p>Place name for present copy: Mong Nai, Southern Shan State. Place name information: introduction</p>

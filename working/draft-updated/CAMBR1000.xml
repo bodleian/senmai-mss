@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>CAMBR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>University Library, Cambridge University</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified  </note>
@@ -75,7 +73,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="concertina_book">
+                  <objectDesc form="concertina__book">
                      <supportDesc>
                         <extent>23<dimensions type="written" unit="cm"/>
                         </extent>
@@ -90,7 +88,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                </history>
             </msDesc>

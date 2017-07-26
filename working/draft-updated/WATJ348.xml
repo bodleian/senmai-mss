@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ဢၽိထမ်ႇမႃႇ ပိၸ်ၸေးသၢဝ်းသီႇ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅ kiv Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>
@@ -79,11 +77,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>46 / 92<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>wear,human</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>wear,human</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -99,14 +97,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1246</p>
                   </origin>
                   <acquisition>
-                     <p>Original donor: taṅ ke ta kā nanta Original donor (shan): <foreign xmlns="" xml:lang="shn">တၢင်းၵေးတၵႃႇၼၼ်ႇတ</foreign>
+                     <p>Original donor: taṅ ke ta kā nanta Original donor (shan): <foreign xml:lang="shn">တၢင်းၵေးတၵႃႇၼၼ်ႇတ</foreign>
                      </p>
-                     <p>Original place of donation: Van Nuea Original place of donation (shan): <foreign xmlns="" xml:lang="shn">ဝၢၼ်ႈၼိူဝ် လၢင်းၶိူဝ်း</foreign>
+                     <p>Original place of donation: Van Nuea Original place of donation (shan): <foreign xml:lang="shn">ဝၢၼ်ႈၼိူဝ် လၢင်းၶိူဝ်း</foreign>
                      </p>
                      <p>Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈပွၵ်း မႄႈပွၵ်း ၶဝ်ၸဝ်ႈတင်းႁိူၼ်း</foreign>
                      </p>

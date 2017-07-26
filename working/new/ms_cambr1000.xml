@@ -28,8 +28,7 @@
 <title xml:lang="shn-Latn-x-lc"/>
 <title xml:lang="shan-Latn-x-lc"><foreign xml:lang="shn"/></title>
 <title xml:lang="eng" type="alt"/>
-<title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="shn-Latn-x-lc" xsi:type="alt"><foreign xml:lang="shn"/></title>
-<decoDesc><decoNote/></decoDesc>
+<title  xml:lang="shn-Latn-x-lc"><foreign xml:lang="shn"/></title>
 <note>Shan text descriptor: Not specified  
 </note>
 <note/>
@@ -45,7 +44,7 @@
 <note>Work ID: W1072</note>
 </msItem>
 </msContents>
-<physDesc><objectDesc form="concertina book"><supportDesc material="">
+<physDesc><objectDesc form="concertina  book"><supportDesc material="">
 <extent>23<dimensions type="written" unit="cm"><height/><width/><depth/></dimensions>
 <foliation/>
 <condition><p/><p/><p/></condition>

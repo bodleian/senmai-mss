@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -60,9 +60,7 @@
                         <foreign xml:lang="shn">ရႃႇၸႁိတတီႇပၼီႇၵျၢမ်း</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  Kyam</note>
@@ -80,10 +78,10 @@
                      <supportDesc>
                         <extent>
                            <dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>excellent</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -100,7 +98,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1266</p>
                      <p>Date of copying (era): sakkaraja era</p>
@@ -108,7 +106,7 @@
                   </origin>
                   <provenance>Former owner: Wat Tiyasathān</provenance>
                   <acquisition>
-                     <p>Original donor: cavʻ pha khunʻ sāṅʻ hāiʹ (senwī) Original donor (shan): <foreign xmlns="" xml:lang="shn">ၸဝ်ႈၾႃႉၶုၼ်သၢင်ႇႁၢႆႉ (သႅၼ်ဝီ)</foreign>
+                     <p>Original donor: cavʻ pha khunʻ sāṅʻ hāiʹ (senwī) Original donor (shan): <foreign xml:lang="shn">ၸဝ်ႈၾႃႉၶုၼ်သၢင်ႇႁၢႆႉ (သႅၼ်ဝီ)</foreign>
                      </p>
                      <p>Original place of donation: Senwi</p>
                      <p>Place name for present copy: Me teṅ'' (Mae Taeng, Chiang Mai, Northern Thailand)</p>

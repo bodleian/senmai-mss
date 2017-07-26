@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt">kalutar vatthu</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Introduction: no Text at other location: W32</note>
                      <note>General remarks on work: section markers.</note>
                      <note>Summary intro: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</note>
@@ -89,12 +85,12 @@
                   <objectDesc form="palm_leaf">
                      <supportDesc material="palm_leaf">
                         <extent>7pp/ff (shan numbering)<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                              <p>wear</p>
-                              <p>front leaves broken on left hand side</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                           <p>front leaves broken on left hand side</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -109,7 +105,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1327</p>
                      <p>Date of copying (era): sakkaraja era</p>

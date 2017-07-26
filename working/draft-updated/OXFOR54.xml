@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): colour</p>
-                           <p>Illustrated (diagrams): colour</p>
-                           <p>Illustrated (pictures): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): colour</p>
+                        <p>Illustrated (diagrams): colour</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Introduction: no</note>
                      <note>General remarks on work: diagrams illustrating tattoos - in red, black, green/blue colour.</note>
                      <note xml:lang="shn"/>
@@ -88,15 +84,15 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>40 / 80<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 9-10</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>wear</p>
-                              <p>Actually yellow paper</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 9-10</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>wear</p>
+                           <p>Actually yellow paper</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -113,7 +109,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Stolper</provenance>
                </history>

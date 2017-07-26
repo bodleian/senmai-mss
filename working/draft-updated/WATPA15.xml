@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_PA</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Pang Mu</settlement>
@@ -39,9 +39,7 @@
                      <idno>006</idno>
                   </altIdentifier>
                   <altIdentifier>
-                     <idno>
-                        <foreign xml:lang="shn">၀၀၆</foreign>
-                     </idno>
+                     <idno xml:lang="shn">၀၀၆</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
@@ -66,9 +64,7 @@
                         <foreign xml:lang="shn">ပရမတ်ၸု</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ pautʻʺ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ၵႂၢမ်းပွတ်း</foreign>Shan</note>
@@ -84,10 +80,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>172<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>excellent</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -102,7 +98,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1244</p>
                      <p>Date of copying (era): sakkaraja era</p>
@@ -110,7 +106,7 @@
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
                   <acquisition>
-                     <p>Original donor: meʻ sāṅʻ nāṅʻʺ cī Original donor (shan): <foreign xmlns="" xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၸီႇ</foreign>Shan</p>
+                     <p>Original donor: meʻ sāṅʻ nāṅʻʺ cī Original donor (shan): <foreign xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၸီႇ</foreign>Shan</p>
                   </acquisition>
                </history>
             </msDesc>

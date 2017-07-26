@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: yes</note>
                      <note xml:lang="shn"/>
                      <note>The texts contain names and images of famous pagodas in Brahma-loka, Burma, Thailand, and India. The text also gives praise of pagodas and local legends.</note>
@@ -102,18 +98,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -127,15 +119,15 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>82 (21-102)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 10</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>human</p>
-                              <p>pages missing from beginning/end</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 10</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>human</p>
+                           <p>pages missing from beginning/end</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -152,7 +144,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                   <acquisition>
                      <p>Present copy's donor: khiṅʻ greāṅʻ tanʻ Present copy information: colophon</p>

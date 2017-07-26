@@ -14,7 +14,7 @@
 <collection>shrine room stacked</collection>
 <idno>WAT_PA14</idno>
 <altIdentifier type="other"><idno>035</idno></altIdentifier>
-<altIdentifier type="other"><idno><foreign xml:lang="shn">&#x1040;&#x1043;&#x1045;</foreign></idno></altIdentifier>
+<altIdentifier type="other"><idno xml:lang="shn">&#x1040;&#x1043;&#x1045;</idno></altIdentifier>
 </msIdentifier>
 <msContents><summary/>
 <textLang>Written in shan script</textLang>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ yāvʻʺ Introduction: yes Text at other location: Wat Pha Non</note>
@@ -80,11 +78,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>180/360<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                              <p>animal</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -101,7 +99,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2422</p>
                      <p>Date of copying (era): sakkaraja era</p>

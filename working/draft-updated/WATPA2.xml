@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_PA</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Pang Mu</settlement>
@@ -60,16 +60,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Lik  </note>
                      <note xml:lang="shn"/>
                      <note>Story about the Buddha giving sermon to the devatā (god/spirit); in the sermon, the Buddha said that one who has done dāna (generosity / giving away) is an auspicious deed that will lead him/her to the state of Nibbāna.</note>
@@ -83,10 +79,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>328<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -102,7 +98,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1284</p>
                      <p>Date of copying (era): sakkaraja era</p>

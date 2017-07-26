@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): mono</p>
-                           <p>Illustrated (pictures): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): mono</p>
+                        <p>Illustrated (pictures): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Kyam</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -85,10 +81,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>29 / 58<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>reasonable</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -104,7 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                </history>
             </msDesc>

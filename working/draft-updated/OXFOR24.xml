@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn">လိၵ်ႈၽြႃးသၢဝ်းပႅတ်ႇဢိၵ်ႇတင်းသၢင်ႇဢုၵ်ႈပုၵ်ႈပႅတ်ႇပႃး ၵွင်းမူးသူၺ်ႇတၵုင်ႇ ၽြႃးယၶႅင်ႇ ၸၢၵ်ႈတေႃႇယႃႇ ၸၢတ်ႈၶျၢမ်းသႃႇ သတ်တထႃႇၼၸဵတ်းတီႈ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>Introduction: yes Text at other location: OXFOR23</note>
                      <note>General remarks on work: Final one or two pages missing.</note>
                      <note>Summary intro: Containing the text title, donor's name, places and standard dedication for Nibbana.</note>
@@ -88,15 +84,15 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>15<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 25</p>
-                           </foliation>
-                           <condition>
-                              <p>poor</p>
-                              <p>wear</p>
-                              <p>damaged front and lower edge.</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 25</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                           <p>damaged front and lower edge.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -112,7 +108,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1268</p>
                   </origin>

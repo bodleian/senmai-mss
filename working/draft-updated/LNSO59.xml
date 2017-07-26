@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>LN_SO</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>SOAS Library, School of Oriental and African Studies</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn">သႃသၼႃမင်ၸိၺ်</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified  </note>
                      <note>General remarks on work: Very good condition. The texts are very clear. It was written in prose (not poetry). Pagination on verso only.</note>
                      <note xml:lang="shn"/>
@@ -87,13 +83,13 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>67 / 132pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 25</p>
-                           </foliation>
-                           <condition>
-                              <p>excellent</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 25</p>
+                        </foliation>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -108,7 +104,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1260</p>
                   </origin>

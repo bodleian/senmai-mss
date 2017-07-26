@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,16 +61,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (diagrams): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (diagrams): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ pautʻʺ Introduction: yes Text at other location: Wat Pang Mu.</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -84,15 +80,15 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>140/280<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 10</p>
-                           </foliation>
-                           <condition>
-                              <p>poor</p>
-                              <p>animal</p>
-                              <p>Word arts for marking section ending. Floral art on page 60.</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 10</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal</p>
+                           <p>Word arts for marking section ending. Floral art on page 60.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -110,7 +106,7 @@
                <history>
                   <origin>
                      <p>This copy seems to have been migrated from Laikha (Shan State) to Maehongson and finally reached the current location of Wat Jong Klang.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                   <acquisition>
                      <p>Original donor: pū kaṅʻʹ taṅʻʺ keʺ Original donor information: introduction</p>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,16 +61,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  tra Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Folio / page numbers were added during fieldwork in January 2014. Both covers have floral arts beautifully decorated on red lacquer, and painted with gold on the side of the manuscript.</note>
                      <note>Summary intro: The year of composing is mentioned in the introduction, folio number 7.</note>
@@ -86,11 +82,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>140 / 280<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>excellent</p>
-                              <p>Beautiful covers.</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>excellent</p>
+                           <p>Beautiful covers.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -108,7 +104,7 @@
                <history>
                   <origin>
                      <p>No information for second copy, we can assume this is the original manuscript text.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1286</p>
                   </origin>

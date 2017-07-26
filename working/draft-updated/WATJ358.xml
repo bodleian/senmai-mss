@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ဢုပေႃးသထသျုၽွႆႇ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  Phuen Lik Rhyming system: sam kiv</note>
@@ -78,14 +76,14 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>64 / 128<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:)  11</p>
-                           </foliation>
-                           <condition>
-                              <p>poor</p>
-                              <p>wear</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:)  11</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -100,13 +98,13 @@
                <history>
                   <origin>
                      <p>damaged, pages missing.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2422</p>
                   </origin>
                   <acquisition>
                      <p>Original donor information: introduction</p>
-                     <p>Original place of donation (shan): <foreign xmlns="" xml:lang="shn">ၸဝ်ႈၾႃႉမွၵ်ႇမႆႇ</foreign>Original donor place information: introduction</p>
+                     <p>Original place of donation (shan): <foreign xml:lang="shn">ၸဝ်ႈၾႃႉမွၵ်ႇမႆႇ</foreign>Original donor place information: introduction</p>
                      <p>Present copy's donor (shan): <foreign xml:lang="shn">လုင်းၵျွင်းၸႆၢး မွၵ်ႇမႆႇ</foreign>
                      </p>
                   </acquisition>

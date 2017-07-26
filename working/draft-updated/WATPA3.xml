@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_PA</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Pang Mu</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ဢလွင်းႁွႆၶၢဝ်</foreign>
                      </title>
                      <title xml:lang="en" type="alt">ʼalauṅʻʺ hoi khavʻ nāṅʻʺ kānʻ yūṅʻ</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Alaung   Rhyming system: sauṅ'' kivʻ Introduction: no</note>
@@ -79,11 +77,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc>
                         <extent>560<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                              <p>human</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>human</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -100,7 +98,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1205</p>
                   </origin>

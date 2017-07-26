@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ၵိႁိၸႃရိတ်တ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Lik  tra Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Text at other location: Wat Pang Mu</note>
@@ -78,10 +76,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>40 / 80<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>Pages missing, no covers.</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>Pages missing, no covers.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -92,7 +90,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1219</p>
                      <p>Date of copying (era): sakkaraja era</p>

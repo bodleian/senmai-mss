@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">မိလိင်ႇတ တုတိယတွႆး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Lik  Vatthu Rhyming system: sam kiv Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Introduction: yes</note>
@@ -80,11 +78,11 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>142<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                              <p>animal,wear</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal,wear</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -100,14 +98,14 @@
                <history>
                   <origin>
                      <p>This is the original version.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1249</p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
                   <acquisition>
-                     <p>Original donor: kyauṅ ta kā kitti Original donor (shan): <foreign xmlns="" xml:lang="shn">ၵျွင်းတၵႃႇၵိတ်တိ</foreign>Original donor information: introduction</p>
-                     <p>Original place of donation: Maehongson Original place of donation (shan): <foreign xmlns="" xml:lang="shn">မိူင်းမႄႈႁွင်ႈသွၼ်</foreign>Original donor place information: introduction</p>
+                     <p>Original donor: kyauṅ ta kā kitti Original donor (shan): <foreign xml:lang="shn">ၵျွင်းတၵႃႇၵိတ်တိ</foreign>Original donor information: introduction</p>
+                     <p>Original place of donation: Maehongson Original place of donation (shan): <foreign xml:lang="shn">မိူင်းမႄႈႁွင်ႈသွၼ်</foreign>Original donor place information: introduction</p>
                      <p>Present copy information: colophon,introduction</p>
                      <p>Place name for present copy: ႂWat Jong Klang, Maehongson Place name for present copy (shan): <foreign xml:lang="shn">ဝတ်ႉၵျွင်းၵၢင် မႄႈႁွင်ႈသွၼ်</foreign>
                      </p>

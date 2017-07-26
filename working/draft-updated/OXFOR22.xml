@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor:  tra Introduction: yes</note>
                      <note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete.</note>
                      <note>Summary intro: Containing the text title, name of the donor, his family, and standard dedication for Nibbāna.</note>
@@ -89,15 +85,15 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>50pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 22</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>water,wear</p>
-                              <p>damaged front and back</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 22</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>water,wear</p>
+                           <p>damaged front and back</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -113,7 +109,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: unknown</provenance>
                   <acquisition>

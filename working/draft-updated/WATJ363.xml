@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ၵၼ်တေႃ်မိင်းၵျွင်း</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified   Rhyming system: sam kiv</note>
@@ -78,15 +76,15 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>74 / 148<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 10</p>
-                           </foliation>
-                           <condition>
-                              <p>poor</p>
-                              <p>animal,wear</p>
-                              <p>Damaged, pages missing.</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 10</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal,wear</p>
+                           <p>Damaged, pages missing.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -100,12 +98,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1229</p>
                   </origin>
                   <acquisition>
-                     <p>Original donor (shan): <foreign xmlns="" xml:lang="shn">တၵႃ်ပေႃ်မိုင်း</foreign>
+                     <p>Original donor (shan): <foreign xml:lang="shn">တၵႃ်ပေႃ်မိုင်း</foreign>
                      </p>
                   </acquisition>
                </history>

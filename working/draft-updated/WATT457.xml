@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -61,17 +61,13 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (pictures): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (pictures): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -84,12 +80,12 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>140/280<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>poor</p>
-                              <p>wear</p>
-                              <p>A drawing of Buddha image was painted on the front cover.</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                           <p>A drawing of Buddha image was painted on the front cover.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -106,7 +102,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1244</p>
                      <p>Date of copying (era): sakkaraja era</p>

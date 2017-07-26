@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -60,9 +60,7 @@
                         <foreign xml:lang="shn">ဢလွင်းသုမေထႃႇ ပႃႇရမီႇၽေႉၶၢၼ်း</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Lik   Rhyming system: sām'' kio''</note>
@@ -78,10 +76,10 @@
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>
                            <dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>reasonable</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -98,7 +96,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1261</p>
                      <p>Date of copying (era): sakkaraja era</p>

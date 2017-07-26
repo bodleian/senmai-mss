@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Introduction: yes Text at other location: OXFOR24</note>
                      <note>General remarks on work: 17 sheets. No numbering. Not certain if this is an original or a copy; to check if this text is kept at other library/temple collections.</note>
                      <note>Summary intro: It contains the text title, donor's name and place, and standard dedication for Nibbāna.</note>
@@ -89,14 +85,14 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>17<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 24</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>animal</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 24</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>animal</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -112,7 +108,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1276</p>
                   </origin>

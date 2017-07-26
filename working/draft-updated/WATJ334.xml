@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">သုၸရိုၵ် ၻုၸရိုၵ် ဝုတ်ထု သိပ်းပႃး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  Vatthu Rhyming system: sam kiv Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Introduction: yes Text at other location: Wat Pang Mu</note>
@@ -79,10 +77,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>110 / 220<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>reasonable</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -98,13 +96,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1302</p>
                   </origin>
                   <acquisition>
-                     <p>Original donor: me saṅ naṅ nu Original donor (shan): <foreign xmlns="" xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၼု</foreign>Original donor information: introduction</p>
-                     <p>Original place of donation: Pha Vong village Original place of donation (shan): <foreign xmlns="" xml:lang="shn">ဝၢၼ်ႈၽႃဝွင်ႇ (မႄႈႁွင်ႈသွၼ်)</foreign>Original donor place information: introduction</p>
+                     <p>Original donor: me saṅ naṅ nu Original donor (shan): <foreign xml:lang="shn">မႄႈသၢင်ႇၼၢင်းၼု</foreign>Original donor information: introduction</p>
+                     <p>Original place of donation: Pha Vong village Original place of donation (shan): <foreign xml:lang="shn">ဝၢၼ်ႈၽႃဝွင်ႇ (မႄႈႁွင်ႈသွၼ်)</foreign>Original donor place information: introduction</p>
                      <p>Present copy's donor: ta kā noi saun naṅ liṅ (Maehongson) Present copy's donor (shan): <foreign xml:lang="shn">တၵ်ႃၼွႆႉသွၼ်း ၼင်းလိင် မေႁွင်ႈသွၼ်</foreign>Present copy information: introduction</p>
                      <p>Place name for present copy: Wat Jong Klang, Maehongson</p>
                   </acquisition>

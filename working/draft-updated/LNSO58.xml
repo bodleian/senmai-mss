@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>LN_SO</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>SOAS Library, School of Oriental and African Studies</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">ဢလွင်းၵႂႃႇဢဝ်ၸၢင်ႉသၢမ်ငႃး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Alaung   Introduction: yes</note>
@@ -81,14 +79,14 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>135 / 270pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 22</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>wear</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 22</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>wear</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -102,7 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1275</p>
                   </origin>

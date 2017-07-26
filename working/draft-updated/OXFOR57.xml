@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): mono</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): mono</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Kyam Introduction: no</note>
                      <note>General remarks on work: Several hand writings.</note>
                      <note xml:lang="shn"/>
@@ -103,18 +99,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>Commentary on the 52 cetasika in the second chapter of the abhidhammattha-sangaha.</note>
@@ -144,16 +136,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note xml:lang="shn"/>
                      <note>A Shan Poetry on 40 meditation objects connected with death, for recitation by meditators</note>
@@ -183,9 +171,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
@@ -217,9 +203,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
@@ -251,9 +235,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
@@ -270,14 +252,14 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>31 / 62<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) Unknown</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>water,wear</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) Unknown</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>water,wear</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -294,7 +276,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): Unknown</p>
                      <p>Date of composition (year): Unknown</p>
                      <p>Date of copying (era): Unknown</p>

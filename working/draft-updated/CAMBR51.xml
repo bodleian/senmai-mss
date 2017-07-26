@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>CAMBR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>University Library, Cambridge University</settlement>
@@ -58,18 +58,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt">suttasangaha</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): mono</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): mono</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Introduction: yes Text at other location: W49</note>
                      <note>General remarks on work: Contains diagrams pertaining to mental processes.</note>
                      <note>Summary intro: Composed at the request of royal court.</note>
@@ -86,15 +82,15 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>64pp/ff (shan numbering)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 10</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>wear,human</p>
-                              <p>in good condition</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 10</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>wear,human</p>
+                           <p>in good condition</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -111,7 +107,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2273</p>
                      <p>Date of copying (era): buddhist era</p>

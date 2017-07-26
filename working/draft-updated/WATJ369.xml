@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Not specified  </note>
@@ -78,13 +76,13 @@
                   <objectDesc>
                      <supportDesc>
                         <extent>32 / 64<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 11</p>
-                           </foliation>
-                           <condition>
-                              <p>poor</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 11</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -93,12 +91,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1237</p>
                   </origin>
                   <acquisition>
-                     <p>Original donor (shan): <foreign xmlns="" xml:lang="shn">ၵျွင်းတၵႃႇတၢင်းၵေးၼေႇဢွင်ႇ</foreign>
+                     <p>Original donor (shan): <foreign xml:lang="shn">ၵျွင်းတၵႃႇတၢင်းၵေးၼေႇဢွင်ႇ</foreign>
                      </p>
                   </acquisition>
                </history>

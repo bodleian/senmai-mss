@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -61,9 +61,7 @@
                         <foreign xml:lang="shn">မင်ၵလႃႇၵျၢမ်း</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
                      <note>Shan text descriptor: Lik  tra Rhyming system: sauṅ kiv Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>Introduction: yes</note>
@@ -79,10 +77,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>152 / 240<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>animal</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>animal</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -98,15 +96,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1259</p>
                      <p>Date of copying (era): sakkaraja era</p>
                      <p>Date of copying (year): 1322</p>
                   </origin>
                   <acquisition>
-                     <p>Original donor: kyauṅ ta kā re iṅ Original donor (shan): <foreign xmlns="" xml:lang="shn">ၵျွင်းတၵ်ႃရေဢိင်း</foreign>Original donor information: introduction</p>
-                     <p>Original place of donation: me lā luṅ Original place of donation (shan): <foreign xmlns="" xml:lang="shn">မိူင်းမႄႈလႃးလူင်</foreign>
+                     <p>Original donor: kyauṅ ta kā re iṅ Original donor (shan): <foreign xml:lang="shn">ၵျွင်းတၵ်ႃရေဢိင်း</foreign>Original donor information: introduction</p>
+                     <p>Original place of donation: me lā luṅ Original place of donation (shan): <foreign xml:lang="shn">မိူင်းမႄႈလႃးလူင်</foreign>
                      </p>
                      <p>Present copy's donor: po caṅ khyit me caṅ mit (me hauṅ saun) Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈၸၢင်းၶျိတ်ႉ မႄႈၸၢင်းမိတ်ႈ (မႄႈႁွင်ႈသွၼ်)</foreign>Present copy information: introduction</p>
                      <p>Place name for present copy: Wat Jong Klang, Maehongson Place name information: introduction</p>

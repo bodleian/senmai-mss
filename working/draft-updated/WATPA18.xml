@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_PA</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Pang Mu</settlement>
@@ -60,16 +60,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): colour</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): colour</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">ၸသမ်ၵိၺ်</foreign>Shan</note>
                      <note>General remarks on work: The cover is painted in red colour.</note>
                      <note>Summary intro: Once up on a time in the country of Pārāṇasī, there was a rich Brahmana couple. The husband was handsome and the wife was beautiful. They were generous giving things away but their money in bank was ever decreased. Later, they had two children - a boy and a daughter. The boy was called Mahākiñcana and the daughter was called Kiñcanadevī. The couple noticed that their son, Mahākiñcana, did not seem to be enjoying with life. He looked boring. So, his father arranged for him to get married with a beautiful lady. However Mahākiñcana told his father that he did not want to get married. Instead, he wanted to renounce the worldly life and get ordained. ...</note>
@@ -84,10 +80,10 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>284<dimensions type="written" unit="cm"/>
-                           <condition>
-                              <p>excellent</p>
-                           </condition>
                         </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -104,7 +100,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1275</p>
                   </origin>

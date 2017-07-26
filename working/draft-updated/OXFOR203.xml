@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                           <p>Illustrated (diagrams): mono</p>
-                           <p>Illustrated (pictures): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): mono</p>
+                        <p>Illustrated (pictures): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Kyam Introduction: yes</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -86,10 +82,10 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>22 / 44<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 15</p>
-                           </foliation>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 15</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -105,7 +101,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                   </origin>
                </history>
             </msDesc>

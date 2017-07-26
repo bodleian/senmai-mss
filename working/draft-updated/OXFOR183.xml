@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>OXFOR</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Bodleian Library, Oxford University</settlement>
@@ -61,18 +61,14 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): none</p>
-                           <p>Illustrated (diagrams): none</p>
-                           <p>Illustrated (pictures): none</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>
                      </note>
                      <note>General remarks on work: Bought from J. Tregaskis, 1 April 1905.</note>
@@ -87,15 +83,15 @@
                   <objectDesc form="rolled_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>66pp/ff (arabic numbering)<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 26</p>
-                           </foliation>
-                           <condition>
-                              <p>reasonable</p>
-                              <p>human</p>
-                              <p>Light damage restored, bound in hard cover. Two front pages are missing (cut off). The top edge of the second page, which was cut off, sill contains a line of text.</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 26</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>human</p>
+                           <p>Light damage restored, bound in hard cover. Two front pages are missing (cut off). The top edge of the second page, which was cut off, sill contains a line of text.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -110,7 +106,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1202</p>
                   </origin>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian"/>
+            <date calendar="Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -61,16 +61,12 @@
                         <foreign xml:lang="shn"/>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
-                            xml:lang=""
-                            xsi:type="alt">
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
                         <foreign xml:lang="shn"/>
                      </title>
-                     <decoDesc>
-                        <decoNote>
-                           <p>Illustrated (ornamentation): mono</p>
-                        </decoNote>
-                     </decoDesc>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                     </decoNote>
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ kvāmʻʺ nūñʻʺ</note>
                      <note xml:lang="shn"/>
                      <note xml:lang="shn"/>
@@ -83,13 +79,13 @@
                   <objectDesc form="concertina_book">
                      <supportDesc material="sa_(mulberry)_paper">
                         <extent>142/284<dimensions type="written" unit="cm"/>
-                           <foliation>
-                              <p>Lines (per folio:) 8-9</p>
-                           </foliation>
-                           <condition>
-                              <p>animal</p>
-                           </condition>
                         </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 8-9</p>
+                        </foliation>
+                        <condition>
+                           <p>animal</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -107,7 +103,7 @@
                <history>
                   <origin>
                      <p>The manuscript's original sponsor was the founder of Wat Tiyasthan.</p>
-                     <origDate calendar="Gregorian" when="seecommentbelow">Gregorian</origDate>
+                     <origDate calendar="Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2472</p>
                   </origin>
