@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_394">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LASHI430</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LASHI</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Lashio</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>LASHI</idno>
+            <idno type="msID">LASHI430</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LASHI430" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Lashio</settlement>
+                  <institution>Lashio</institution>
+                  <repository>Burma, Shan State (north)</repository>
+                  <collection>shrine room hidden</collection>
+                  <idno>LASHI430</idno>
+                  <altIdentifier>
+                     <idno>13</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="LASHI430-item1" n="W443">
+                     <author>srā panʻʺ sèṅʻʺ (vanʻ ciṅʻʺ muiṅʻʺ nauṅʻ)</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">saṅkhārabhāsī kyamʻʺ</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ phį̄ lą̄</note>
+                     <note xml:lang="shn"/>
+                     <note>The text is about people who have old age but do not learn to observe the precepts or follow the Buddha's teaching..</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  abhidhamma,meditation,sermon </note>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W443</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>132/264<dimensions type="written" unit="cm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
+                     </p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): 2409</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1322</p>
+                  </origin>
+                  <acquisition>
+                     <p>Present copy's donor: po̐ saṅʻ lų̄ naṅʻʺ khamʻʺ (vanʻ̐ pakʻ̨ taṅʻʺ mè̐ tèṅʻ)</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

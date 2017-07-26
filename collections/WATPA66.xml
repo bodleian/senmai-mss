@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_798">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_PA66</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_PA</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Pang Mu</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA66</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA66" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>shrine room stacked</collection>
+                  <idno>WAT_PA66</idno>
+                  <altIdentifier>
+                     <idno>096</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan script</textLang>
+                  <msItem xml:id="WATPA66-item1" n="W71">
+                     <author>unknown</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">pukʻ thā nu sa ti sipʻʺ pāʺ</title>
+                     <title xml:lang="">The ten ways of reflecting on the Buddha etc.</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: no</note>
+                     <note xml:lang="shn"/>
+                     <note>Commentary on the ten asubha-bhāvanā.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  sutta,meditation </note>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W71</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>138/278<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): 2410</p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <acquisition>
+                     <p>Original donor: luṅʻʺ ce ya (and family)</p>
+                     <p>Present copy's donor: me saṅʻ naṅʻʺ suñʻ (and family)</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

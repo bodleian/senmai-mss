@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_609">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J348</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ348</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ348" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J348</idno>
+                  <altIdentifier>
+                     <idno>076</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATJ348-item1" n="W359">
+                     <author>sra ca re thav</author>
+                     <author>
+                        <foreign xml:lang="shn">သြႃႇၸရေးထဝ်ႈ</foreign>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">abhidhamma pit ce sav sī</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">ဢၽိထမ်ႇမႃႇ ပိၸ်ၸေးသၢဝ်းသီႇ</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅ kiv Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>
+                     </note>
+                     <note xml:lang="shn"/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  abhidhamma </note>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W359</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>46 / 92<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>wear,human</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
+                     </p>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1246</p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: taṅ ke ta kā nanta Original donor (shan): <foreign xml:lang="shn">တၢင်းၵေးတၵႃႇၼၼ်ႇတ</foreign>
+                     </p>
+                     <p>Original place of donation: Van Nuea Original place of donation (shan): <foreign xml:lang="shn">ဝၢၼ်ႈၼိူဝ် လၢင်းၶိူဝ်း</foreign>
+                     </p>
+                     <p>Present copy's donor (shan): <foreign xml:lang="shn">ပေႃႈပွၵ်း မႄႈပွၵ်း ၶဝ်ၸဝ်ႈတင်းႁိူၼ်း</foreign>
+                     </p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

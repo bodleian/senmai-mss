@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_604">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J343</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ343</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ343" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J343</idno>
+                  <altIdentifier>
+                     <idno>071</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATJ343-item1" n="W354">
+                     <author>ca re sūriyā</author>
+                     <author>
+                        <foreign xml:lang="shn">ၸရေးသူႇရိယႃႇ</foreign>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">arindamā vatthu</title>
+                     <title xml:lang="">Story of Arindama</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">ၸဝ်ႈဢရိင်ႇတမႃႇဝတ်ႉထု</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: sam kiv Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Shan Text at other location: Wat Pang Mu</note>
+                     <note xml:lang="shn"/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  canonical jataka </note>
+                     <colophon>Colophon:yes Colophon type:scribal </colophon>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W354</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>148 / 336<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal</p>
+                           <p>Word arts of section ending marks. Neat hand writing.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1283</p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): 1300</p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: po saṅ iṅ tā me saṅ naṅ uṅ Original donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇဢိင်ႇတႃႇ မႄႈသၢင်ႇၼၢင်းဢုင်ႇ</foreign>
+                     </p>
+                     <p>Present copy's donor: pā seṅ (Thung Loung village) Present copy's donor (shan): <foreign xml:lang="shn">ပႃႈသႅင် ဝၢၼ်ႈထုင်ႉလူင်</foreign>Present copy information: colophon</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

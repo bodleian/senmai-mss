@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_421">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OXFOR182</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>OXFOR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR182</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR182" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR182</idno>
+                  <altIdentifier>
+                     <idno>MS. Asiat. Misc. b. 10 (R)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan script</textLang>
+                  <msItem xml:id="OXFOR182-item1" n="W187">
+                     <author>unknown</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">likʻ muñʻ to cu kyaṃ</title>
+                     <title xml:lang="">A collection of pagodas/relics</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: yes</note>
+                     <note xml:lang="shn"/>
+                     <note>The texts contain names and images of famous pagodas in Brahma-loka, Burma, Thailand, and India. The text also gives praise of pagodas and local legends.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  instruction Subject comments: Pagodas</note>
+                     <colophon>Making wishes for Nibbāna and dedication to family members (on page 21). Colophon repeated for each subsequent section of text.Colophon:yes </colophon>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W187</note>
+                  </msItem>
+                  <msItem xml:id="OXFOR182-item2" n="W188">
+                     <author>unknown</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">unknown</title>
+                     <title xml:lang=""/>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: no</note>
+                     <note xml:lang="shn"/>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  abhidhamma,sutta,commentary Subject comments: A text on suññatā and relics</note>
+                     <colophon>scribal wishes for the attainment of Nibbāna.Colophon:yes Additional colophon:no </colophon>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W188</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>82 (21-102)<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 10</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>human</p>
+                           <p>pages missing from beginning/end</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac,gilt,stencil</decoNote>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>Present copy's donor: khiṅʻ greāṅʻ tanʻ Present copy information: colophon</p>
+                     <p>Place name for present copy: Mong Hang Place name information: colophon</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

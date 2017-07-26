@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_537">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J276</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ276</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ276" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J276</idno>
+                  <altIdentifier>
+                     <idno>004</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATJ276-item1" n="W286">
+                     <author>munʻ caṅʻʺ nauṅʻ kenʻ mūiṅʻʺ nāiʺ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">satipathanʻ̨ vatthu paṭṭhama toiʺ</title>
+                     <title xml:lang="">Story of Satipaṭṭhāna, volume one</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <note>Shan text descriptor:  Kyam Vatthu Rhyming system: sāmʻ kivʻ</note>
+                     <note>General remarks on work: This text is missing from the chest/cabinet when the second fieldwork was conducted in January 2014. It is possible that it was taken out for recitation and not yet returned, as it is the case with other texts that after taken out for recitation, they were kept in the Buddha's shrine instead of returning them to the chest. There is a fragile ms with no. 004 in the chest but it is not the text with this title. It's possible that there were duplicates or some mistakes when collecting the data in 2009.</note>
+                     <note xml:lang="shn"/>
+                     <note>Story of a rich man who left his house, wife, children and all properties behind to become a forest monk practising meditation. In his temple ground there is big banyan tree. One day, a giant bird 'Kalun' had caught a dragon 'Naga' and came to that big banyan tree. The Kalun bird then changed his body as a human and went to the monk and asked if that big bird did something wrong unwholesome for bringing the dragon. The monk replied: "It is very much depending on his mind. If his mind has intention to destroy others, then it is wrong doing, but if he has no intention of destroying others, then he has done nothing wrong". The man (the Kalun) was so happy and offer some special mantra of protection and medicine to the monk.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  sutta </note>
+                     <textLang mainLang="shn">shan,pali</textLang>
+                     <note>Work ID: W286</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>166 / 228<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural</p>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1245</p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: pā̐ kyauṅʻʺ nāṅʻʺ ciṅʻ̨</p>
+                     <p>Present copy's donor: pā̐ ʼau of Maehongson Present copy information: colophon</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson. Place name information: introduction</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

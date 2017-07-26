@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../bodley-msDesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_539">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J278</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ278</idno>
+            <idno type="catalogue">Shan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ278" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J278</idno>
+                  <altIdentifier>
+                     <idno>006</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang>Written in shan,burmese script</textLang>
+                  <msItem xml:id="WATJ278-item1" n="W288">
+                     <author>careʺ ta peʺ munʻ cavʻ̐ hāiʺ kūivʻ</author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <author>
+                        <foreign xml:lang="shn"/>
+                     </author>
+                     <title xml:lang="">dhammadāna shu phoi</title>
+                     <title xml:lang="">Reflection on the gift of Dhamma</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn"/>
+                     </title>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                     </decoNote>
+                     <note>Shan text descriptor:  tra Rhyming system: sāmʻ kivʻ Introduction: yes</note>
+                     <note>General remarks on work: Folio / page numbers were added during fieldwork in January 2014. Both covers have floral arts beautifully decorated on red lacquer, and painted with gold on the side of the manuscript.</note>
+                     <note>Summary intro: The year of composing is mentioned in the introduction, folio number 7.</note>
+                     <note xml:lang="shn"/>
+                     <note>The text is about the attitude towards offering or making merit 'dāna'. When making offering, it is important to share the merit to others. In the same way, when seeing others making offering, it is important to be happy and share your joy with them.</note>
+                     <note xml:lang="shn"/>
+                     <note>Subject:  sutta </note>
+                     <textLang mainLang="shn">shan,pali</textLang>
+                     <note>Work ID: W288</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>140 / 280<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>excellent</p>
+                           <p>Beautiful covers.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac,gilt,embossed</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>No information for second copy, we can assume this is the original manuscript text.</p>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): 1286</p>
+                  </origin>
+                  <provenance>Former owner: Wat Jong Klang.</provenance>
+                  <acquisition>
+                     <p>Original donor: kyauṅʻʺ seʺ of Tenput village</p>
+                     <p>Original place of donation: Tenput village</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2017-07-26">
+            <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
