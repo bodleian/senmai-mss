@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -103,7 +103,7 @@
                <history>
                   <origin>
                      <p>The manuscript's original sponsor was the founder of Wat Tiyasthan.</p>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2472</p>
                   </origin>

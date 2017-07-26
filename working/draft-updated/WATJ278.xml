@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -104,7 +104,7 @@
                <history>
                   <origin>
                      <p>No information for second copy, we can assume this is the original manuscript text.</p>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1286</p>
                   </origin>

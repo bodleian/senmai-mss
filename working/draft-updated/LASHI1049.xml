@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>LASHI</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Lashio</settlement>
@@ -86,7 +86,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of composition (year): 1326</p>
                   </origin>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -100,7 +100,7 @@
                <history>
                   <origin>
                      <p>This copy was donated by Mr Nandiya and family, founder of Wat Tiyasathan, Mae Taeng, where the manuscript is kept.</p>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                      <p>Date of copying (era): buddhist era</p>
                      <p>Date of copying (year): 2443</p>
                   </origin>

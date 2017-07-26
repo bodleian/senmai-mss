@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_T</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Tiyasathan</settlement>
@@ -126,7 +126,7 @@
                <history>
                   <origin>
                      <p>The writing of this text was completed on the 5th day of the waning moon of the 11th month of Shan calendar (2406 BE).</p>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                      <p>Date of composition (era): buddhist era</p>
                      <p>Date of composition (year): 2406</p>
                   </origin>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>WAT_J</publisher>
-            <date calendar="Gregorian">Gregorian</date>
+            <date calendar="#Gregorian">Gregorian</date>
             <pubPlace>
                <address>
                   <settlement>Wat Jong Klang</settlement>
@@ -103,7 +103,7 @@
                <history>
                   <origin>
                      <p>This is the original text and perhaps the only copy exists.</p>
-                     <origDate calendar="Gregorian">Gregorian</origDate>
+                     <origDate calendar="#Gregorian">Gregorian</origDate>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
                   <acquisition>
