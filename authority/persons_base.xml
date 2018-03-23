@@ -1,0 +1,2053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="authority-schematron.sc" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+
+                <person xml:id="person_230">
+                    <persName type="display">amātʻ̐ lūṅʻ veṅʻʺ hūvʻ pūṅʻʺ (ūʺ cāmʻ̨ mya pinʻ̨ phāį taiʺ)</persName>
+                    <!-- ../collections/WATT511.xml#WATT511-item1 -->
+                </person>
+
+                <person xml:id="person_280">
+                    <persName type="display">Anuruddha Thera</persName>
+                    <!-- ../collections/CAMBR827.xml#CAMBR827-item1 -->
+                    <!-- ../collections/CAMBR827.xml#CAMBR827-item2 -->
+                    <!-- ../collections/CAMBR827.xml#CAMBR827-item3 -->
+                    <!-- ../collections/CAMBR827.xml#CAMBR827-item4 -->
+                </person>
+
+                <person xml:id="person_95">
+                    <persName type="display">Bhikkhu Thī Sèṅ‘ of Huv‘kun‘ Monastery</persName>
+                    <!-- ../collections/CAMBR596.xml#CAMBR596-item1 -->
+                </person>
+
+                <person xml:id="person_321">
+                    <persName type="display">ca re cai sam</persName>
+                    <persName type="variant">ca re cai saṃ (muiṅ nai)</persName>
+                    <!-- ../collections/WATJ323.xml#WATJ323-item1 -->
+                    <!-- ../collections/WATJ356.xml#WATJ356-item1 -->
+                </person>
+
+                <person xml:id="person_106">
+                    <persName type="display">ca re ciṅ tā ya</persName>
+                    <!-- ../collections/WATJ324.xml#WATJ324-item1 -->
+                </person>
+
+                <person xml:id="person_245">
+                    <persName type="display">ca re jina (muiṅ yaṅ liṅ)</persName>
+                    <persName type="variant">careʺ jina (mūiṅʻʺ yaṅʻʺ lèṅʻ)</persName>
+                    <persName type="variant">careʺ jina (mūiṅʻʺ yāṅʻʺ lèṅʻ)</persName>
+                    <!-- ../collections/WATJ284.xml#WATJ284-item1 -->
+                    <!-- ../collections/WATJ340.xml#WATJ340-item1 -->
+                    <!-- ../collections/WATPH793.xml#WATPH793-item1 -->
+                    <!-- ../collections/WATPH799.xml#WATPH799-item1 -->
+                </person>
+
+                <person xml:id="person_225">
+                    <persName type="display">ca re kaun kham</persName>
+                    <!-- ../collections/WATJ360.xml#WATJ360-item1 -->
+                </person>
+
+                <person xml:id="person_290">
+                    <persName type="display">ca re kham mu (van ha)</persName>
+                    <!-- ../collections/WATJ377.xml#WATJ377-item1 -->
+                </person>
+
+                <person xml:id="person_193">
+                    <persName type="display">ca re kovida mauk mai (mun cav huv loi mauṅ lav)</persName>
+                    <!-- ../collections/WATJ358.xml#WATJ358-item1 -->
+                </person>
+
+                <person xml:id="person_173">
+                    <persName type="display">ca re kyaun ta ka maun lu</persName>
+                    <!-- ../collections/WATJ375.xml#WATJ375-item1 -->
+                </person>
+
+                <person xml:id="person_180">
+                    <persName type="display">ca re kyauṅ cik ta (muin nai)</persName>
+                    <!-- ../collections/WATJ313.xml#WATJ313-item1 -->
+                    <!-- ../collections/WATJ319.xml#WATJ319-item1 -->
+                </person>
+
+                <person xml:id="person_221">
+                    <persName type="display">ca re kyauṅ citta (muin nai)</persName>
+                    <!-- ../collections/WATJ339.xml#WATJ339-item1 -->
+                </person>
+
+                <person xml:id="person_295">
+                    <persName type="display">ca re laṅ khuiv</persName>
+                    <!-- ../collections/WATJ316.xml#WATJ316-item1 -->
+                </person>
+
+                <person xml:id="person_309">
+                    <persName type="display">ca re mauṅ khin</persName>
+                    <!-- ../collections/WATJ317.xml#WATJ317-item1 -->
+                </person>
+
+                <person xml:id="person_98">
+                    <persName type="display">ca re muin nauṅ</persName>
+                    <!-- ../collections/WATJ354.xml#WATJ354-item1 -->
+                </person>
+
+                <person xml:id="person_394">
+                    <persName type="display">ca re mun to kun tin</persName>
+                    <!-- ../collections/WATJ379.xml#WATJ379-item1 -->
+                </person>
+
+                <person xml:id="person_213">
+                    <persName type="display">ca re nā kiv (Sī Po)</persName>
+                    <persName type="variant">ca re nā kiv (sī po)</persName>
+                    <!-- ../collections/WATJ328.xml#WATJ328-item1 -->
+                    <!-- ../collections/WATJ357.xml#WATJ357-item1 -->
+                </person>
+
+                <person xml:id="person_141">
+                    <persName type="display">ca re nā poi</persName>
+                    <!-- ../collections/WATJ329.xml#WATJ329-item1 -->
+                </person>
+
+                <person xml:id="person_22">
+                    <persName type="display">ca re paññā</persName>
+                    <persName type="variant">ca re paññā (loi caṅ)</persName>
+                    <persName type="variant">ca re paññā (mauk mai)</persName>
+                    <persName type="variant">ca reʺ paññā</persName>
+                    <!-- ../collections/WATJ347.xml#WATJ347-item1 -->
+                    <!-- ../collections/WATJ359.xml#WATJ359-item1 -->
+                    <!-- ../collections/WATJ371.xml#WATJ371-item1 -->
+                    <!-- ../collections/WATPA138.xml#WATPA138-item1 -->
+                </person>
+
+                <person xml:id="person_138">
+                    <persName type="display">ca re saṅ o</persName>
+                    <!-- ../collections/WATJ326.xml#WATJ326-item1 -->
+                </person>
+
+                <person xml:id="person_64">
+                    <persName type="display">ca re se tan</persName>
+                    <!-- ../collections/WATJ365.xml#WATJ365-item1 -->
+                </person>
+
+                <person xml:id="person_174">
+                    <persName type="display">ca re sucinta</persName>
+                    <!-- ../collections/WATJ380.xml#WATJ380-item1 -->
+                </person>
+
+                <person xml:id="person_291">
+                    <persName type="display">ca re sūriyā</persName>
+                    <persName type="variant">ca re sūriyā (Maehongson)</persName>
+                    <persName type="variant">ca reʺ sūriya (mè hauṅʻ saunʻ)</persName>
+                    <persName type="variant">careʺ sūriyā (maeʻ̐ hauṅʻ̐ saunʻ)</persName>
+                    <persName type="variant">careʺ sūriyā (me̐hauṅʻ̐saunʻ)</persName>
+                    <!-- ../collections/WATJ281.xml#WATJ281-item1 -->
+                    <!-- ../collections/WATJ304.xml#WATJ304-item1 -->
+                    <!-- ../collections/WATJ343.xml#WATJ343-item1 -->
+                    <!-- ../collections/WATJ366.xml#WATJ366-item1 -->
+                    <!-- ../collections/WATPA102.xml#WATPA102-item1 -->
+                    <!-- ../collections/WATPH760.xml#WATPH760-item1 -->
+                    <!-- ../collections/WATPH794.xml#WATPH794-item1 -->
+                </person>
+
+                <person xml:id="person_397">
+                    <persName type="display">ca re thun khiṅ</persName>
+                    <!-- ../collections/WATJ321.xml#WATJ321-item1 -->
+                </person>
+
+                <person xml:id="person_312">
+                    <persName type="display">ca re" saṅʻ tanʻʺ</persName>
+                    <!-- ../collections/WATPA64.xml#WATPA64-item1 -->
+                </person>
+
+                <person xml:id="person_132">
+                    <persName type="display">ca re" sūriya me'' hauṅ'' saun''</persName>
+                    <persName type="variant">care" sūriyā meʻ hauṅ' saun'</persName>
+                    <!-- ../collections/CAMBR51.xml#CAMBR51-item1 -->
+                    <!-- ../collections/WATPA2.xml#WATPA2-item1 -->
+                </person>
+
+                <person xml:id="person_123">
+                    <persName type="display">ca reʺ (sic ceʺ leʺ) ʼaiṅʻ tā (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATPA108.xml#WATPA108-item1 -->
+                </person>
+
+                <person xml:id="person_344">
+                    <persName type="display">ca reʺ aiṅʻ tā (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATPA147.xml#WATPA147-item1 -->
+                </person>
+
+                <person xml:id="person_8">
+                    <persName type="display">ca reʺ aūʺ muiṅʻʺ lī</persName>
+                    <!-- ../collections/WATPA47.xml#WATPA47-item1 -->
+                </person>
+
+                <person xml:id="person_114">
+                    <persName type="display">ca reʺ caiʺ samʻ</persName>
+                    <!-- ../collections/WATJ399.xml#WATJ399-item1 -->
+                </person>
+
+                <person xml:id="person_33">
+                    <persName type="display">ca reʺ cenʻ khamʻʺ sái (ceʻ lanʻʹ)</persName>
+                    <!-- ../collections/WATJ420.xml#WATJ420-item1 -->
+                </person>
+
+                <person xml:id="person_349">
+                    <persName type="display">ca reʺ ceʺ kuṅʻʺ vanʻ ciṅʻʺ</persName>
+                    <!-- ../collections/WATPA155.xml#WATPA155-item1 -->
+                </person>
+
+                <person xml:id="person_255">
+                    <persName type="display">ca reʺ cikʻʺ ta (maukʻ mai)</persName>
+                    <!-- ../collections/WATJ409.xml#WATJ409-item1 -->
+                </person>
+
+                <person xml:id="person_34">
+                    <persName type="display">ca reʺ iṅʻ tā (muiṅʻʺ naiʺ)</persName>
+                    <persName type="variant">careʺ iṅʻtā muiṅʻʺnāīʺ</persName>
+                    <!-- ../collections/WATPA128.xml#WATPA128-item1 -->
+                    <!-- ../collections/WATPA30.xml#WATPA30-item1 -->
+                    <!-- ../collections/WATPA85.xml#WATPA85-item1 -->
+                    <!-- ../collections/WATPH775.xml#WATPH775-item1 -->
+                </person>
+
+                <person xml:id="person_37">
+                    <persName type="display">ca reʺ kamʻ poʺ ca</persName>
+                    <!-- ../collections/WATPA129.xml#WATPA129-item1 -->
+                </person>
+
+                <person xml:id="person_86">
+                    <persName type="display">ca reʺ kaunʻ khamʻʺ (ta peʺ munʻ caṅʻʺ keṅʻʺ tauṅʻʺ kyauṅʻʺ loi)</persName>
+                    <persName type="variant">careʺ kauṅʻʺ khamʻ</persName>
+                    <!-- ../collections/WATPA115.xml#WATPA115-item1 -->
+                    <!-- ../collections/WATPA13.xml#WATPA13-item1 -->
+                </person>
+
+                <person xml:id="person_315">
+                    <persName type="display">ca reʺ keṅʻʺ khamʻʺ</persName>
+                    <!-- ../collections/WATJ391.xml#WATJ391-item1 -->
+                </person>
+
+                <person xml:id="person_389">
+                    <persName type="display">ca reʺ khamʻʺ mūʺ</persName>
+                    <!-- ../collections/WATJ418.xml#WATJ418-item1 -->
+                </person>
+
+                <person xml:id="person_316">
+                    <persName type="display">ca reʺ khaukʻ noiʹ</persName>
+                    <!-- ../collections/WATPA142.xml#WATPA142-item1 -->
+                </person>
+
+                <person xml:id="person_220">
+                    <persName type="display">ca reʺ kunʻʺ lè</persName>
+                    <!-- ../collections/WATPA112.xml#WATPA112-item1 -->
+                </person>
+
+                <person xml:id="person_116">
+                    <persName type="display">ca reʺ kuṅʻ mā</persName>
+                    <!-- ../collections/WATPA80.xml#WATPA80-item1 -->
+                </person>
+
+                <person xml:id="person_202">
+                    <persName type="display">ca reʺ kuṅʻ na</persName>
+                    <!-- ../collections/WATJ388.xml#WATJ388-item1 -->
+                </person>
+
+                <person xml:id="person_360">
+                    <persName type="display">ca reʺ kyaukʻ mauṅʻʺ tauṅʻ poʻ srā kyoʻ</persName>
+                    <!-- ../collections/WATJ389.xml#WATJ389-item1 -->
+                </person>
+
+                <person xml:id="person_289">
+                    <persName type="display">ca reʺ kyauṅʻʺ caiʺ samʻ (muiṅʻʺnaiʺ)</persName>
+                    <!-- ../collections/WATJ171.xml#WATJ171-item1 -->
+                </person>
+
+                <person xml:id="person_287">
+                    <persName type="display">ca reʺ kyauṅʻʺ cikʻ ta (muiṅʻʺ naiʺ)</persName>
+                    <persName type="variant">ca reʺ kyauṅʻʺ cikʻ ta (muiṅʻʺnaiʺ)</persName>
+                    <persName type="variant">careʺ kyauṅʻʺ cikʻ ta (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ166.xml#WATJ166-item1 -->
+                    <!-- ../collections/WATJ267.xml#WATJ267-item1 -->
+                    <!-- ../collections/WATJ268.xml#WATJ268-item1 -->
+                    <!-- ../collections/WATJ288.xml#WATJ288-item1 -->
+                    <!-- ../collections/WATJ289.xml#WATJ289-item1 -->
+                </person>
+
+                <person xml:id="person_333">
+                    <persName type="display">ca reʺ kyauṅʻʺ cikʻʹ ta (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ363.xml#WATJ363-item1 -->
+                </person>
+
+                <person xml:id="person_282">
+                    <persName type="display">ca reʺ laiʺ sai</persName>
+                    <!-- ../collections/WATJ414.xml#WATJ414-item1 -->
+                    <!-- ../collections/WATJ414.xml#WATJ414-item2 -->
+                </person>
+
+                <person xml:id="person_300">
+                    <persName type="display">ca reʺ lamʻ</persName>
+                    <!-- ../collections/WATPA77.xml#WATPA77-item1 -->
+                </person>
+
+                <person xml:id="person_395">
+                    <persName type="display">ca reʺ mahā su (viṅʻʺ paṅʻ luṅʻ paukʻ sī)</persName>
+                    <!-- ../collections/WATJ407.xml#WATJ407-item1 -->
+                </person>
+
+                <person xml:id="person_326">
+                    <persName type="display">ca reʺ maukʻ mai</persName>
+                    <persName type="variant">careʺ maukʻ mai</persName>
+                    <!-- ../collections/WATJ309.xml#WATJ309-item1 -->
+                    <!-- ../collections/WATPA125.xml#WATPA125-item1 -->
+                </person>
+
+                <person xml:id="person_24">
+                    <persName type="display">ca reʺ mauṅʻ khinʻ</persName>
+                    <!-- ../collections/WATJ175.xml#WATJ175-item1 -->
+                </person>
+
+                <person xml:id="person_319">
+                    <persName type="display">ca reʺ muiṅʻʺ caṅʻ</persName>
+                    <!-- ../collections/WATPA153.xml#WATPA153-item1 -->
+                </person>
+
+                <person xml:id="person_184">
+                    <persName type="display">ca reʺ muiṅʻʺ naiʺ</persName>
+                    <!-- ../collections/WATPA131.xml#WATPA131-item1 -->
+                </person>
+
+                <person xml:id="person_25">
+                    <persName type="display">ca reʺ muiṅʻʺ naiʺ amatʻ krīʺ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATPA160.xml#WATPA160-item1 -->
+                </person>
+
+                <person xml:id="person_139">
+                    <persName type="display">ca reʺ muiṅʻʺ nauṅʻ</persName>
+                    <persName type="variant">ca reʺ muiṅʻʺ nauṅʻ (ta peʻʺ cavʻ seʻʺ kuṅʻʺ vanʻ ciṅʻʺ)</persName>
+                    <persName type="variant">careʺ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATJ306.xml#WATJ306-item1 -->
+                    <!-- ../collections/WATJ415.xml#WATJ415-item1 -->
+                    <!-- ../collections/WATPA132.xml#WATPA132-item1 -->
+                    <!-- ../collections/WATPA133.xml#WATPA133-item1 -->
+                    <!-- ../collections/WATPA15.xml#WATPA15-item1 -->
+                </person>
+
+                <person xml:id="person_83">
+                    <persName type="display">ca reʺ muiṅʻʺ pupʻ (copyist)</persName>
+                    <!-- ../collections/WATJ384.xml#WATJ384-item1 -->
+                </person>
+
+                <person xml:id="person_335">
+                    <persName type="display">ca reʺ muiṅʻʺ taiʺ</persName>
+                    <!-- ../collections/WATPA121.xml#WATPA121-item1 -->
+                </person>
+
+                <person xml:id="person_361">
+                    <persName type="display">ca reʺ munʻ cavʻ kyauṅʻʺ toʺ</persName>
+                    <!-- ../collections/WATJ387.xml#WATJ387-item1 -->
+                </person>
+
+                <person xml:id="person_216">
+                    <persName type="display">ca reʺ munʻ cavʻ̐ kyauṅʻʺ toʺ</persName>
+                    <!-- ../collections/WATJ265.xml#WATJ265-item1 -->
+                </person>
+
+                <person xml:id="person_348">
+                    <persName type="display">ca reʺ mūʺliṅʻ</persName>
+                    <persName type="variant">careʺ mūʺliṅʻ</persName>
+                    <!-- ../collections/LASHI856.xml#LASHI856-item1 -->
+                    <!-- ../collections/WATPA156.xml#WATPA156-item1 -->
+                </person>
+
+                <person xml:id="person_388">
+                    <persName type="display">ca reʺ nāʺ khanʻ (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ390.xml#WATJ390-item1 -->
+                </person>
+
+                <person xml:id="person_243">
+                    <persName type="display">ca reʺ nāʺ kivʻ (sī poʹ)</persName>
+                    <persName type="variant">ca reʺ nāʺ kivʻ (sī po̐)</persName>
+                    <persName type="variant">careʺ nāʺ kivʻ</persName>
+                    <!-- ../collections/WATJ179.xml#WATJ179-item1 -->
+                    <!-- ../collections/WATPA145.xml#WATPA145-item1 -->
+                    <!-- ../collections/WATPA81.xml#WATPA81-item1 -->
+                </person>
+
+                <person xml:id="person_342">
+                    <persName type="display">ca reʺ nāʺ kivʻ̨</persName>
+                    <persName type="variant">careʺ nāʺ kivʻ̨ (careʺ mānʻ̨ sèṅʻ)</persName>
+                    <!-- ../collections/WATJ385.xml#WATJ385-item1 -->
+                    <!-- ../collections/WATPH791.xml#WATPH791-item1 -->
+                    <!-- ../collections/WATT545.xml#WATT545-item1 -->
+                </person>
+
+                <person xml:id="person_320">
+                    <persName type="display">ca reʺ nāʺ pinʻʺ</persName>
+                    <!-- ../collections/WATPA154.xml#WATPA154-item1 -->
+                </person>
+
+                <person xml:id="person_332">
+                    <persName type="display">ca reʺ panʻʺ siṅʻʺ</persName>
+                    <!-- ../collections/WATPA103.xml#WATPA103-item1 -->
+                </person>
+
+                <person xml:id="person_76">
+                    <persName type="display">ca reʺ paṅʻ mū</persName>
+                    <persName type="variant">careʺ pāṅʻ mū</persName>
+                    <!-- ../collections/WATJ386.xml#WATJ386-item1 -->
+                    <!-- ../collections/WATPA90.xml#WATPA90-item1 -->
+                    <!-- ../collections/WATPH707.xml#WATPH707-item1 -->
+                </person>
+
+                <person xml:id="person_191">
+                    <persName type="display">ca reʺ piṅʻ ñā</persName>
+                    <persName type="variant">careʺ piṅʻ ṅā</persName>
+                    <!-- ../collections/WATJ169.xml#WATJ169-item1 -->
+                    <!-- ../collections/WATJ6.xml#WATJ6-item1 -->
+                    <!-- ../collections/WATPA165.xml#WATPA165-item1 -->
+                </person>
+
+                <person xml:id="person_172">
+                    <persName type="display">ca reʺ piṅʻ̨ ṅą̄</persName>
+                    <!-- ../collections/WATPA60.xml#WATPA60-item1 -->
+                </person>
+
+                <person xml:id="person_325">
+                    <persName type="display">ca reʺ saṅʻ luinʻʺ</persName>
+                    <!-- ../collections/WATPA65.xml#WATPA65-item1 -->
+                </person>
+
+                <person xml:id="person_248">
+                    <persName type="display">ca reʺ saṅʻ oʺ</persName>
+                    <persName type="variant">careʺ saṅʻ oʺ</persName>
+                    <!-- ../collections/WATJ180.xml#WATJ180-item1 -->
+                    <!-- ../collections/WATJ9.xml#WATJ9-item1 -->
+                </person>
+
+                <person xml:id="person_378">
+                    <persName type="display">ca reʺ saṅʻ̨ khamʻʺ phā luṅʻ̨</persName>
+                    <!-- ../collections/WATJ392.xml#WATJ392-item1 -->
+                </person>
+
+                <person xml:id="person_38">
+                    <persName type="display">ca reʺ saṅʻ̨ kyā maukʻ mai</persName>
+                    <!-- ../collections/WATJ397.xml#WATJ397-item1 -->
+                </person>
+
+                <person xml:id="person_66">
+                    <persName type="display">ca reʺ saṅʻ̨ mauṅʻ</persName>
+                    <!-- ../collections/WATJ400.xml#WATJ400-item1 -->
+                </person>
+
+                <person xml:id="person_43">
+                    <persName type="display">ca reʺ srā thavʻ khiṅʻʺ kyauṅʻʺ caiʺ samʻ</persName>
+                    <!-- ../collections/WATJ361.xml#WATJ361-item1 -->
+                </person>
+
+                <person xml:id="person_54">
+                    <persName type="display">ca reʺ su piṅʻ na (keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATPA123.xml#WATPA123-item1 -->
+                </person>
+
+                <person xml:id="person_217">
+                    <persName type="display">ca reʺ sunantā (kyaukʻ meʻʺ)</persName>
+                    <persName type="variant">careʺ sunantā</persName>
+                    <!-- ../collections/LASHI830.xml#LASHI830-item1 -->
+                    <!-- ../collections/LASHI834.xml#LASHI834-item1 -->
+                    <!-- ../collections/WATJ413.xml#WATJ413-item1 -->
+                </person>
+
+                <person xml:id="person_58">
+                    <persName type="display">ca reʺ sā yą̄ kyaukʻʹ mauṅʻʺ</persName>
+                    <!-- ../collections/WATPA61.xml#WATPA61-item1 -->
+                </person>
+
+                <person xml:id="person_10">
+                    <persName type="display">ca reʺ sāṅ̨ʻ phūṅʻʺ</persName>
+                    <!-- ../collections/WATT21.xml#WATT21-item1 -->
+                </person>
+
+                <person xml:id="person_28">
+                    <persName type="display">ca reʺ sūliya</persName>
+                    <!-- ../collections/WATPA43.xml#WATPA43-item1 -->
+                </person>
+
+                <person xml:id="person_271">
+                    <persName type="display">ca reʺ thavʻ</persName>
+                    <persName type="variant">careʺ thavʻ (careʺ poʻ panʻʺ ʼau)</persName>
+                    <!-- ../collections/WATJ297.xml#WATJ297-item1 -->
+                    <!-- ../collections/WATPA83.xml#WATPA83-item1 -->
+                </person>
+
+                <person xml:id="person_56">
+                    <persName type="display">ca reʺ thunʻʺ khyiṅʻ</persName>
+                    <!-- ../collections/WATJ266.xml#WATJ266-item1 -->
+                </person>
+
+                <person xml:id="person_379">
+                    <persName type="display">ca reʺ tū yāʺ</persName>
+                    <!-- ../collections/WATPA38.xml#WATPA38-item1 -->
+                </person>
+
+                <person xml:id="person_161">
+                    <persName type="display">ca reʺ vanʻ citʻ (keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATPA149.xml#WATPA149-item1 -->
+                </person>
+
+                <person xml:id="person_84">
+                    <persName type="display">ca reʺ vanʻ ciṅʻʺ</persName>
+                    <persName type="variant">careʺ vanʻ ciṅʻʺ</persName>
+                    <!-- ../collections/WATPA118.xml#WATPA118-item1 -->
+                    <!-- ../collections/WATPA14.xml#WATPA14-item1 -->
+                    <!-- ../collections/WATPA157.xml#WATPA157-item1 -->
+                    <!-- ../collections/WATPH788.xml#WATPH788-item1 -->
+                </person>
+
+                <person xml:id="person_82">
+                    <persName type="display">ca reʺ yautʻ khamʻʺ (vanʻ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATJ406.xml#WATJ406-item1 -->
+                </person>
+
+                <person xml:id="person_351">
+                    <persName type="display">ca reʺ ñā liṅʻ ʼaiṅʻ tā</persName>
+                    <!-- ../collections/WATPA106.xml#WATPA106-item1 -->
+                </person>
+
+                <person xml:id="person_350">
+                    <persName type="display">ca reʺ ñāna</persName>
+                    <persName type="variant">careʺ ñāna</persName>
+                    <!-- ../collections/WATPA151.xml#WATPA151-item1 -->
+                    <!-- ../collections/WATPH801.xml#WATPH801-item1 -->
+                </person>
+
+                <person xml:id="person_182">
+                    <persName type="display">ca reʺ ūʺ ovāda</persName>
+                    <!-- ../collections/WATJ403.xml#WATJ403-item1 -->
+                </person>
+
+                <person xml:id="person_55">
+                    <persName type="display">ca reʻʺ mauṅʻ̨ ṅʻ̨</persName>
+                    <!-- ../collections/LASHI52.xml#LASHI52-item1 -->
+                    <!-- ../collections/WATPA36.xml#WATPA36-item1 -->
+                </person>
+
+                <person xml:id="person_204">
+                    <persName type="display">ca reʻʺ saiʺ pheʻ (muiṅʻʺ naiʺ)</persName>
+                    <persName type="variant">careʺ sāiʺ pheʻ (mūiṅʻʺ nāiʺ)</persName>
+                    <!-- ../collections/WATJ270.xml#WATJ270-item1 -->
+                    <!-- ../collections/WATJ274.xml#WATJ274-item1 -->
+                </person>
+
+                <person xml:id="person_263">
+                    <persName type="display">ca reʻʺ suñʻ̨ ñauṅʻ̨</persName>
+                    <!-- ../collections/WATPA37.xml#WATPA37-item1 -->
+                </person>
+
+                <person xml:id="person_338">
+                    <persName type="display">Care Can’tā</persName>
+                    <!-- ../collections/CAMBR786.xml#CAMBR786-item1 -->
+                </person>
+
+                <person xml:id="person_396">
+                    <persName type="display">Care Lāi Sèṅ‘ of Nā Vī</persName>
+                    <!-- ../collections/CAMBR732.xml#CAMBR732-item1 -->
+                </person>
+
+                <person xml:id="person_152">
+                    <persName type="display">Care Lāisái</persName>
+                    <!-- ../collections/CAMBR733.xml#CAMBR733-item1 -->
+                </person>
+
+                <person xml:id="person_113">
+                    <persName type="display">care vuṇṇa</persName>
+                    <!-- ../collections/WATJ311.xml#WATJ311-item1 -->
+                </person>
+
+                <person xml:id="person_91">
+                    <persName type="display">care" laṅ'ʺ khuivʻʺ</persName>
+                    <!-- ../collections/WATJ11.xml#WATJ11-item1 -->
+                </person>
+
+                <person xml:id="person_384">
+                    <persName type="display">care" luṅ'ʺ kyauṅ'ʺ cikʻʹ taʹ (muiṅ''" nāi")</persName>
+                    <!-- ../collections/WATJ8.xml#WATJ8-item1 -->
+                </person>
+
+                <person xml:id="person_70">
+                    <persName type="display">care" saṅʻ khamʻʺ (phā lūṅ nā" linʻʺ)</persName>
+                    <!-- ../collections/WATPA1.xml#WATPA1-item1 -->
+                </person>
+
+                <person xml:id="person_374">
+                    <persName type="display">careʺ canʻtā mūiṅʻʺ sauṅʻ</persName>
+                    <!-- ../collections/WATPH768.xml#WATPH768-item1 -->
+                </person>
+
+                <person xml:id="person_128">
+                    <persName type="display">careʺ ceʺ kuṅʻʺ (vanʻ̐ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPH708.xml#WATPH708-item1 -->
+                    <!-- ../collections/WATPH741.xml#WATPH741-item1 -->
+                    <!-- ../collections/WATPH743.xml#WATPH743-item1 -->
+                    <!-- ../collections/WATPH746.xml#WATPH746-item1 -->
+                </person>
+
+                <person xml:id="person_299">
+                    <persName type="display">careʺ ciṅʻtą̄</persName>
+                    <!-- ../collections/WATPH769.xml#WATPH769-item1 -->
+                </person>
+
+                <person xml:id="person_185">
+                    <persName type="display">careʺ ciṅʻtą̄ muiṅʻʺnaiʺ</persName>
+                    <!-- ../collections/WATPH770.xml#WATPH770-item1 -->
+                </person>
+
+                <person xml:id="person_355">
+                    <persName type="display">careʺ cāiʺ sāmʻ lūṅʻ khāmʻʹ keʺ maṅʻʺ</persName>
+                    <!-- ../collections/WATT496.xml#WATT496-item1 -->
+                </person>
+
+                <person xml:id="person_101">
+                    <persName type="display">careʺ eʺ kyoʻ̨</persName>
+                    <!-- ../collections/LASHI1044.xml#LASHI1044-item1 -->
+                </person>
+
+                <person xml:id="person_327">
+                    <persName type="display">careʺ hāīʺ vūvʻʺ</persName>
+                    <!-- ../collections/WATT553.xml#WATT553-item1 -->
+                </person>
+
+                <person xml:id="person_178">
+                    <persName type="display">careʺ indā mè̐ tèṅʻ</persName>
+                    <!-- ../collections/WATT560.xml#WATT560-item1 -->
+                </person>
+
+                <person xml:id="person_223">
+                    <persName type="display">careʺ indā mūiṅʻʺ nāīʺ</persName>
+                    <!-- ../collections/WATT495.xml#WATT495-item1 -->
+                </person>
+
+                <person xml:id="person_183">
+                    <persName type="display">careʺ keṅʻʺ tauṅʻʺ</persName>
+                    <!-- ../collections/WATT547.xml#WATT547-item1 -->
+                </person>
+
+                <person xml:id="person_133">
+                    <persName type="display">careʺ kunʻ nāʺ (tīpa khetta) aūiṅʻ̨ vānʻ̐ kèṅʻʺ</persName>
+                    <!-- ../collections/WATT573.xml#WATT573-item1 -->
+                </person>
+
+                <person xml:id="person_75">
+                    <persName type="display">careʺ kyauṅʻʺ citta mūiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATPH749.xml#WATPH749-item1 -->
+                    <!-- ../collections/WATPH763.xml#WATPH763-item1 -->
+                    <!-- ../collections/WATPH766.xml#WATPH766-item1 -->
+                    <!-- ../collections/WATPH772.xml#WATPH772-item1 -->
+                </person>
+
+                <person xml:id="person_284">
+                    <persName type="display">careʺ kyauṅʻʺ cāīʺ sāmʻ mūiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATPH762.xml#WATPH762-item1 -->
+                </person>
+
+                <person xml:id="person_108">
+                    <persName type="display">careʺ kyauṅʻʺ takā vanʻ̨ na</persName>
+                    <!-- ../collections/WATT522.xml#WATT522-item1 -->
+                </person>
+
+                <person xml:id="person_240">
+                    <persName type="display">careʺ kyauṅʻʺ yautʻ̐</persName>
+                    <!-- ../collections/WATJ290.xml#WATJ290-item1 -->
+                </person>
+
+                <person xml:id="person_206">
+                    <persName type="display">careʺ laiʺ sèṅʻ mūiṅʻʺ sái (lukʻʹ kāṅʻʺ sūivʻ māʺ)</persName>
+                    <!-- ../collections/LASHI1047.xml#LASHI1047-item1 -->
+                </person>
+
+                <person xml:id="person_103">
+                    <persName type="display">careʺ loi cāṅʻʹ muiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATT536.xml#WATT536-item1 -->
+                </person>
+
+                <person xml:id="person_7">
+                    <persName type="display">careʺ luṅʻʺ kyauṅʻʺ saiʺ samʻ mūiṅʻʺ naiʺ</persName>
+                    <!-- ../collections/WATJ279.xml#WATJ279-item1 -->
+                </person>
+
+                <person xml:id="person_39">
+                    <persName type="display">careʺ muiṅʻʺ nāʺ koʹ nuiṅʻ̐</persName>
+                    <!-- ../collections/WATT450.xml#WATT450-item1 -->
+                </person>
+
+                <person xml:id="person_366">
+                    <persName type="display">careʺ muiṅʻʺnaṅʻʺ</persName>
+                    <!-- ../collections/WATJ286.xml#WATJ286-item1 -->
+                </person>
+
+                <person xml:id="person_53">
+                    <persName type="display">careʺ mūiṅʻʺ yų</persName>
+                    <persName type="variant">careʺ mūiṅʻʺ yų (mūiṅʻʺ taiʺ pautʻʺ hauṅʻ̨)</persName>
+                    <!-- ../collections/WATPH704.xml#WATPH704-item1 -->
+                    <!-- ../collections/WATPH739.xml#WATPH739-item1 -->
+                </person>
+
+                <person xml:id="person_164">
+                    <persName type="display">careʺ mūʺ (mūiṅʻʺ fāṅʻ)</persName>
+                    <!-- ../collections/WATT502.xml#WATT502-item1 -->
+                </person>
+
+                <person xml:id="person_117">
+                    <persName type="display">careʺ namʻʹ sāiʺ</persName>
+                    <!-- ../collections/WATPH790.xml#WATPH790-item1 -->
+                </person>
+
+                <person xml:id="person_100">
+                    <persName type="display">careʺ nandā (khunʻ hiṅʻʺ)</persName>
+                    <!-- ../collections/WATJ283.xml#WATJ283-item1 -->
+                </person>
+
+                <person xml:id="person_60">
+                    <persName type="display">careʺ nauṅʻ kènʻ (maukʻ maį)</persName>
+                    <!-- ../collections/WATT434.xml#WATT434-item1 -->
+                </person>
+
+                <person xml:id="person_41">
+                    <persName type="display">careʺ nā kaṅʻ</persName>
+                    <!-- ../collections/WATJ352.xml#WATJ352-item1 -->
+                </person>
+
+                <person xml:id="person_142">
+                    <persName type="display">careʺ nā lavʻʺ keṅʻʺ tauṅʻʺ</persName>
+                    <!-- ../collections/WATT563.xml#WATT563-item1 -->
+                </person>
+
+                <person xml:id="person_258">
+                    <persName type="display">careʺ panʻʺ sèṅʻʺ (vanʻ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPH694.xml#WATPH694-item1 -->
+                </person>
+
+                <person xml:id="person_251">
+                    <persName type="display">careʺ srā pānʻʺ</persName>
+                    <!-- ../collections/LASHI829.xml#LASHI829-item1 -->
+                </person>
+
+                <person xml:id="person_264">
+                    <persName type="display">careʺ suciṅʻna</persName>
+                    <!-- ../collections/WATPH767.xml#WATPH767-item1 -->
+                </person>
+
+                <person xml:id="person_136">
+                    <persName type="display">careʺ suphinʻna</persName>
+                    <!-- ../collections/WATT472.xml#WATT472-item1 -->
+                    <!-- ../collections/WATT490.xml#WATT490-item1 -->
+                    <!-- ../collections/WATT539.xml#WATT539-item1 -->
+                </person>
+
+                <person xml:id="person_158">
+                    <persName type="display">careʺ sutiṅʻtriya nāʺcuinʻʺ</persName>
+                    <!-- ../collections/WATT555.xml#WATT555-item1 -->
+                </person>
+
+                <person xml:id="person_339">
+                    <persName type="display">careʺ sāṅʻ̨ pāṅʻʹ (careʺ po̐ cāīʺ mauṅʻ̨ khamʻʺ pāṅʻʹ)</persName>
+                    <!-- ../collections/WATT452.xml#WATT452-item1 -->
+                </person>
+
+                <person xml:id="person_87">
+                    <persName type="display">careʺ sāṅʻ̨̨ khuinʻ (ta peʺ munʻ cavʻ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATT520.xml#WATT520-item1 -->
+                </person>
+
+                <person xml:id="person_2">
+                    <persName type="display">careʺ sāṅʻ̨̨̨ phūṅʻʺ</persName>
+                    <!-- ../collections/WATT552.xml#WATT552-item1 -->
+                    <!-- ../collections/WATT552.xml#WATT552-item2 -->
+                </person>
+
+                <person xml:id="person_40">
+                    <persName type="display">careʺ ta peʺ munʻ cavʻ̐ hāiʺ kūivʻ</persName>
+                    <!-- ../collections/WATJ278.xml#WATJ278-item1 -->
+                </person>
+
+                <person xml:id="person_356">
+                    <persName type="display">careʺ ta peʺ munʻ cavʻ̐ kamʻ̨ kǫ meʻ̐ hauṅʻ̐ saunʻ</persName>
+                    <!-- ../collections/WATJ299.xml#WATJ299-item1 -->
+                </person>
+
+                <person xml:id="person_81">
+                    <persName type="display">careʺ ta peʻʺ mūiṅʻʺ sauṅʻ</persName>
+                    <!-- ../collections/WATPH706.xml#WATPH706-item1 -->
+                </person>
+
+                <person xml:id="person_250">
+                    <persName type="display">careʺ thavʻ̐</persName>
+                    <!-- ../collections/WATPH773.xml#WATPH773-item1 -->
+                </person>
+
+                <person xml:id="person_317">
+                    <persName type="display">careʺ vanʻna</persName>
+                    <!-- ../collections/WATPH748.xml#WATPH748-item1 -->
+                </person>
+
+                <person xml:id="person_77">
+                    <persName type="display">careʺ vanʻ̐ ciṅʻʺ (mūiṅʻʺ nauṅʻ)</persName>
+                    <!-- ../collections/WATJ280.xml#WATJ280-item1 -->
+                </person>
+
+                <person xml:id="person_214">
+                    <persName type="display">careʺ vunʻna (paukʻ seʺ tānʻʺ lāṅʻʺkhūivʻʺ)</persName>
+                    <!-- ../collections/WATPH802.xml#WATPH802-item1 -->
+                </person>
+
+                <person xml:id="person_48">
+                    <persName type="display">careʺ yautʻ̐ khamʻʺ</persName>
+                    <!-- ../collections/WATJ287.xml#WATJ287-item1 -->
+                </person>
+
+                <person xml:id="person_29">
+                    <persName type="display">careʺ yaut̐ khamʻʺ loi yoiʺ</persName>
+                    <!-- ../collections/LASHI1041.xml#LASHI1041-item1 -->
+                </person>
+
+                <person xml:id="person_211">
+                    <persName type="display">careʺ yáīʺ sèṅʻ (nāʺ tauṅʻʺ himʻʺ namʻʹ khūṅʻʺ)</persName>
+                    <!-- ../collections/WATT445.xml#WATT445-item1 -->
+                </person>
+
+                <person xml:id="person_359">
+                    <persName type="display">careʺ ʼaiṅʻ tā (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ293.xml#WATJ293-item1 -->
+                </person>
+
+                <person xml:id="person_267">
+                    <persName type="display">careʺ ṅuinʻʺ yautʻ̐ (mūiṅʻʺyu)</persName>
+                    <!-- ../collections/LASHI828.xml#LASHI828-item1 -->
+                    <!-- ../collections/LASHI832.xml#LASHI832-item1 -->
+                    <!-- ../collections/LASHI832.xml#LASHI832-item2 -->
+                </person>
+
+                <person xml:id="person_62">
+                    <persName type="display">cav amat lung (muin naun) - also know as ca re van yen at the time of writing this text</persName>
+                    <!-- ../collections/WATJ378.xml#WATJ378-item1 -->
+                </person>
+
+                <person xml:id="person_281">
+                    <persName type="display">cav amat luṅ muin nauṅ</persName>
+                    <persName type="variant">cav amat luṅ muiṅ nauṅ</persName>
+                    <persName type="variant">cavʻ amatʻ luṅʻ muiṅʻ nauṅʻ</persName>
+                    <persName type="variant">cavʻ amatʻ luṅʻ muiṅʻ nauṅʻ (ca reʺ khaukʻ noiʹ )</persName>
+                    <!-- ../collections/WATJ315.xml#WATJ315-item1 -->
+                    <!-- ../collections/WATJ349.xml#WATJ349-item1 -->
+                    <!-- ../collections/WATJ350.xml#WATJ350-item1 -->
+                    <!-- ../collections/WATT5.xml#WATT5-item1 -->
+                </person>
+
+                <person xml:id="person_313">
+                    <persName type="display">cav kaṅ sūiv</persName>
+                    <!-- ../collections/WATJ332.xml#WATJ332-item1 -->
+                </person>
+
+                <person xml:id="person_364">
+                    <persName type="display">Cav ko" lī</persName>
+                    <persName type="variant">Cav koli (muing pan)</persName>
+                    <persName type="variant">Cav‘ ko" lī</persName>
+                    <persName type="variant">cav ko li (muiṅ pan)</persName>
+                    <persName type="variant">cavʻ ko li (Mong Pan)</persName>
+                    <persName type="variant">cavʻ ko li (muiṅʻʺ panʻ)</persName>
+                    <persName type="variant">cavʻ ko lī (muiṅʻʺ panʻ)</persName>
+                    <persName type="variant">cavʻ koʺ lī (muiṅʻʺ panʻ)</persName>
+                    <!-- ../collections/LASHI1048.xml#LASHI1048-item1 -->
+                    <!-- ../collections/LASHI1051.xml#LASHI1051-item1 -->
+                    <!-- ../collections/LASHI1054.xml#LASHI1054-item1 -->
+                    <!-- ../collections/WATJ331.xml#WATJ331-item1 -->
+                    <!-- ../collections/WATPA107.xml#WATPA107-item1 -->
+                    <!-- ../collections/WATPA109.xml#WATPA109-item1 -->
+                    <!-- ../collections/WATPA113.xml#WATPA113-item1 -->
+                    <!-- ../collections/WATPA116.xml#WATPA116-item1 -->
+                    <!-- ../collections/WATPA120.xml#WATPA120-item1 -->
+                    <!-- ../collections/WATPA126.xml#WATPA126-item1 -->
+                    <!-- ../collections/WATPA130.xml#WATPA130-item1 -->
+                    <!-- ../collections/WATPA144.xml#WATPA144-item1 -->
+                    <!-- ../collections/WATPA67.xml#WATPA67-item1 -->
+                    <!-- ../collections/WATPA68.xml#WATPA68-item1 -->
+                    <!-- ../collections/WATPA88.xml#WATPA88-item1 -->
+                    <!-- ../collections/WATPA91.xml#WATPA91-item1 -->
+                </person>
+
+                <person xml:id="person_210">
+                    <persName type="display">Cav se kun (Wan Cing, Mong Nawng)</persName>
+                    <!-- ../collections/LASHI1049.xml#LASHI1049-item1 -->
+                </person>
+
+                <person xml:id="person_30">
+                    <persName type="display">cav'' srā subhinna (mauṅʻʺ lavʻʺ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATT12.xml#WATT12-item1 -->
+                </person>
+
+                <person xml:id="person_192">
+                    <persName type="display">cavʻ amat lūṅ' muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATJ10.xml#WATJ10-item1 -->
+                </person>
+
+                <person xml:id="person_199">
+                    <persName type="display">cavʻ ca reʺ seʺ kuṅʻʺ (vanʻ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPA148.xml#WATPA148-item1 -->
+                </person>
+
+                <person xml:id="person_19">
+                    <persName type="display">cavʻ dhammatinna</persName>
+                    <persName type="variant">cavʻ dhammatinna (?)</persName>
+                    <!-- ../collections/WATJ383.xml#WATJ383-item1 -->
+                    <!-- ../collections/WATPA87.xml#WATPA87-item1 -->
+                    <!-- ../collections/WATPA94.xml#WATPA94-item1 -->
+                    <!-- ../collections/WATT482.xml#WATT482-item2 -->
+                </person>
+
+                <person xml:id="person_50">
+                    <persName type="display">cavʻ kaṅʻʺ suivʻ</persName>
+                    <persName type="variant">cavʻ kāṅʻʺ suivʻ</persName>
+                    <!-- ../collections/WATJ53.xml#WATJ53-item1 -->
+                    <!-- ../collections/WATPA141.xml#WATPA141-item1 -->
+                    <!-- ../collections/WATPA150.xml#WATPA150-item1 -->
+                    <!-- ../collections/WATPA161.xml#WATPA161-item1 -->
+                    <!-- ../collections/WATPA3.xml#WATPA3-item1 -->
+                    <!-- ../collections/WATPA40.xml#WATPA40-item1 -->
+                    <!-- ../collections/WATPA71.xml#WATPA71-item1 -->
+                    <!-- ../collections/WATPA89.xml#WATPA89-item1 -->
+                </person>
+
+                <person xml:id="person_17">
+                    <persName type="display">cavʻ noʻ khamʻʺ (muiṅʻʺ kuiṅʻ)</persName>
+                    <!-- ../collections/WATJ405.xml#WATJ405-item1 -->
+                </person>
+
+                <person xml:id="person_67">
+                    <persName type="display">cavʻ nǫ khamʻʺ muiṅʻʺ kuiṅʻ (muiṅʻʺ nimʻ keʺ sīʺ)</persName>
+                    <!-- ../collections/WATT427.xml#WATT427-item1 -->
+                </person>
+
+                <person xml:id="person_109">
+                    <persName type="display">cavʻ phakʻ nauṅʻ (muiṅʻʺ kuiṅʻ)</persName>
+                    <!-- ../collections/WATJ303.xml#WATJ303-item1 -->
+                </person>
+
+                <person xml:id="person_367">
+                    <persName type="display">cavʻ puññasāra (vān'' yūk'' ke" sī")</persName>
+                    <!-- ../collections/WATT4.xml#WATT4-item1 -->
+                </person>
+
+                <person xml:id="person_179">
+                    <persName type="display">cavʻ saṅʻ vilāsa</persName>
+                    <!-- ../collections/OXFOR191.xml#OXFOR191-item1 -->
+                </person>
+
+                <person xml:id="person_340">
+                    <persName type="display">cavʻ seʺ kuṅʻʺ (vanʻ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPA111.xml#WATPA111-item1 -->
+                </person>
+
+                <person xml:id="person_153">
+                    <persName type="display">cavʻ srā (?)</persName>
+                    <!-- ../collections/OXFOR195.xml#OXFOR195-item1 -->
+                </person>
+
+                <person xml:id="person_331">
+                    <persName type="display">cavʻ srā revata (paṅʻ luṅʻ)</persName>
+                    <!-- ../collections/WATJ412.xml#WATJ412-item1 -->
+                </person>
+
+                <person xml:id="person_21">
+                    <persName type="display">cavʻ srā su phinʻ na (mauṅʻʺ lavʻʺ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATT423.xml#WATT423-item1 -->
+                </person>
+
+                <person xml:id="person_305">
+                    <persName type="display">cavʻ srā toʻ luṅʻ huvʻ ya</persName>
+                    <!-- ../collections/WATJ410.xml#WATJ410-item1 -->
+                </person>
+
+                <person xml:id="person_238">
+                    <persName type="display">cavʻ voʺra khèʹ (muiṅʻʺ yaṅʻʺ lèṅʻ)</persName>
+                    <!-- ../collections/WATJ305.xml#WATJ305-item1 -->
+                </person>
+
+                <person xml:id="person_311">
+                    <persName type="display">cavʻ ʼa matʻ luṅʻ (muiṅʻʺ nauṅʻ)</persName>
+                    <!-- ../collections/WATPA73.xml#WATPA73-item1 -->
+                    <!-- ../collections/WATPA96.xml#WATPA96-item1 -->
+                </person>
+
+                <person xml:id="person_257">
+                    <persName type="display">cavʻʻ̐ sāṅʻ̨ lūṅʻ vānʻ̐ āį</persName>
+                    <!-- ../collections/LASHI1039.xml#LASHI1039-item1 -->
+                </person>
+
+                <person xml:id="person_303">
+                    <persName type="display">cavʻ̐ amatʻ luṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATJ294.xml#WATJ294-item1 -->
+                    <!-- ../collections/WATJ298.xml#WATJ298-item1 -->
+                </person>
+
+                <person xml:id="person_341">
+                    <persName type="display">cavʻ̐ amātʻ̐ lūṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATT564.xml#WATT564-item1 -->
+                </person>
+
+                <person xml:id="person_125">
+                    <persName type="display">cavʻ̐ kolī mūiṅʻʺpanʻ̨</persName>
+                    <!-- ../collections/LASHI845.xml#LASHI845-item1 -->
+                    <!-- ../collections/LASHI846.xml#LASHI846-item1 -->
+                    <!-- ../collections/LASHI847.xml#LASHI847-item1 -->
+                </person>
+
+                <person xml:id="person_266">
+                    <persName type="display">cavʻ̐ koʺ lį̄ (muiṅʻʺpanʻ̨)</persName>
+                    <persName type="variant">cavʻ̐ koʺ lį̄ muiṅʻʺ panʻ̨</persName>
+                    <!-- ../collections/WATJ295.xml#WATJ295-item1 -->
+                    <!-- ../collections/WATT446.xml#WATT446-item1 -->
+                </person>
+
+                <person xml:id="person_110">
+                    <persName type="display">cavʻ̐ koʺ lį̄</persName>
+                    <!-- ../collections/WATT20.xml#WATT20-item1 -->
+                </person>
+
+                <person xml:id="person_154">
+                    <persName type="display">cavʻ̐ nǫ khamʻʺ mūiṅʻʺ kuiṅʻ</persName>
+                    <!-- ../collections/WATJ282.xml#WATJ282-item1 -->
+                </person>
+
+                <person xml:id="person_159">
+                    <persName type="display">cavʻ̐ nǫ khamʻʺ (muiṅʻʺ kuiṅʻ)</persName>
+                    <persName type="variant">cavʻ̐ nǫ khamʻʺ muiṅʻʺ kuiṅʻ</persName>
+                    <!-- ../collections/WATJ376.xml#WATJ376-item1 -->
+                    <!-- ../collections/WATT519.xml#WATT519-item1 -->
+                </person>
+
+                <person xml:id="person_200">
+                    <persName type="display">cavʻ̐ phakʻ̐ nauṅʻ (kyauṅʻʺ kų̄ yautʻ̐ ciṅʻ̨)</persName>
+                    <!-- ../collections/WATT441.xml#WATT441-item1 -->
+                </person>
+
+                <person xml:id="person_130">
+                    <persName type="display">cavʻ̐ puññasāra (kyaṅʻʺ vanʻ yūkʻ keʺ sīʺ)</persName>
+                    <!-- ../collections/WATT428.xml#WATT428-item1 -->
+                </person>
+
+                <person xml:id="person_330">
+                    <persName type="display">cavʻ̐ seʺ kuṅʻʺ (vanʻ̐ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPA136.xml#WATPA136-item1 -->
+                </person>
+
+                <person xml:id="person_186">
+                    <persName type="display">cavʻ̐ suphinʻna (cavʻ̐ mauṅʻʺ lāvʻʺ) keṅʻʺ tauṅʻʺ</persName>
+                    <!-- ../collections/WATT449.xml#WATT449-item1 -->
+                </person>
+
+                <person xml:id="person_232">
+                    <persName type="display">cavʻ̐ thammatinna</persName>
+                    <!-- ../collections/WATPA139.xml#WATPA139-item1 -->
+                </person>
+
+                <person xml:id="person_129">
+                    <persName type="display">cavʻ̐ ʼamatʻ̐ lūṅʻ mūiṅʻʺ nauṅʻ (Sao Amat Loung of Mueang Naung)</persName>
+                    <!-- ../collections/WATJ277.xml#WATJ277-item1 -->
+                </person>
+
+                <person xml:id="person_72">
+                    <persName type="display">cavʻ̐̐ koʺ lį̄ (muiṅʻʺ panʻ̨)</persName>
+                    <!-- ../collections/WATT431.xml#WATT431-item1 -->
+                    <!-- ../collections/WATT431.xml#WATT431-item2 -->
+                    <!-- ../collections/WATT433.xml#WATT433-item1 -->
+                    <!-- ../collections/WATT433.xml#WATT433-item2 -->
+                    <!-- ../collections/WATT468.xml#WATT468-item1 -->
+                    <!-- ../collections/WATT469.xml#WATT469-item1 -->
+                    <!-- ../collections/WATT469.xml#WATT469-item2 -->
+                    <!-- ../collections/WATT475.xml#WATT475-item1 -->
+                    <!-- ../collections/WATT475.xml#WATT475-item2 -->
+                    <!-- ../collections/WATT477.xml#WATT477-item1 -->
+                    <!-- ../collections/WATT477.xml#WATT477-item2 -->
+                    <!-- ../collections/WATT481.xml#WATT481-item1 -->
+                    <!-- ../collections/WATT481.xml#WATT481-item2 -->
+                    <!-- ../collections/WATT482.xml#WATT482-item1 -->
+                    <!-- ../collections/WATT499.xml#WATT499-item1 -->
+                </person>
+
+                <person xml:id="person_190">
+                    <persName type="display">cavʻ̐̐ suphinna (mauṅʻʺ lavʻʺ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATT483.xml#WATT483-item1 -->
+                    <!-- ../collections/WATT485.xml#WATT485-item1 -->
+                </person>
+
+                <person xml:id="person_297">
+                    <persName type="display">cavʻ̐̐ʺ cāṅʻʺ sucintā (kyauṅʻʺ khamʻʺ hūvʻ khūvʻ)</persName>
+                    <!-- ../collections/WATT500.xml#WATT500-item1 -->
+                </person>
+
+                <person xml:id="person_9">
+                    <persName type="display">cavʻ̐̐̐ amātʻ lūṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <persName type="variant">cavʻ̐̐̐ amātʻ lūṅʻ muiṅʻʺ nauṅʻ (careʺ mauṅʻ̨ ṅę̨̀ careʺ soʺ phinʻ na)</persName>
+                    <!-- ../collections/WATJ454.xml#WATJ454-item1 -->
+                    <!-- ../collections/WATT451.xml#WATT451-item1 -->
+                    <!-- ../collections/WATT465.xml#WATT465-item1 -->
+                    <!-- ../collections/WATT467.xml#WATT467-item1 -->
+                    <!-- ../collections/WATT479.xml#WATT479-item1 -->
+                    <!-- ../collections/WATT501.xml#WATT501-item1 -->
+                    <!-- ../collections/WATT557.xml#WATT557-item1 -->
+                    <!-- ../collections/WATT559.xml#WATT559-item1 -->
+                </person>
+
+                <person xml:id="person_328">
+                    <persName type="display">cavʻ̐̐̐ srā mauṅʻʺ lavʻʺ</persName>
+                    <!-- ../collections/WATT489.xml#WATT489-item1 -->
+                </person>
+
+                <person xml:id="person_260">
+                    <persName type="display">cavʻ̐̐̐srā. Suphinna (Mong Lao, Keng Tong)</persName>
+                    <!-- ../collections/WATT478.xml#WATT478-item1 -->
+                </person>
+
+                <person xml:id="person_68">
+                    <persName type="display">cavʻ̐̐̐̐ cāṅʻʺ sucintā</persName>
+                    <!-- ../collections/WATT493.xml#WATT493-item1 -->
+                </person>
+
+                <person xml:id="person_3">
+                    <persName type="display">cavʻ̐̐̐̐ koʺ lį̄ mūiṅʻʺ panʻ̨</persName>
+                    <!-- ../collections/WATJ548.xml#WATJ548-item1 -->
+                    <!-- ../collections/WATT455.xml#WATT455-item1 -->
+                    <!-- ../collections/WATT455.xml#WATT455-item2 -->
+                    <!-- ../collections/WATT458.xml#WATT458-item1 -->
+                    <!-- ../collections/WATT462.xml#WATT462-item1 -->
+                    <!-- ../collections/WATT462.xml#WATT462-item2 -->
+                    <!-- ../collections/WATT463.xml#WATT463-item1 -->
+                    <!-- ../collections/WATT505.xml#WATT505-item1 -->
+                    <!-- ../collections/WATT505.xml#WATT505-item2 -->
+                    <!-- ../collections/WATT507.xml#WATT507-item1 -->
+                    <!-- ../collections/WATT507.xml#WATT507-item2 -->
+                    <!-- ../collections/WATT508.xml#WATT508-item1 -->
+                    <!-- ../collections/WATT512.xml#WATT512-item1 -->
+                    <!-- ../collections/WATT513.xml#WATT513-item1 -->
+                    <!-- ../collections/WATT518.xml#WATT518-item1 -->
+                    <!-- ../collections/WATT518.xml#WATT518-item2 -->
+                    <!-- ../collections/WATT538.xml#WATT538-item1 -->
+                    <!-- ../collections/WATT538.xml#WATT538-item2 -->
+                    <!-- ../collections/WATT546.xml#WATT546-item1 -->
+                    <!-- ../collections/WATT546.xml#WATT546-item2 -->
+                    <!-- ../collections/WATT549.xml#WATT549-item1 -->
+                    <!-- ../collections/WATT549.xml#WATT549-item2 -->
+                    <!-- ../collections/WATT549.xml#WATT549-item3 -->
+                    <!-- ../collections/WATT550.xml#WATT550-item1 -->
+                    <!-- ../collections/WATT550.xml#WATT550-item2 -->
+                    <!-- ../collections/WATT550.xml#WATT550-item3 -->
+                    <!-- ../collections/WATT550.xml#WATT550-item4 -->
+                    <!-- ../collections/WATT554.xml#WATT554-item1 -->
+                    <!-- ../collections/WATT561.xml#WATT561-item1 -->
+                    <!-- ../collections/WATT571.xml#WATT571-item1 -->
+                </person>
+
+                <person xml:id="person_354">
+                    <persName type="display">cavʻ̐̐̐̐ puññācāra (vānʻ̐ yūkʻ̨)</persName>
+                    <!-- ../collections/WATT466.xml#WATT466-item1 -->
+                </person>
+
+                <person xml:id="person_176">
+                    <persName type="display">cavʻ̐̐̐̐ vānʻ̐ lavʻʺ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATT521.xml#WATT521-item1 -->
+                </person>
+
+                <person xml:id="person_52">
+                    <persName type="display">cavʻ̐̐̐̐̐ kāṅʻʺ sūvʻ</persName>
+                    <!-- ../collections/WATT514.xml#WATT514-item1 -->
+                    <!-- ../collections/WATT514.xml#WATT514-item2 -->
+                </person>
+
+                <person xml:id="person_127">
+                    <persName type="display">cavʻ̐̐̐̐̐̐ kolį̄ muiṅʻʺ panʻ̨</persName>
+                    <persName type="variant">cavʻ̐̐̐̐̐̐ kolį̄ muiṅʻʺpanʻ̨</persName>
+                    <!-- ../collections/LASHI1040.xml#LASHI1040-item1 -->
+                    <!-- ../collections/LASHI848.xml#LASHI848-item1 -->
+                    <!-- ../collections/LASHI849.xml#LASHI849-item1 -->
+                    <!-- ../collections/LASHI849.xml#LASHI849-item3 -->
+                    <!-- ../collections/LASHI850.xml#LASHI850-item1 -->
+                    <!-- ../collections/LASHI850.xml#LASHI850-item2 -->
+                    <!-- ../collections/LASHI851.xml#LASHI851-item1 -->
+                    <!-- ../collections/LASHI854.xml#LASHI854-item1 -->
+                    <!-- ../collections/LASHI855.xml#LASHI855-item1 -->
+                    <!-- ../collections/WATT524.xml#WATT524-item1 -->
+                    <!-- ../collections/WATT524.xml#WATT524-item2 -->
+                    <!-- ../collections/WATT525.xml#WATT525-item1 -->
+                    <!-- ../collections/WATT527.xml#WATT527-item1 -->
+                    <!-- ../collections/WATT528.xml#WATT528-item1 -->
+                    <!-- ../collections/WATT533.xml#WATT533-item1 -->
+                    <!-- ../collections/WATT533.xml#WATT533-item2 -->
+                    <!-- ../collections/WATT534.xml#WATT534-item1 -->
+                    <!-- ../collections/WATT534.xml#WATT534-item2 -->
+                </person>
+
+                <person xml:id="person_390">
+                    <persName type="display">cavʻ̐̐̐̐̐̐ nǫ khamʻʺ</persName>
+                    <!-- ../collections/WATT516.xml#WATT516-item1 -->
+                </person>
+
+                <person xml:id="person_112">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐ amātʻ̐ lūṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATT537.xml#WATT537-item1 -->
+                    <!-- ../collections/WATT541.xml#WATT541-item1 -->
+                    <!-- ../collections/WATT542.xml#WATT542-item1 -->
+                </person>
+
+                <person xml:id="person_195">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐ muninda (careʺ mauṅʻ̨ ṅę̀)</persName>
+                    <!-- ../collections/WATT551.xml#WATT551-item1 -->
+                </person>
+
+                <person xml:id="person_118">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐ srā toʻ̨ mūiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATPH692.xml#WATPH692-item1 -->
+                </person>
+
+                <person xml:id="person_363">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐ amatʻ lūṅʻʺ mūiṅʻʺ naunʻ</persName>
+                    <!-- ../collections/WATPH695.xml#WATPH695-item1 -->
+                </person>
+
+                <person xml:id="person_259">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐ srą̄ mūiṅʻʺ lī</persName>
+                    <!-- ../collections/WATPH696.xml#WATPH696-item1 -->
+                </person>
+
+                <person xml:id="person_89">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐ kāṅʻʺ sūivʻ</persName>
+                    <!-- ../collections/WATPH697.xml#WATPH697-item1 -->
+                </person>
+
+                <person xml:id="person_228">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐ nǫ khamʻʺ mūiṅʻʺ kuiṅʻ</persName>
+                    <!-- ../collections/WATPH699.xml#WATPH699-item1 -->
+                </person>
+
+                <person xml:id="person_175">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐ srā toʻ mūiṅʻʺ naunʻ</persName>
+                    <!-- ../collections/WATPH700.xml#WATPH700-item1 -->
+                    <!-- ../collections/WATPH702.xml#WATPH702-item1 -->
+                    <!-- ../collections/WATPH703.xml#WATPH703-item1 -->
+                </person>
+
+                <person xml:id="person_279">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐ nǫ khamʻʺ mūiṅʻʺ kuiṅʻ</persName>
+                    <!-- ../collections/WATPH705.xml#WATPH705-item1 -->
+                </person>
+
+                <person xml:id="person_4">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐ phakʻ̐ nauṅʻ</persName>
+                    <!-- ../collections/WATPH709.xml#WATPH709-item1 -->
+                </person>
+
+                <person xml:id="person_337">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ nǫ khamʻʺ mūiṅʻʺ kuiṅʻ</persName>
+                    <!-- ../collections/WATPH740.xml#WATPH740-item1 -->
+                </person>
+
+                <person xml:id="person_387">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐srą̄ ūʺ puṅʻña (kyauṅʻʺ vānʻ̐ yūkʻ̨)</persName>
+                    <!-- ../collections/WATPH742.xml#WATPH742-item1 -->
+                </person>
+
+                <person xml:id="person_162">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ kaṅʻʺ sūivʻ</persName>
+                    <!-- ../collections/WATPH744.xml#WATPH744-item1 -->
+                    <!-- ../collections/WATPH745.xml#WATPH745-item1 -->
+                </person>
+
+                <person xml:id="person_302">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ vāyāma (cavʻ̐srą̄ kyauṅʻʺ kamʻʹ kǫ - cavʻ̐ keṅʻʺtauṅʻʺ)</persName>
+                    <!-- ../collections/WATPH747.xml#WATPH747-item1 -->
+                </person>
+
+                <person xml:id="person_288">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐srā̐ vāyāma (kyauṅʻʺ kamʻʹkǫ mè̐ hauṅʻ̐ saunʻ - cavʻ̐ keṅʻʺtauṅʻʺ)</persName>
+                    <!-- ../collections/WATPH750.xml#WATPH750-item1 -->
+                </person>
+
+                <person xml:id="person_149">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ amatʻlūṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATPH765.xml#WATPH765-item1 -->
+                </person>
+
+                <person xml:id="person_32">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ srā kyauṅʻʺ kamʻʹ kǫ mèhauṅʻ̐ saunʻ (munʻcavʻ̐ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATPH800.xml#WATPH800-item1 -->
+                </person>
+
+                <person xml:id="person_323">
+                    <persName type="display">cavʻ̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐̐ koʺlī mūiṅʻʺ panʻ</persName>
+                    <!-- ../collections/LASHI835.xml#LASHI835-item1 -->
+                    <!-- ../collections/LASHI836.xml#LASHI836-item1 -->
+                    <!-- ../collections/LASHI836.xml#LASHI836-item2 -->
+                </person>
+
+                <person xml:id="person_370">
+                    <persName type="display">ce leʺ kyaukʻʹ sauṅʻ mauṅʻʺ tauṅʻ</persName>
+                    <!-- ../collections/WATPA46.xml#WATPA46-item1 -->
+                </person>
+
+                <person xml:id="person_23">
+                    <persName type="display">Cey‘ya of Kuṅ‘ Kav‘</persName>
+                    <!-- ../collections/CAMBR613.xml#CAMBR613-item1 -->
+                    <!-- ../collections/CAMBR616.xml#CAMBR616-item1 -->
+                </person>
+
+                <person xml:id="person_318">
+                    <persName type="display">ceʺ khamʻʺ aoʺ</persName>
+                    <!-- ../collections/WATPA33.xml#WATPA33-item1 -->
+                </person>
+
+                <person xml:id="person_197">
+                    <persName type="display">ceʺ leʺ aiṅʻ tā [muiṅʻʺ naiʺ]</persName>
+                    <!-- ../collections/WATPA63.xml#WATPA63-item1 -->
+                </person>
+
+                <person xml:id="person_301">
+                    <persName type="display">ceʺ leʺ canʻtą̄ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATPA35.xml#WATPA35-item1 -->
+                </person>
+
+                <person xml:id="person_269">
+                    <persName type="display">ceʺ leʺ vunʻ na</persName>
+                    <!-- ../collections/WATPA31.xml#WATPA31-item1 -->
+                </person>
+
+                <person xml:id="person_362">
+                    <persName type="display">cintākavi srā lūṅʻ kauṅʻ (tūnʻ̐ huṅʻʺ)</persName>
+                    <!-- ../collections/WATT438.xml#WATT438-item1 -->
+                </person>
+
+                <person xml:id="person_36">
+                    <persName type="display">Dhammakitti of Potthakārāma</persName>
+                    <!-- ../collections/CAMBR687.xml#CAMBR687-item1 -->
+                </person>
+
+                <person xml:id="person_107">
+                    <persName type="display">dhammarakkhita [cavʻ̐ koʺ li̋ mūiṅʻʺ panʻ̨?]</persName>
+                    <!-- ../collections/WATT576.xml#WATT576-item1 -->
+                </person>
+
+                <person xml:id="person_218">
+                    <persName type="display">dhammarakkhita srā koʺ lį̄ [cavʻ̐ koʺ li̋ mūiṅʻʺ panʻ̨?]</persName>
+                    <!-- ../collections/WATT492.xml#WATT492-item1 -->
+                </person>
+
+                <person xml:id="person_146">
+                    <persName type="display">Homaiṅ‘ ’Amat‘gyi Moṅ‘ ’E</persName>
+                    <!-- ../collections/CAMBR655.xml#CAMBR655-item1 -->
+                </person>
+
+                <person xml:id="person_376">
+                    <persName type="display">jotipāla</persName>
+                    <!-- ../collections/WATPH792.xml#WATPH792-item1 -->
+                </person>
+
+                <person xml:id="person_383">
+                    <persName type="display">kanʻ na ra hanʻʺ</persName>
+                    <!-- ../collections/WATJ421.xml#WATJ421-item1 -->
+                </person>
+
+                <person xml:id="person_169">
+                    <persName type="display">kaunʻ khamʻʺ ca reʺ ta peʺ phuṅʻʺ kyīʺ keṅʻʺ tauṅʻʺ</persName>
+                    <!-- ../collections/WATPA127.xml#WATPA127-item1 -->
+                </person>
+
+                <person xml:id="person_96">
+                    <persName type="display">kaunʻʺ tiṅʻ̨ ña bhidhaja (lukʻ̐ yanʻ̨ kuṅʻ̨ māʺ)</persName>
+                    <!-- ../collections/WATT540.xml#WATT540-item1 -->
+                </person>
+
+                <person xml:id="person_336">
+                    <persName type="display">kayuṅʻʺ takā srā thavʻ̐</persName>
+                    <!-- ../collections/WATPH771.xml#WATPH771-item1 -->
+                </person>
+
+                <person xml:id="person_392">
+                    <persName type="display">khiṅ kyauṅ cai sam muiṅ nai</persName>
+                    <!-- ../collections/WATJ338.xml#WATJ338-item1 -->
+                </person>
+
+                <person xml:id="person_126">
+                    <persName type="display">khiṅʻʺ kyauṅʻʺ caiʺ samʻ (muiṅʻʺ naiʺ)</persName>
+                    <persName type="variant">khiṅʻʺ kyauṅʻʺ caiʺ samʻ (veṅʻʺ muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ401.xml#WATJ401-item1 -->
+                    <!-- ../collections/WATJ437.xml#WATJ437-item1 -->
+                    <!-- ../collections/WATPA162.xml#WATPA162-item1 -->
+                    <!-- ../collections/WATT474.xml#WATT474-item1 -->
+                    <!-- ../collections/WATT474.xml#WATT474-item2 -->
+                </person>
+
+                <person xml:id="person_140">
+                    <persName type="display">khiṅʻʺ kyauṅʻʺ keʺ maṅʻʺ (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATT486.xml#WATT486-item1 -->
+                    <!-- ../collections/WATT509.xml#WATT509-item1 -->
+                </person>
+
+                <person xml:id="person_375">
+                    <persName type="display">khiṅʻʺ kyauṅʻʺ suiṅʻ̨ mauṅʻ̨ keṅʻʺ sèṅʻ</persName>
+                    <!-- ../collections/WATT526.xml#WATT526-item1 -->
+                </person>
+
+                <person xml:id="person_188">
+                    <persName type="display">koʺ sanʻ la</persName>
+                    <!-- ../collections/WATPA39.xml#WATPA39-item1 -->
+                </person>
+
+                <person xml:id="person_334">
+                    <persName type="display">Kummāvāra?</persName>
+                    <!-- ../collections/OXFOR181.xml#OXFOR181-item1 -->
+                </person>
+
+                <person xml:id="person_343">
+                    <persName type="display">kyauṅʻʺ cikʻ taʹ (muiṅʻʺ naiʺ) - also kown as careʺ thavʻ̐</persName>
+                    <!-- ../collections/WATJ374.xml#WATJ374-item1 -->
+                </person>
+
+                <person xml:id="person_227">
+                    <persName type="display">kyauṅʻʺ citta (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ190.xml#WATJ190-item1 -->
+                </person>
+
+                <person xml:id="person_357">
+                    <persName type="display">kyauṅʻʺ ta kā piṅʻ ñā</persName>
+                    <!-- ../collections/WATJ419.xml#WATJ419-item1 -->
+                </person>
+
+                <person xml:id="person_265">
+                    <persName type="display">kyauṅʻʺ takā panʻ cikʻ ta (khamʻʺ pāʺ po̐ munʻ)</persName>
+                    <!-- ../collections/WATT435.xml#WATT435-item1 -->
+                </person>
+
+                <person xml:id="person_274">
+                    <persName type="display">Kyauṅ‘-takā Piṅ‘ñā</persName>
+                    <persName type="variant">Kyauṅ‘takā Piṅ‘ñā</persName>
+                    <persName type="variant">kyauṅ ta kā piṅ ñā</persName>
+                    <!-- ../collections/CAMBR597.xml#CAMBR597-item1 -->
+                    <!-- ../collections/CAMBR869.xml#CAMBR869-item1 -->
+                    <!-- ../collections/CAMBR902.xml#CAMBR902-item1 -->
+                    <!-- ../collections/WATJ372.xml#WATJ372-item1 -->
+                </person>
+
+                <person xml:id="person_15">
+                    <persName type="display">luṅʻʺ ceñʻ̐ khamʻʺ sái (ce̐ lānʻʹ)</persName>
+                    <!-- ../collections/WATPH698.xml#WATPH698-item1 -->
+                    <!-- ../collections/WATPH701.xml#WATPH701-item1 -->
+                </person>
+
+                <person xml:id="person_147">
+                    <persName type="display">luṅʻʺ kivʻ̐ (Pang Mu village)</persName>
+                    <!-- ../collections/WATPA62.xml#WATPA62-item1 -->
+                </person>
+
+                <person xml:id="person_310">
+                    <persName type="display">mun cav huv loi (mauṅ lav)</persName>
+                    <!-- ../collections/WATJ362.xml#WATJ362-item1 -->
+                </person>
+
+                <person xml:id="person_105">
+                    <persName type="display">mun cav loi kun (muin nai)</persName>
+                    <!-- ../collections/WATJ312.xml#WATJ312-item1 -->
+                </person>
+
+                <person xml:id="person_261">
+                    <persName type="display">mun cav me haun saun</persName>
+                    <!-- ../collections/WATJ336.xml#WATJ336-item1 -->
+                </person>
+
+                <person xml:id="person_165">
+                    <persName type="display">munʻ cavʻ</persName>
+                    <!-- ../collections/WATPA95.xml#WATPA95-item1 -->
+                </person>
+
+                <person xml:id="person_42">
+                    <persName type="display">munʻ cavʻ kyauṅʻʺ kamʻʹ koʻ (hauṅʻ̐ munʻ cavʻ kiṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATJ178.xml#WATJ178-item1 -->
+                </person>
+
+                <person xml:id="person_88">
+                    <persName type="display">munʻ cavʻ̐ huvʻ loi (mauṅʻʺ lavʻʺ maukʻ̨ maį)</persName>
+                    <!-- ../collections/WATJ296.xml#WATJ296-item1 -->
+                </person>
+
+                <person xml:id="person_219">
+                    <persName type="display">munʻ cavʻ̐ kyauṅʻʺ kamʻʹ kǫ</persName>
+                    <!-- ../collections/WATT480.xml#WATT480-item1 -->
+                </person>
+
+                <person xml:id="person_99">
+                    <persName type="display">munʻ cavʻ̐ pāʺ nuinʻ̐ kyauṅʻʺ kamʻʹ kǫ (cuivʻ̐ cavʻ̐ subodhālaṅʻkāra)</persName>
+                    <!-- ../collections/WATT443.xml#WATT443-item1 -->
+                </person>
+
+                <person xml:id="person_167">
+                    <persName type="display">munʻ cavʻ̐ pāʺ nuiṅʻ̐</persName>
+                    <persName type="variant">munʻ cavʻ̐ pāʺ nuiṅʻ̐ (cavʻ̐ keṅʻʺ tauṅʻʺ)</persName>
+                    <!-- ../collections/WATT448.xml#WATT448-item1 -->
+                    <!-- ../collections/WATT498.xml#WATT498-item1 -->
+                </person>
+
+                <person xml:id="person_78">
+                    <persName type="display">munʻ caṅʻʺ</persName>
+                    <!-- ../collections/WATPA98.xml#WATPA98-item1 -->
+                </person>
+
+                <person xml:id="person_236">
+                    <persName type="display">munʻ caṅʻʺ haiʺ kuivʻ</persName>
+                    <!-- ../collections/WATPA158.xml#WATPA158-item1 -->
+                </person>
+
+                <person xml:id="person_273">
+                    <persName type="display">munʻ caṅʻʺ keṅʻʺ tauṅʻʺ pāʺ nuiṅʻ̐</persName>
+                    <!-- ../collections/WATT442.xml#WATT442-item1 -->
+                </person>
+
+                <person xml:id="person_377">
+                    <persName type="display">munʻ caṅʻʺ kyauṅʻʺ toʺ mūiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATPH789.xml#WATPH789-item1 -->
+                </person>
+
+                <person xml:id="person_90">
+                    <persName type="display">munʻ caṅʻʺ maukʻ mai</persName>
+                    <!-- ../collections/WATJ271.xml#WATJ271-item1 -->
+                </person>
+
+                <person xml:id="person_18">
+                    <persName type="display">munʻ caṅʻʺ maukʻ maį</persName>
+                    <!-- ../collections/WATPA110.xml#WATPA110-item1 -->
+                </person>
+
+                <person xml:id="person_247">
+                    <persName type="display">munʻ caṅʻʺ maukʻ̨ maį</persName>
+                    <!-- ../collections/WATJ275.xml#WATJ275-item1 -->
+                </person>
+
+                <person xml:id="person_380">
+                    <persName type="display">munʻ caṅʻʺ mūiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATPH787.xml#WATPH787-item1 -->
+                </person>
+
+                <person xml:id="person_201">
+                    <persName type="display">munʻ caṅʻʺ nauṅʻ kenʻ mūiṅʻʺ nāiʺ</persName>
+                    <!-- ../collections/WATJ276.xml#WATJ276-item1 -->
+                </person>
+
+                <person xml:id="person_322">
+                    <persName type="display">munʻ caṅʻʺ nauṅʻ kiñʻ (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATJ272.xml#WATJ272-item1 -->
+                </person>
+
+                <person xml:id="person_177">
+                    <persName type="display">munʻ cānʻʺ muiṅʻʺ naiʺ</persName>
+                    <!-- ../collections/WATPA72.xml#WATPA72-item1 -->
+                </person>
+
+                <person xml:id="person_224">
+                    <persName type="display">munʻ cānʻʺ nauṅʻ kenʻ (muiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATPA93.xml#WATPA93-item1 -->
+                </person>
+
+                <person xml:id="person_119">
+                    <persName type="display">munʻ cānʻʺ phunʻʺ krīʺ</persName>
+                    <!-- ../collections/WATPA114.xml#WATPA114-item1 -->
+                    <!-- ../collections/WATPA17.xml#WATPA17-item1 -->
+                </person>
+
+                <person xml:id="person_324">
+                    <persName type="display">munʻ cāṅʻʺ maukʻ maį</persName>
+                    <!-- ../collections/WATPH795.xml#WATPH795-item1 -->
+                </person>
+
+                <person xml:id="person_102">
+                    <persName type="display">Phongyi of Cuṅ‘yāv‘</persName>
+                    <!-- ../collections/CAMBR1037.xml#CAMBR1037-item1 -->
+                </person>
+
+                <person xml:id="person_347">
+                    <persName type="display">phraʺ takā ca reʺ</persName>
+                    <!-- ../collections/WATPA140.xml#WATPA140-item1 -->
+                </person>
+
+                <person xml:id="person_256">
+                    <persName type="display">Pongyi of Ban‘ Hāt‘</persName>
+                    <!-- ../collections/CAMBR617.xml#CAMBR617-item1 -->
+                </person>
+
+                <person xml:id="person_369">
+                    <persName type="display">pū kyauṅʻʺ cikʻ ta</persName>
+                    <!-- ../collections/WATPA159.xml#WATPA159-item1 -->
+                </person>
+
+                <person xml:id="person_73">
+                    <persName type="display">pų̄ srą̄ thavʻ̐ koʹ nuiṅʻ̐</persName>
+                    <!-- ../collections/WATT487.xml#WATT487-item1 -->
+                </person>
+
+                <person xml:id="person_229">
+                    <persName type="display">Sarā Ye-Vāṅ‘-Ñān‘</persName>
+                    <!-- ../collections/CAMBR735.xml#CAMBR735-item1 -->
+                </person>
+
+                <person xml:id="person_163">
+                    <persName type="display">Sayadaw of Kun‘pāṅ‘ Hāṅ‘yum‘</persName>
+                    <!-- ../collections/CAMBR585.xml#CAMBR585-item1 -->
+                </person>
+
+                <person xml:id="person_5">
+                    <persName type="display">Sayadaw of Kyauk‘ Mauṅ‘ Tauṅ‘ Po, Mūiṅ‘ Nai</persName>
+                    <!-- ../collections/CAMBR903.xml#CAMBR903-item1 -->
+                </person>
+
+                <person xml:id="person_97">
+                    <persName type="display">Sayadaw of Tauṅ‘-le-loṅ‘ Monastery</persName>
+                    <!-- ../collections/CAMBR650.xml#CAMBR650-item1 -->
+                </person>
+
+                <person xml:id="person_208">
+                    <persName type="display">Sayadaw Sirican‘da</persName>
+                    <!-- ../collections/CAMBR648.xml#CAMBR648-item1 -->
+                </person>
+
+                <person xml:id="person_207">
+                    <persName type="display">so pheṅʻ na mauṅʻ ṅè cavʻ amatʻ luṅʻ muiṅʻʺ nauṅʻ</persName>
+                    <!-- ../collections/WATPA163.xml#WATPA163-item1 -->
+                </person>
+
+                <person xml:id="person_345">
+                    <persName type="display">soʺ phiṅʻ naʹ mauṅ'' ṅeʻ (cav'' amat lūṅ'' ūiṅ''" nauṅ'')</persName>
+                    <!-- ../collections/WATPA16.xml#WATPA16-item1 -->
+                </person>
+
+                <person xml:id="person_121">
+                    <persName type="display">sra ca re thav</persName>
+                    <!-- ../collections/WATJ348.xml#WATJ348-item1 -->
+                </person>
+
+                <person xml:id="person_69">
+                    <persName type="display">sreʺ muiṅʻʺ nāṅʻʺ</persName>
+                    <!-- ../collections/WATT447.xml#WATT447-item1 -->
+                </person>
+
+                <person xml:id="person_189">
+                    <persName type="display">srā jina (muiṅʻʺ yaṅʻʺ lèṅʻ)</persName>
+                    <!-- ../collections/WATPA117.xml#WATPA117-item1 -->
+                </person>
+
+                <person xml:id="person_307">
+                    <persName type="display">srā khantī ni phatʻ tā (mūiṅʻʺ naiʺ)</persName>
+                    <!-- ../collections/WATT476.xml#WATT476-item1 -->
+                </person>
+
+                <person xml:id="person_168">
+                    <persName type="display">srā kyauk sauṅ mauṅ tauṅ thauṅ cu</persName>
+                    <!-- ../collections/WATJ322.xml#WATJ322-item1 -->
+                </person>
+
+                <person xml:id="person_14">
+                    <persName type="display">srā nam maṅ</persName>
+                    <!-- ../collections/WATJ325.xml#WATJ325-item1 -->
+                </person>
+
+                <person xml:id="person_308">
+                    <persName type="display">srā nā kivʻ</persName>
+                    <persName type="variant">srā nā kivʻ (sī po)</persName>
+                    <!-- ../collections/WATPA74.xml#WATPA74-item1 -->
+                    <!-- ../collections/WATPA76.xml#WATPA76-item1 -->
+                </person>
+
+                <person xml:id="person_293">
+                    <persName type="display">srā panʻʺ siṅʻʺ (vanʻ ciṅʻʺ)</persName>
+                    <!-- ../collections/WATPA101.xml#WATPA101-item1 -->
+                </person>
+
+                <person xml:id="person_85">
+                    <persName type="display">srā panʻʺ sèṅʻʺ (vanʻ ciṅʻʺ muiṅʻʺ nauṅʻ)</persName>
+                    <!-- ../collections/LASHI430.xml#LASHI430-item1 -->
+                    <!-- ../collections/WATT426.xml#WATT426-item1 -->
+                </person>
+
+                <person xml:id="person_150">
+                    <persName type="display">srā tona (māʺ timʻ ti muinʻʺ keṅʻʺ mai)</persName>
+                    <!-- ../collections/WATPA97.xml#WATPA97-item1 -->
+                </person>
+
+                <person xml:id="person_137">
+                    <persName type="display">srā ñā thatʻ</persName>
+                    <!-- ../collections/WATPA26.xml#WATPA26-item1 -->
+                </person>
+
+                <person xml:id="person_270">
+                    <persName type="display">srą̄ zina (muiṅʻʺ yaṅʻʺ liṅʻ)</persName>
+                    <!-- ../collections/WATPA18.xml#WATPA18-item1 -->
+                </person>
+
+                <person xml:id="person_74">
+                    <persName type="display">srą̄ mūʺ (nauṅʻ cāṅʻʹ loi simʻ̨)</persName>
+                    <!-- ../collections/WATT464.xml#WATT464-item1 -->
+                </person>
+
+                <person xml:id="person_148">
+                    <persName type="display">srą̄ namʻʹ unʻ̨ (maukʻ̨ maį)</persName>
+                    <!-- ../collections/WATT510.xml#WATT510-item1 -->
+                </person>
+
+                <person xml:id="person_151">
+                    <persName type="display">srą̨̄ hūvʻ luiṅʻ̐</persName>
+                    <!-- ../collections/LASHI852.xml#LASHI852-item1 -->
+                </person>
+
+                <person xml:id="person_181">
+                    <persName type="display">subodhārāma careʺ koʹ nuiṅʻ̐</persName>
+                    <!-- ../collections/WATT457.xml#WATT457-item1 -->
+                </person>
+
+                <person xml:id="person_306">
+                    <persName type="display">Sæn Citta</persName>
+                    <!-- ../collections/CAMBR663.xml#CAMBR663-item1 -->
+                </person>
+
+                <person xml:id="person_196">
+                    <persName type="display">sāṅʻ̨ khuinʻ</persName>
+                    <!-- ../collections/WATT491.xml#WATT491-item1 -->
+                </person>
+
+                <person xml:id="person_276">
+                    <persName type="display">thammarakkhita kūnʻʺ hūinʻʺ</persName>
+                    <!-- ../collections/WATT532.xml#WATT532-item1 -->
+                </person>
+
+                <person xml:id="person_51">
+                    <persName type="display">Tuṅ‘ Le Luṅ‘ Sayadaw of Ava</persName>
+                    <!-- ../collections/CAMBR889.xml#CAMBR889-item1 -->
+                </person>
+
+                <person xml:id="person_35">
+                    <persName type="display">Unknown</persName>
+                    <persName type="variant">Unknown (an abbot)</persName>
+                    <persName type="variant">Unknown (possibly cavʻ̐ koʺ lį̄ muiṅʻʺ panʻ̨)</persName>
+                    <persName type="variant">Unknown (possibly cavʻ̐ nǫ khamʻʺ muiṅʻʺ kuiṅʻ)</persName>
+                    <persName type="variant">Unknown [only mentioned that the author lived near a wet rice field]</persName>
+                    <persName type="variant">Unknown.</persName>
+                    <persName type="variant">unknown</persName>
+                    <!-- ../collections/LASHI1042.xml#LASHI1042-item1 -->
+                    <!-- ../collections/OXFOR182.xml#OXFOR182-item1 -->
+                    <!-- ../collections/OXFOR182.xml#OXFOR182-item2 -->
+                    <!-- ../collections/OXFOR189.xml#OXFOR189-item1 -->
+                    <!-- ../collections/OXFOR192.xml#OXFOR192-item1 -->
+                    <!-- ../collections/WATJ167.xml#WATJ167-item1 -->
+                    <!-- ../collections/WATJ168.xml#WATJ168-item1 -->
+                    <!-- ../collections/WATJ170.xml#WATJ170-item1 -->
+                    <!-- ../collections/WATJ172.xml#WATJ172-item1 -->
+                    <!-- ../collections/WATJ173.xml#WATJ173-item1 -->
+                    <!-- ../collections/WATJ174.xml#WATJ174-item1 -->
+                    <!-- ../collections/WATJ176.xml#WATJ176-item1 -->
+                    <!-- ../collections/WATJ177.xml#WATJ177-item1 -->
+                    <!-- ../collections/WATJ273.xml#WATJ273-item1 -->
+                    <!-- ../collections/WATJ285.xml#WATJ285-item1 -->
+                    <!-- ../collections/WATJ291.xml#WATJ291-item1 -->
+                    <!-- ../collections/WATJ292.xml#WATJ292-item1 -->
+                    <!-- ../collections/WATJ300.xml#WATJ300-item1 -->
+                    <!-- ../collections/WATJ301.xml#WATJ301-item1 -->
+                    <!-- ../collections/WATJ302.xml#WATJ302-item1 -->
+                    <!-- ../collections/WATJ307.xml#WATJ307-item1 -->
+                    <!-- ../collections/WATJ308.xml#WATJ308-item1 -->
+                    <!-- ../collections/WATJ310.xml#WATJ310-item1 -->
+                    <!-- ../collections/WATJ318.xml#WATJ318-item1 -->
+                    <!-- ../collections/WATJ320.xml#WATJ320-item1 -->
+                    <!-- ../collections/WATJ327.xml#WATJ327-item1 -->
+                    <!-- ../collections/WATJ330.xml#WATJ330-item1 -->
+                    <!-- ../collections/WATJ335.xml#WATJ335-item1 -->
+                    <!-- ../collections/WATJ342.xml#WATJ342-item1 -->
+                    <!-- ../collections/WATJ344.xml#WATJ344-item1 -->
+                    <!-- ../collections/WATJ345.xml#WATJ345-item1 -->
+                    <!-- ../collections/WATJ351.xml#WATJ351-item1 -->
+                    <!-- ../collections/WATJ364.xml#WATJ364-item1 -->
+                    <!-- ../collections/WATJ369.xml#WATJ369-item1 -->
+                    <!-- ../collections/WATJ370.xml#WATJ370-item1 -->
+                    <!-- ../collections/WATJ373.xml#WATJ373-item1 -->
+                    <!-- ../collections/WATJ396.xml#WATJ396-item1 -->
+                    <!-- ../collections/WATJ402.xml#WATJ402-item1 -->
+                    <!-- ../collections/WATJ404.xml#WATJ404-item1 -->
+                    <!-- ../collections/WATJ411.xml#WATJ411-item1 -->
+                    <!-- ../collections/WATJ416.xml#WATJ416-item1 -->
+                    <!-- ../collections/WATJ417.xml#WATJ417-item1 -->
+                    <!-- ../collections/WATPA104.xml#WATPA104-item1 -->
+                    <!-- ../collections/WATPA105.xml#WATPA105-item1 -->
+                    <!-- ../collections/WATPA119.xml#WATPA119-item1 -->
+                    <!-- ../collections/WATPA124.xml#WATPA124-item1 -->
+                    <!-- ../collections/WATPA134.xml#WATPA134-item1 -->
+                    <!-- ../collections/WATPA143.xml#WATPA143-item1 -->
+                    <!-- ../collections/WATPA146.xml#WATPA146-item1 -->
+                    <!-- ../collections/WATPA152.xml#WATPA152-item1 -->
+                    <!-- ../collections/WATPA25.xml#WATPA25-item1 -->
+                    <!-- ../collections/WATPA27.xml#WATPA27-item1 -->
+                    <!-- ../collections/WATPA28.xml#WATPA28-item1 -->
+                    <!-- ../collections/WATPA29.xml#WATPA29-item1 -->
+                    <!-- ../collections/WATPA41.xml#WATPA41-item1 -->
+                    <!-- ../collections/WATPA42.xml#WATPA42-item1 -->
+                    <!-- ../collections/WATPA44.xml#WATPA44-item1 -->
+                    <!-- ../collections/WATPA45.xml#WATPA45-item1 -->
+                    <!-- ../collections/WATPA48.xml#WATPA48-item1 -->
+                    <!-- ../collections/WATPA50.xml#WATPA50-item1 -->
+                    <!-- ../collections/WATPA66.xml#WATPA66-item1 -->
+                    <!-- ../collections/WATPA69.xml#WATPA69-item1 -->
+                    <!-- ../collections/WATPA75.xml#WATPA75-item1 -->
+                    <!-- ../collections/WATPA86.xml#WATPA86-item1 -->
+                    <!-- ../collections/WATPA92.xml#WATPA92-item1 -->
+                    <!-- ../collections/WATPA99.xml#WATPA99-item1 -->
+                    <!-- ../collections/WATT432.xml#WATT432-item1 -->
+                    <!-- ../collections/WATT436.xml#WATT436-item1 -->
+                    <!-- ../collections/WATT439.xml#WATT439-item1 -->
+                    <!-- ../collections/WATT440.xml#WATT440-item1 -->
+                    <!-- ../collections/WATT444.xml#WATT444-item1 -->
+                    <!-- ../collections/WATT446.xml#WATT446-item2 -->
+                    <!-- ../collections/WATT453.xml#WATT453-item1 -->
+                    <!-- ../collections/WATT456.xml#WATT456-item1 -->
+                    <!-- ../collections/WATT484.xml#WATT484-item1 -->
+                    <!-- ../collections/WATT488.xml#WATT488-item1 -->
+                    <!-- ../collections/WATT488.xml#WATT488-item2 -->
+                    <!-- ../collections/WATT494.xml#WATT494-item1 -->
+                    <!-- ../collections/WATT497.xml#WATT497-item1 -->
+                    <!-- ../collections/WATT503.xml#WATT503-item1 -->
+                    <!-- ../collections/WATT504.xml#WATT504-item1 -->
+                    <!-- ../collections/WATT506.xml#WATT506-item1 -->
+                    <!-- ../collections/WATT515.xml#WATT515-item1 -->
+                    <!-- ../collections/WATT529.xml#WATT529-item1 -->
+                    <!-- ../collections/WATT530.xml#WATT530-item1 -->
+                    <!-- ../collections/WATT531.xml#WATT531-item1 -->
+                    <!-- ../collections/WATT543.xml#WATT543-item1 -->
+                    <!-- ../collections/WATT556.xml#WATT556-item1 -->
+                    <!-- ../collections/WATT558.xml#WATT558-item1 -->
+                    <!-- ../collections/WATT566.xml#WATT566-item1 -->
+                    <!-- ../collections/WATT567.xml#WATT567-item1 -->
+                    <!-- ../collections/WATT569.xml#WATT569-item1 -->
+                    <!-- ../collections/WATT570.xml#WATT570-item1 -->
+                    <!-- ../collections/WATT572.xml#WATT572-item1 -->
+                    <!-- ../collections/WATT574.xml#WATT574-item1 -->
+                    <!-- ../collections/WATT575.xml#WATT575-item1 -->
+                    <!-- ../collections/WATT577.xml#WATT577-item1 -->
+                </person>
+
+                <person xml:id="person_237">
+                    <persName type="display">visuddhāruṅʻ̨ srā tǫ</persName>
+                    <!-- ../collections/LASHI1046.xml#LASHI1046-item1 -->
+                </person>
+
+                <person xml:id="person_241">
+                    <persName type="display">ñānadhammarakkhita</persName>
+                    <!-- ../collections/WATT429.xml#WATT429-item1 -->
+                </person>
+
+                <person xml:id="person_262">
+                    <persName type="display">မုၼ်ၸဝ်ႈမႄႈႁွင်ႈသွၼ်</persName>
+                    <!-- ../collections/WATJ336.xml#WATJ336-item1 -->
+                </person>
+
+                <person xml:id="person_272">
+                    <persName type="display">မုၼ်ၸဝ်ႈၵျွင်းၵမ်ႉၵေႃႇ (မႄႈႁွင်ႈသွၼ်)</persName>
+                    <!-- ../collections/WATJ333.xml#WATJ333-item1 -->
+                </person>
+
+                <person xml:id="person_346">
+                    <persName type="display">သေႃးၽိင်ႇၼ မွင်ႇငႄႇ ၸဝ်ႈဢမၢတ်ႈလူင်မိူင်းၼွင်</persName>
+                    <!-- ../collections/WATPA16.xml#WATPA16-item1 -->
+                </person>
+
+                <person xml:id="person_122">
+                    <persName type="display">သြႃႇၸရေးထဝ်ႈ</persName>
+                    <!-- ../collections/WATJ348.xml#WATJ348-item1 -->
+                </person>
+
+                <person xml:id="person_13">
+                    <persName type="display">ၵျွင်းတၵႃႇပိင်ႇၺႃႇ</persName>
+                    <!-- ../collections/WATJ372.xml#WATJ372-item1 -->
+                </person>
+
+                <person xml:id="person_393">
+                    <persName type="display">ၶိင်းၵျွင်းၸႆးသံ မိုင်းၼႆး</persName>
+                    <!-- ../collections/WATJ338.xml#WATJ338-item1 -->
+                </person>
+
+                <person xml:id="person_57">
+                    <persName type="display">ၸရေးထုၼ်းၶျိင်</persName>
+                    <!-- ../collections/WATJ266.xml#WATJ266-item1 -->
+                </person>
+
+                <person xml:id="person_353">
+                    <persName type="display">ၸရေးပိင်ၺႃႇ (လွႆၸင်ႉ)</persName>
+                    <!-- ../collections/WATJ347.xml#WATJ347-item1 -->
+                </person>
+
+                <person xml:id="person_80">
+                    <persName type="display">ၸရေးပိင်ႇၺႃႇ</persName>
+                    <!-- ../collections/WATJ6.xml#WATJ6-item1 -->
+                </person>
+
+                <person xml:id="person_286">
+                    <persName type="display">ၸရေးမိူင်းၼွင်</persName>
+                    <!-- ../collections/WATPA15.xml#WATPA15-item1 -->
+                </person>
+
+                <person xml:id="person_49">
+                    <persName type="display">ၸရေးယွတ်ႈၶမ်း</persName>
+                    <!-- ../collections/WATJ287.xml#WATJ287-item1 -->
+                </person>
+
+                <person xml:id="person_385">
+                    <persName type="display">ၸရေးလုင်းၵျွင်းၸိၵ်ႉတ(မိူင်းၼၢႆး)</persName>
+                    <!-- ../collections/WATJ8.xml#WATJ8-item1 -->
+                </person>
+
+                <person xml:id="person_92">
+                    <persName type="display">ၸရေးလၢင်းၶိူဝ်း</persName>
+                    <!-- ../collections/WATJ11.xml#WATJ11-item1 -->
+                </person>
+
+                <person xml:id="person_283">
+                    <persName type="display">ၸရေးလၢႆးသႂ်</persName>
+                    <!-- ../collections/WATJ414.xml#WATJ414-item1 -->
+                </person>
+
+                <person xml:id="person_235">
+                    <persName type="display">ၸရေးဝၢၼ်ႈၸိင်း</persName>
+                    <!-- ../collections/WATPA14.xml#WATPA14-item1 -->
+                </person>
+
+                <person xml:id="person_292">
+                    <persName type="display">ၸရေးသူႇရိယႃႇ</persName>
+                    <persName type="variant">ၸရေးသူႇရိယႃႇ (မႄႈႁွင်ႈသွၼ်)</persName>
+                    <persName type="variant">ၸရေးသူႇရိယႃႇ မႄႈႁွင်ႈသွၼ်</persName>
+                    <!-- ../collections/WATJ343.xml#WATJ343-item1 -->
+                    <!-- ../collections/WATJ366.xml#WATJ366-item1 -->
+                    <!-- ../collections/WATPA2.xml#WATPA2-item1 -->
+                </person>
+
+                <person xml:id="person_65">
+                    <persName type="display">ၸရေးသေးတၢၼ်း</persName>
+                    <!-- ../collections/WATJ365.xml#WATJ365-item1 -->
+                </person>
+
+                <person xml:id="person_44">
+                    <persName type="display">ၸရေးသြႃႇထဝ်ႈၶိင်းၵျွင်းၸႆးသၢမ်</persName>
+                    <!-- ../collections/WATJ361.xml#WATJ361-item1 -->
+                </person>
+
+                <person xml:id="person_171">
+                    <persName type="display">ၸရေးသၢင်ႇဢေႃး</persName>
+                    <!-- ../collections/WATJ9.xml#WATJ9-item1 -->
+                </person>
+
+                <person xml:id="person_71">
+                    <persName type="display">ၸရေးသၢင်ႇၶမ်း (ၽႃလူင်ႇ ၼႃးလိၼ်း)</persName>
+                    <!-- ../collections/WATPA1.xml#WATPA1-item1 -->
+                </person>
+
+                <person xml:id="person_194">
+                    <persName type="display">ၸရေးၵေႃးဝိတ မွၵ်ႇမႆႇ ႁိၵ်ႈဝႃႈ မုၼ်ၸဝ်ႈႁူဝ်လွႆ မွင်းလဝ်း</persName>
+                    <!-- ../collections/WATJ358.xml#WATJ358-item1 -->
+                </person>
+
+                <person xml:id="person_254">
+                    <persName type="display">ၸရေးၵျွင်းတၵႃႇပိင်ႇၺႃႇ မွၵ်ႇမႆႇ</persName>
+                    <!-- ../collections/WATJ371.xml#WATJ371-item1 -->
+                </person>
+
+                <person xml:id="person_222">
+                    <persName type="display">ၸရေးၵျွင်းၸိၵ်ႉတ (မိုင်းၼႆး)</persName>
+                    <!-- ../collections/WATJ339.xml#WATJ339-item1 -->
+                    <!-- ../collections/WATJ363.xml#WATJ363-item1 -->
+                </person>
+
+                <person xml:id="person_329">
+                    <persName type="display">ၸရေးၵျွင်းၸႆးသံ မိုင်းၼႆး</persName>
+                    <!-- ../collections/WATJ337.xml#WATJ337-item1 -->
+                </person>
+
+                <person xml:id="person_304">
+                    <persName type="display">ၸရေးၵျွင်းၸႆးသၢမ် (မိုင်းၼႆး)</persName>
+                    <!-- ../collections/WATJ367.xml#WATJ367-item1 -->
+                </person>
+
+                <person xml:id="person_145">
+                    <persName type="display">ၸရေးၵွင်းၶၢမ်</persName>
+                    <!-- ../collections/WATPA13.xml#WATPA13-item1 -->
+                </person>
+
+                <person xml:id="person_226">
+                    <persName type="display">ၸရေးၵွၼ်းၶမ်း</persName>
+                    <!-- ../collections/WATJ360.xml#WATJ360-item1 -->
+                </person>
+
+                <person xml:id="person_246">
+                    <persName type="display">ၸရေးၸိၼ (မိူင်းယၢင်းလႅင်)</persName>
+                    <!-- ../collections/WATJ340.xml#WATJ340-item1 -->
+                </person>
+
+                <person xml:id="person_278">
+                    <persName type="display">ၸရေးၸႆၢးသၢမ် (မိူင်းၼႆၢး)</persName>
+                    <!-- ../collections/WATJ356.xml#WATJ356-item1 -->
+                </person>
+
+                <person xml:id="person_386">
+                    <persName type="display">ၸရေးၼႃးၵိဝ်ႇ</persName>
+                    <!-- ../collections/WATJ355.xml#WATJ355-item1 -->
+                </person>
+
+                <person xml:id="person_368">
+                    <persName type="display">ၸဝ်ႈပုင်ႇၺသႃႇရ (ဝၢၼ်ႈယူၵ်ႇၵေးသီး)</persName>
+                    <!-- ../collections/WATT4.xml#WATT4-item1 -->
+                </person>
+
+                <person xml:id="person_31">
+                    <persName type="display">ၸဝ်ႈသြႃႇသုၽိင်ႇၼ (မွင်းလၢဝ်းၵဵင်းတွင်း)</persName>
+                    <!-- ../collections/WATT12.xml#WATT12-item1 -->
+                </person>
+
+                <person xml:id="person_156">
+                    <persName type="display">ၸဝ်ႈဢမၢတ်ႈလူင်မိူင်းၼွင်</persName>
+                    <persName type="variant">ၸဝ်ႈဢမၢတ်ႈလူင်မိူင်းၼွင် (ႁွင်ႉၸရေးၶွၵ်ႈၼွႆႉ ၽွင်းမၼ်းၸဝ်ႈမိူဝ်းထင်တီႈဝၢၼ်ႈၶွၵ်ႈၼွႆႉမိူင်းလိူၼ်း)</persName>
+                    <!-- ../collections/WATJ10.xml#WATJ10-item1 -->
+                    <!-- ../collections/WATJ350.xml#WATJ350-item1 -->
+                    <!-- ../collections/WATT5.xml#WATT5-item1 -->
+                </person>
+
+                <person xml:id="person_239">
+                    <persName type="display">ၸဝ်ႈၵေႃးလီႇ(မိူင်းပၼ်ႇ)</persName>
+                    <!-- ../collections/WATPA68.xml#WATPA68-item1 -->
+                </person>
+
+                <person xml:id="person_314">
+                    <persName type="display">ၸဝ်ႈၵၢင်းသိူဝ်</persName>
+                    <!-- ../collections/WATJ332.xml#WATJ332-item1 -->
+                    <!-- ../collections/WATPA3.xml#WATPA3-item1 -->
+                </person>
+
+                <person xml:id="person_160">
+                    <persName type="display">ၸဝ်ႈၼေႃႇၶမ်း (မိူင်းၵိုင်)</persName>
+                    <!-- ../collections/WATJ376.xml#WATJ376-item1 -->
+                </person>
+
+            </listPerson>
+        </body>
+    </text>
+</TEI>
