@@ -62,6 +62,16 @@
             </report>
         </rule>
     </pattern>
+    
+    <!-- Check the cross-links between entries -->
+    <pattern>
+        <rule context="(@corresp|@sameAs)">
+            <let name="targets" value="tokenize(translate(., '#', ''), ' ')"/>
+            <assert test="every $target in $targets satisfies $target = //@xml:id">
+                The <value-of select="name(.)"/> attribute contains a reference to an xml:id that does not exist
+            </assert>
+        </rule>
+    </pattern>
 
     
 </schema>

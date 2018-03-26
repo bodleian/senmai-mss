@@ -40,12 +40,14 @@ declare function local:generateVariations($title as xs:string) as xs:string*
             $v,
             replace($v, '^(the|a|an) ', '')
         )
+(:
     let $variations5 := for $v in distinct-values($variations4)
         return (
             $v,
             replace($v, ',.*Fascicle.*$', '')
         )
-    let $variations6 := for $v in distinct-values($variations5)
+:)
+    let $variations6 := for $v in distinct-values($variations4)
         return (
             $v,
             lower-case($v),
@@ -62,7 +64,7 @@ declare function local:generateVariations($title as xs:string) as xs:string*
 
 processing-instruction xml-model {'href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"'},
 processing-instruction xml-model {'href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"'},
-processing-instruction xml-model {'href="authority-schematron.sc" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"'},
+processing-instruction xml-model {'href="authority-schematron.sch" type="application/xml" schamtypens="http://purl.oclc.org/dsdl/schematron"'},
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>

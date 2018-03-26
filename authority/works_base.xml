@@ -412,6 +412,16 @@
                     <ref target="WATT509-item1"/>		<!-- ../collections/WATT509.xml#WATT509-item1 -->
                 </bibl>
 
+                <bibl xml:id="work_1347" corresp="#work_989 #work_281">
+                    <title type="uniform">Abhidhammā Saṅgiṇī</title>
+                    <title type="variant">Dhammasaṅgaṇi</title>
+                    <title type="variant">Thaṃmāsaṅ‘kānī</title>
+                    <title type="variant">dhammasaṅganī</title>
+                    <ref target="CAMBR630-item1"/>		<!-- ../collections/CAMBR630.xml#CAMBR630-item1 -->
+                    <ref target="CAMBR990-item1"/>		<!-- ../collections/CAMBR990.xml#CAMBR990-item1 -->
+                    <ref target="WATT550-item2"/>		<!-- ../collections/WATT550.xml#WATT550-item2 -->
+                </bibl>
+
                 <bibl xml:id="work_1146">
                     <title type="uniform">abhidhammāpathānʻʺ picʻceʺ savʻʺ sį̄</title>
                     <ref target="WATPH772-item1"/>		<!-- ../collections/WATPH772.xml#WATPH772-item1 -->
@@ -693,13 +703,16 @@
                     <ref target="CAMBR995-item1"/>		<!-- ../collections/CAMBR995.xml#CAMBR995-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_182">
+                <bibl xml:id="work_182" corresp="#work_123">
                     <title type="uniform">Brahmajāla Sutta</title>
-                    <title type="variant">Brahmajāla Sutta Phūk 1, 7, 9, 11 &amp; 12</title>
-                    <title type="variant">Brahmajāla Sutta, Fascicles 1, 7, 9, 11 &amp; 12</title>
                     <title type="variant">Brahmajāla Sūḍ</title>
-                    <ref target="CAMBR687-item1"/>		<!-- ../collections/CAMBR687.xml#CAMBR687-item1 -->
                     <ref target="CAMBR945-item1"/>		<!-- ../collections/CAMBR945.xml#CAMBR945-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_123" corresp="#work_182">
+                    <title type="uniform">Brahmajāla Sutta Phūk 1, 7, 9, 11 &amp; 12</title>
+                    <title type="variant">Brahmajāla Sutta, Fascicles 1, 7, 9, 11 &amp; 12</title>
+                    <ref target="CAMBR687-item1"/>		<!-- ../collections/CAMBR687.xml#CAMBR687-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_1211">
@@ -1296,35 +1309,58 @@
                     <ref target="WATJ312-item1"/>		<!-- ../collections/WATJ312.xml#WATJ312-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_60">
-                    <title type="uniform">Dhammapada Commentary</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 12, Bundle 9</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 2 &amp; Fascicle 7, Bundle 4</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 2, Bundle 7 &amp; Fascicle 6, Bundle 7</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 2, Fascicle 6 &amp; Fascicle 11, of Bundle 3</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 5, Bundle 3</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 6, Bundle 6</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 8, Bundle 9</title>
-                    <title type="variant">Dhammapada Commentary, Fascicle 9, Bundle 10 &amp; Fascicle 10, Final Bundle</title>
-                    <title type="variant">Dhammapada Commentary, Final Bundle, Fascicle 2 &amp; Fascicle 7, Final Bundle</title>
-                    <title type="variant">Dhammapāda, Phūk Sǫṅ Maḍ Sām, Phūk Hok Maḍ Sām &amp; Phūk Sip-’Eḍ Maḍ Sām</title>
-                    <title type="variant">Vohān Dhamma ’Upparāḍ Pāda Phūk Pæḍ Mat Kao</title>
+                <bibl xml:id="work_60" corresp="#work_919 #work_235 #work_1371 #work_586 #work_444 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 12, Bundle 9</title>
                     <title type="variant">Vōhan Dhammapāda Phūn Thōn Sipsǫṅ Maḍ Thōn Kao</title>
-                    <title type="variant">Vōhān Dhammapāda Phuk Hok Maḍ Hok</title>
-                    <title type="variant">Vōhān Dhammapāda Phuk Hā Maḍ Thōn Sām</title>
-                    <title type="variant">Vōhān Dhammapāda, Maḍ Ṗāi Phūk Sǫṅ &amp; Phūk Ceḍ Maḍ Ṗāi</title>
-                    <title type="variant">Vōhān Dhammapāda, Phūk Kao Maḍ Sip &amp; Phūk Sip Maḍ Ṗāi</title>
-                    <title type="variant">Vōhān Dhammapāda, Phūk Sǫṅ &amp; Phūk Thōn Ceḍ Maḍ Thōn Sī</title>
-                    <title type="variant">Vōhān Dhammapāda, Phūk Sǫṅ Maḍ Ceḍ &amp; Phūk Hok Maḍ Ceḍ</title>
-                    <ref target="CAMBR1018-item1"/>		<!-- ../collections/CAMBR1018.xml#CAMBR1018-item1 -->
-                    <ref target="CAMBR1019-item1"/>		<!-- ../collections/CAMBR1019.xml#CAMBR1019-item1 -->
-                    <ref target="CAMBR1020-item1"/>		<!-- ../collections/CAMBR1020.xml#CAMBR1020-item1 -->
                     <ref target="CAMBR1021-item1"/>		<!-- ../collections/CAMBR1021.xml#CAMBR1021-item1 -->
-                    <ref target="CAMBR681-item1"/>		<!-- ../collections/CAMBR681.xml#CAMBR681-item1 -->
-                    <ref target="CAMBR682-item1"/>		<!-- ../collections/CAMBR682.xml#CAMBR682-item1 -->
-                    <ref target="CAMBR683-item1"/>		<!-- ../collections/CAMBR683.xml#CAMBR683-item1 -->
-                    <ref target="CAMBR684-item1"/>		<!-- ../collections/CAMBR684.xml#CAMBR684-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_919" corresp="#work_60 #work_235 #work_1371 #work_586 #work_444 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 2 &amp; Fascicle 7, Bundle 4</title>
+                    <title type="variant">Vōhān Dhammapāda, Phūk Sǫṅ &amp; Phūk Thōn Ceḍ Maḍ Thōn Sī</title>
                     <ref target="CAMBR985-item1"/>		<!-- ../collections/CAMBR985.xml#CAMBR985-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_235" corresp="#work_919 #work_60 #work_1371 #work_586 #work_444 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 2, Bundle 7 &amp; Fascicle 6, Bundle 7</title>
+                    <title type="variant">Vōhān Dhammapāda, Phūk Sǫṅ Maḍ Ceḍ &amp; Phūk Hok Maḍ Ceḍ</title>
+                    <ref target="CAMBR684-item1"/>		<!-- ../collections/CAMBR684.xml#CAMBR684-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1371" corresp="#work_919 #work_235 #work_60 #work_586 #work_444 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 2, Fascicle 6 &amp; Fascicle 11, of Bundle 3</title>
+                    <title type="variant">Dhammapāda, Phūk Sǫṅ Maḍ Sām, Phūk Hok Maḍ Sām &amp; Phūk Sip-’Eḍ Maḍ Sām</title>
+                    <ref target="CAMBR683-item1"/>		<!-- ../collections/CAMBR683.xml#CAMBR683-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_586" corresp="#work_919 #work_235 #work_1371 #work_60 #work_444 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 5, Bundle 3</title>
+                    <title type="variant">Vōhān Dhammapāda Phuk Hā Maḍ Thōn Sām</title>
+                    <ref target="CAMBR1020-item1"/>		<!-- ../collections/CAMBR1020.xml#CAMBR1020-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_444" corresp="#work_919 #work_235 #work_1371 #work_586 #work_60 #work_1192 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 6, Bundle 6</title>
+                    <title type="variant">Vōhān Dhammapāda Phuk Hok Maḍ Hok</title>
+                    <ref target="CAMBR1019-item1"/>		<!-- ../collections/CAMBR1019.xml#CAMBR1019-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1192" corresp="#work_919 #work_235 #work_1371 #work_586 #work_444 #work_60 #work_136 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 8, Bundle 9</title>
+                    <title type="variant">Vohān Dhamma ’Upparāḍ Pāda Phūk Pæḍ Mat Kao</title>
+                    <ref target="CAMBR1018-item1"/>		<!-- ../collections/CAMBR1018.xml#CAMBR1018-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_136" corresp="#work_919 #work_235 #work_1371 #work_586 #work_444 #work_1192 #work_60 #work_556">
+                    <title type="uniform">Dhammapada Commentary, Fascicle 9, Bundle 10 &amp; Fascicle 10, Final Bundle</title>
+                    <title type="variant">Vōhān Dhammapāda, Phūk Kao Maḍ Sip &amp; Phūk Sip Maḍ Ṗāi</title>
+                    <ref target="CAMBR681-item1"/>		<!-- ../collections/CAMBR681.xml#CAMBR681-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_556" corresp="#work_919 #work_235 #work_1371 #work_586 #work_444 #work_1192 #work_136 #work_60">
+                    <title type="uniform">Dhammapada Commentary, Final Bundle, Fascicle 2 &amp; Fascicle 7, Final Bundle</title>
+                    <title type="variant">Vōhān Dhammapāda, Maḍ Ṗāi Phūk Sǫṅ &amp; Phūk Ceḍ Maḍ Ṗāi</title>
+                    <ref target="CAMBR682-item1"/>		<!-- ../collections/CAMBR682.xml#CAMBR682-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_619">
@@ -1332,26 +1368,22 @@
                     <title type="variant">Thammavat‘ toi" ńav‘</title>
                     <ref target="LASHI1053-item1"/>		<!-- ../collections/LASHI1053.xml#LASHI1053-item1 -->
                 </bibl>
-                
-                <bibl xml:id="work_1347">
-                    <title type="uniform">Dhammasaṅgaṇi</title>
-                    <title type="variant">Abhidhammā Saṅgiṇī</title>
-                    <title type="variant">Dhammasaṅgaṇi, Fascicles 1 &amp; 6</title>
-                    <title type="variant">Dhammasaṅgaṇi, Fascicles 4, 6, 7</title>
-                    <title type="variant">Thaṃmāsaṅ‘kānī</title>
-                    <title type="variant">dhammasaṅganī</title>
-                    <title type="variant">’Abhidhammāsaṃginī Phūk Tun &amp; Phuk Hok</title>
-                    <title type="variant">’Abhidhammāsaṃgiṇī Phūk Thōn Sī, Phuk Thōn Hok &amp; Phū Thon Ceḍ</title>
-                    <ref target="CAMBR630-item1"/>		<!-- ../collections/CAMBR630.xml#CAMBR630-item1 -->
-                    <ref target="CAMBR969-item1"/>		<!-- ../collections/CAMBR969.xml#CAMBR969-item1 -->
-                    <ref target="CAMBR983-item1"/>		<!-- ../collections/CAMBR983.xml#CAMBR983-item1 -->
-                    <ref target="CAMBR990-item1"/>		<!-- ../collections/CAMBR990.xml#CAMBR990-item1 -->
-                    <ref target="WATT550-item2"/>		<!-- ../collections/WATT550.xml#WATT550-item2 -->
-                </bibl>
 
                 <bibl xml:id="work_624">
                     <title type="uniform">dhammasara kyam</title>
                     <ref target="WATJ375-item1"/>		<!-- ../collections/WATJ375.xml#WATJ375-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_989" corresp="#work_1347 #work_281">
+                    <title type="uniform">Dhammasaṅgaṇi, Fascicles 1 &amp; 6</title>
+                    <title type="variant">’Abhidhammāsaṃginī Phūk Tun &amp; Phuk Hok</title>
+                    <ref target="CAMBR969-item1"/>		<!-- ../collections/CAMBR969.xml#CAMBR969-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_281" corresp="#work_1347 #work_989">
+                    <title type="uniform">Dhammasaṅgaṇi, Fascicles 4, 6, 7</title>
+                    <title type="variant">’Abhidhammāsaṃgiṇī Phūk Thōn Sī, Phuk Thōn Hok &amp; Phū Thon Ceḍ</title>
+                    <ref target="CAMBR983-item1"/>		<!-- ../collections/CAMBR983.xml#CAMBR983-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_1434">
@@ -1541,14 +1573,16 @@
                     <ref target="WATJ289-item1"/>		<!-- ../collections/WATJ289.xml#WATJ289-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_386">
-                    <title type="uniform">Eighty-Four Thousand Khandhas</title>
-                    <title type="variant">Eighty-Four Thousand Khandhas, First Fascicle</title>
-                    <title type="variant">Eighty-Four Thousand Khandhas, Second Fascicle</title>
-                    <title type="variant">Pæḍ Hmưn Si Ban Khan Phūk Thōn Sǫṅ</title>
+                <bibl xml:id="work_386" corresp="#work_1563">
+                    <title type="uniform">Eighty-Four Thousand Khandhas, First Fascicle</title>
                     <title type="variant">Pæḍ Hmưn Sī Ban Khan Phūk Ton</title>
-                    <ref target="CAMBR1026-item1"/>		<!-- ../collections/CAMBR1026.xml#CAMBR1026-item1 -->
                     <ref target="CAMBR967-item1"/>		<!-- ../collections/CAMBR967.xml#CAMBR967-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1563" corresp="#work_386">
+                    <title type="uniform">Eighty-Four Thousand Khandhas, Second Fascicle</title>
+                    <title type="variant">Pæḍ Hmưn Si Ban Khan Phūk Thōn Sǫṅ</title>
+                    <ref target="CAMBR1026-item1"/>		<!-- ../collections/CAMBR1026.xml#CAMBR1026-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_572">
@@ -2268,13 +2302,15 @@
                     <ref target="CAMBR961-item1"/>		<!-- ../collections/CAMBR961.xml#CAMBR961-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_550">
-                    <title type="uniform">Mahāmullanibbān</title>
-                    <title type="variant">Mahāmullanibbān Phūk 2</title>
+                <bibl xml:id="work_550" corresp="#work_1542">
+                    <title type="uniform">Mahāmullanibbān Phūk 2</title>
                     <title type="variant">Mahāmūlanibbāna Fascicle 2</title>
-                    <title type="variant">Mahāmullannibbānna Sūḍ Phūk Sām</title>
-                    <title type="variant">Mahāmūlanibbāna Sutta Fascicle 3</title>
                     <ref target="CAMBR950-item1"/>		<!-- ../collections/CAMBR950.xml#CAMBR950-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1542" corresp="#work_550">
+                    <title type="uniform">Mahāmullannibbānna Sūḍ Phūk Sām</title>
+                    <title type="variant">Mahāmūlanibbāna Sutta Fascicle 3</title>
                     <ref target="CAMBR662-item1"/>		<!-- ../collections/CAMBR662.xml#CAMBR662-item1 -->
                 </bibl>
 
@@ -2317,20 +2353,28 @@
                     <ref target="WATT464-item1"/>		<!-- ../collections/WATT464.xml#WATT464-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_1299">
-                    <title type="uniform">Mahāvaṃsa</title>
-                    <title type="variant">Mahāvaṃsa, Fascicle 7</title>
-                    <title type="variant">Mahāvaṃsa, Fascicles 1, 2, 4, 9 &amp; 12</title>
-                    <title type="variant">Mahāvaṃsa, Fascicles 1, 2, 5 &amp; 6</title>
-                    <title type="variant">Mahāvaṃsa, Fascicles 2 &amp; 8</title>
-                    <title type="variant">Mahāvaṅsā Phūk 1, 2, 4, 9 &amp; 12</title>
+                <bibl xml:id="work_1299" corresp="#work_99 #work_5 #work_1463">
+                    <title type="uniform">Mahāvaṃsa, Fascicle 7</title>
                     <title type="variant">Mahāvaṅsā Phūk 7</title>
+                    <ref target="CAMBR979-item1"/>		<!-- ../collections/CAMBR979.xml#CAMBR979-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_99" corresp="#work_1299 #work_5 #work_1463">
+                    <title type="uniform">Mahāvaṃsa, Fascicles 1, 2, 4, 9 &amp; 12</title>
+                    <title type="variant">Mahāvaṅsā Phūk 1, 2, 4, 9 &amp; 12</title>
+                    <ref target="CAMBR986-item1"/>		<!-- ../collections/CAMBR986.xml#CAMBR986-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_5" corresp="#work_99 #work_1299 #work_1463">
+                    <title type="uniform">Mahāvaṃsa, Fascicles 1, 2, 5 &amp; 6</title>
                     <title type="variant">Mahāvoṅ Phūk 1, 2, 5 &amp; 6</title>
+                    <ref target="CAMBR980-item1"/>		<!-- ../collections/CAMBR980.xml#CAMBR980-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1463" corresp="#work_99 #work_5 #work_1299">
+                    <title type="uniform">Mahāvaṃsa, Fascicles 2 &amp; 8</title>
                     <title type="variant">Mahāvoṅsā Phūk 2 &amp; 8</title>
                     <ref target="CAMBR977-item1"/>		<!-- ../collections/CAMBR977.xml#CAMBR977-item1 -->
-                    <ref target="CAMBR979-item1"/>		<!-- ../collections/CAMBR979.xml#CAMBR979-item1 -->
-                    <ref target="CAMBR980-item1"/>		<!-- ../collections/CAMBR980.xml#CAMBR980-item1 -->
-                    <ref target="CAMBR986-item1"/>		<!-- ../collections/CAMBR986.xml#CAMBR986-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_716">
@@ -2356,11 +2400,14 @@
                     <ref target="CAMBR1024-item1"/>		<!-- ../collections/CAMBR1024.xml#CAMBR1024-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_1468">
+                <bibl xml:id="work_1468" corresp="#work_1544">
                     <title type="uniform">Maṅgaladepaṇī Phūk Ton</title>
-                    <title type="variant">Maṅgaladīpanī</title>
                     <title type="variant">Maṅgaladīpanī, First Fascicle</title>
                     <ref target="CAMBR1022-item1"/>		<!-- ../collections/CAMBR1022.xml#CAMBR1022-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1544" corresp="#work_1468">
+                    <title type="uniform">Maṅgaladīpanī</title>
                     <ref target="CAMBR905-item1"/>		<!-- ../collections/CAMBR905.xml#CAMBR905-item1 -->
                 </bibl>
 
@@ -3241,13 +3288,9 @@
                     <ref target="CAMBR786-item1"/>		<!-- ../collections/CAMBR786.xml#CAMBR786-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_1262">
-                    <title type="uniform">Sirasā</title>
-                    <title type="variant">Sirasā Phūk Sǫṅ</title>
+                <bibl xml:id="work_1262" corresp="#work_907">
+                    <title type="uniform">Sirasā Phūk Sǫṅ</title>
                     <title type="variant">Sirasā, Second Fascicle</title>
-                    <title type="variant">Sīrasā Phūk Tun</title>
-                    <title type="variant">Sīrasā, First Fascicle</title>
-                    <ref target="CAMBR1005-item1"/>		<!-- ../collections/CAMBR1005.xml#CAMBR1005-item1 -->
                     <ref target="CAMBR1006-item1"/>		<!-- ../collections/CAMBR1006.xml#CAMBR1006-item1 -->
                 </bibl>
 
@@ -3805,15 +3848,21 @@
                     <ref target="WATJ410-item1"/>		<!-- ../collections/WATJ410.xml#WATJ410-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_253">
-                    <title type="uniform">Sujāvaṇṇacakka</title>
-                    <title type="variant">Sujāvaṇṇacakka Jātaka</title>
-                    <title type="variant">Sujāvaṇṇacakka Jātaka, Fascicles 2, 4, 5 &amp; 6</title>
-                    <title type="variant">Sujāvaṇṇacakka Jāḍok Phūk 2, 4, 5 &amp; 6</title>
-                    <title type="variant">Sujāvaṇṇa Jātaka, Fascicles 1 &amp; 3</title>
+                <bibl xml:id="work_718" corresp="#work_253 #work_1213">
+                    <title type="uniform">Sujāvaṇṇa Jātaka, Fascicles 1 &amp; 3</title>
                     <title type="variant">Sujāvāṇṇa Jāḍok Phūk 1 &amp; 3</title>
                     <ref target="CAMBR966-item1"/>		<!-- ../collections/CAMBR966.xml#CAMBR966-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_253" corresp="#work_718 #work_1213">
+                    <title type="uniform">Sujāvaṇṇacakka</title>
+                    <title type="variant">Sujāvaṇṇacakka Jātaka</title>
                     <ref target="CAMBR965-item1"/>		<!-- ../collections/CAMBR965.xml#CAMBR965-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1213" corresp="#work_718 #work_253">
+                    <title type="uniform">Sujāvaṇṇacakka Jātaka, Fascicles 2, 4, 5 &amp; 6</title>
+                    <title type="variant">Sujāvaṇṇacakka Jāḍok Phūk 2, 4, 5 &amp; 6</title>
                     <ref target="CAMBR982-item1"/>		<!-- ../collections/CAMBR982.xml#CAMBR982-item1 -->
                 </bibl>
 
@@ -4007,6 +4056,12 @@
                 <bibl xml:id="work_953">
                     <title type="uniform">sīhala vatthu</title>
                     <ref target="WATJ409-item1"/>		<!-- ../collections/WATJ409.xml#WATJ409-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_907" corresp="#work_1262">
+                    <title type="uniform">Sīrasā Phūk Tun</title>
+                    <title type="variant">Sīrasā, First Fascicle</title>
+                    <ref target="CAMBR1005-item1"/>		<!-- ../collections/CAMBR1005.xml#CAMBR1005-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_260">
@@ -4740,15 +4795,18 @@
                     <ref target="CAMBR634-item1"/>		<!-- ../collections/CAMBR634.xml#CAMBR634-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_324">
+                <bibl xml:id="work_324" corresp="#work_422">
                     <title type="uniform">Vinaya Piṭaka</title>
-                    <title type="variant">Vinaya Piṭaka, Fascicle 2</title>
-                    <title type="variant">Vineyya Piṭakka Phūk 2</title>
                     <title type="variant">Vineyya Piṭṭaka</title>
                     <title type="variant">Vineyya Piṭṭakka</title>
-                    <ref target="CAMBR957-item1"/>		<!-- ../collections/CAMBR957.xml#CAMBR957-item1 -->
                     <ref target="CAMBR958-item1"/>		<!-- ../collections/CAMBR958.xml#CAMBR958-item1 -->
                     <ref target="CAMBR960-item1"/>		<!-- ../collections/CAMBR960.xml#CAMBR960-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_422" corresp="#work_324">
+                    <title type="uniform">Vinaya Piṭaka, Fascicle 2</title>
+                    <title type="variant">Vineyya Piṭakka Phūk 2</title>
+                    <ref target="CAMBR957-item1"/>		<!-- ../collections/CAMBR957.xml#CAMBR957-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_1512">
@@ -4818,14 +4876,16 @@
                     <ref target="CAMBR857-item1"/>		<!-- ../collections/CAMBR857.xml#CAMBR857-item1 -->
                 </bibl>
 
-                <bibl xml:id="work_211">
-                    <title type="uniform">Vohāra Aṭṭhakathā Mahāvagga Dīgha Nikāya</title>
-                    <title type="variant">Vohān ’Aṭṭhakathā Mahāvagga Dīghanikāi Phūk Thōn Sī</title>
-                    <title type="variant">Vohān ’Aṭṭhakathā Mahāvagga Dīghanikāi Phūk Ton</title>
-                    <title type="variant">Vohāra Aṭṭhakathā Mahāvagga Dīgha Nikāya, First Fascicle</title>
+                <bibl xml:id="work_211" corresp="#work_1470">
+                    <title type="uniform">Vohān ’Aṭṭhakathā Mahāvagga Dīghanikāi Phūk Thōn Sī</title>
                     <title type="variant">Vohāra Aṭṭhakathā Mahāvagga Dīgha Nikāya, Fourth Fascicle</title>
-                    <ref target="CAMBR1002-item1"/>		<!-- ../collections/CAMBR1002.xml#CAMBR1002-item1 -->
                     <ref target="CAMBR1003-item1"/>		<!-- ../collections/CAMBR1003.xml#CAMBR1003-item1 -->
+                </bibl>
+
+                <bibl xml:id="work_1470" corresp="#work_211">
+                    <title type="uniform">Vohān ’Aṭṭhakathā Mahāvagga Dīghanikāi Phūk Ton</title>
+                    <title type="variant">Vohāra Aṭṭhakathā Mahāvagga Dīgha Nikāya, First Fascicle</title>
+                    <ref target="CAMBR1002-item1"/>		<!-- ../collections/CAMBR1002.xml#CAMBR1002-item1 -->
                 </bibl>
 
                 <bibl xml:id="work_1549">
