@@ -41,8 +41,8 @@
                </msIdentifier>
                <msContents>
                   <msItem xml:id="WATJ361-item1" n="W372">
-                     <author>ca reʺ srā thavʻ khiṅʻʺ kyauṅʻʺ caiʺ samʻ</author>
-                     <author>
+                     <author key="person_43">ca reʺ srā thavʻ khiṅʻʺ kyauṅʻʺ caiʺ samʻ</author>
+                     <author key="person_44">
                         <foreign xml:lang="shn">ၸရေးသြႃႇထဝ်ႈၶိင်းၵျွင်းၸႆးသၢမ်</foreign>
                      </author>
                      <author>
@@ -112,6 +112,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-26">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>
