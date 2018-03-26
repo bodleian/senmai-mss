@@ -1,0 +1,71 @@
+import module namespace bod = "http://www.bodleian.ox.ac.uk/bdlss" at "../../consolidated-tei-schema/msdesc2solr.xquery";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare option saxon:output "indent=yes";
+
+<add>
+{
+    let $doc := doc("../authority/works.xml")
+    let $collection := collection("../collections?select=*.xml;recurse=yes")
+    let $works := $doc//tei:listBibl/tei:bibl[@xml:id]
+   
+    for $work in $works
+        let $id := $work/@xml:id/string()
+        let $title := normalize-space($work/tei:title[@type="uniform"][1]/string())
+        let $variants := $work//tei:title[@type="variant"]
+        
+        let $targetids := (for $i in $work/tei:ref/@target/string() return $i)
+        let $mss := $collection//tei:TEI[.//tei:msItem[@xml:id = $targetids]]
+        
+        let $langs := $mss//tei:msItem[@xml:id = $targetids]//tei:textLang
+        
+        return if (count($mss) > 0) then
+        <doc>
+            <field name="type">work</field>
+            <field name="pk">{ $id }</field>
+            <field name="id">{ $id }</field>
+            <field name="title">{ $title }</field>
+            <field name="wk_title_s">{ $title }</field>
+            {
+            for $variant in $variants
+                let $vname := normalize-space($variant/string())
+                order by $vname
+                return <field name="wk_variant_sm">{ $vname }</field>
+            }
+            {
+            let $institutions := (for $ms in $mss return $ms//tei:msDesc/tei:msIdentifier/tei:institution/text())
+            for $institution in distinct-values($institutions)
+                return <field name="institution_sm">{ $institution }</field>
+            }
+            <field name="alpha_title">{ 
+                if (contains($title, ':')) then
+                    bod:alphabetize($title)
+                else
+                    bod:alphabetizeTitle($title)
+            }</field>
+            {
+            bod:languages($langs, 'lang_sm')
+            }
+            {
+            for $ms in $mss
+                let $msid := $ms/string(@xml:id)
+                let $url := concat("/catalog/", $msid[1])
+                let $classmark := $ms//tei:msDesc/tei:msIdentifier/tei:idno[1]/text()
+                let $institution := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:institution/text())
+                let $linktext := concat($classmark, ' (', $institution, ')')
+                order by $institution, $classmark
+                return <field name="link_manuscripts_smni">{ concat($url, "|", $linktext[1]) }</field>
+            }
+            {
+            for $relatedid in distinct-values((tokenize(translate($work/@corresp, '#', ''), ' '), tokenize(translate($work/@sameAs, '#', ''), ' ')))
+                let $url := concat("/catalog/", $relatedid)
+                let $linktext := $doc//tei:listBibl/tei:bibl[@xml:id = $relatedid]/tei:title[@type="uniform"][1]/string()
+                return
+                <field name="link_related_smni">{ concat($url, "|", $linktext) }</field>
+            }
+        </doc>
+        else
+            (
+            bod:logging('info', 'Skipping work in works.xml but not in any manuscript', ($id, $title))
+            )
+}
+</add>
