@@ -99,11 +99,11 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
+                  <origin change="#fix-dates">
                      <p>Names of the donors mentioned both in the introduction and in the colophon, indicating that this is the original copy.</p>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): 1279</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1917" notAfter="1918" type="composition">1279</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: luṅʻʺ kyauṅʻʺ takā loʻ pā kyauṅʻʺ ciṅʻ</p>
@@ -116,6 +116,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

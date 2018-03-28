@@ -88,12 +88,12 @@
                   </handDesc>
                </physDesc>
                <history>
-                  <origin>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                  <origin change="#fix-dates">
+                     
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): 2404</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1860" notAfter="1861" type="composition">2404</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): 1255</p>
+                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1893" notAfter="1894" type="copying">1255</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

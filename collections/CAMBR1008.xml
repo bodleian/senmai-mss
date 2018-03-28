@@ -87,16 +87,19 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                  <origin change="#fix-dates">
+                     
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): 5400</p>
+                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="4856" notAfter="4857" type="copying">5400</origDate></p>
                   </origin>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

@@ -101,13 +101,13 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
+                  <origin change="#fix-dates">
                      <p>This manuscript was made in Mong Nai, Southern Shan State. It is not clear how it was ended up in Jong Klang collection, possibly brought in by a lay devotee who came from Shan State or a trader.</p>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): 1260</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1898" notAfter="1899" type="composition">1260</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): 1311</p>
+                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1949" notAfter="1950" type="copying">1311</origDate></p>
                   </origin>
                   <provenance>Former owner: Saopha, ruling prince, of Mong Nai, Southern Shan State</provenance>
                   <acquisition>
@@ -121,6 +121,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

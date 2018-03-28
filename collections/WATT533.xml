@@ -120,18 +120,21 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                  <origin change="#fix-dates">
+                     
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): 2400</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1856" notAfter="1857" type="composition">2400</origDate></p>
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): 2473</p>
+                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1929" notAfter="1930" type="copying">2473</origDate></p>
                   </origin>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

@@ -98,13 +98,13 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
+                  <origin change="#fix-dates">
                      <p>The present copy's donor lived in Pauk Haw, Maehongson Town</p>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): 1302</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1940" notAfter="1941" type="composition">1302</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): 1324</p>
+                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1962" notAfter="1963" type="copying">1324</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
                   <acquisition>
@@ -118,6 +118,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

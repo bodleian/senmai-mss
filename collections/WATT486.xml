@@ -92,17 +92,20 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>
+                  <origin change="#fix-dates">
                      <p>The writing of this text was completed on Monday the 6th of the waning moon of 9th month of Shan calendar (2406 BE).</p>
-                     <origDate calendar="#Gregorian">Gregorian</origDate>
+                     
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): 2461</p>
+                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1917" notAfter="1918" type="composition">2461</origDate></p>
                   </origin>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-28" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>
