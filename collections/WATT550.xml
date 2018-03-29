@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  abhidhamma </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W590</note>
                   </msItem>
                   <msItem xml:id="WATT550-item3" n="W591">
@@ -92,7 +92,7 @@
                      
                      
                      <note>Subject:  abhidhamma </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W591</note>
                   </msItem>
                   <msItem xml:id="WATT550-item4" n="W592">
@@ -110,7 +110,7 @@
                      
                      
                      <note>Subject:  abhidhamma </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W592</note>
                   </msItem>
                </msContents>

@@ -63,7 +63,7 @@
                      
                      <note>Subject:  instruction Subject comments: Pagodas</note>
                      <colophon>Making wishes for Nibbāna and dedication to family members (on page 21). Colophon repeated for each subsequent section of text.Colophon:yes </colophon>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W187</note>
                   </msItem>
                   <msItem xml:id="OXFOR182-item2" n="W188">
@@ -87,7 +87,7 @@
                      
                      <note>Subject:  abhidhamma,sutta,commentary Subject comments: A text on suññatā and relics</note>
                      <colophon>scribal wishes for the attainment of Nibbāna.Colophon:yes Additional colophon:no </colophon>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W188</note>
                   </msItem>
                </msContents>

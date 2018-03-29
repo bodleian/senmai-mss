@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W586</note>
                   </msItem>
                   <msItem xml:id="WATT549-item2" n="W587">
@@ -92,7 +92,7 @@
                      
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W588</note>
                   </msItem>
                </msContents>

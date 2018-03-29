@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  history,sermon </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W594</note>
                   </msItem>
                   <msItem xml:id="WATT552-item2" n="W595">
@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  canonical jataka,sermon </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W595</note>
                   </msItem>
                </msContents>

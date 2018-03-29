@@ -57,7 +57,7 @@
                      
                      
                      <note>Subject:  sutta,canonical jataka </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W444</note>
                   </msItem>
                   <msItem xml:id="WATT431-item2" n="W445">
@@ -75,7 +75,7 @@
                      
                      
                      <note>Subject:  sutta,canonical jataka </note>
-                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W445</note>
                   </msItem>
                </msContents>
