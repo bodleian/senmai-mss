@@ -42,28 +42,16 @@
                <msContents>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR57-item1" n="W57">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">no title</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                         <p>Illustrated (diagrams): mono</p>
@@ -71,177 +59,117 @@
                      </decoNote>
                      <note>Shan text descriptor:  Kyam Introduction: no</note>
                      <note>General remarks on work: Several hand writings.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>First 19 folios are on magical works including spells, charts, diagrams, and texts.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  astrology Subject comments: magical work</note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W57</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item2" n="W58">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">cetasikʻ khvai suvʻ</title>
                      <title xml:lang="">The commentary on the 52 cetasika (mental components)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                         <p>Illustrated (diagrams): none</p>
                         <p>Illustrated (pictures): none</p>
                      </decoNote>
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Commentary on the 52 cetasika in the second chapter of the abhidhammattha-sangaha.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  abhidhamma,commentary </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W58</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item3" n="W59">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">no title</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                      </decoNote>
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>A Shan Poetry on 40 meditation objects connected with death, for recitation by meditators</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  abhidhamma,meditation Subject comments: Work on the 40 meditation objects connected with death</note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W59</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item4" n="W60">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">no title</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Shan poetry on death for recitation by meditators.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  meditation </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W60</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item5" n="W61">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">maṅʻ ka lā sam sipʻ pitʻ pukʻ</title>
                      <title xml:lang="">The 38 kinds of auspiciousness (mangala)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Shan poetic translation of Mangala Sutta.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W61</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item6" n="W62">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">uthumātakam</title>
                      <title xml:lang="">of asubha bhāvanā</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: sauṅʻ kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Shan Poetry on the decomposition of the body, for recitation by meditators.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  abhidhamma </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -276,6 +204,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                      <p>Date of composition (era): Unknown</p>
                      <p>Date of composition (year): Unknown</p>
@@ -292,6 +224,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

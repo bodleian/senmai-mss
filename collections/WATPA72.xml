@@ -43,31 +43,19 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA72-item1" n="W77">
                      <author key="person_177">munʻ cānʻʺ muiṅʻʺ naiʺ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">mahāvaṅʻ maṅʻʺ nanʻ khyautʻ khanʻʺ</title>
                      <title xml:lang="">about prince Mang Nan (Prince Nanda?)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>On the teaching of impermanence and conditioned world.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  commentary,canonical jataka </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W77</note>
@@ -112,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

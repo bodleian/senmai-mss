@@ -43,31 +43,19 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA153-item1" n="W158">
                      <author key="person_319">ca reʺ muiṅʻʺ caṅʻ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">vācitta sambhūta</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story about two brothers citta and sambhūta who were born in a poor family, but were brought up by a king in his palace for education. When they were grown up they were returned to their parent's home. They were fed up with poor life, so they move to another country, where there were many Brahmana and rich people. They met a professor from a university (Takkasīla) who taught them higher education. Even then, they were still fed up with life, so they went into forest and lived there until they died.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sermon </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W158</note>
@@ -112,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

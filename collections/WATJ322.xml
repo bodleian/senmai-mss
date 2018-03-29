@@ -43,30 +43,18 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ322-item1" n="W333">
                      <author key="person_168">srā kyauk sauṅ mauṅ tauṅ thauṅ cu</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">buddhānussati</title>
                      <title xml:lang="">Reflection on [the qualities of] the Buddha</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: sam kiv Introduction: yes Text at other location: Wat Pang Mu.</note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  meditation </note>
                      <colophon>Colophon:yes Colophon type:scribal </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -112,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

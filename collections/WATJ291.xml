@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ291-item1" n="W301">
                      <author key="person_35">Unknown</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">nandiya migarājā vatthu</title>
                      <title xml:lang="">Story of deer king Nandiya</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Vatthu Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: word arts for the marks of ending section.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of a Bodhisatta who was born as a deer....</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  canonical jataka </note>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -99,6 +87,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      <p>meʻ saṅʻ nu (Mae Sang Nu) also donated the text Suk Sila Khan (no. 020)</p>
                      
                   </origin>
@@ -113,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

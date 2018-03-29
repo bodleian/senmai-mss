@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA157-item1" n="W162">
                      <author key="person_84">ca reʺ vanʻ ciṅʻʺ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">catuparikamma naṅʻʺ manʻ li kā</title>
                      <title xml:lang="">Four types of routines (parikamma) and the story of Malliā</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of Mallikā and her husband General Bandhula. Mallinkā looked as if she had no blood, with dry skin and was never pregnant. One day Bandhula took her to have a bath in a lake belonging to 32 princes. There were fighting between Bandhula and the 32 princes. All the 32 princes died and were born as their children, and the children later died again in fighting, due to their previous Karma.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sermon </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W162</note>
@@ -96,6 +84,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
@@ -104,6 +96,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

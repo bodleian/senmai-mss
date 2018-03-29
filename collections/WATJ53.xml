@@ -43,27 +43,15 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ53-item1" n="W53">
                      <author key="person_50">cavʻ kaṅʻʺ suivʻ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">thamʻmapata kapʻpiṅʻna vatthu</title>
                      <title xml:lang="">Story of Kappinna in the Dhammapada?</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt">kalutar vatthu</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                         <p>Illustrated (diagrams): none</p>
@@ -72,9 +60,9 @@
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Introduction: no Text at other location: W32</note>
                      <note>General remarks on work: section markers.</note>
                      <note>Summary intro: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>King Suddhodhana, father of the Buddha, asked Kalutar, the Buddha's friend and classmate, to invite the Buddha to visit Kapilavatthu. The Buddha gave a sermon to the king.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  commentary Subject comments: narrative from commentarial story</note>
                      <colophon>Duis aute irure dolor in reprehenderit in voluptate velit esse Colophon:yes Additional colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -121,6 +109,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

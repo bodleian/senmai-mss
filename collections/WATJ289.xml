@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ289-item1" n="W299">
                      <author key="person_287">careʺ kyauṅʻʺ cikʻ ta (muiṅʻʺ naiʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">auṅʻ pètʻ̨ pūiṅʻ</title>
                      <title xml:lang="">Eight victories of the Buddha</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: sāmʻ kivʻ Introduction: yes</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Stories of the eight victories.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  canonical jataka </note>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -118,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

@@ -43,61 +43,37 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATT469-item1" n="W487">
                      <author key="person_72">cavʻ̐̐ koʺ lį̄ (muiṅʻʺ panʻ̨)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">anicca sa phoʺ</title>
                      <title xml:lang="">The nature and characteristics of impermanance.</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Lik   Rhyming system: samʻ kivʻ phīlā</note>
                      <note>General remarks on work: There are miscellaneous texts after the end of the main text, including the 8 characteristics of the worlds (lokadhamma) and dependent origination (paticcasamuppāda).</note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  meditation </note>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W487</note>
                   </msItem>
                   <msItem xml:id="WATT469-item2" n="W488">
                      <author key="person_72">cavʻ̐̐ koʺ lį̄ (muiṅʻʺ panʻ̨)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">catʻ̐̐ tǫ cavʻ̐ janaka</title>
                      <title xml:lang="">Janaka Jātaka Story</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ phīlā</note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  canonical jataka </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W488</note>
@@ -143,6 +119,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

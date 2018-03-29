@@ -43,36 +43,24 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA60-item1" n="W65">
                      <author key="person_172">ca reʺ piṅʻ̨ ṅą̄</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">ʼa lauṅʻʺ phrāʺ linʻ nivʻ</title>
                      <title xml:lang="">story of Buddha statue made of sticky soil</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): colour</p>
                         <p>Illustrated (diagrams): none</p>
                         <p>Illustrated (pictures): none</p>
                      </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>JK note: Long summery of 2 A4 page- to do translation later</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  commentary,non canonical jataka,sermon </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W65</note>
@@ -120,6 +108,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

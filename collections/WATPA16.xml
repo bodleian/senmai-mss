@@ -46,27 +46,19 @@
                      <author key="person_346">
                         <foreign xml:lang="shn">သေႃးၽိင်ႇၼ မွင်ႇငႄႇ ၸဝ်ႈဢမၢတ်ႈလူင်မိူင်းၼွင်</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">dhammarāsī</title>
                      <title xml:lang="">Aspects of the teaching</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ထမ်ႇမရႃႇသီႇ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Kyam Rhyming system: sām'' kiv'' Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Shan</note>
                      <note>General remarks on work: note for testing: working on PC with Google Chrome and Nance''s keyboard layout, not sure which Shan font, as I can''t see the font name nor format menue in this form.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>A story about a millionaire who was fed up with worldly things. He asked permission from his wife and went to donate his body to the Buddha. He handed his all properties to his wife, became a monk, practising meditation ....</note>
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈထမ်ႇမရႃႇသီႇၼႆႉ ၶႆႈလူၺ်ႈလုၵ်ႈၸႆၢးသထေးၵေႃႉငိၼ်းဢိမ်ႇၸၢၼ်ႈၼႂ်းလေႃးၵၶိူဝ်းသင်ႇၶႃႇ ရလူင်ၼႆႉယဝ်ႉလႄႈ ယွၼ်းဢဝ်ဢၶႂၢင်ႉၵေႃႉမေးသေယဝ်ႉ ၵႂႃႇလူႇတူဝ်လူႇၶိင်းၶၢမ်ႇပဵၼ်ရသေႉရႁၢၼ်း၊ ၵႃႈပဵၼ် ဢုၵ်ႉၸႃႇရတၼႃႇတင်းသဵင်ႈ ဢၢပ်ႈပၼ်မေးၼၢင်းသဵင်ႈသဵင်ႈသေယဝ်ႉ မိူဝ်းႁဵတ်းတပေးၽြႃးၵျၢင်ႉၵမ်ၵမ်ႇမထၢၼ်း ဝိပသ်သၼႃႇ ---</foreign>
                      </note>
@@ -116,6 +108,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

@@ -40,27 +40,15 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="CAMBR51-item1" n="W51">
                      <author key="person_132">ca re" sūriya me'' hauṅ'' saun''</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">dhammovāda-pakāsanī</title>
                      <title xml:lang="">Exposition of a Dhamma Talk</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt">suttasangaha</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                         <p>Illustrated (diagrams): mono</p>
@@ -69,9 +57,9 @@
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Introduction: yes Text at other location: W49</note>
                      <note>General remarks on work: Contains diagrams pertaining to mental processes.</note>
                      <note>Summary intro: Composed at the request of royal court.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>An exposition of several sutta texts dealing with meditation and mental processes.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,instruction,sermon Subject comments: exposition of several suttas</note>
                      <colophon>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Colophon:yes Additional colophon:yes </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -125,6 +113,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

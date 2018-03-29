@@ -45,28 +45,20 @@
                      <author key="person_80">
                         <foreign xml:lang="shn">ၸရေးပိင်ႇၺႃႇ</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">phrāʺ linʻ nivʻ</title>
                      <title xml:lang="">The Buddha Statue that was made of sticky soil</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ၽြႃးလိၼ်ၼဵဝ်</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Introduction: yes</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>During the time of the Buddha, while he was staying in the Savatthi City, the state of Kosala, there was a Bodhisatta with Kuṅmāra by name. His parents died when he was seven. He had to work for his living from collecting firewood from the forest and selling them in town. At this same time, there was a young poor girl called Candakumārī whose parents also died since she was young.Then there was a rich couple. The wife of the rich man secretly arranged for Kuṅmāra and Candakumārī to get married. The rich man was very angry when he knew that his wife arranged the marriage of Kuṅmāra and Candakumārī and gave them money. So, he drove out his wife and forced her to go and live with the young couple. The young couple were very happy because they have someone to look after their house when they were going to work. One day, the Boddhisatta Kuṅmāra made a Buddha statue with sticky soil. It took him several day to get it done but he did not give it up. His intention became even stronger to make the Buddha statue. In the end, the devatā helped him make the Buddha statue very beautiful. This story tells us about cetanā (good intention).</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,commentary,meditation,sermon Subject comments: only ''sutta'' is recorded in the data sheet, althought it fits into some other categories</note>
                      <colophon>Colophon:yes </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -112,6 +104,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

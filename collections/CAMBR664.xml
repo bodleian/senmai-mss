@@ -42,61 +42,37 @@
                <msContents>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="CAMBR664-item1" n="W712">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">NONE</title>
                      <title xml:lang="">Legends and Chronicle of Manglön</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified  </note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  history Subject comments: Also includes rhyming prose on auspicious days.</note>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W712</note>
                   </msItem>
                   <msItem xml:id="CAMBR664-item2" n="W713">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">NONE</title>
                      <title xml:lang="">Beliefs about Death</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified  </note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  ceremony,folk stories,instruction,charms Subject comments: Includes a list of names belonging to the Manglön ruling family, a list of Jātakas, a list of Nakkhatta, and some Gāthās.</note>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W713</note>
@@ -118,6 +94,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                </history>
@@ -125,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

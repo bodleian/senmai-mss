@@ -42,28 +42,16 @@
                <msContents>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR22-item1" n="W22">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">tānaʺ pukʻ thaʺ vanʻ ʼathakāthā</title>
                      <title xml:lang="">commentary on the teaching related to the Buddha</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): none</p>
                         <p>Illustrated (diagrams): none</p>
@@ -72,9 +60,9 @@
                      <note>Shan text descriptor:  tra Introduction: yes</note>
                      <note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete.</note>
                      <note>Summary intro: Containing the text title, name of the donor, his family, and standard dedication for Nibbāna.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>It is a sermon on generosity, conduct and meditation (dāna, sIla and bhāvanā).</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sermon </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -109,6 +97,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: unknown</provenance>
@@ -121,6 +113,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

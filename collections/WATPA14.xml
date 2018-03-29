@@ -49,27 +49,19 @@
                      <author key="person_235">
                         <foreign xml:lang="shn">ၸရေးဝၢၼ်ႈၸိင်း</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">nāṅʻʺ visākhā</title>
                      <title xml:lang="">The Story of Lady Visakha</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ၼၢင်းဝိသႃၶႃႇ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: sām'' kiv'' Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Shan</note>
                      <note>General remarks on work: Note for Shan font: working on the google chrome on PC, the Shan fonts, with Nance''s keyboard layouts, are rendering very well. This is the first time I have seen almost all the Shan fonts are rendering correctly! Excellent!</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>About Lady Visakha''s donation of monastery. The text also mentions that Lady Visakha has 70 daughters, 400 grand daughters and 800 great grand daughters, when she and her children donated the Veluvana monastery.</note>
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">လွင်ႈၼၢင်းဝိသႃႇလူႇတၼ်းၵျွင်း- ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈၼႆႉ ပဵၼ်သိူၵ်ႈပိုၼ်းၼၢင်းဝိသႃႇၶႃႇမီးလုၵ်ႈယိင်း၇၀ လၢၼ်ယိင်း၄၀၀ လိၼ်ယိင်း ၈၀၀၀ ၶဝ်ၸဝ်ႈမေ်လုၵ်ႈလႆႈလူႇတၼ်းၵျွင်းဝေလုဝုၼ်ႇလူင်သေ လႆဢဝ်ပဵၼ်တႃၼ တၢင်းလီၶဝ်မေႈလုၵ်လၢၼ်လိၼ်တင်းမူတ်းတင်းသဵင်ႈယဝ်ႉ၊၊</foreign>
                      </note>
@@ -118,6 +110,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

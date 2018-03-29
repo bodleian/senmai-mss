@@ -43,30 +43,18 @@
                   <textLang>Written in mao script</textLang>
                   <msItem xml:id="CAMBR786-item1" n="W838">
                      <author key="person_338">Care Can’tā</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">Sīha Cakyā Nāṅ‘ Kin‘ Pū</title>
                      <title xml:lang="">Siha Cakka Crab-Eating Lady</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified  </note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  folk stories,non canonical jataka </note>
                      <textLang mainLang="shn">pali,tai mao</textLang>
                      <note>Work ID: W838</note>
@@ -88,6 +76,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                </history>
@@ -95,6 +87,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

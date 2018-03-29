@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ280-item1" n="W290">
                      <author key="person_77">careʺ vanʻ̐ ciṅʻʺ (mūiṅʻʺ nauṅʻ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">petʻ lèṅʻ ʼaukʻ̨ yautʻ̐</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt">ʼalauṅʻʺ kinʻ naunʻ</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Alaung   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story a Bodhisatta who ate worms, as both his parents died when he was still a baby. His father died first, then his mother died soon afterwards. When his mother died, he didn't know it, he kept having breast milk from her dead mother until worms came out of his dead mother's breast and he continued to have the milk including the worms. As the house was far outside the village, no one knew about it. The story goes on to tell that the Baby had to eat the worms because his previous Karma, when he was a king, he asked others to eat worms.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  non canonical jataka </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W290</note>
@@ -110,6 +98,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

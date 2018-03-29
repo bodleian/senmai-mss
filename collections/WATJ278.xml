@@ -43,36 +43,24 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ278-item1" n="W288">
                      <author key="person_40">careʺ ta peʺ munʻ cavʻ̐ hāiʺ kūivʻ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">dhammadāna shu phoi</title>
                      <title xml:lang="">Reflection on the gift of Dhamma</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                      </decoNote>
                      <note>Shan text descriptor:  tra Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Folio / page numbers were added during fieldwork in January 2014. Both covers have floral arts beautifully decorated on red lacquer, and painted with gold on the side of the manuscript.</note>
                      <note>Summary intro: The year of composing is mentioned in the introduction, folio number 7.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>The text is about the attitude towards offering or making merit 'dāna'. When making offering, it is important to share the merit to others. In the same way, when seeing others making offering, it is important to be happy and share your joy with them.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta </note>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W288</note>
@@ -119,6 +107,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

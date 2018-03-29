@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA145-item1" n="W150">
                      <author key="person_243">careʺ nāʺ kivʻ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">cintāmuni</title>
-                     <title xml:lang=""/>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Phuen Lik Rhyming system: sauṅʻ kivʻ Introduction: no</note>
                      <note>General remarks on work: Floral art on the cover.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of a generous king making great offering ceremony, a female giant dragon participated in the ceremony; the king and the female giant were married, and then they had a son together; one day their son asked his father why his mother was a human in day time but a giant at night. The son asked his father to return to human world. The female giant mother followed them but she couldn't find them. In the end, she wrote a stenza (gāthā) and left it for her son on the river's bank, asking her son to memorize. She then died and was reborn in the Brahma world.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  commentary,non canonical jataka </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W150</note>
@@ -113,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

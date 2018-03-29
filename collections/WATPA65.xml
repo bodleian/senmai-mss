@@ -43,27 +43,15 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA65-item1" n="W70">
                      <author key="person_325">ca reʺ saṅʻ luinʻʺ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">pukʻʹ tha vaṅʻ sipʻ hukʻʺ muiṅʻʺ luṅʻ</title>
                      <title xml:lang="">Story of the Buddha and 16 great countries</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): mono</p>
                         <p>Illustrated (diagrams): none</p>
@@ -71,9 +59,9 @@
                      </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Introduction: no</note>
                      <note>General remarks on work: drawing of flowers.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of the Buddha. The country in the story is called Lammavati. Father of the Buddha is called Suteva and Mother Sumedha. He has fulfilled his perfections (parami) for 130 lives to become the Buddha.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,commentary </note>
                      <colophon>Colophon:no </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -122,6 +110,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

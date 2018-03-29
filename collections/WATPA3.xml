@@ -46,28 +46,20 @@
                      <author key="person_314">
                         <foreign xml:lang="shn">ၸဝ်ႈၵၢင်းသိူဝ်</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">ʼalauṅʻʺ hoi khavʻ</title>
                      <title xml:lang="">The story of the white snail, the buddha-to-be</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ဢလွင်းႁွႆၶၢဝ်</foreign>
                      </title>
                      <title xml:lang="en" type="alt">ʼalauṅʻʺ hoi khavʻ nāṅʻʺ kānʻ yūṅʻ</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Alaung   Rhyming system: sauṅ'' kivʻ Introduction: no</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Once up on a time, there is a country called Pārānasī. The king and the queen of this country has no son nor daughter. As they wanted to have a baby, one day the kind asked the queen to observe the precept and then request/make a wish for a baby. Consequently, the Bodhisatta While Snail came down from the heaven and started life with the queen (she became pregnant). After ten months, she (the queen) gave her birth to a white snail.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,folk stories,non canonical jataka Subject comments: only ''sutta'' is recorded in the data sheet</note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W3</note>
@@ -108,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

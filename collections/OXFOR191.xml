@@ -43,35 +43,23 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR191-item1" n="W197">
                      <author key="person_179">cavʻ saṅʻ vilāsa</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">kyaṃ kā thā</title>
                      <title xml:lang="">Treatise of spells and astrolgy</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): colour</p>
                         <p>Illustrated (diagrams): mono</p>
                         <p>Illustrated (pictures): mono</p>
                      </decoNote>
                      <note>Shan text descriptor: Lik  </note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  astrology </note>
                      <colophon>Names of title and ownerColophon:yes Colophon type:scribal </colophon>
                      <textLang mainLang="shn">shan,burmese</textLang>
@@ -104,6 +92,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <acquisition>
@@ -114,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

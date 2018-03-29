@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ286-item1" n="W296">
                      <author key="person_366">careʺ muiṅʻʺnaṅʻʺ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">naṅʻʺ mathūrā vutʻ thu</title>
                      <title xml:lang="">Story of Lady Madhurā</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Nang Rhyming system: sauṅʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: This looks the original work, as there is no information about copying date nor copy's donors.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story about two brothers went to studies at Takkasīla university. And a story about a king and a theft met on the road at night. The theft did not know that the person he met was the king. They went together to a minister's house and stole all properties of the minister. The theft was arrested on the next day.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  canonical jataka </note>
                      <colophon>Colophon:yes Colophon type:scribal </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -116,6 +104,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

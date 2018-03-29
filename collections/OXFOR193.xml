@@ -42,33 +42,21 @@
                <msContents>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR193-item1" n="W199">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">sāsanā ciñʻ / sūñʻ pre vaṅʻ</title>
                      <title xml:lang="">History of Buddhist religion</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: saunṅʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Some parts of the front and back pages, which contain important information of title, donor and dating, are missing. The name of the title is also found on page 96 and 143b.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>History of the Buddha and Buddhism from India to Sri Lanka to Burma/Shan State.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  history Subject comments: A Shan version of the history of Buddhism</note>
                      <colophon>Both about scribal and donor but the texts are missing due to the damage of ms.Colophon:yes </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -103,6 +91,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <acquisition>
@@ -113,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2017-07-26">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl">https://github.com/bodleian/shan-mss/tree/master/processing/convertShan2Bodley.xsl</ref>
          </change>

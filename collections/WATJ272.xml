@@ -43,31 +43,19 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ272-item1" n="W282">
                      <author key="person_322">munʻ caṅʻʺ nauṅʻ kiñʻ (muiṅʻʺ naiʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">satipathanʻ vutthu pathama toi</title>
                      <title xml:lang="">The story of the foundation of mindfulness, volume one</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Text at other location: Wat Pang Mu</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of a hunter attempting to kill the Buddha but not successful. Finally, he, his wife and all their children attained the First Step (Stream Entrance or Sotapatti Magga) for the Enlightenment.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,commentary </note>
                      <textLang mainLang="shn">shan,pali</textLang>
                      <note>Work ID: W282</note>
@@ -107,6 +95,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

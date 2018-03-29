@@ -43,35 +43,23 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ281-item1" n="W291">
                      <author key="person_291">careʺ sūriyā (maeʻ̐ hauṅʻ̐ saunʻ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">dassanipatʻ zatʻ toʻ</title>
                      <title xml:lang="">Jātaka stories</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): colour</p>
                      </decoNote>
                      <note>Shan text descriptor: Lik   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: Original work.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of a trading sailors acrossing big ocean; on that ship, there was young Brhamana. The ship was broken and all people died, except the Brahmana and a friend of his, both were swimming across the ocean, they came across a post standing above the ocean, they hang on to it, as it's on a holy day, they observed the precepts there. A Sakra saw them and saved their lives.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,canonical jataka </note>
                      <colophon>Colophon:yes Colophon type:scribal </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -119,6 +107,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

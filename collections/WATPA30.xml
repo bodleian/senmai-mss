@@ -43,34 +43,22 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA30-item1" n="W30">
                      <author key="person_34">ca reʺ iṅʻ tā (muiṅʻʺ naiʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">mahākaccāyyana vatthu</title>
                      <title xml:lang="">Story of Mahā Kaccāyana Thera</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): colour</p>
                      </decoNote>
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ yavʻʺ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of Kaccyana, who in one of his previous lives performed the act of generosity, great giving,and consequently after his death, he was born in the heaven. After his death, he was reborn in a human world in a rich family having all pleasure and enjoyment.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta </note>
                      <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W30</note>
@@ -113,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

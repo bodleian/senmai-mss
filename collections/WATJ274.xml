@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ274-item1" n="W284">
                      <author key="person_204">careʺ sāiʺ pheʻ (mūiṅʻʺ nāiʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">ʼaauṅʻ khyiṅʻʺ sitʻʹ pāʺ (ʼaauṅʻ̨ pètʻ̨ pūiṅʻ)</title>
                      <title xml:lang="">Eight victories of the Buddha</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: sāmʻ kivʻ Introduction: yes Text at other location: Wat Pha Non and Wat Pang Mu</note>
                      <note>General remarks on work: The author of this text is the abbot of sāiʺ phę village temple of Mong Nai, Southern Shan State.</note>
                      <note>Summary intro: Stories of the eight victories of the Buddha.</note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  sutta </note>
                      <colophon>Description of village, temple, and abbot the temple, who compose the text.Colophon:yes </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -112,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

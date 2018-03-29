@@ -42,28 +42,18 @@
                <msContents>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="OXFOR24-item1" n="W24">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">likʻ phrāʺ savʻʺ pitʻ ikʻ taṅʻ saṅʻ ukʻ pukʻ pitʻ pāʺ kauṅʻ mū suñʻ ta kuṅʻ phra ya khyiṅʻ cakʻ to yā catʻ khyaṃ sā satta thā na citʻ tī</title>
                      <title xml:lang="">A text on the 28 Buddhas, 8 special monks, Shwedagon pagoda, Mandalay Mahamuni Buddha, Buddha's footprint, former lives of the Buddha, and 7 places (ater enlightenment)</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">လိၵ်ႈၽြႃးသၢဝ်းပႅတ်ႇဢိၵ်ႇတင်းသၢင်ႇဢုၵ်ႈပုၵ်ႈပႅတ်ႇပႃး ၵွင်းမူးသူၺ်ႇတၵုင်ႇ ၽြႃးယၶႅင်ႇ ၸၢၵ်ႈတေႃႇယႃႇ ၸၢတ်ႈၶျၢမ်းသႃႇ သတ်တထႃႇၼၸဵတ်းတီႈ</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): none</p>
                         <p>Illustrated (diagrams): none</p>
@@ -72,9 +62,9 @@
                      <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>Introduction: yes Text at other location: OXFOR23</note>
                      <note>General remarks on work: Final one or two pages missing.</note>
                      <note>Summary intro: Containing the text title, donor's name, places and standard dedication for Nibbana.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Containing drawing images of the 28 Buddhas, bodhi tree, pagodas, images 8 special monks, Swedagon pagoda image, Mandaly Mahamuni Buddha image,footprint (Buddhapāda), 16 former lives of the Buddha as animals,Buddhas of 8 directions. Also cotaining texts related the images described.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  instruction Subject comments: Discussion of 28 Buddhas etc.</note>
                      <textLang mainLang="shn">shan,burmese</textLang>
                      <note>Work ID: W24</note>
@@ -121,6 +111,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

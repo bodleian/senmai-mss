@@ -42,30 +42,22 @@
                <msContents>
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATJ333-item1" n="W344">
-                     <author/>
+                     
                      <author key="person_272">
                         <foreign xml:lang="shn">မုၼ်ၸဝ်ႈၵျွင်းၵမ်ႉၵေႃႇ (မႄႈႁွင်ႈသွၼ်)</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">milinda dutiya toi</title>
                      <title xml:lang="">Milindapañña volume two</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">မိလိင်ႇတ တုတိယတွႆး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Lik  Vatthu Rhyming system: sam kiv Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Introduction: yes</note>
-                     <note xml:lang="shn"/>
+                     
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မိူဝ်ႈယၢမ်းၼင်ႇၼၼ် ၶုၼ်ႁေႃၶမ်းမိလိင်ႇတလႄႈတင်းၸဝ်ႈဢၼႃႇၵသိင်ႇတွင်ႈထၢမ်ၵၼ်၊ ၶုၼ်ႁေႃၶမ်းတွင်ႈ ထၢမ်ၸဝ်ႈဢၼႃႇၵသိင်ႇဝႃႈ ၵူၼ်းႁဝ်းၼႆႉပေႃးႁဵတ်းၵၢၼ်ဢၵုသူဝ်ႇလွင်ႈမိူၵ်ႈတုၸရိူၵ်ႈၼၼ်ႉ ပေႃးသမ်ႉၸူမ်း ၸွမ်းၼိတ်သၢၵ်ႈၼၼ်ႉ ၸွင်ႇဢပႅတ်ႈမၼ်းတေၼၵ်းတီႈၶႃႈ၊၊ ၸဝ်ႈဢၼႃႇၵသိင်ႇၵေႃႈတွပ်ႇဝႃႈ ဢပႅတ်ႈၼၵ်း ယဝ်ႉ၊၊ ပေႃးႁဝ်းဢမ်ႇပႃးၸႂ်ပႃးၶေႃးလႄႈ ဢမ်ႇတင်ႈၸႂ်ႁဵတ်း ဢမ်ႇပဵၼ်ဢပႅတ်ႈသင်၊၊</foreign>
                      </note>
                      <note>Subject:  sutta,non canonical jataka </note>
@@ -115,6 +107,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

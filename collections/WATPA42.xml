@@ -43,27 +43,15 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA42-item1" n="W42">
                      <author key="person_35">unknown</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">trā cavʻ̐ khandhāpūra anattadīpanī</title>
                      <title xml:lang="">Commentaries on the city of aggregates and the teaching on non-self (anatta)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): none</p>
                         <p>Illustrated (diagrams): none</p>
@@ -71,9 +59,9 @@
                      </decoNote>
                      <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ</note>
                      <note>General remarks on work: scripts for names of the donor are not clear enough.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>We cannot control anything in our bodies. We don''t want to get old even though we don''t want it. We will die, even though we don''t want to. There is nothing permanent, it is changing all the time like the water continuously flowing in the river. Also our bodies are like a city. There are people living in the city. If there are people, there need to have headmen asking people to do this and that, keeping them busy all the time.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta </note>
                      <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W42</note>
@@ -103,6 +91,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
@@ -114,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

@@ -43,33 +43,21 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ303-item1" n="W313">
                      <author key="person_109">cavʻ phakʻ nauṅʻ (muiṅʻʺ kuiṅʻ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">maṅʻgalāsāra dhammadīpanī kyamʻʺ</title>
                      <title xml:lang="">The commentary on the teaching of auspiciousness.</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Lik  Kyam Rhyming system: sāmʻ kivʻ Introduction: yes</note>
                      <note>General remarks on work: This text was translated from a Burmese version (as mentioned in the end of the text).</note>
                      <note>Summary intro: Saopha, ruling prince, of Mong Kung is the first donor of this text.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story about a poor couple, who has a daughter. They gave their daughter to a rich man in exchange for money, using some of the money to make dāna offering. ...</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,sermon </note>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -118,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

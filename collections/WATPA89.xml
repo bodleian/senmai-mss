@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA89-item1" n="W94">
                      <author key="person_50">cavʻ kaṅʻʺ suivʻ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">loʺ ka vināya</title>
                      <title xml:lang="">rules for the world (?)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ</note>
                      <note>General remarks on work: Some interesting notes on the metadata sheet.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Sermon on rich people who have to leave their properties behind after they died.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  vinaya </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W94</note>
@@ -111,6 +99,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

@@ -43,32 +43,20 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="WATPA97-item1" n="W102">
                      <author key="person_150">srā tona (māʺ timʻ ti muinʻʺ keṅʻʺ mai)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">trāʺ caʻ̐ buddhānussati samatha khanʻʺ</title>
                      <title xml:lang="">the teaching of concentrated meditation on the Buddha</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ</note>
                      <note>General remarks on work: With floral drawing on the cover.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>On three characteristics of the world (impermanence, suffering and selflessness), urging people to do good things, not wasting time, etc.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta </note>
                      <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W102</note>
@@ -97,6 +85,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
@@ -109,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

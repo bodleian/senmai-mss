@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA149-item1" n="W154">
                      <author key="person_161">ca reʺ vanʻ citʻ (keṅʻʺ tauṅʻʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">thamma suṅʻ ta alauṅʻʺ</title>
                      <title xml:lang="">Bodhisatta Dhammacuṅda?</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Alaung   Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of a rich couple who has a daughter. After her parent died, the daughter gave away all properties....</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  non canonical jataka </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W154</note>
@@ -97,6 +85,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
@@ -105,6 +97,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

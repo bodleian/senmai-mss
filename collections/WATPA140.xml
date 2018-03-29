@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA140-item1" n="W145">
                      <author key="person_347">phraʺ takā ca reʺ</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">kammavipāka dvādassa vutʻ toʻ sipʻʺ sauṅʻ</title>
                      <title xml:lang="">The effects of Karma - the twelve kinds of effect</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  tra Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of one of the previous life of the Buddha about his bad behaviour as he was a young innocent boy, that he had hidden the rice pots of 'temple sleepers' and the temple sleepers could not eat any food for the day. As a result of this bad Karma, he had to suffer not having food (practice of long fasting) in his last life before he was enlightened.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sermon </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W145</note>
@@ -109,6 +97,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

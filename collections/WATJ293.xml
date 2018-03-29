@@ -43,31 +43,19 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ293-item1" n="W303">
                      <author key="person_359">careʺ ʼaiṅʻ tā (muiṅʻʺ naiʺ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">caṅʻʹ citʻʺ huvʻ citʻʺ haṅʻ</title>
                      <title xml:lang="">Story of an elephant that has seven heads and seven tails</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: sāmʻ kivʻ Introduction: yes</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of two brothers, who by the order the king had to look for an elephant that had seven heads and seven tails...</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  non canonical jataka </note>
                      <colophon>Colophon:yes </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -118,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

@@ -43,32 +43,20 @@
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA102-item1" n="W107">
                      <author key="person_291">ca reʺ sūriya (mè hauṅʻ saunʻ)</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">likʻ sa miṅʻʺ suñʻ ca yanʻ muiṅʻʺ sa thuṅʻ luṅʻ</title>
                      <title xml:lang="">History of Swezayan Pagoda in Sathung (Thaton), Mon State, lower Burma.</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Lik  </note>
                      <note>General remarks on work: With flora arts on the cover.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>history of the pagoda date back to the Buddha's time?? (to read the summary again)</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  history </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W107</note>
@@ -95,6 +83,10 @@
                </physDesc>
                <history>
                   <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
                      
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
@@ -108,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-26">
             <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
          </change>

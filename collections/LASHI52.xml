@@ -43,27 +43,15 @@
                   <textLang>Written in shan,burmese script</textLang>
                   <msItem xml:id="LASHI52-item1" n="W52">
                      <author key="person_55">ca reʻʺ mauṅʻ̨ ṅʻ̨</author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
                      <title xml:lang="">trāʺ cavʻ̐ saṅʻ̨ vuñʻka vatthu</title>
                      <title xml:lang="">The sermon on the teaching of spiritual shock (saṃvega)</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt">saṅʻ̨ vuñʻka vatthu</title>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): colour</p>
                         <p>Illustrated (diagrams): none</p>
@@ -72,9 +60,9 @@
                      <note>Shan text descriptor: Alaung   Rhyming system: samʻ kivʻ yavʻʺ Introduction: yes Text at other location: W14</note>
                      <note>General remarks on work: High quality paintings on 6 folios.</note>
                      <note>Summary intro: Composed to mark the funeral of donor's mother.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of Adinna-puppaka, the millionaire whose son was passed away. He cried all the way to the cemetery.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  instruction Subject comments: learned text</note>
                      <colophon>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Colophon:yes Additional colophon:no </colophon>
                      <textLang mainLang="shn">shan,pali</textLang>
@@ -127,6 +115,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

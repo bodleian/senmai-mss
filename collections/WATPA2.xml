@@ -45,31 +45,21 @@
                      <author key="person_292">
                         <foreign xml:lang="shn">ၸရေးသူႇရိယႃႇ မႄႈႁွင်ႈသွၼ်</foreign>
                      </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
                      <title xml:lang="">miṅ'' ka lā sā la tī pa nī</title>
                      <title xml:lang="">A commenatry on the essential of the blessing</title>
-                     <title xml:lang="shn-Latn-x-lc">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <decoNote>
                         <p>Illustrated (ornamentation): none</p>
                      </decoNote>
                      <note>Shan text descriptor: Lik  </note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story about the Buddha giving sermon to the devatā (god/spirit); in the sermon, the Buddha said that one who has done dāna (generosity / giving away) is an auspicious deed that will lead him/her to the state of Nibbāna.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  sutta,canonical jataka,sermon Subject comments: only ''sutta'' is recorded in the data sheet</note>
                      <textLang mainLang="shn">shan,burmese,pali</textLang>
                      <note>Work ID: W2</note>
@@ -115,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

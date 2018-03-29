@@ -42,31 +42,21 @@
                <msContents>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATJ334-item1" n="W345">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">su ca ruik du ca ruik sip pā</title>
                      <title xml:lang="">Stories on ten types of good behaviours and ten types of bad behaviours</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">သုၸရိုၵ် ၻုၸရိုၵ် ဝုတ်ထု သိပ်းပႃး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor:  Vatthu Rhyming system: sam kiv Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်</foreign>Introduction: yes Text at other location: Wat Pang Mu</note>
-                     <note xml:lang="shn"/>
-                     <note xml:lang="shn"/>
+                     
+                     
                      <note>Subject:  abhidhamma,sermon </note>
                      <colophon>Colophon:yes Colophon type:donor </colophon>
                      <textLang mainLang="shn">shan</textLang>
@@ -111,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>

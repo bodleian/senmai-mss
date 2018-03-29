@@ -42,32 +42,22 @@
                <msContents>
                   <textLang>Written in shan script</textLang>
                   <msItem xml:id="WATPA137-item1" n="W142">
-                     <author/>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
-                     <author>
-                        <foreign xml:lang="shn"/>
-                     </author>
+                     
+                     
+                     
+                     
+                     
                      <title xml:lang="">jinatthappakāsanī paṭṭhama toi</title>
                      <title xml:lang="">Commentries on the life story of the Buddha, volume one</title>
                      <title xml:lang="shn-Latn-x-lc">
                         <foreign xml:lang="shn">ၸိၼတ်ထပၵႃႇသၼီႇ ပထမတွႆး</foreign>
                      </title>
                      <title xml:lang="en" type="alt"/>
-                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
-                        <foreign xml:lang="shn"/>
-                     </title>
+                     
                      <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Story of Queen Sri Māyā, mother of the buddha-to-be, mainly about her dream before she was conceived and pregnant.</note>
-                     <note xml:lang="shn"/>
+                     
                      <note>Subject:  commentary </note>
                      <textLang mainLang="shn">shan</textLang>
                      <note>Work ID: W142</note>
@@ -113,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
          <change when="2018-03-28" change="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>
