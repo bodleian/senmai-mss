@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATJ414-item1" n="W426">
                      <author key="person_282">ca reʺ laiʺ sai</author>
                      <author key="person_283">
@@ -58,7 +58,7 @@
                      
                      
                      <note>Subject:  sutta,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W426</note>
                   </msItem>
                   <msItem xml:id="WATJ414-item2" n="W427">
@@ -76,7 +76,7 @@
                      
                      
                      <note>Subject:  instruction </note>
-                     <textLang mainLang="shn"/>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W427</note>
                   </msItem>
                </msContents>
@@ -119,6 +119,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

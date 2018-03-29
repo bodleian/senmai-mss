@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA145-item1" n="W150">
                      <author key="person_243">careʺ nāʺ kivʻ</author>
                      
@@ -58,7 +58,7 @@
                      <note>Story of a generous king making great offering ceremony, a female giant dragon participated in the ceremony; the king and the female giant were married, and then they had a son together; one day their son asked his father why his mother was a human in day time but a giant at night. The son asked his father to return to human world. The female giant mother followed them but she couldn't find them. In the end, she wrote a stenza (gāthā) and left it for her son on the river's bank, asking her son to memorize. She then died and was reborn in the Brahma world.</note>
                      
                      <note>Subject:  commentary,non canonical jataka </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W150</note>
                   </msItem>
                </msContents>
@@ -101,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

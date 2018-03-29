@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATJ279-item1" n="W289">
                      <author key="person_7">careʺ luṅʻʺ kyauṅʻʺ saiʺ samʻ mūiṅʻʺ naiʺ</author>
                      
@@ -61,7 +61,7 @@
                      <note>Containing story about a king who met a young novice and asked about his teacher. The novice said his teacher was the Buddha. So, the king went to see the Buddha who at that time lived in the Puppharama temple.</note>
                      
                      <note>Subject:  canonical jataka,non canonical jataka </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W289</note>
                   </msItem>
                </msContents>
@@ -107,6 +107,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

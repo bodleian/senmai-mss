@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in burmese script</summary>
                   <msItem xml:id="CAMBR624-item1" n="W671">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  ceremony,charms Subject comments: Namakāra Kyam‘ is a formula for homage to or praise of the Buddha.</note>
-                     <textLang mainLang="shn">pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">pali</textLang>
                      <note>Work ID: W671</note>
                   </msItem>
                   <msItem xml:id="CAMBR624-item2" n="W672">
@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">pali</textLang>
                      <note>Work ID: W672</note>
                   </msItem>
                </msContents>
@@ -105,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

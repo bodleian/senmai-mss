@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="CAMBR901-item1" n="W968">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W968</note>
                   </msItem>
                   <msItem xml:id="CAMBR901-item2" n="W969">
@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  sutta,commentary,instruction,meditation Subject comments: Also includes a passage on how to worship, 40 aids to meditation, 32 parts of the body, on Anicca, on Dukkha, on Anattā, and on Māna.</note>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W969</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

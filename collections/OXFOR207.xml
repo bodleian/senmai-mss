@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,khun script</textLang>
+                  <summary change="#fix-langs">Rolled book written in shan,khun script</summary>
                   <msItem xml:id="OXFOR207-item1" n="W215">
                      
                      
@@ -62,7 +62,7 @@
                      
                      
                      <note>Subject:  astrology Subject comments: manuals and instructions on astrology</note>
-                     <textLang mainLang="shn">shan,khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="khf" change="#fix-langs">shan,khuen</textLang>
                      <note>Work ID: W215</note>
                   </msItem>
                </msContents>
@@ -104,6 +104,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

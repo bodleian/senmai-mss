@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA162-item1" n="W167">
                      <author key="person_126">khiṅʻʺ kyauṅʻʺ caiʺ samʻ (veṅʻʺ muiṅʻʺ naiʺ)</author>
                      
@@ -57,7 +57,7 @@
                      <note>A story about a boy. His father taught hi to memorize words of protection (in Pali): Buddhoa me saranaṃ aññaṃ natthi, dhammo me saranaṃ aññaṃ natthi, saṃgho me saranaṃ aññaṃ natthi. One day he followed his father to cut firewood. They went so far and could not return before dark, so they slept that night in the forest. During the night, a giant saw them while looking for food, and so tried to kill and eat them. But the boy recited the words above, so the giant not only could not kill them but brought special food from the palace of the king of Rajagaha and left for them to eat in the morning. When morning arrived, the king noticed his food was stolen. In the end, the father and son was caught up, and so the king's men thought they stole the king's food and attempted to kill them but when they were freed after they explained what happened.</note>
                      
                      <note>Subject:  commentary </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W167</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

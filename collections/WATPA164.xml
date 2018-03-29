@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA164-item1" n="W169">
                      
                      
@@ -57,7 +57,7 @@
                      <note>A story of a young man who learned about five precepts from the Buddha. Once he could memorize how to recite the words of the precepts, he recited it day and night. One day while traveling on a long journey, he met robbers, who robbed and killed him taking away his belongings. The young man, before he died, he recited the precept words and was reborn in heaven.</note>
                      
                      <note>Subject:  sutta,commentary </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W169</note>
                   </msItem>
                </msContents>
@@ -105,6 +105,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATJ390-item1" n="W402">
                      <author key="person_388">ca reʺ nāʺ khanʻ (muiṅʻʺ naiʺ)</author>
                      
@@ -57,7 +57,7 @@
                      
                      <note>Subject:  cosmology,history </note>
                      <colophon>Colophon:yes Colophon type:scribal </colophon>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W402</note>
                   </msItem>
                </msContents>
@@ -99,6 +99,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

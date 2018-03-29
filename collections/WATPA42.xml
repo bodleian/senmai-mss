@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA42-item1" n="W42">
                      <author key="person_35">unknown</author>
                      
@@ -63,7 +63,7 @@
                      <note>We cannot control anything in our bodies. We don''t want to get old even though we don''t want it. We will die, even though we don''t want to. There is nothing permanent, it is changing all the time like the water continuously flowing in the river. Also our bodies are like a city. There are people living in the city. If there are people, there need to have headmen asking people to do this and that, keeping them busy all the time.</note>
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W42</note>
                   </msItem>
                </msContents>
@@ -106,6 +106,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA117-item1" n="W122">
                      <author key="person_189">srā jina (muiṅʻʺ yaṅʻʺ lèṅʻ)</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story of a rich couple in Varanasi, who had two children - a boy and a girl. When they were grown up, the boy was fed up with worldly things, so he decided to become a monk. He finally realised the truth and attained Nibbana.</note>
                      
                      <note>Subject:  sutta,canonical jataka </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W122</note>
                   </msItem>
                </msContents>
@@ -99,6 +99,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

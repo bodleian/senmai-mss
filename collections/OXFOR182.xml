@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="OXFOR182-item1" n="W187">
                      <author key="person_35">unknown</author>
                      
@@ -63,7 +63,7 @@
                      
                      <note>Subject:  instruction Subject comments: Pagodas</note>
                      <colophon>Making wishes for Nibbāna and dedication to family members (on page 21). Colophon repeated for each subsequent section of text.Colophon:yes </colophon>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W187</note>
                   </msItem>
                   <msItem xml:id="OXFOR182-item2" n="W188">
@@ -87,7 +87,7 @@
                      
                      <note>Subject:  abhidhamma,sutta,commentary Subject comments: A text on suññatā and relics</note>
                      <colophon>scribal wishes for the attainment of Nibbāna.Colophon:yes Additional colophon:no </colophon>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W188</note>
                   </msItem>
                </msContents>
@@ -135,6 +135,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

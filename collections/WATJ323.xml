@@ -39,7 +39,7 @@
                      <idno>054</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
+               <msContents><summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATJ323-item1" n="W334">
                      <author key="person_321">ca re cai sam</author>
                      
@@ -55,7 +55,7 @@
                      
                      
                      <note>Subject:  abhidhamma </note>
-                     <textLang mainLang="shn"/>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W334</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

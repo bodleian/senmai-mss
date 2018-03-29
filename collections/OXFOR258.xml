@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,lanna script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,lanna script</summary>
                   <msItem xml:id="OXFOR258-item1" n="W268">
                      
                      
@@ -61,7 +61,7 @@
                      
                      
                      <note>Subject:  astrology,medicine,charms Subject comments: Traditional medicine, Healing</note>
-                     <textLang mainLang="shn">shan,lanna</textLang>
+                     <textLang mainLang="shn" otherLangs="nod" change="#fix-langs">shan,lanna</textLang>
                      <note>Work ID: W268</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

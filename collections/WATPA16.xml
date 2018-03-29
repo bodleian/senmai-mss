@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA16-item1" n="W16">
                      <author key="person_345">soʺ phiṅʻ naʹ mauṅ'' ṅeʻ (cav'' amat lūṅ'' ūiṅ''" nauṅ'')</author>
                      <author key="person_346">
@@ -63,7 +63,7 @@
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈထမ်ႇမရႃႇသီႇၼႆႉ ၶႆႈလူၺ်ႈလုၵ်ႈၸႆၢးသထေးၵေႃႉငိၼ်းဢိမ်ႇၸၢၼ်ႈၼႂ်းလေႃးၵၶိူဝ်းသင်ႇၶႃႇ ရလူင်ၼႆႉယဝ်ႉလႄႈ ယွၼ်းဢဝ်ဢၶႂၢင်ႉၵေႃႉမေးသေယဝ်ႉ ၵႂႃႇလူႇတူဝ်လူႇၶိင်းၶၢမ်ႇပဵၼ်ရသေႉရႁၢၼ်း၊ ၵႃႈပဵၼ် ဢုၵ်ႉၸႃႇရတၼႃႇတင်းသဵင်ႈ ဢၢပ်ႈပၼ်မေးၼၢင်းသဵင်ႈသဵင်ႈသေယဝ်ႉ မိူဝ်းႁဵတ်းတပေးၽြႃးၵျၢင်ႉၵမ်ၵမ်ႇမထၢၼ်း ဝိပသ်သၼႃႇ ---</foreign>
                      </note>
                      <note>Subject:  abhidhamma,sutta,commentary </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W16</note>
                   </msItem>
                </msContents>
@@ -108,6 +108,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in pa-o script</textLang>
+                  <summary change="#fix-langs">Manuscript written in pa-o script</summary>
                   <msItem xml:id="OXFOR187-item1" n="W193">
                      
                      
@@ -64,7 +64,7 @@
                      
                      <note>Subject:  canonical jataka </note>
                      <colophon>Making wishes for liberation from suffering and attainment of Nibbana.Colophon:yes </colophon>
-                     <textLang mainLang="shn">pa-o</textLang>
+                     <textLang mainLang="shn" otherLangs="blk" change="#fix-langs">pa-o</textLang>
                      <note>Work ID: W193</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

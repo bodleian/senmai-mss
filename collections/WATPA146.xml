@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA146-item1" n="W151">
                      <author key="person_35">unknown</author>
                      
@@ -57,7 +57,7 @@
                      <note>Sermon on Dandaka the Minister who was imprisoned. One day Dandaka crossed a border into a giant country to get sandalwood for building. He was caught by the giants and took him to their country and sent him to prison. One day when the giants told him that they were going to kill him, she replied "I do not fear of dead; what I fear is the poor relations between the human king and the giant king. If I could help them have a better relations, I am happy to die". The giants then asked him to be 'ambassador' between humans and giants. After the giants got closer to human world, they also had more chance to learn the Buddha's teaching; as results they refrain from killing and eating human fresh.</note>
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W151</note>
                   </msItem>
                </msContents>
@@ -99,6 +99,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

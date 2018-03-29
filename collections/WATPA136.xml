@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA136-item1" n="W141">
                      <author key="person_330">cavʻ̐ seʺ kuṅʻʺ (vanʻ̐ ciṅʻʺ)</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story about the illiterate. There was a poor Bodhisatta called Dukkha Sīlavā. Although he was poor he was a moral person, never stole others' properties. He sold flowers for living. One day he had to assist a rich couple to do their farming. The couple had four beautiful daughter. As Dukkha Sīlavā was a good man, the rich couple wanted him to marry with their daughters. But as Dukkha Sīlavā was illiterate, he was sent to study first and then married on his return.</note>
                      
                      <note>Subject:  commentary,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W141</note>
                   </msItem>
                </msContents>
@@ -99,6 +99,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

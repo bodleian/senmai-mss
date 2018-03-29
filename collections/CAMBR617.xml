@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="CAMBR617-item1" n="W663">
                      <author key="person_256">Pongyi of Ban‘ Hāt‘</author>
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  abhidhamma,commentary,instruction,meditation Subject comments: Title in Pali.</note>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W663</note>
                   </msItem>
                   <msItem xml:id="CAMBR617-item2" n="W664">
@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  abhidhamma,vinaya,commentary,instruction,meditation Subject comments: Title in Burmese. A catechism on Abhidhammattha-saṅgaha and Vinayasaṅgaha.</note>
-                     <textLang mainLang="shn">pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">pali</textLang>
                      <note>Work ID: W664</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

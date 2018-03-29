@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Rolled book written in shan,burmese script</summary>
                   <msItem xml:id="LASHI52-item1" n="W52">
                      <author key="person_55">ca reʻʺ mauṅʻ̨ ṅʻ̨</author>
                      
@@ -65,7 +65,7 @@
                      
                      <note>Subject:  instruction Subject comments: learned text</note>
                      <colophon>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Colophon:yes Additional colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W52</note>
                   </msItem>
                </msContents>
@@ -115,6 +115,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

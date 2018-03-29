@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATPA104-item1" n="W109">
                      <author key="person_35">unknown</author>
                      
@@ -57,7 +57,7 @@
                      <note>Once upon a time, in the country, people were very generous and virtuous. But after the passing away, people forgot about generosity and morality. Then, there was Nang Silavun, a virtuous lady, who was by the arrangement of her parents married to an immoral man. She tried to help husband to be a virtuous man, e.g. not to kill animals, but her husband never listen to her. One day, she asked her husband for forgiveness and left him and their sons but took her daughter with her. Both of them were taken away 'as live humans' by gods to heaven.</note>
                      
                      <note>Subject:  non canonical jataka,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W109</note>
                   </msItem>
                </msContents>
@@ -104,6 +104,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

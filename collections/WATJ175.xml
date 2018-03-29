@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATJ175-item1" n="W180">
                      <author key="person_24">ca reʺ mauṅʻ khinʻ</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story about a rich man who was very stingy. He wanted to eat delicious food/sweets but did not want to buy from shop, so asked his wife to make and do so quietly worrying neighbours would know about it, as he did not want to share. The Buddha saw this with his divine eyes ----</note>
                      
                      <note>Subject:  sutta,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W180</note>
                   </msItem>
                </msContents>
@@ -101,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

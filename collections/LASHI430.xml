@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Manuscript written in shan,burmese script</summary>
                   <msItem xml:id="LASHI430-item1" n="W443">
                      <author key="person_85">srā panʻʺ sèṅʻʺ (vanʻ ciṅʻʺ muiṅʻʺ nauṅʻ)</author>
                      
@@ -57,7 +57,7 @@
                      <note>The text is about people who have old age but do not learn to observe the precepts or follow the Buddha's teaching..</note>
                      
                      <note>Subject:  abhidhamma,meditation,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W443</note>
                   </msItem>
                </msContents>
@@ -92,6 +92,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="CAMBR868-item1" n="W934">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W934</note>
                   </msItem>
                </msContents>
@@ -85,6 +85,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

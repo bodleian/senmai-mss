@@ -39,7 +39,7 @@
                      <idno>Tapung 27</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
+               <msContents><summary change="#fix-langs">Manuscript written in shan script</summary>
                   <msItem xml:id="LASHI1044-item1" n="W1116">
                      <author key="person_101">careʺ eʺ kyoʻ̨</author>
                      
@@ -55,7 +55,7 @@
                      
                      
                      <note>Subject:  abhidhamma,meditation,sermon </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W1116</note>
                   </msItem>
                </msContents>
@@ -85,6 +85,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -37,7 +37,7 @@
                   <idno>CAMBR51</idno>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="CAMBR51-item1" n="W51">
                      <author key="person_132">ca re" sūriya me'' hauṅ'' saun''</author>
                      
@@ -62,7 +62,7 @@
                      
                      <note>Subject:  sutta,instruction,sermon Subject comments: exposition of several suttas</note>
                      <colophon>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Colophon:yes Additional colophon:yes </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W51</note>
                   </msItem>
                </msContents>
@@ -113,6 +113,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

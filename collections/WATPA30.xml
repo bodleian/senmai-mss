@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA30-item1" n="W30">
                      <author key="person_34">ca reʺ iṅʻ tā (muiṅʻʺ naiʺ)</author>
                      
@@ -60,7 +60,7 @@
                      <note>Story of Kaccyana, who in one of his previous lives performed the act of generosity, great giving,and consequently after his death, he was born in the heaven. After his death, he was reborn in a human world in a rich family having all pleasure and enjoyment.</note>
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W30</note>
                   </msItem>
                </msContents>
@@ -101,6 +101,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

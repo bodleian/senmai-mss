@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA158-item1" n="W163">
                      <author key="person_236">munʻ caṅʻʺ haiʺ kuivʻ</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story of Bakula of Kosambhī country, which is a peaceful and happy place to live in. One day some children of the country were playing water in a river, and among them Bakula was the eldest one. As he went into the deep water, a big fish thought Bakula was food for him, but the fish couldn't get near to Bakula because of his good Karma taking the triple gems of the Buddha, the Dhamma and the Sangha as his refuge.</note>
                      
                      <note>Subject:  canonical jataka </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W163</note>
                   </msItem>
                </msContents>
@@ -97,6 +97,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

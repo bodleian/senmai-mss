@@ -43,7 +43,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATPA14-item1" n="W14">
                      <author key="person_84">careʺ vanʻ ciṅʻʺ</author>
                      <author key="person_235">
@@ -66,7 +66,7 @@
                      <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">လွင်ႈၼၢင်းဝိသႃႇလူႇတၼ်းၵျွင်း- ႁူဝ်ႁုပ်ႈတီႈၵႅပ်ႈၼႂ်းလိၵ်ႈၼႆႉ ပဵၼ်သိူၵ်ႈပိုၼ်းၼၢင်းဝိသႃႇၶႃႇမီးလုၵ်ႈယိင်း၇၀ လၢၼ်ယိင်း၄၀၀ လိၼ်ယိင်း ၈၀၀၀ ၶဝ်ၸဝ်ႈမေ်လုၵ်ႈလႆႈလူႇတၼ်းၵျွင်းဝေလုဝုၼ်ႇလူင်သေ လႆဢဝ်ပဵၼ်တႃၼ တၢင်းလီၶဝ်မေႈလုၵ်လၢၼ်လိၼ်တင်းမူတ်းတင်းသဵင်ႈယဝ်ႉ၊၊</foreign>
                      </note>
                      <note>Subject:  commentary,canonical jataka </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W14</note>
                   </msItem>
                </msContents>
@@ -110,6 +110,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

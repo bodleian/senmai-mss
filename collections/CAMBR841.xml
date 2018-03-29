@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,mao script</textLang>
+                  <summary change="#fix-langs">Rolled book written in shan,mao script</summary>
                   <msItem xml:id="CAMBR841-item1" n="W901">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  abhidhamma </note>
-                     <textLang mainLang="shn">shan,pali,tai mao</textLang>
+                     <textLang mainLang="shn" otherLangs="pli " change="#fix-langs">shan,pali,tai mao</textLang>
                      <note>Work ID: W901</note>
                   </msItem>
                </msContents>
@@ -86,6 +86,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

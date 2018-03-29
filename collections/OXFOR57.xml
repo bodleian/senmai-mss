@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="OXFOR57-item1" n="W57">
                      
                      
@@ -64,7 +64,7 @@
                      
                      <note>Subject:  astrology Subject comments: magical work</note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W57</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item2" n="W58">
@@ -89,7 +89,7 @@
                      
                      <note>Subject:  abhidhamma,commentary </note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W58</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item3" n="W59">
@@ -112,7 +112,7 @@
                      
                      <note>Subject:  abhidhamma,meditation Subject comments: Work on the 40 meditation objects connected with death</note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W59</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item4" n="W60">
@@ -132,7 +132,7 @@
                      
                      <note>Subject:  meditation </note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W60</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item5" n="W61">
@@ -152,7 +152,7 @@
                      
                      <note>Subject:  sutta </note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W61</note>
                   </msItem>
                   <msItem xml:id="OXFOR57-item6" n="W62">
@@ -172,7 +172,7 @@
                      
                      <note>Subject:  abhidhamma </note>
                      <colophon>Colophon:no </colophon>
-                     <textLang mainLang="shn">shan,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
                      <note>Work ID: W62</note>
                   </msItem>
                </msContents>
@@ -224,6 +224,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in khun script</textLang>
+                  <summary change="#fix-langs">Rolled book written in khun script</summary>
                   <msItem xml:id="OXFOR211-item1" n="W219">
                      
                      
@@ -62,7 +62,7 @@
                      
                      
                      <note>Subject:  astrology </note>
-                     <textLang mainLang="shn">khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="khf" change="#fix-langs">khuen</textLang>
                      <note>Work ID: W219</note>
                   </msItem>
                   <msItem xml:id="OXFOR211-item2" n="W220">
@@ -81,7 +81,7 @@
                      
                      
                      <note>Subject:  commentary </note>
-                     <textLang mainLang="shn">pali,khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="pli khf" change="#fix-langs">pali,khuen</textLang>
                      <note>Work ID: W220</note>
                   </msItem>
                </msContents>
@@ -122,6 +122,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA163-item1" n="W168">
                      <author key="person_207">so pheṅʻ na mauṅʻ ṅè cavʻ amatʻ luṅʻ muiṅʻʺ nauṅʻ</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story of a millionaire's son who was fed up with the world. He asked permission from his wife, shaved his head, and went to the Buddha to get ordained. A king of Sāvatthi country heard of this news and invited the wife to live with other girls in the palace. The king also gave special flowers to them, saying if they know how to make wish, they would get the best prize.</note>
                      
                      <note>Subject:  sutta,commentary </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W168</note>
                   </msItem>
                </msContents>
@@ -98,6 +98,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

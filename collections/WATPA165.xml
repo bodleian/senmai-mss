@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATPA165-item1" n="W170">
                      <author key="person_191">ca reʺ piṅʻ ñā</author>
                      
@@ -57,7 +57,7 @@
                      <note>Story of a poor man who cut and sell firewood for living. One day he went to sell his firewood to a rich old woman. The rich woman not only bought his firewood but also gave him food and cloths to the poor man. Then, there was a poor lady whose job for living was washing and cleaning. One day, she went to the old rich woman to do washing and cleaning. The old woman and asked the poor woman to live with her. Later the old rich woman arranged for the poor man and the poor man to get married each other. One day, the king of the country made great festival of offering. The poor man wanted to take part in the festival but the king refused and asked him to do separately. So, he made the Buddha image with sticky soil, the gods (sakka) helped him to do the Buddha image and organize his festival, which was much greater than the king's festival!</note>
                      
                      <note>Subject:  non canonical jataka </note>
-                     <textLang mainLang="shn">shan</textLang>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
                      <note>Work ID: W170</note>
                   </msItem>
                </msContents>
@@ -103,6 +103,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

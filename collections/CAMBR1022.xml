@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in khun script</textLang>
+                  <summary change="#fix-langs">Palm leaf written in khun script</summary>
                   <msItem xml:id="CAMBR1022-item1" n="W1094">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  sutta,commentary </note>
-                     <textLang mainLang="shn">pali,tai lue</textLang>
+                     <textLang mainLang="shn" otherLangs="pli khb" change="#fix-langs">pali,tai lue</textLang>
                      <note>Work ID: W1094</note>
                   </msItem>
                </msContents>
@@ -87,6 +87,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

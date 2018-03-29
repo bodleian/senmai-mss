@@ -39,7 +39,7 @@
                      <idno>9</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
+               <msContents><summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATT5-item1" n="W5">
                      <author key="person_281">cavʻ amatʻ luṅʻ muiṅʻ nauṅʻ</author>
                      <author key="person_156">
@@ -61,7 +61,7 @@
                      <note>The text of this mss is about the king''s duties as taught by the Buddha.</note>
                      
                      <note>Subject:  sutta,commentary,sermon </note>
-                     <textLang mainLang="shn">shan,burmese,pali</textLang>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
                      <note>Work ID: W5</note>
                   </msItem>
                </msContents>
@@ -108,6 +108,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in shan,burmese script</textLang>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATPA79-item1" n="W84">
                      
                      
@@ -57,7 +57,7 @@
                      <note>Story of Koliya the millionaire, similar to the story in other copies of Sutta Niabbana.</note>
                      
                      <note>Subject:  sutta </note>
-                     <textLang mainLang="shn">shan,burmese</textLang>
+                     <textLang mainLang="shn" otherLangs="mya" change="#fix-langs">shan,burmese</textLang>
                      <note>Work ID: W84</note>
                   </msItem>
                </msContents>
@@ -100,6 +100,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>

@@ -40,7 +40,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <textLang>Written in khun script</textLang>
+                  <summary change="#fix-langs">Palm leaf written in khun script</summary>
                   <msItem xml:id="CAMBR906-item1" n="W974">
                      
                      
@@ -56,7 +56,7 @@
                      
                      
                      <note>Subject:  commentary </note>
-                     <textLang mainLang="shn">pali,khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="pli khf" change="#fix-langs">pali,khuen</textLang>
                      <note>Work ID: W974</note>
                   </msItem>
                   <msItem xml:id="CAMBR906-item2" n="W975">
@@ -74,7 +74,7 @@
                      
                      
                      <note>Subject:  canonical jataka </note>
-                     <textLang mainLang="shn">pali,khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="pli khf" change="#fix-langs">pali,khuen</textLang>
                      <note>Work ID: W975</note>
                   </msItem>
                   <msItem xml:id="CAMBR906-item3" n="W976">
@@ -92,7 +92,7 @@
                      
                      
                      <note>Subject:  canonical jataka </note>
-                     <textLang mainLang="shn">pali,khuen</textLang>
+                     <textLang mainLang="shn" otherLangs="pli khf" change="#fix-langs">pali,khuen</textLang>
                      <note>Work ID: W976</note>
                   </msItem>
                </msContents>
@@ -130,6 +130,9 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2018-03-29" change="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>
