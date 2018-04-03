@@ -33,7 +33,7 @@ declare function local:generateVariations($name as xs:string) as xs:string*
     let $variations3 := for $v in distinct-values($variations2)
         return (
             $v,
-            replace(replace(replace(translate($v, 'āṅñèṃīṇ', 'annemin'), 'o̐', 'o'), 'ą̄', 'a'), 'ą̄', 'a')
+            replace(replace(replace(translate($v, 'āṅñèṃīṇū', 'anneminu'), 'o̐', 'o'), 'ą̄', 'a'), 'ą̄', 'a')
         )
     let $variations4 := for $v in distinct-values($variations3)
         return (
