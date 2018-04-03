@@ -11,6 +11,14 @@ declare option saxon:output "indent=yes";
         let $subfolders := string-join(tokenize(substring-after(base-uri($x), 'collections/'), '/')[position() lt last()], '/')
         let $htmlfilename := concat($x//tei:sourceDesc/tei:msDesc[1]/@xml:id/data(), '.html')
         let $htmldoc := doc(concat("html/", $subfolders, '/', $htmlfilename))
+        
+        let $repository := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
+        let $institution := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:institution/text())
+        let $shelfmark := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:idno[1]/text())
+        let $normalizedshelfmark := replace($shelfmark, '\W', ' ')
+        let $sortshelfmark := upper-case(replace($normalizedshelfmark, '\s', ''))
+        let $title := concat($shelfmark, ' (', $institution, ')')
+        
         let $languages2index := ('shn','en','shn-Latn-x-lc')
         (:
             Guide to Solr field naming conventions:
@@ -34,7 +42,7 @@ declare option saxon:output "indent=yes";
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno[@type="shelfmark"], 'ms_shelfmark_sort') }
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno, 'ms_shelfmark_s') }
             { bod:one2one($x//tei:msDesc/tei:msIdentifier/tei:idno, 'ms_shelfmark_sort') }
-            { bod:many2one(($x//tei:msDesc/tei:msIdentifier/tei:repository, $x//tei:msDesc/tei:msIdentifier/tei:idno), 'title', 'error') }
+            { bod:string2one($title, 'title') }
             { bod:many2one($x//tei:msDesc/tei:msIdentifier/tei:repository, 'ms_repository_s') }
             { bod:many2many($x//tei:msContents/tei:msItem/tei:author/tei:persName, 'ms_authors_sm') }
             { bod:many2many($x//tei:sourceDesc//tei:name[@type="corporate"]/tei:persName, 'ms_corpnames_sm') }
@@ -42,16 +50,14 @@ declare option saxon:output "indent=yes";
             { bod:many2many($x//tei:physDesc//tei:extent, 'ms_extents_sm') }
             { bod:many2many($x//tei:physDesc//tei:layout, 'ms_layout_sm') }
             { bod:many2many($x//tei:msContents/tei:msItem/tei:note, 'ms_notes_sm') }
-            { bod:many2many($x//tei:msContents/tei:summary, 'ms_summary_sm') }
+            { bod:many2many($x//tei:msContents/tei:summary, 'ms_summary_sni') }
             { bod:many2many($x//tei:msContents/tei:msItem/tei:title, 'ms_works_sm') }
             { for $lang in $languages2index
                 return bod:many2many($x//tei:msContents/tei:msItem/tei:title[@xml:lang = $lang], concat('ms_works_', $lang, '_sm'))
             }
-            { bod:trueIfExists($x//tei:sourceDesc//tei:decoDesc/tei:decoNote, 'ms_deconote_b') }
-            { bod:materials($x//tei:msDesc//tei:physDesc//tei:supportDesc[@material], 'ms_materials_sm', 'Not specified') }
             { bod:physForm($x//tei:physDesc/tei:objectDesc, 'ms_physform_sm', 'Not specified') }
-            { bod:languages($x//tei:sourceDesc//tei:textLang, 'ms_lang_sm', 'Not specified') }
-            { bod:centuries($x//tei:origin//tei:origDate[@calendar = '#Gregorian' or (not(@calendar) and count(ancestor::tei:origin//tei:origDate) eq 1)], 'ms_date_sm', 'Gregorian Date Not Specified') }
+            { bod:languages($x//tei:sourceDesc//tei:textLang, 'lang_sm', 'Not specified') }
+            { bod:centuries($x//tei:origin//tei:origDate[@calendar = '#Gregorian'], 'ms_date_sm', 'Not specified') }
             { bod:indexHTML($htmldoc, 'ms_textcontent_tni') }
             { bod:displayHTML($htmldoc, 'display') }
         </doc>
