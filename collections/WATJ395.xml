@@ -89,7 +89,7 @@
                      <p>Names of donors mentioned in the middle of the text (not in introduction nor colophon as usual).</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1869" notAfter="1870" type="composition">2413</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1869" notAfter="1870" type="composition">2413</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original place of donation: ta kā taṅʻʺ keʻʺ seʻ khavʻ taṅʻʺ huinʻʺ</p>

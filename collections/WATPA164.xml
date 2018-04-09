@@ -91,9 +91,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1872" notAfter="1873" type="composition">2416</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1872" notAfter="1873" type="composition">2416</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1882" notAfter="1883" type="copying">1244</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1882" notAfter="1883" type="copying">1244</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Pang Mu</provenance>
                   <acquisition>

@@ -123,7 +123,7 @@
                      <p>Date of composition (era): Unknown</p>
                      <p>Date of composition (year): Unknown</p>
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1927" notAfter="1928" type="copying">2471</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1927" notAfter="1928" type="copying">2471</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: Unknown Original donor (shan): Unknown Unknown Original donor information: Unknown</p>

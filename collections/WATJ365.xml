@@ -94,7 +94,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1906" notAfter="1907" type="composition">1268</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1906" notAfter="1907" type="composition">1268</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original place of donation (shan): <foreign xml:lang="shn">လုင်းၵျွင်းၵူႇပႃႈၵျွင်းဢူဝ်ႇ</foreign>

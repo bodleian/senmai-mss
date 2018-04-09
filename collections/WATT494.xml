@@ -82,7 +82,7 @@
                      <p>The writing of this text was completed on Tuesday the 11th of the waxing moon of the 10th month of the year 1296 SE.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1934" notAfter="1935" type="composition">1296</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1934" notAfter="1935" type="composition">1296</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>

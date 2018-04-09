@@ -88,9 +88,9 @@
                      <p>The text was composed by an abbot on the request of his sister.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1870" notAfter="1871" type="composition">1232</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1870" notAfter="1871" type="composition">1232</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1883" notAfter="1884" type="copying">1245</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1883" notAfter="1884" type="copying">1245</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: kyauṅʻʺ ta kā cātiviya lè̐ naṅʻʺ caʹ tūnʻ̐ kèṅʻʺ</p>

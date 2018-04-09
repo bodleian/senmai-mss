@@ -79,9 +79,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1860" notAfter="1861" type="composition">2404</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1860" notAfter="1861" type="composition">2404</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1893" notAfter="1894" type="copying">1255</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1893" notAfter="1894" type="copying">1255</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>

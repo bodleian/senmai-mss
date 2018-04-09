@@ -90,7 +90,7 @@
                      <p>This copy was donated by Mr Nandiya and family, founder of Wat Tiyasathan, Mae Taeng, where the manuscript is kept.</p>
                      
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1899" notAfter="1900" type="copying">2443</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1899" notAfter="1900" type="copying">2443</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: khiṅʻʺ kaṅʻʹ taṅʻʺ keʺ</p>

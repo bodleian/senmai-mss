@@ -91,7 +91,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1890" notAfter="1891" type="composition">1252</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1890" notAfter="1891" type="composition">1252</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: phrā ta kā kham leng ta kā ma naṅ seṅ thaun Original donor (shan): <foreign xml:lang="shn">ၽြႃးတၵႃၶမ်းလႅင် တၵႃႇမၼၢင်းသႅင်ထွၼ်း</foreign>

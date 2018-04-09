@@ -89,9 +89,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="2000" notAfter="2001" type="composition">2544</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="2000" notAfter="2001" type="composition">2544</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="2000" notAfter="2001" type="copying">1362</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="2000" notAfter="2001" type="copying">1362</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Jong Klang, Maehongson.</p>

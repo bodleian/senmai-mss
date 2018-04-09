@@ -90,7 +90,7 @@
                      <p>This is the original copy.</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1921" notAfter="1922" type="composition">2465</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1921" notAfter="1922" type="composition">2465</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: Mr Cāritta and family.</p>

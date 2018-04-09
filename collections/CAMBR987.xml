@@ -78,7 +78,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1861" notAfter="1862" type="copying">1223</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1861" notAfter="1862" type="copying">1223</origDate></p>
                   </origin>
                </history>
             </msDesc>

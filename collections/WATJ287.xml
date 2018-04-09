@@ -93,7 +93,7 @@
                      <p>Name and place of the original donor not found.</p>
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="2002" notAfter="2003" type="copying">1364</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="2002" notAfter="2003" type="copying">1364</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang.</provenance>
                   <acquisition>

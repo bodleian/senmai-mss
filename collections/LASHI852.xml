@@ -77,7 +77,7 @@
                      
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1966" notAfter="1967" type="copying">1328</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1966" notAfter="1967" type="copying">1328</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Present copy's donor: phrāʺtakā pūloipanʻʺ</p>

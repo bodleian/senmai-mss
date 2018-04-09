@@ -90,7 +90,7 @@
                      <p>Original work, as no information about second copy.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1914" notAfter="1915" type="composition">1276</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1914" notAfter="1915" type="composition">1276</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
                   <acquisition>

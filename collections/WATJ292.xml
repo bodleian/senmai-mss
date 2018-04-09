@@ -89,7 +89,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1883" notAfter="1884" type="composition">1245</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1883" notAfter="1884" type="composition">1245</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang, Maehongson.</provenance>
                   <acquisition>

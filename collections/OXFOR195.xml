@@ -97,9 +97,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1919" notAfter="1920" type="composition">1281</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1919" notAfter="1920" type="composition">1281</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1929" notAfter="1930" type="copying">1291</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1929" notAfter="1930" type="copying">1291</origDate></p>
                   </origin>
                   <provenance>Former owner: cavʻ srā muiṅʻʺ phaṅʻ</provenance>
                   <acquisition>

@@ -75,7 +75,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1934" notAfter="1935" type="composition">1296</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1934" notAfter="1935" type="composition">1296</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: pī̐ loi careʺ phrāʺ takāma ʼaukʻ̨ loi sèṅʻ hūiṅʻʺ</p>

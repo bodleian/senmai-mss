@@ -89,7 +89,7 @@
                      <p>The text was composed for the ceremony of sharing merit at the completion of the stupa/pagoda of Wan Teng village.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1912" notAfter="1913" type="composition">1274</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1912" notAfter="1913" type="composition">1274</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: cav pvan cav ne</p>

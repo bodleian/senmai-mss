@@ -78,7 +78,7 @@
                     <xsl:variable name="sakkarajayear" as="xs:integer" select="xs:integer(regex-group(1))"/>
                     <xsl:variable name="gregorianyears" as="xs:integer*" select="($sakkarajayear + 639, $sakkarajayear + 638)"/>
                     <xsl:variable name="gregorianyearsstr" as="xs:string*" select="bod:year2str($gregorianyears)"/>
-                    <origDate calendar="#Gregorian" notBefore="{ $gregorianyearsstr[1] }" notAfter="{ $gregorianyearsstr[2] }" type="{ $datetype }">
+                    <origDate notBefore="{ $gregorianyearsstr[1] }" notAfter="{ $gregorianyearsstr[2] }" type="{ $datetype }">
                         <xsl:value-of select="."/>
                     </origDate>
                 </xsl:matching-substring>
@@ -100,7 +100,7 @@
                     <xsl:variable name="buddhistyear" as="xs:integer" select="xs:integer(regex-group(1))"/>
                     <xsl:variable name="gregorianyears" as="xs:integer*" select="($buddhistyear - 544, $buddhistyear - 543)"/>
                     <xsl:variable name="gregorianyearsstr" as="xs:string*" select="bod:year2str($gregorianyears)"/>
-                    <origDate calendar="#Gregorian" notBefore="{ $gregorianyearsstr[1] }" notAfter="{ $gregorianyearsstr[2] }" type="{ $datetype }">
+                    <origDate notBefore="{ $gregorianyearsstr[1] }" notAfter="{ $gregorianyearsstr[2] }" type="{ $datetype }">
                         <xsl:value-of select="."/>
                     </origDate>
                 </xsl:matching-substring>

@@ -87,7 +87,7 @@
                      <p>This is the original copy.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1862" notAfter="1863" type="composition">1224</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1862" notAfter="1863" type="composition">1224</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: luṅʻʺ eka naṅʻʺ są̄ and family</p>

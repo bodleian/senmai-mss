@@ -91,7 +91,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1911" notAfter="1912" type="copying">1273</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1911" notAfter="1912" type="copying">1273</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original place of donation (shan): <foreign xml:lang="shn">တၢင်းၵေးၼၼ်ႇတ တင်းၵေးလင်းၶိူဝ်း ဝၢၼ်ႈၼိူဝ်</foreign>

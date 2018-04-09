@@ -86,7 +86,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="2002" notAfter="2003" type="copying">1364</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="2002" notAfter="2003" type="copying">1364</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Present copy's donor: luṅʻʺ caṅʻʺ soʺ pā caṅʻʺ auṅʻ (Na Pu Paum village, Pang Mak Pha, Maehongson) Present copy information: introduction</p>

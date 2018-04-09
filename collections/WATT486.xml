@@ -84,7 +84,7 @@
                      <p>The writing of this text was completed on Monday the 6th of the waning moon of 9th month of Shan calendar (2406 BE).</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1917" notAfter="1918" type="composition">2461</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1917" notAfter="1918" type="composition">2461</origDate></p>
                   </origin>
                </history>
             </msDesc>

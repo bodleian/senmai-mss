@@ -84,7 +84,7 @@
                      <p>This is the original version of the text.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1948" notAfter="1949" type="composition">1310</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1948" notAfter="1949" type="composition">1310</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>

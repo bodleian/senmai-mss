@@ -84,9 +84,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1915" notAfter="1916" type="composition">2459</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1915" notAfter="1916" type="composition">2459</origDate></p>
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1916" notAfter="1917" type="copying">2460</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1916" notAfter="1917" type="copying">2460</origDate></p>
                   </origin>
                </history>
             </msDesc>

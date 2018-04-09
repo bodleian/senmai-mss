@@ -97,9 +97,9 @@
                      <p>The composing date is also mentioned as 2402 Buddhist era, which is well matched with the 1221 Sakkaraja era.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1859" notAfter="1860" type="composition">1221</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1859" notAfter="1860" type="composition">1221</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1885" notAfter="1886" type="copying">1247</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1885" notAfter="1886" type="copying">1247</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: po saṅ kū me saṅ kū Original donor (shan): <foreign xml:lang="shn">ပေႃႈသၢင်ႇၵူႇ မႄႈသၢင်ႇၵူႇ</foreign>

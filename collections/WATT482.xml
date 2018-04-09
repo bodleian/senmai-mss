@@ -104,7 +104,7 @@
                      <p>The writing of this text was completed on the 5th day of the waning moon of the 11th month of Shan calendar (2406 BE).</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1862" notAfter="1863" type="composition">2406</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1862" notAfter="1863" type="composition">2406</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>

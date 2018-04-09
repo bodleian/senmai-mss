@@ -84,7 +84,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1953" notAfter="1954" type="composition">1315</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1953" notAfter="1954" type="composition">1315</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: phrāʺ ta kā poʻ saṅʻ pha cikʻʺ ta Original donor information: colophon</p>

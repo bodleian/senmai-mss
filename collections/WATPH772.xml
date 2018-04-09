@@ -76,7 +76,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1895" notAfter="1896" type="composition">2439</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1895" notAfter="1896" type="composition">2439</origDate></p>
                   </origin>
                </history>
             </msDesc>

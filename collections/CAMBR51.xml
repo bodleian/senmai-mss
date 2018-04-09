@@ -97,9 +97,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1729" notAfter="1730" type="composition">2273</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1729" notAfter="1730" type="composition">2273</origDate></p>
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1750" notAfter="1751" type="copying">2294</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1750" notAfter="1751" type="copying">2294</origDate></p>
                   </origin>
                   <provenance>Former owner: Colonel Smith</provenance>
                   <acquisition>

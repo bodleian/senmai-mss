@@ -78,7 +78,7 @@
                   <origin>
                      <!--
                         When adding dates, normalize attributes to the Gregorian calendar
-                        e.g. <origDate calendar="#Gregorian" notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                        e.g. <origDate notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
                      -->
                      
                   </origin>

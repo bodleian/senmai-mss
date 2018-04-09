@@ -90,9 +90,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1916" notAfter="1917" type="composition">1278</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1916" notAfter="1917" type="composition">1278</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1939" notAfter="1940" type="copying">1301</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1939" notAfter="1940" type="copying">1301</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: kyauṅʻʺ ta kā su ma suñʻ iṅʻ Original donor information: introduction</p>

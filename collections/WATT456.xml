@@ -93,7 +93,7 @@
                      <p>The manuscript's original sponsor was the founder of Wat Tiyasthan.</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1928" notAfter="1929" type="composition">2472</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1928" notAfter="1929" type="composition">2472</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: kyauṅʻʺ taką̄ nandiya mè̐ kyauṅʻʺ nāṅʻʺ manʻ̐</p>

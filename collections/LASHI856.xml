@@ -77,7 +77,7 @@
                      
                      <p>Date of composition (era): sakkaraja era</p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1958" notAfter="1959" type="copying">1320</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1958" notAfter="1959" type="copying">1320</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tapung, Lashio, Northern Shan State.</p>

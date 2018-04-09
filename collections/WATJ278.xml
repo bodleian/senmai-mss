@@ -94,7 +94,7 @@
                      <p>No information for second copy, we can assume this is the original manuscript text.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1924" notAfter="1925" type="composition">1286</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1924" notAfter="1925" type="composition">1286</origDate></p>
                   </origin>
                   <provenance>Former owner: Wat Jong Klang.</provenance>
                   <acquisition>

@@ -87,9 +87,9 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1876" notAfter="1877" type="composition">1238</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1876" notAfter="1877" type="composition">1238</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1894" notAfter="1895" type="copying">1256</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1894" notAfter="1895" type="copying">1256</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: kyauṅʻʺ phrāʺ taką la iṅʻ̨ sèṅʻ (vānʻ̐ lūṅʻ sāʺ tǫ mūiṅʻʺ yāṅʻʺ lèṅʻ)</p>

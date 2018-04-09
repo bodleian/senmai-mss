@@ -107,9 +107,9 @@
                      <p>This seems to be an original work, perhaps leading us to believe that Zao Amat Long (cavʻ̐ amātʻ̐ lūṅʻ mūiṅʻʺ nauṅʻ) had travelled to Mae Taeng for his business on literary work, i.e. composing poetic text for new donors.</p>
                      
                      <p>Date of composition (era): buddhist era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1863" notAfter="1864" type="composition">2407</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1863" notAfter="1864" type="composition">2407</origDate></p>
                      <p>Date of copying (era): buddhist era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1926" notAfter="1927" type="copying">2470</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1926" notAfter="1927" type="copying">2470</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Original donor: sāṅʻ̨ kānʻʺ lų̄ (mè̐ tèṅʻ)</p>

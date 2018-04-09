@@ -89,7 +89,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1994" notAfter="1995" type="copying">1356</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1994" notAfter="1995" type="copying">1356</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Present copy's donor: poʻ saṅʻ teṅʻʺ meʻ saṅʻ naṅʻʺ naṅʻʺ (yū paukʻʹ kyauṅʻʺ kaṅʻ - Maehongson).</p>

@@ -90,7 +90,7 @@
                   <origin change="#fix-dates">
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1900" notAfter="1901" type="composition">1262</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1900" notAfter="1901" type="composition">1262</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Present copy's donor: luṅʻʺ saṅʻ nantira khavʻ phuvʻ meʻʺ (Maehongson).</p>

@@ -82,7 +82,7 @@
                      <p>The production of the new copy of this text was completed on the 10th of the waning moon of the 11th month of the year 1317 SE.</p>
                      
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1955" notAfter="1956" type="copying">1317</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1955" notAfter="1956" type="copying">1317</origDate></p>
                   </origin>
                   <acquisition>
                      <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>

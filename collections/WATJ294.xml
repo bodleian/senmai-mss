@@ -93,9 +93,9 @@
                      <p>This manuscript was made in Mong Nai, Southern Shan State. It is not clear how it was ended up in Jong Klang collection, possibly brought in by a lay devotee who came from Shan State or a trader.</p>
                      
                      <p>Date of composition (era): sakkaraja era</p>
-                     <p>Date of composition (year): <origDate calendar="#Gregorian" notBefore="1898" notAfter="1899" type="composition">1260</origDate></p>
+                     <p>Date of composition (year): <origDate notBefore="1898" notAfter="1899" type="composition">1260</origDate></p>
                      <p>Date of copying (era): sakkaraja era</p>
-                     <p>Date of copying (year): <origDate calendar="#Gregorian" notBefore="1949" notAfter="1950" type="copying">1311</origDate></p>
+                     <p>Date of copying (year): <origDate notBefore="1949" notAfter="1950" type="copying">1311</origDate></p>
                   </origin>
                   <provenance>Former owner: Saopha, ruling prince, of Mong Nai, Southern Shan State</provenance>
                   <acquisition>
