@@ -87,7 +87,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2018-03-29" change="fix-langs">
+         <change when="2018-03-29" xml:id="fix-langs">
             <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
          </change>
          <change when="2018-03-29">

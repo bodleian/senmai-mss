@@ -118,13 +118,13 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2018-03-29" change="fix-langs">
+         <change when="2018-03-29" xml:id="fix-langs">
             <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
          </change>
          <change when="2018-03-29">
             <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
          </change>
-         <change when="2018-03-28" change="fix-dates">
+         <change when="2018-03-28" xml:id="fix-dates">
             <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
          </change>
          <change when="2018-03-26">
