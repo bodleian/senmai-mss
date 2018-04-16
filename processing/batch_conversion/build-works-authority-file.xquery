@@ -2,64 +2,30 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace saxon="http://saxon.sf.net/";
 declare option saxon:output "indent=yes";
 
-(: Copied from Hebrew, needs adapting to work with Senmai :)
-
 declare function local:logging($level, $msg, $values)
 {
     (: Trick XQuery into doing trace() to output message to STDERR but not insert it into the XML :)
     substring(trace('', concat(upper-case($level), '	', $msg, '	', string-join($values, '	'), '	')), 0, 0)
 };
 
-declare function local:generateVariations($title as xs:string) as xs:string*
+declare function local:normalize4Crossrefing($title as xs:string) as xs:string
 {
-    let $variations1 := (
-        replace($title, '\.', ''),
-        replace($title, ',', ''),
-        replace($title, '[\-–—]', ''),
-        replace($title, '[\.,\-–—]', ''),
-        replace(replace(replace(replace($title, "[ʻ’'ʻ‘]", "'"), 'ʻ̐', "'"), 'ʹ̨', "'"), 'ʻ̨', "'"),
-        replace(replace(replace(replace($title, "[ʻ’'ʻ‘]" ,""), 'ʻ̐', ''), 'ʹ̨', ''), 'ʻ̨', ''),
-        replace($title, 'ʺ', '"'),
-        replace($title, '["ʺ]', '')
-    )
-    let $variations2 := for $v in distinct-values($variations1)
-        return (
-            $v,
-            replace($v , '\(.*\)', ''),
-            replace($v, '[\(\)]', ''),
-            replace($v, '\[.*\]', ''),
-            replace($v, '[\[\]]', '')
-        )
-    let $variations3 := for $v in distinct-values($variations2)
-        return (
-            $v,
-            replace(replace(replace(translate($v, 'āṅñèṃīṇū', 'anneminu'), 'o̐', 'o'), 'ą̄', 'a'), 'ą̄', 'a')
-        )
-    let $variations4 := for $v in distinct-values($variations3)
-        return (
-            $v,
-            replace($v, '^(the|a|an) ', '')
-        )
-(:
-    let $variations5 := for $v in distinct-values($variations4)
-        return (
-            $v,
-            replace($v, ',.*Fascicle.*$', '')
-        )
-:)
-    let $variations6 := for $v in distinct-values($variations4)
-        return (
-            $v,
-            lower-case($v),
-            upper-case($v)
-        )
-    let $variations7 := for $v in distinct-values($variations6)
-        return (
-            $v,
-            normalize-space($v),
-            replace($v, '\s', '')
-        )
-    return distinct-values($variations7[not(. eq $title)])
+    let $normalized1 := replace($title, '^(the|a|an) ', '', 'i')
+    let $normalized2 := 
+        translate(
+            translate(
+                replace(
+                    replace(
+                        replace(
+                            lower-case($normalized1), 
+                            '[^\p{L}\d]', ''
+                        ),
+                    'æ', 'ae'),
+                'œ', 'oe'),
+            'áąāḍèęēġįīḷṁṃńñṅṇöǫōṗśṭųūư', 'aaadeeegiilmmnnnnooopstuuu'),
+        'ʼ', '')
+    let $normalized3 := replace(replace(replace(replace(replace($normalized2, "[ʻ’'ʻ‘ʺʹ]" ,""), 'ʻ̐', ''), 'ʹ̨', ''), 'ʻ̨', ''), '"', '')
+    return $normalized3
 };
 
 processing-instruction xml-model {'href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"'},
@@ -86,33 +52,25 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
 
     let $collection := collection('../../collections/?select=*.xml;recurse=yes')
     let $newline := '&#10;'
-    let $skipids := ()
+    let $notitletitles := ('none', 'None', 'NONE', 'no title', 'No title', 'unknown', 'Unknown', 'Unknown.', 'unknown (front page damaged)', 'No titile', 'တိၼ်း ၵျဵဝ် ...')
     
     (: First, extract all title from identifiable works in the TEI files and build in-memory XML structure, 
        doing some string manipulations to anticipate potential different versions of the same title :)
     
-    let $allworks := (
+    let $allworks as element()* := (
     
         for $msitem in $collection//tei:msItem[@xml:id]
-            let $titles as xs:string* := (for $t in $msitem/title[not(@type='alt')] return normalize-space(string-join($t//text(), ' ')))[string-length(.) gt 0][not(upper-case(.) = 'NONE' or starts-with(upper-case(.), 'UNKNOWN'))]
-            let $alttitles as xs:string* := (for $t in $msitem/title[@type='alt'] return normalize-space(string-join($t//text(), ' ')))[string-length(.) gt 0]
+            let $titles as xs:string* := (for $t in $msitem/title[not(@type='alt')] return normalize-space(string-join($t//text(), ' ')))[string-length(.) gt 0][not(. = $notitletitles)]
+            let $alttitles as xs:string* := (for $t in $msitem/title[@type='alt'] return normalize-space(string-join($t//text(), ' ')))[string-length(.) gt 0][not(. = $notitletitles)]
             return
-            if ($msitem/@xml:id eq $skipids) then
+            if (count($titles) eq 0 and not($msitem/tei:author)) then
                 ()
-            else if (count($titles) eq 0 and not($msitem/tei:author)) then
-                local:logging('warn', 'Cannot do anything with untitled work', $msitem)
             else if (count($titles) eq 0 and $msitem/tei:author[string-length(normalize-space(string-join(.//text(), ''))) gt 0]) then
                 let $title := concat('Untitled work by ', normalize-space(string-join($msitem/tei:author[1]//text(), ' ')))
-                return
-                
+                return  
                 <work>
                     <title n="{ $msitem/@n }">{ $title }</title>
-                    {
-                    (: Generate variations. These aren't to be indexed, they're to increase the chance of matching this title with 
-                       the same work just with a slightly different title (e.g. due to transliteration or punctuation differences :)
-                    for $v in local:generateVariations($title)
-                        return <alt>{ $v }</alt>
-                    }
+                    <norm>{ local:normalize4Crossrefing($title) }</norm>
                     <ref>{ concat(substring-after(base-uri($msitem), 'collections/'), '#', $msitem/@xml:id) }</ref>
                 </work>
             else
@@ -120,12 +78,10 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                 <work>
                     {
                     for $title in $titles
-                        return
-                        (
+                        return (
                         <title n="{ $msitem/@n }">{ $title }</title>
                         ,
-                        for $v in local:generateVariations($title)
-                            return <alt>{ $v }</alt>
+                        <norm>{ local:normalize4Crossrefing($title) }</norm>
                         )
                     }
                     {
@@ -135,8 +91,7 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                         (
                         <alt n="{ $msitem/@n }">{ $title }</alt>
                         ,
-                        for $v in local:generateVariations($title)
-                            return <alt>{ $v }</alt>
+                        <norm>{ local:normalize4Crossrefing($title) }</norm>
                         )
                     }
                     <ref>{ concat(substring-after(base-uri($msitem), 'collections/'), '#', $msitem/@xml:id) }</ref>
@@ -147,11 +102,11 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
     
     let $dedupedworks := (
     
-        for $t at $pos in distinct-values($allworks/title)
+        for $t at $pos in distinct-values($allworks//title)
             order by lower-case($t)
-            let $variations := distinct-values(($t, $allworks[title = $t]/alt))
-            let $variationsofvariations := distinct-values(($variations, $allworks[title = $variations or alt = $variations]/(title|alt)))
-            let $variants := for $n in distinct-values(($t, $allworks[title = $variationsofvariations or alt = $variationsofvariations]/title)) order by $n return $n
+            let $variations := distinct-values(($t, $allworks[title = $t]/norm))
+            let $variationsofvariations := distinct-values(($variations, $allworks[title = $variations or norm = $variations]/(title|norm)))
+            let $variants := for $n in distinct-values(($t, $allworks[title = $variationsofvariations or norm = $variationsofvariations]/title)) order by $n return $n
             return
             if (count($variants) gt 1) then
             
@@ -167,7 +122,7 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                             <title type="variant">{ $a }</title>
                         }
                         {
-                        for $a in distinct-values($allworks[title = $variationsofvariations or alt = $variationsofvariations]/alt[@n])
+                        for $a in distinct-values($allworks[title = $variationsofvariations or norm = $variationsofvariations]/alt)
                             return
                             <title type="variant">{ $a }</title>
                         }
@@ -175,31 +130,38 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                         for $r in distinct-values($allworks[title = $variants]/ref)
                             order by $r
                             return
-                            (<ref target="{ substring-after($r, '#') }"/>, comment{concat(' ../collections/', $r, ' ')})
+                            <ref target="{ concat('../collections/', $r) }"/>
                         }
                     </bibl>
                 else
                     ()                  
             else
             
-                (: There are no variants of this title elsewhere :)
-                
+                (: There are no variants of this title :)
                 <bibl xml:id="{ concat('work_', $pos) }">
                     <title type="uniform">{ $t }</title>
-                    
                     {
                     for $r in distinct-values($allworks[title = $t]/ref)
                         order by $r
                         return
-                        (<ref target="{ substring-after($r, '#') }"/>, comment{concat(' ../collections/', $r, ' ')})
+                        <ref target="{ concat('../collections/', $r) }"/>
                     }
                 </bibl>
     )
     
-    (: Output the authority file :)
-    
-    return $dedupedworks
-
+    (: Output the authority file. The titles of type "crossref" are for cross-referencing in 
+       the future, when updating the authority file for new works, and won't be indexed. :)
+    for $b in $dedupedworks
+        return
+        <bibl xml:id="{ $b/@xml:id }">
+            { $b/title }
+            {
+            for $t in distinct-values(for $v in $b/title/text() return local:normalize4Crossrefing($v))
+                return
+                <title type="crossref">{ $t }</title>
+            }
+            { $b/ref }
+        </bibl>
 }
             </listBibl>
         </body>
