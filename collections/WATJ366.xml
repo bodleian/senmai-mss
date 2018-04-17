@@ -42,8 +42,8 @@
                <msContents>
                   <summary change="#fix-langs">Manuscript written in shan,burmese script</summary>
                   <msItem xml:id="WATJ366-item1" n="W377">
-                     <author key="person_291">ca re sūriyā (Maehongson)</author>
-                     <author key="person_292">
+                     <author key="person_42">ca re sūriyā (Maehongson)</author>
+                     <author key="person_43">
                         <foreign xml:lang="shn">ၸရေးသူႇရိယႃႇ (မႄႈႁွင်ႈသွၼ်)</foreign>
                      </author>
                      

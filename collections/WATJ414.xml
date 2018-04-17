@@ -42,8 +42,8 @@
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan script</summary>
                   <msItem xml:id="WATJ414-item1" n="W426">
-                     <author key="person_282">ca reʺ laiʺ sai</author>
-                     <author key="person_283">
+                     <author key="person_277">ca reʺ laiʺ sai</author>
+                     <author key="person_150">
                         <foreign xml:lang="shn">ၸရေးလၢႆးသႂ်</foreign>
                      </author>
                      
@@ -62,7 +62,7 @@
                      <note>Work ID: W426</note>
                   </msItem>
                   <msItem xml:id="WATJ414-item2" n="W427">
-                     <author key="person_282">ca reʺ laiʺ sai</author>
+                     <author key="person_277">ca reʺ laiʺ sai</author>
                      
                      
                      

@@ -2,52 +2,30 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace saxon="http://saxon.sf.net/";
 declare option saxon:output "indent=yes";
 
-(: Copied from Hebrew, needs adapting to work with Senmai :)
-
 declare function local:logging($level, $msg, $values)
 {
     (: Trick XQuery into doing trace() to output message to STDERR but not insert it into the XML :)
     substring(trace('', concat(upper-case($level), '	', $msg, '	', string-join($values, '	'), '	')), 0, 0)
 };
 
-declare function local:generateVariations($name as xs:string) as xs:string*
+declare function local:normalize4Crossrefing($name as xs:string) as xs:string
 {
-    let $variations1 := (
-        replace($name, '\.', ''),
-        replace($name, ',', ''),
-        replace($name, '[\-–—]', ''),
-        replace($name, '[\.,\-–—]', ''),
-        replace(replace(replace(replace($name, "[ʻ’'ʻ‘]", "'"), 'ʻ̐', "'"), 'ʹ̨', "'"), 'ʻ̨', "'"),
-        replace(replace(replace(replace($name, "[ʻ’'ʻ‘]" ,""), 'ʻ̐', ''), 'ʹ̨', ''), 'ʻ̨', ''),
-        replace($name, 'ʺ', '"'),
-        replace($name, '["ʺ]', '')
-    )
-    let $variations2 := for $v in distinct-values($variations1)
-        return (
-            $v,
-            replace($v , '\(.*\)', ''),
-            replace($v, '[\(\)]', ''),
-            replace($v, '\[.*\]', ''),
-            replace($v, '[\[\]]', '')
-        )
-    let $variations3 := for $v in distinct-values($variations2)
-        return (
-            $v,
-            replace(replace(replace(translate($v, 'āṅñèṃīṇū', 'anneminu'), 'o̐', 'o'), 'ą̄', 'a'), 'ą̄', 'a')
-        )
-    let $variations4 := for $v in distinct-values($variations3)
-        return (
-            $v,
-            lower-case($v),
-            upper-case($v)
-        )
-    let $variations5 := for $v in distinct-values($variations4)
-        return (
-            $v,
-            normalize-space($v),
-            replace($v, '\s', '')
-        )
-    return distinct-values($variations5[not(. eq $name)])
+    let $normalized1 := replace(normalize-unicode($name, 'NFKD'), '^(the|a|an) ', '', 'i')
+    let $normalized2 := 
+        translate(
+            translate(
+                replace(
+                    replace(
+                        replace(
+                            lower-case($normalized1), 
+                            '[^\p{L}\d]', ''
+                        ),
+                    'æ', 'ae'),
+                'œ', 'oe'),
+            'áąāḍèęēġįīḷṁṃńñṅṇöǫōṗśṭųūư', 'aaadeeegiilmmnnnnooopstuuu'),
+        'ʼ', '')
+    let $normalized3 := replace(replace(replace(replace(replace($normalized2, "[ʻ’'ʻ‘ʺʹ]" ,""), 'ʻ̐', ''), 'ʹ̨', ''), 'ʻ̨', ''), '"', '')
+    return $normalized3
 };
 
 processing-instruction xml-model {'href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schamtypens="http://relaxng.org/ns/structure/1.0"'},
@@ -73,20 +51,16 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
 {
 
     let $collection := collection('../../collections/?select=*.xml;recurse=yes')
-
-    let $skipkeys := ()
+    let $linebreak := '&#10;&#10;'
     
     (: First, extract all names of people from the TEI files and build in-memory XML structure, 
        doing some string manipulations to anticipate potential different versions of the same name :)
-    
-    let $allpeople := (
+    let $allpeople as element()* := (
     
         for $p in $collection//(tei:author|tei:persName)[not(ancestor::tei:revisionDesc or ancestor::tei:respStmt)]
-            let $name := normalize-space(string-join($p//text(), ' '))
+            let $name as xs:string := normalize-space(string-join($p//text(), ' '))
             return
-            if ($p/@key eq $skipkeys) then
-                ()
-            else if (string-length($name) eq 0) then
+            if (string-length($name) eq 0) then
                 ()
             else
                 (: In senmai, there are no alternate versions of authors marked up as child persName elements. Possibly
@@ -94,25 +68,20 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                    basis for assuming such a relationship, so just take all the text nodes within each author :)
                 <person>
                     <name>{ $name }</name>
-                    {
-                    (: Generate variations. These aren't to be indexed, they're to increase the chance of matching this name with 
-                       the same person just with a slightly different name (e.g. due to transliteration or punctuation differences :)
-                    for $v in local:generateVariations($name)
-                        return <alt>{ $v }</alt>
-                    }
+                    <norm>{ local:normalize4Crossrefing($name) }</norm>
                     <ref>{ concat(substring-after(base-uri($p), 'collections/'), '#', $p/ancestor::*[@xml:id][1]/@xml:id) }</ref>
                 </person>
     )
     
     (: Now de-duplicate, generating keys, and putting the names in alphabetical order :)
     
-    let $dedupedpeople := (
+    let $dedupedpeople as element()* := (
     
         for $t at $pos in distinct-values($allpeople/name)
             order by lower-case($t)
-            let $variations := distinct-values(($t, $allpeople[name = $t]/alt))
-            let $variationsofvariations := distinct-values(($variations, $allpeople[name = $variations or alt = $variations]/(name|alt)))
-            let $variants := for $n in distinct-values(($t, $allpeople[name = $variationsofvariations or alt = $variationsofvariations]/name)) order by $n return $n
+            let $variations := distinct-values(($t, $allpeople[name = $t]/norm))
+            let $variationsofvariations := distinct-values(($variations, $allpeople[name = $variations or norm = $variations]/(name|norm)))
+            let $variants := for $n in distinct-values(($t, $allpeople[name = $variationsofvariations or norm = $variationsofvariations]/name)) order by $n return $n
             return
             if (count($variants) gt 1) then
             
@@ -152,9 +121,22 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
                 </person>
     )
     
-    (: Output the authority file :)
-    
-    return $dedupedpeople
+    (: Output the authority file. The persNames of type "crossref" are for cross-referencing in 
+       the future, when updating the authority file for new works, and won't be indexed. :)
+    for $b in $dedupedpeople
+        return
+        (
+        $linebreak,
+        <person xml:id="{ $b/@xml:id }">
+            { $b/persName }
+            {
+            for $t in distinct-values(for $v in $b/persName/text() return local:normalize4Crossrefing($v))
+                return
+                <persName type="crossref">{ $t }</persName>
+            }
+            { $b/comment() }
+        </person>
+        )
 
 }
             </listPerson>

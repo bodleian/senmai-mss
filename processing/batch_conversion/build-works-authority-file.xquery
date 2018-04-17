@@ -51,7 +51,7 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
 {
 
     let $collection := collection('../../collections/?select=*.xml;recurse=yes')
-    let $newline := '&#10;'
+    let $linebreak := '&#10;&#10;'
     let $notitletitles := ('none', 'None', 'NONE', 'no title', 'No title', 'unknown', 'Unknown', 'Unknown.', 'unknown (front page damaged)', 'No titile', 'တိၼ်း ၵျဵဝ် ...')
     
     (: First, extract all title from identifiable works in the TEI files and build in-memory XML structure, 
@@ -153,6 +153,8 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
        the future, when updating the authority file for new works, and won't be indexed. :)
     for $b in $dedupedworks
         return
+        (
+        $linebreak,
         <bibl xml:id="{ $b/@xml:id }">
             { $b/title }
             {
@@ -162,6 +164,7 @@ processing-instruction xml-model {'href="authority-schematron.sch" type="applica
             }
             { $b/ref }
         </bibl>
+        )
 }
             </listBibl>
         </body>

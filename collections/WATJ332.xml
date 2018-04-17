@@ -42,8 +42,8 @@
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="WATJ332-item1" n="W343">
-                     <author key="person_313">cav kaṅ sūiv</author>
-                     <author key="person_314">
+                     <author key="person_2">cav kaṅ sūiv</author>
+                     <author key="person_3">
                         <foreign xml:lang="shn">ၸဝ်ႈၵၢင်းသိူဝ်</foreign>
                      </author>
                      
