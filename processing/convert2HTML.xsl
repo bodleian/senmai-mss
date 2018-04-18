@@ -61,4 +61,15 @@
     </xsl:template>
 
 
+
+    <!-- Collections aren't obviously collections in Senmai, and half are "Unknown", so append the word collection -->
+    <xsl:template match="msIdentifier/collection">
+        <p>
+            <xsl:apply-templates/>
+            <xsl:text> </xsl:text>
+            <xsl:copy-of select="bod:standardText('collection')"/>
+        </p>
+    </xsl:template>
+
+
 </xsl:stylesheet>
