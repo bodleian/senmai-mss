@@ -23,7 +23,7 @@ declare option saxon:output "indent=yes";
             
                 let $repository := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:repository[1]/text())
                 let $institution := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:institution/text())
-                let $shelfmark := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:idno[1]/text())
+                let $shelfmark := normalize-space($x//tei:msDesc/tei:msIdentifier/tei:altIdentifier[1]/tei:idno[1]/text())
                 let $normalizedshelfmark := replace($shelfmark, '\W', ' ')
                 let $sortshelfmark := upper-case(replace($normalizedshelfmark, '\s', ''))
                 let $title := concat($shelfmark, ' (', $institution, ')')

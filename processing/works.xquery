@@ -50,7 +50,7 @@ declare option saxon:output "indent=yes";
                 for $ms in $mss
                     let $msid := $ms/string(@xml:id)
                     let $url := concat("/catalog/", $msid[1])
-                    let $classmark := $ms//tei:msDesc/tei:msIdentifier/tei:idno[1]/text()
+                    let $classmark := $ms//tei:msDesc/tei:msIdentifier/tei:altIdentifier[1]/tei:idno[1]/text()
                     let $institution := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:institution/text())
                     let $linktext := concat($classmark, ' (', $institution, ')')
                     order by $institution, $classmark

@@ -35,6 +35,9 @@
                   <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
                   <collection>museum</collection>
                   <idno>WAT_J376</idno>
+                  <altIdentifier>
+                     <idno>ID Unknown</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents><summary change="#fix-langs">Manuscript written in shan script</summary>
                   <msItem xml:id="WATJ376-item1" n="W387">

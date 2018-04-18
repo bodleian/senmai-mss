@@ -35,6 +35,9 @@
                   <repository>Cambridge, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>CAMBR51</idno>
+                  <altIdentifier>
+                     <idno>Shelfmark Unknown</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>

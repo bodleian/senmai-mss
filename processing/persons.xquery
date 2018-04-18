@@ -16,9 +16,7 @@ declare option saxon:output "indent=yes";
         let $isauthor := boolean($collection//tei:author[@key = $id or .//persName/@key = $id])
         (: Uncomment this if persNames start appearing inside titles: let $issubject := boolean($collection//tei:msItem/tei:title//tei:persName[not(@role) and @key = $id]) :)
         
-        let $mss1 := $collection//tei:TEI[.//(tei:persName)[@key = $id]]/concat('/catalog/', string(@xml:id), '|', (./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno)[1]/text())
-        let $mss2 := $collection//tei:TEI[.//(tei:author)[@key = $id]]/concat('/catalog/', string(@xml:id), '|', (./tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno)[1]/text())
-        let $mss := distinct-values(($mss1, $mss2))
+        let $mss := $collection//tei:TEI[.//(tei:persName|tei:author)[@key = $id]]
         
         let $variants := $person/tei:persName[@type="variant"]
 
@@ -37,15 +35,20 @@ declare option saxon:output "indent=yes";
                     return <field name="pp_variant_sm">{ $vname }</field>
                 }
                 {
-                let $roles := if ($isauthor) then 'author' else () (: Add lookup for @role values in $collection if/when they are added. :)
+                let $roles := if ($isauthor) then 'author' else () (: Senmai has only marked up authors. Add lookup for @role values in $collection if/when they are added. :)
                 for $role in $roles
                     order by $role
                     return <field name="pp_roles_sm">{ bod:personRoleLookup($role) }</field>    
                 }
                 {
                 for $ms in $mss
-                    order by $ms
-                    return <field name="link_manuscripts_smni">{ $ms }</field>
+                    let $msid := $ms/string(@xml:id)
+                    let $url := concat("/catalog/", $msid[1])
+                    let $classmark := $ms//tei:msDesc/tei:msIdentifier/tei:altIdentifier[1]/tei:idno[1]/text()
+                    let $institution := normalize-space($ms//tei:msDesc/tei:msIdentifier/tei:institution[1]/text())
+                    let $linktext := concat($classmark, ' (', $institution, ')')
+                    order by $institution, $classmark
+                    return <field name="link_manuscripts_smni">{ concat($url, "|", $linktext[1]) }</field>
                 }
                 {
                 for $relatedid in distinct-values((tokenize(translate($person/@corresp, '#', ''), ' '), tokenize(translate($person/@sameAs, '#', ''), ' ')))
