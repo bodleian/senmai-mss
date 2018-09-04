@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1157">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_T523</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_T</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Tiyasathan</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_T</idno>
+            <idno type="msID">WATT523</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATT523" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Tiyasathan</settlement>
+                  <institution>Wat Tiyasathan</institution>
+                  <repository>Thailand, Chiang Mai (province), Maeteng (district)</repository>
+                  <collection>Unknown</collection>
+                  <idno>WAT_T523</idno>
+                  <altIdentifier>
+                     <idno>106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
+                  <msItem xml:id="WATT523-item1" n="W553">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">sutta nibbānʻ̨</title>
+                     
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor: Not specified  </note>
+                     
+                     
+                     <note>Subject:  sutta,sermon </note>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W553</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>
+                           <dimensions type="written" unit="cm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac,gilt</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
+                     
+                  </origin>
+                  <acquisition>
+                     <p>Place name for present copy: Wat Tiyasathan, Mae Taeng District, Chiang Mai Province.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

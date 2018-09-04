@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_258">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CAMBR876</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CAMBR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>CAMBR</idno>
+            <idno type="msID">CAMBR876</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CAMBR876" xml:lang="en">
+               <msIdentifier>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <institution>University Library, Cambridge University</institution>
+                  <repository>Cambridge, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>CAMBR876</idno>
+                  <altIdentifier>
+                     <idno>URC.10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in burmese script</summary>
+                  <msItem xml:id="CAMBR876-item1" n="W942">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">NONE</title>
+                     <title xml:lang="">Notebook</title>
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor: Not specified  </note>
+                     
+                     
+                     <note>Subject:  correspondence,history Subject comments: Includes miscellaneous entries, accounts of money owed or paid out, copies of correspondence.</note>
+                     <textLang mainLang="shn" otherLangs="mya" change="#fix-langs">burmese</textLang>
+                     <note>Work ID: W942</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc>
+                        <extent>
+                           <dimensions type="written" unit="cm"/>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
+                     
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

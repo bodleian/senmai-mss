@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_846">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J53</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ53</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ53" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>shrine room hidden</collection>
+                  <idno>WAT_J53</idno>
+                  <altIdentifier>
+                     <idno>127</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Palm leaf written in shan,burmese script</summary>
+                  <msItem xml:id="WATJ53-item1" n="W53">
+                     <author key="person_292">cavʻ kaṅʻʺ suivʻ</author>
+                     
+                     
+                     
+                     
+                     <title xml:lang="">thamʻmapata kapʻpiṅʻna vatthu</title>
+                     <title xml:lang="">Story of Kappinna in the Dhammapada?</title>
+                     
+                     <title xml:lang="en" type="alt">kalutar vatthu</title>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ Introduction: no Text at other location: W32</note>
+                     <note>General remarks on work: section markers.</note>
+                     <note>Summary intro: But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</note>
+                     
+                     <note>King Suddhodhana, father of the Buddha, asked Kalutar, the Buddha's friend and classmate, to invite the Buddha to visit Kapilavatthu. The Buddha gave a sermon to the king.</note>
+                     
+                     <note>Subject:  commentary Subject comments: narrative from commentarial story</note>
+                     <colophon>Duis aute irure dolor in reprehenderit in voluptate velit esse Colophon:yes Additional colophon:no </colophon>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
+                     <note>Work ID: W53</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="palm_leaf">
+                     <supportDesc material="palm_leaf">
+                        <extent>7pp/ff (shan numbering)<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                           <p>front leaves broken on left hand side</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="stylus"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: no</p>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1965" notAfter="1966" type="composition">1327</origDate></p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): <origDate notBefore="2029" notAfter="2030" type="copying">1391</origDate></p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <acquisition>
+                     <p>Original donor: Neque porro Original donor information: colophon</p>
+                     <p>Original place of donation: Quis autem vel eum iure reprehenderit Original donor place information: colophon</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_546">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OXFOR1178</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>OXFOR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR1178</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR1178" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR1178</idno>
+                  <altIdentifier>
+                     <idno>MS. Asiat. Misc. a. 39 (R)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Palm leaf written in lanna script</summary>
+                  <msItem xml:id="OXFOR1178-item1" n="W1251">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">’Urasagga Sut ton</title>
+                     <title xml:lang="">Urasagga Jātaka</title>
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor: Not specified  </note>
+                     
+                     
+                     <note>Subject:  non canonical jataka </note>
+                     <textLang mainLang="shn" otherLangs="pli nod" change="#fix-langs">pali,lanna</textLang>
+                     <note>Work ID: W1251</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="palm_leaf">
+                     <supportDesc material="palm_leaf">
+                        <extent>11pp/ff (thai numbering)<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>reasonable</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="stylus"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>wood</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): <origDate notBefore="1913" notAfter="1914" type="copying">1275</origDate></p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

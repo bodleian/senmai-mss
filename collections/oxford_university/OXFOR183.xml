@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_582">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OXFOR183</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>OXFOR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR183</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR183" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR183</idno>
+                  <altIdentifier>
+                     <idno>MS. Burm. a. 9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Rolled book written in shan script</summary>
+                  <msItem xml:id="OXFOR183-item1" n="W189">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">sapʻʺ sikʻ (incomplete)</title>
+                     
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>
+                     </note>
+                     <note>General remarks on work: Bought from J. Tregaskis, 1 April 1905.</note>
+                     
+                     
+                     <note>Subject:  instruction,non canonical jataka,sermon </note>
+                     <textLang mainLang="shn" change="#fix-langs">shan</textLang>
+                     <note>Work ID: W189</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>66pp/ff (arabic numbering)<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 26</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>human</p>
+                           <p>Light damage restored, bound in hard cover. Two front pages are missing (cut off). The top edge of the second page, which was cut off, sill contains a line of text.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: no</p>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1840" notAfter="1841" type="composition">1202</origDate></p>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

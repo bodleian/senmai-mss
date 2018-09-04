@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_542">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LN_SO1094</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LN_SO</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>SOAS Library, School of Oriental and African Studies</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>LN_SO</idno>
+            <idno type="msID">LNSO1094</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="LNSO1094" xml:lang="en">
+               <msIdentifier>
+                  <settlement>SOAS Library, School of Oriental and African Studies</settlement>
+                  <institution>SOAS Library, School of Oriental and African Studies</institution>
+                  <repository>London, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>LN_SO1094</idno>
+                  <altIdentifier>
+                     <idno>OS. MS. 46802</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
+                  <msItem xml:id="LNSO1094-item1" n="W1167">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">Nan yī sèn ko</title>
+                     <title xml:lang="">The book of Nang Yi Hseng Kaw</title>
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): mono</p>
+                     </decoNote>
+                     <note>Shan text descriptor:  Vatthu</note>
+                     <note>General remarks on work: Gold gilded cover decorated with floral arts.</note>
+                     
+                     
+                     <note>Subject:  folk stories </note>
+                     <colophon>Contains title of the text, names of the sponsor and place.Colophon:yes </colophon>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W1167</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc>
+                        <extent>150 folios<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: gilt,embossed</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     <p>Capt. H. J. Inman, lector of Shan language at SOAS, has done an exentensive reading of the text and left a long length of notes</p>
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1902" notAfter="1903" type="composition">1264</origDate></p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: Pū tān‘\ ke\</p>
+                     <p>Original place of donation: Wan Zauk village (on the hill near a high mountain)</p>
+                     <p>Place name for present copy: Naung Zauk village.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

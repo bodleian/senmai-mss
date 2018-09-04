@@ -46,7 +46,7 @@
             <xsl:comment>
 <xsl:value-of select="$newline"/>
 <xsl:text>                        When adding dates, normalize attributes to the Gregorian calendar
-                        e.g. &lt;origDate calendar="#Gregorian" notBefore="1875" notAfter="1876"&gt;1237 in the sakkaraja era&lt;/origDate&gt;
+                        e.g. &lt;origDate notBefore="1875" notAfter="1876"&gt;1237 in the sakkaraja era&lt;/origDate&gt;
 </xsl:text>
             <xsl:text>                     </xsl:text></xsl:comment><xsl:apply-templates/>
         </xsl:copy>

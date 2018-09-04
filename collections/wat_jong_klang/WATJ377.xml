@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_798">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J377</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ377</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ377" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J377</idno>
+                  <altIdentifier>
+                     <idno>106</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
+                  <msItem xml:id="WATJ377-item1" n="W389">
+                     <author key="person_244">ca re kham mu (van ha)</author>
+                     
+                     
+                     
+                     
+                     <title xml:lang="">kiccathana sampayojan vatthu</title>
+                     
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor: Not specified   Rhyming system: sam kiv Introduction: yes</note>
+                     
+                     
+                     <note>Subject:  sermon </note>
+                     <colophon>Colophon:yes Colophon type:donor </colophon>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W389</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>120/240<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 9-10</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>animal,wear</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: red Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     <p>Page/folio numbers added during fieldwork on 11/1/2014.</p>
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1936" notAfter="1937" type="composition">1298</origDate></p>
+                     <p>Date of copying (era): undated</p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: phra ta ka lun kyaun muin naun pa kyaun cam</p>
+                     <p>Present copy's donor: pa kyaun khin (maehongson)</p>
+                     <p>Place name for present copy: Wat Jong Klang, Maehongson.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

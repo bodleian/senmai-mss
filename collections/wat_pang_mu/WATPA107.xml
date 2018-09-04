@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_859">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_PA107</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_PA</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Pang Mu</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA107</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA107" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>shrine room stacked</collection>
+                  <idno>WAT_PA107</idno>
+                  <altIdentifier>
+                     <idno>043</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan script</summary>
+                  <msItem xml:id="WATPA107-item1" n="W112">
+                     <author key="person_211">cavʻ ko li (muiṅʻʺ panʻ)</author>
+                     
+                     
+                     
+                     
+                     <title xml:lang="">vi neʺ pā cikʻ kyamʻʺ</title>
+                     <title xml:lang="">The Pacittiya of Vinaya-pitka</title>
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor:  Kyam Rhyming system: samʻ kivʻ</note>
+                     
+                     <note>on morality.</note>
+                     
+                     <note>Subject:  vinaya </note>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
+                     <note>Work ID: W112</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>108 /216<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
+                     </p>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): buddhist era</p>
+                     <p>Date of composition (year): <origDate notBefore="1856" notAfter="1857" type="composition">2400</origDate></p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <acquisition>
+                     <p>Present copy's donor: luṅʻʺ khunʻ (and family)</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

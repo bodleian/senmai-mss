@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_626">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OXFOR22</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>OXFOR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR22</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR22" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR22</idno>
+                  <altIdentifier>
+                     <idno>MS Asiat. Misc. b. 7 (R)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Rolled book written in shan,burmese script</summary>
+                  <msItem xml:id="OXFOR22-item1" n="W22">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">tānaʺ pukʻ thaʺ vanʻ ʼathakāthā</title>
+                     <title xml:lang="">commentary on the teaching related to the Buddha</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">တႃႇၼပုၵ်ႉထဝၢင်ႇဢတ်ထၵထႃႇ</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor:  tra Introduction: yes</note>
+                     <note>General remarks on work: The name of the donor is mentioned in both introduction and main text, so it is the original copy. Pagination on verso only. One or two pages missing from the back. Front folio damaged and introduction incomplete.</note>
+                     <note>Summary intro: Containing the text title, name of the donor, his family, and standard dedication for Nibbāna.</note>
+                     
+                     <note>It is a sermon on generosity, conduct and meditation (dāna, sIla and bhāvanā).</note>
+                     
+                     <note>Subject:  commentary,sermon </note>
+                     <colophon>Colophon:no </colophon>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
+                     <note>Work ID: W22</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>50pp/ff (burmese numbering)<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 22</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>water,wear</p>
+                           <p>damaged front and back</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover material: <material>cloth</material>
+                     </p>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
+                     
+                  </origin>
+                  <provenance>Former owner: unknown</provenance>
+                  <acquisition>
+                     <p>Original donor: phra takāʻ pū loi sanʻ kanʻʺ Original donor (shan): <foreign xmlns="" xml:lang="shn">ၽြႃးတၵႃႇပူႇလွႆသၢင်ႇၵၢၼ်း</foreign>Original donor information: introduction</p>
+                     <p>Present copy information: introduction</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

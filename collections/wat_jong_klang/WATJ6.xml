@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_848">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_J6</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_J</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Jong Klang</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_J</idno>
+            <idno type="msID">WATJ6</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATJ6" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Jong Klang</settlement>
+                  <institution>Wat Jong Klang</institution>
+                  <repository>Thailand, Maehongson (province), Maehongson (town)</repository>
+                  <collection>museum</collection>
+                  <idno>WAT_J6</idno>
+                  <altIdentifier>
+                     <idno>060</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>
+                        <foreign xml:lang="shn">၀၆၀</foreign>
+                     </idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents><summary change="#fix-langs">Concertina book written in shan script</summary>
+                  <msItem xml:id="WATJ6-item1" n="W6">
+                     <author key="person_167">ca reʺ piṅʻ ñā</author>
+                     <author key="person_168">
+                        <foreign xml:lang="shn">ၸရေးပိင်ၺႃ</foreign>
+                     </author>
+                     <author key="person_169">
+                        <foreign xml:lang="shn">ta peʺ mūiṅʻʺ nauṅʻ kyaṅʻʺ ūʺ (not a real name but a hint)</foreign>
+                     </author>
+                     <author key="person_170">
+                        <foreign xml:lang="shn">တပေးမိူင်းၼွင် ၵျွင်းဢူး</foreign>
+                     </author>
+                     
+                     <title xml:lang="">phrāʺ linʻ nivʻ</title>
+                     <title xml:lang="">The Buddha Statue that was made of sticky soil</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">ၽြႃးလိၼ်ၼဵဝ်</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified   Rhyming system: samʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">ၼမ်ႉၵႂၢမ်းသၢမ်ၵိဝ်</foreign>Introduction: yes</note>
+                     
+                     <note>During the time of the Buddha, while he was staying in the Savatthi City, the state of Kosala, there was a Bodhisatta with Kuṅmāra by name. His parents died when he was seven. He had to work for his living from collecting firewood from the forest and selling them in town. At this same time, there was a young poor girl called Candakumārī whose parents also died since she was young.Then there was a rich couple. The wife of the rich man secretly arranged for Kuṅmāra and Candakumārī to get married. The rich man was very angry when he knew that his wife arranged the marriage of Kuṅmāra and Candakumārī and gave them money. So, he drove out his wife and forced her to go and live with the young couple. The young couple were very happy because they have someone to look after their house when they were going to work. One day, the Boddhisatta Kuṅmāra made a Buddha statue with sticky soil. It took him several day to get it done but he did not give it up. His intention became even stronger to make the Buddha statue. In the end, the devatā helped him make the Buddha statue very beautiful. This story tells us about cetanā (good intention).</note>
+                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မိူဝ်ႈပၢၼ်ၽြႃးပဵၼ်ၸဝ်ႈၵျွမႃးမီးတီႈၵေႃးသလတိူင်း မိူင်းသႃဝတ်ထိၼၼ်ႉ ယင်းမီးဢလွင်းၵုင်မႃရ ပေႃႈမႄႈတၢႆပႅတ်ႈမိူဝ်ႈလႆႈၸဵတ်းၶူပ်ႇလႄႈ လႆႈႁႃၶၢႆၵိၼ်ၽိုၼ်း ၵူႈဝၼ်းယဝ်ႉ။ ၵမ်းၼၼ်ႉ သမ်ႉမီးထႅင်ႈၼၢင်းၸၼ်ႇတၵုမႃႇရီႇၼႆႉ ပဵၼ်လုၵ်ႈၵူၼ်းၽၢၼ် ဢမ်ႇမီးပေႃႈမႄႈၼင်ႇၵဝ်ႇ။ ၼၢႆးသထေးဢဝ်ၶႃဢၢပ်ႈပၼ်ၵၼ် ပဵၼ်ၽူဝ်ပဵၼ်မေးၵၼ်ယဝ်ႉ၊ ဢၼ်ပဵၼ်ပူႇသထေးၸဝ်ႈႁိူၼ်းၼၼ်ႉ ပေႃးငိၼ်းၵေႃႈ ၸႂ်လမ်တင်းၼၢႆးသထေးသေဝႃႈ ၼၢႆးသထေးႁၵ်ႉတုၵ်ႉၵတႃႇ ဢဝ်ဢၢပ်ႈပၼ်ၵၼ်သေ သမ်ႉဢဝ်ၶူဝ်းၼုင်ႈၶူဝ်းဝႆပၼ်လႄႈ ပူသထေးၸႂ်လမ်သေ ႁေႃႈၼၢႆးသထေးဢွၵ်ႇႁိူၼ်းၵႂႃႇယူႇၸွမ်းတုၵ်ႉၵတႃႇၶဝ်ၽူဝ်မေးၼၼ်ႉ ယဝ်ႉ။ တုၵ်ႉၵတႃႇၵေႃႈမီးၵူၼ်းပႂ်ႉႁိူၼ်းသေ တူဝ်ၶဝ်ၽူဝ်မေးလႆႈပႃးၵၼ်ၶဝ်ႈထိူၼ်ႇၵူႈဝၼ်း ယဝ်ႉ။ ၵမ်းၼၼ်ႉ ဢလွင်းၵုင်ႇမႃႇရၵေႃႈ ၵႂႃႇပၼ်ႈဢဝ်ႁၢင်ႈလိၼ်ၼဵဝ်ၼၼ်ႉ မႃးႁဵတ်းႁၢင်ႈ ရုၵ်ႈထူးတေႃႇၽြႃးပဵၼ်ၸဝ်ႈလႄႈ ၽီၶဝ်ၸွႆႈလွမ်ၸွႆႈတူၺ်းသေ ပဵၼ်ဢၼ်ၶႅမ်ႉလႅပ်ႈတႄႉ တႄႉယဝ်ႉ။ မိူဝ်ႈတႄႇႁဵတ်းၼၼ်ႉ ၵမ်းၼိုင်ႈလုတီႈၶႅၼ် ၵမ်းၼိုင်ႈလုတီႈၼႃႈ တီႈၶႃႁဵတ်း ၼႆ တေႃႇပေႃးလႆႈႁူၵ်းဝၼ်းယဝ်ႉ။ ထိုင်ၼင်ႇၶိုၼ်းၼိုင်ႈ ၶုၼ်ၽီၶုၼ်သၢင်ၶဝ်မႃးၸွႆႈၵမ်ႉထႅမ် လႄႈ ထၢၼ်ႈပေႃးလႆႈႁဵတ်းပဵၼ်ပွႆးပုတ်ႉထသၽၢင်ႇ ပွႆးၽြႃးတႄႉတႄႉဝႃႈဝႃႈယဝ်ႉ။ တီႈ ပွင်ႇမၼ်းဝႃႈ ပေႃးၸေႇတၼႃႇႁဝ်းၸိုၼ်ႈလီၵေႃႈ ၽီၶဝ်ၸွႆႈယုၵ်ႉယွင်ႈၵမ်ႉထႅမ်ၼႆယဝ်ႉ။</foreign>
+                     </note>
+                     <note>Subject:  sutta,commentary,meditation,sermon Subject comments: only ''sutta'' is recorded in the data sheet, althought it fits into some other categories</note>
+                     <colophon>Colophon:yes </colophon>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
+                     <note>Work ID: W6</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>268<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural,black Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1995" notAfter="1996" type="composition">1357</origDate></p>
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): <origDate notBefore="1996" notAfter="1997" type="copying">1358</origDate></p>
+                  </origin>
+                  <provenance>Former owner: Wat Jong Klang, Maehongson</provenance>
+                  <acquisition>
+                     <p>Present copy's donor: munʻ cavʻ vicitta kyauṅʻʺ kaṅʻ (the abbot of Wat Jong Klang &amp; his mother Mae Thao Nyo) Present copy's donor (shan): <foreign xml:lang="shn">မုၼ်ၸဝ်ႈဝိၸိတ်တၵျွင်းၵၢင် လႄႈမႄႈထဝ်ႈၺူဝ်ႇ (မႄႈမုၼ်ၸဝ်ႈ)</foreign>
+                     </p>
+                     <p>Place name for present copy: Jong Klang, Maehongson, Northern Thailand Place name for present copy (shan): <foreign xml:lang="shn">ၵျွင်းၵၢင် မႄႈႁွင်ႈသွၼ် မိူင်းထႆး</foreign>
+                     </p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -139,7 +139,7 @@
             <xsl:copy-of select="@*"/>
             <xsl:value-of select="$newline"/>
             <xsl:text>         </xsl:text>
-            <change when="{ format-date(current-date(), '[Y0001]-[M01]-[D01]') }" change="fix-langs">
+            <change when="{ format-date(current-date(), '[Y0001]-[M01]-[D01]') }" xml:id="fix-langs">
                 <xsl:value-of select="$newline"/>
                 <xsl:text>            </xsl:text>
                 <persName>

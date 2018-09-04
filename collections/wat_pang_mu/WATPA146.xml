@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_899">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_PA146</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_PA</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Pang Mu</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA146</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA146" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>shrine room stacked</collection>
+                  <idno>WAT_PA146</idno>
+                  <altIdentifier>
+                     <idno>002</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
+                  <msItem xml:id="WATPA146-item1" n="W151">
+                     <author key="person_20">unknown</author>
+                     
+                     
+                     
+                     
+                     <title xml:lang="">sukʻ ta saṅʻkaha</title>
+                     <title xml:lang="">A collection of discourses</title>
+                     
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <note>Shan text descriptor: Not specified   Rhyming system: sauṅʻ kivʻ</note>
+                     
+                     <note>Sermon on Dandaka the Minister who was imprisoned. One day Dandaka crossed a border into a giant country to get sandalwood for building. He was caught by the giants and took him to their country and sent him to prison. One day when the giants told him that they were going to kill him, she replied "I do not fear of dead; what I fear is the poor relations between the human king and the giant king. If I could help them have a better relations, I am happy to die". The giants then asked him to be 'ambassador' between humans and giants. After the giants got closer to human world, they also had more chance to learn the Buddha's teaching; as results they refrain from killing and eating human fresh.</note>
+                     
+                     <note>Subject:  sutta </note>
+                     <textLang mainLang="shn">shan</textLang>
+                     <note>Work ID: W151</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>70 / 140<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear,human</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: natural Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1828" notAfter="1829" type="composition">1190</origDate></p>
+                  </origin>
+                  <provenance>Former owner: Wat Pang Mu</provenance>
+                  <acquisition>
+                     <p>Present copy's donor: naṅʻʺ pèṅʻʺ</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

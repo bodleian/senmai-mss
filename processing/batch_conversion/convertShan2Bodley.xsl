@@ -13,11 +13,11 @@
      but hope is that most things will be common -->
 
 <!--the original common-mss.xsl is at https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/common-mss.xsl -->
-<xsl:import href="../../common-mss.xsl"/>
+<xsl:import href="common-mss.xsl"/>
 
   <!-- variable for overall collection -->
-  <xsl:variable name="cat" select="'Shan'"/>
-  <xsl:variable name="catdir" select="'shan'"/>
+  <xsl:variable name="cat" select="'Senmai'"/>
+  <xsl:variable name="catdir" select="'senmai'"/>
 
   
 

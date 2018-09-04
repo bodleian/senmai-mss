@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_931">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WAT_PA30</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>WAT_PA</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Wat Pang Mu</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>WAT_PA</idno>
+            <idno type="msID">WATPA30</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WATPA30" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Wat Pang Mu</settlement>
+                  <institution>Wat Pang Mu</institution>
+                  <repository>Thailand, Maehongson (province), Pang Mu (town)</repository>
+                  <collection>Unknown</collection>
+                  <idno>WAT_PA30</idno>
+                  <altIdentifier>
+                     <idno>114</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
+                  <msItem xml:id="WATPA30-item1" n="W30">
+                     <author key="person_303">careʺ iṅʻ tā (muiṅʻʺ naiʺ)</author>
+                     <author key="person_337">
+                        <foreign xml:lang="shn">ၸရေးဢိင်ႇတႃႇ (မိူင်းၼၢႆး)</foreign>
+                     </author>
+                     
+                     
+                     
+                     <title xml:lang="">mahākaccāyyana vatthu</title>
+                     <title xml:lang="">Story of Mahā Kaccāyana Thera</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">မႁႃႇၵၸ်ၸႃယၼဝတ်ႉထု</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): colour</p>
+                     </decoNote>
+                     <note>Shan text descriptor:  Vatthu Rhyming system: samʻ kivʻ yavʻʺ Rhyming system (shan): <foreign xml:lang="shn">သၢမ်ၵိဝ်ယၢဝ်း</foreign>
+                     </note>
+                     
+                     <note>Story of Kaccyana, who in one of his previous lives performed the act of generosity, great giving,and consequently after his death, he was born in the heaven. After his death, he was reborn in a human world in a rich family having all pleasure and enjoyment.</note>
+                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မႁႃႇၵၸ်ၸႃယၼဝတ်ႉထုၼႆႉ ၶႆႈလူၺ်ႈလုၵ်ႈၸၢႆးသထေးၶႆႈလူႇၶႆႈတၢၼ်း ၸႂ်ဢၢၼ်းၸႂ်မၢင်ႇ တႄႉတႄႉဝႃႈဝႃႈလႄႈ ၸင်ႇတၵ်းထုၵ်ႈဢဝ်ငိုၼ်းၶမ်းပူၵ်းပွင်ႁဵတ်းပဵၼ်ဢလူႇတႃႇၼလူႇယႂ်ႇ လူႇလူင်သေလႄႈ ႁႃၸဵမ်ၶဝ်ႈသွမ်းၽၵ်းပၢၼ်း တင်းဢၼ်သၢင်ႇၵၢၼ်းၽႃႈၽေး တီႈၼင်ႈ တီႈယူႇၵူႇၶမ်း တမ်းယိုၼ်ႈ ၵၢပ်ႇလူႇတၢမ်ႈတီႈၽြႃးပဵၼ်ၸဝ်ႈ ယၢတ်ႇၼမ်ႉၵမ်ႈတဝ်ႈယဝ်ႉ ၸွတ်ႇတူဝ်ႈလီငၢမ်း၊ ယၢမ်းမိူဝ်ႈလူႇယဝ်ႉတၢၼ်းယဝ်ႉ ဢၼ်ပဵၼ်တၶူဝ်းၵုင်ႇၽုင်းမုၼ်ငဝ်း ဢၼ်တီႈလႆႈလူႇသၢင်ႇၵၢၼ်းၽေးၼၼ်ႉၵေႃႈ တၶူဝ်းၸွမ်းထွၵ်ႈတွၵ်ႈၶိုၼ်ႈမိူင်းၽီမိူင်းသၢင်၊ ပေႃးဝႃႈဢႃႇယုၶုၼ်ၽီမိူင်းၽီမူတ်းယဝ်ႉၵေႃႈ ၸင်ႇသမ်ႉလူင်းမႃးတိၵ်ႉၶိၼႃႇယၸမ်ႇပူႇ မိူင်းၵူၼ်း လႆႈမႃးၸၢမ်ႇၸႃးၸေးၸိမ်ႇၶျၢမ်းသႃႇ ဢႃႇယုယိုၼ်းယၢဝ်း ၸၢမ်ႇၸိူင်ႉၸၢမ်ႇၼၢင်း လႆႈၵတ်းလႆႈယဵၼ် မီးၼင်ႇၼႆ။</foreign>
+                     </note>
+                     <note>Subject:  sutta </note>
+                     <textLang mainLang="shn" otherLangs="mya pli" change="#fix-langs">shan,burmese,pali</textLang>
+                     <note>Work ID: W30</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="concertina_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>276<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <condition>
+                           <p>excellent</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover colour: red,gold Cover material: <material>papier mache</material>
+                     </p>
+                     <decoNote>Cover embellishment: lac</decoNote>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of composition (era): sakkaraja era</p>
+                     <p>Date of composition (year): <origDate notBefore="1949" notAfter="1950" type="composition">1311</origDate></p>
+                  </origin>
+                  <acquisition>
+                     <p>Original donor: naiʺ kyauṅʻʺ iṅʻ̨ Original donor (shan): <foreign xmlns="" xml:lang="shn">ၼၢႆးၵျွင်းဢိင်ႇ</foreign>Shan</p>
+                     <p>Present copy's donor: naṅʻʺ phai</p>
+                     <p>Place name for present copy: Wat Pang Mu, Maehongson, Northern Thailand Place name for present copy (shan): <foreign xml:lang="shn">ဝတ်ႉပၢင်မူ မႄႈႁွင်ႈသွၼ် မိူင်းထႆး</foreign>
+                     </p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Added person key attributes using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/add-person-keys.xsl">add-person-keys.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

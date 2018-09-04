@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_648">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>OXFOR24</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>OXFOR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>OXFOR</idno>
+            <idno type="msID">OXFOR24</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="OXFOR24" xml:lang="en">
+               <msIdentifier>
+                  <settlement>Bodleian Library, Oxford University</settlement>
+                  <institution>Bodleian Library, Oxford University</institution>
+                  <repository>Oxford, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>OXFOR24</idno>
+                  <altIdentifier>
+                     <idno>MS. Asiat Misc. a. 16</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Rolled book written in shan,burmese script</summary>
+                  <msItem xml:id="OXFOR24-item1" n="W24">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">likʻ phrāʺ savʻʺ pitʻ ikʻ taṅʻ saṅʻ ukʻ pukʻ pitʻ pāʺ kauṅʻ mū suñʻ ta kuṅʻ phra ya khyiṅʻ cakʻ to yā catʻ khyaṃ sā satta thā na citʻ tī</title>
+                     <title xml:lang="">A text on the 28 Buddhas, 8 special monks, Shwedagon pagoda, Mandalay Mahamuni Buddha, Buddha's footprint, former lives of the Buddha, and 7 places (ater enlightenment)</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">လိၵ်ႈၽြႃးသၢဝ်းပႅတ်ႇဢိၵ်ႇတင်းသၢင်ႇဢုၵ်ႈပုၵ်ႈပႅတ်ႇပႃး ၵွင်းမူးသူၺ်ႇတၵုင်ႇ ၽြႃးယၶႅင်ႇ ၸၢၵ်ႈတေႃႇယႃႇ ၸၢတ်ႈၶျၢမ်းသႃႇ သတ်တထႃႇၼၸဵတ်းတီႈ</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt"/>
+                     
+                     <decoNote>
+                        <p>Illustrated (ornamentation): none</p>
+                        <p>Illustrated (diagrams): none</p>
+                        <p>Illustrated (pictures): colour</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Lik   Rhyming system: sauṅʻ kivʻ Rhyming system (shan): <foreign xml:lang="shn">သွင်ၵိဝ်</foreign>Introduction: yes Text at other location: OXFOR23</note>
+                     <note>General remarks on work: Final one or two pages missing.</note>
+                     <note>Summary intro: Containing the text title, donor's name, places and standard dedication for Nibbana.</note>
+                     
+                     <note>Containing drawing images of the 28 Buddhas, bodhi tree, pagodas, images 8 special monks, Swedagon pagoda image, Mandaly Mahamuni Buddha image,footprint (Buddhapāda), 16 former lives of the Buddha as animals,Buddhas of 8 directions. Also cotaining texts related the images described.</note>
+                     <note xml:lang="shn">Summary (main text) (shan): <foreign xml:lang="shn">မီးႁၢင်ႈၸၼ် မိူၼ်ၼင်ႇ ႁၢင်ႈၽြႃးသၢဝ်းပႅတ်ႇ၊ ႁၢင်ႈတူၼ်ႈပေႃးထိ၊ ႁၢင်ႈၵွင်းမူး၊ ႁၢင်ႈသီႇတူၼ်တၢႆဢမ်ႇၼဝ်ႈ သီႇတူၼ်ထဝ်ႈဢမ်ႇတၢႆ၊ ႁၢင်ႈၵွင်းမူးသူၺ်ႇတၵုင်ႇ၊ ႁၢင်ႈၽြႃး မႁႃႇမုၼိ၊ ႁၢင်ႈၽႃႇတိၼ်ၽြႃးပဵၼ်ၸဝ်ႈ၊ ႁၢင်ႈၸၢတ်ႈၶျၢမ်းသႃႇသိပ်းႁူၵ်းမိူင်းလူင်၊ ႁၢင်ႈၽြႃး ပဵၼ်ၸဝ်ႈပႅတ်ႇၼႃႈမိူင်း၊ တႅမ်ႈဝႆႉပႃးလိၵ်ႈလွင်ႈႁၢင်ႈၸိူဝ်းၼႆႉၸွမ်းၵူႈဢၼ်ယဝ်ႉ။</foreign>
+                     </note>
+                     <note>Subject:  instruction Subject comments: Discussion of 28 Buddhas etc.</note>
+                     <textLang mainLang="shn" otherLangs="mya" change="#fix-langs">shan,burmese</textLang>
+                     <note>Work ID: W24</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>15<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 25</p>
+                        </foliation>
+                        <condition>
+                           <p>poor</p>
+                           <p>wear</p>
+                           <p>damaged front and lower edge.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover material: <material>cloth</material>
+                     </p>
+                     <condition>no</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin change="#fix-dates">
+                     
+                     <p>Date of copying (era): sakkaraja era</p>
+                     <p>Date of copying (year): <origDate notBefore="1906" notAfter="1907" type="copying">1268</origDate></p>
+                  </origin>
+                  <acquisition>
+                     <p>Present copy's donor: *khamʻʺ Present copy's donor (shan): <foreign xml:lang="shn">ၶမ်း</foreign>Present copy information: introduction</p>
+                     <p>Place name for present copy: manʻ loi lukʻ vanʻʺ ʼaukʻ Place name information: introduction</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04" change="fix-dates">
+            <persName>Andrew Morrison</persName> Added origDate tags with attributes normalized to the Gregorian calendar so dates can be indexed using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-dates.xsl">fix-dates.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

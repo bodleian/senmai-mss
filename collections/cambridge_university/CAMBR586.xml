@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_52">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CAMBR586</title>
+            <funder>Dhammakaya Foundation</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CAMBR</publisher>
+            <date calendar="#Gregorian">Gregorian</date>
+            <pubPlace>
+               <address>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/bodley/finding-resources/special/projects/hidden-collections">Revealing Hidden Collections: Buddhist Literature in UK and SE Asian collections</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>andrew.skilton@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno>CAMBR</idno>
+            <idno type="msID">CAMBR586</idno>
+            <idno type="catalogue">Senmai</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="CAMBR586" xml:lang="en">
+               <msIdentifier>
+                  <settlement>University Library, Cambridge University</settlement>
+                  <institution>University Library, Cambridge University</institution>
+                  <repository>Cambridge, United Kingdom</repository>
+                  <collection>Unknown</collection>
+                  <idno>CAMBR586</idno>
+                  <altIdentifier>
+                     <idno>UL.2.3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary change="#fix-langs">Rolled book written in shan script</summary>
+                  <msItem xml:id="CAMBR586-item1" n="W632">
+                     
+                     
+                     
+                     
+                     
+                     <title xml:lang="">Kāthāvat‘thū Phithaṃmā</title>
+                     <title xml:lang="">Kathāvatthu Abhidhamma</title>
+                     <title xml:lang="shn-Latn-x-lc">
+                        <foreign xml:lang="shn">ၵႃထႃဝတ်ထူ ၽိထံမႃ</foreign>
+                     </title>
+                     <title xml:lang="en" type="alt">'Aphithaṃmā Kāthāvaṭthu</title>
+                     <title xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance" xml:lang="">
+                        <foreign xml:lang="shn">ဢၽိထံမႃ ၵႃထႃဝတ့်ထု</foreign>
+                     </title>
+                     <decoNote>
+                        <p>Illustrated (ornamentation): colour</p>
+                     </decoNote>
+                     <note>Shan text descriptor: Not specified  </note>
+                     
+                     
+                     <note>Subject:  abhidhamma Subject comments: The 5th book of Abhidhamma Piṭaka.</note>
+                     <textLang mainLang="shn" otherLangs="pli" change="#fix-langs">shan,pali</textLang>
+                     <note>Work ID: W632</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="rolled_book">
+                     <supportDesc material="sa_(mulberry)_paper">
+                        <extent>110<dimensions type="written" unit="cm"/>
+                        </extent>
+                        <foliation>
+                           <p>Lines (per folio:) 22-23</p>
+                        </foliation>
+                        <condition>
+                           <p>reasonable</p>
+                           <p>human</p>
+                           <p>One hand throughout; the text is divided into four sections.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" medium="black ink">
+                        <desc>Appearance (paper): white</desc>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <p>Covers: yes Cover material: <material>papier mache</material>
+                     </p>
+                     <condition>yes</condition>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <!--
+                        When adding dates, normalize attributes to the Gregorian calendar
+                        e.g. <origDate notBefore="1875" notAfter="1876">1237 in the sakkaraja era</origDate>
+                     -->
+                     <p>Mè Cai Thun = Mother of Cai Thun</p>
+                     
+                  </origin>
+                  <acquisition>
+                     <p>Present copy's donor: Mè Cai Thun of Mākkok Lāi</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Removed empty elements using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/remove-empty-elements.xsl">remove-empty-elements.xsl</ref>
+         </change>
+         <change when="2018-09-04" xml:id="fix-langs">
+            <persName>Andrew Morrison</persName> Modified languages using <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/fix-langs.xsl">fix-langs.xsl</ref>
+         </change>
+         <change when="2018-09-04">
+            <persName>Andrew Morrison</persName> Re-ran James Cummings' up-convertion script <ref target="https://github.com/bodleian/senmai-mss/tree/master/processing/batch_conversion/convertShan2Bodley.xsl">convertShanBodley.xsl</ref>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
