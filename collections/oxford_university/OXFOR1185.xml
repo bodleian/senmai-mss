@@ -38,7 +38,7 @@
                   <altIdentifier>
                      <idno>MS. Asiat. Misc. c. 29</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <idno type="crArk">ark:29072/x01v53jx46fh</idno><idno type="ieArk">ark:29072/x01z40kt29rc</idno></msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in khun script</summary>
                   <msItem xml:id="OXFOR1185-item1" n="W1258">

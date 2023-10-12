@@ -38,7 +38,7 @@
                   <altIdentifier>
                      <idno>Dep Stol 312</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <idno type="crArk">ark:29072/x06108vb45gd</idno><idno type="ieArk">ark:29072/x06395w728sv</idno></msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in khun script</summary>
                   <msItem xml:id="OXFOR1206-item1" n="W1281">

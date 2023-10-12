@@ -38,7 +38,7 @@
                   <altIdentifier>
                      <idno>Dep Stol 80</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <idno type="crArk">ark:29072/x0t148fg07zx</idno><idno type="ieArk">ark:29072/x0t435gb918t</idno></msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="OXFOR55-item1" n="W55">

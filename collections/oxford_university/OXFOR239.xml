@@ -38,7 +38,7 @@
                   <altIdentifier>
                      <idno>MS. Asiat. Mis. d. 30</idno>
                   </altIdentifier>
-               </msIdentifier>
+               <idno type="crArk">ark:29072/x0mg74qk42kw</idno><idno type="ieArk">ark:29072/x0mk61rg25wr</idno></msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="OXFOR239-item1" n="W249">
