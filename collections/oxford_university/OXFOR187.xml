@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR187</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x08c97kq44x1</idno><idno type="ieArk">ark:29072/x08g84mm2877</idno><altIdentifier>
                      <idno>MS. Burm. a. 16</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x08c97kq44x1</idno><idno type="ieArk">ark:29072/x08g84mm2877</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Manuscript written in pa-o script</summary>
                   <msItem xml:id="OXFOR187-item1" n="W193">

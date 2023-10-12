@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR193</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x09593tv11dm</idno><idno type="ieArk">ark:29072/x09880vq94q9</idno><altIdentifier>
                      <idno>MS Asiat. Misc. a. 40</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x09593tv11dm</idno><idno type="ieArk">ark:29072/x09880vq94q9</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in shan,burmese script</summary>
                   <msItem xml:id="OXFOR193-item1" n="W199">

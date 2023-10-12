@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR252</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0q811kh758r</idno><idno type="ieArk">ark:29072/x0qb98md58k3</idno><altIdentifier>
                      <idno>MS. Asiat. Misc. e. 3</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x0q811kh758r</idno><idno type="ieArk">ark:29072/x0qb98md58k3</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,khun script</summary>
                   <msItem xml:id="OXFOR252-item1" n="W262">

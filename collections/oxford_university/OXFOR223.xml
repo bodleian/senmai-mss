@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR223</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0h415p91017</idno><idno type="ieArk">ark:29072/x0h702q593bx</idno><altIdentifier>
                      <idno>MS. Asiat. Mis. d. 9</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x0h415p91017</idno><idno type="ieArk">ark:29072/x0h702q593bx</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in shan,burmese script</summary>
                   <msItem xml:id="OXFOR223-item1" n="W233">

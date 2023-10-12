@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR1207</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x06682x4123x</idno><idno type="ieArk">ark:29072/x06969z095dh</idno><altIdentifier>
                      <idno>Dep Stol 313</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x06682x4123x</idno><idno type="ieArk">ark:29072/x06969z095dh</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in khun script</summary>
                   <msItem xml:id="OXFOR1207-item1" n="W1282">

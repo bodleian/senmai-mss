@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR1195</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x03t945r12nd</idno><idno type="ieArk">ark:29072/x03x816m95z3</idno><altIdentifier>
                      <idno>MS.Pali.b.23 (R)</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x03t945r12nd</idno><idno type="ieArk">ark:29072/x03x816m95z3</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Concertina book written in lanna script</summary>
                   <msItem xml:id="OXFOR1195-item1" n="W1268">

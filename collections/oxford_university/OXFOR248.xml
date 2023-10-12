@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR248</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0pg15bd08sb</idno><idno type="ieArk">ark:29072/x0pk02c89237</idno><altIdentifier>
                      <idno>MS. Asiat. Misc. d. 41</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x0pg15bd08sb</idno><idno type="ieArk">ark:29072/x0pk02c89237</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in shan script</summary>
                   <msItem xml:id="OXFOR248-item1" n="W258">

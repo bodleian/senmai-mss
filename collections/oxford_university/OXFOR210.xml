@@ -35,10 +35,10 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR210</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0db78tb77bb</idno><idno type="ieArk">ark:29072/x0df65v760n2</idno><altIdentifier>
                      <idno>MS. Asiat. Mis. c. 31 (R)</idno>
                   </altIdentifier>
-               <idno type="crArk">ark:29072/x0db78tb77bb</idno><idno type="ieArk">ark:29072/x0df65v760n2</idno></msIdentifier>
+               </msIdentifier>
                <msContents>
                   <summary change="#fix-langs">Rolled book written in khun script</summary>
                   <msItem xml:id="OXFOR210-item1" n="W218">
