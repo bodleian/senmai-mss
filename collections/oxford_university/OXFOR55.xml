@@ -35,7 +35,7 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR55</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0t148fg07zx</idno><idno type="ieArk">ark:29072/x0t435gb918t</idno><altIdentifier>
                      <idno>Dep Stol 80</idno>
                   </altIdentifier>
                </msIdentifier>

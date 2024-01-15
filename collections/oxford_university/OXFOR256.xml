@@ -35,7 +35,7 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR256</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x0r207tn41rw</idno><idno type="ieArk">ark:29072/x0r494vj252p</idno><altIdentifier>
                      <idno>MS.Asiat.Misc.e.9</idno>
                   </altIdentifier>
                </msIdentifier>

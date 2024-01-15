@@ -35,7 +35,7 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR186</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x08623hx789z</idno><idno type="ieArk">ark:29072/x08910jt61mp</idno><altIdentifier>
                      <idno>Dep Stolper 190</idno>
                   </altIdentifier>
                </msIdentifier>

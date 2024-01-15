@@ -35,7 +35,7 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR189</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x08k71nh11jz</idno><idno type="ieArk">ark:29072/x08p58pc94vj</idno><altIdentifier>
                      <idno>MS. Burm. C. 10 (R)</idno>
                   </altIdentifier>
                </msIdentifier>

@@ -35,7 +35,7 @@
                   <repository>Oxford, United Kingdom</repository>
                   <collection>Unknown</collection>
                   <idno>OXFOR195</idno>
-                  <altIdentifier>
+                  <idno type="crArk">ark:29072/x09k41zd44n0</idno><idno type="ieArk">ark:29072/x09p290927zz</idno><altIdentifier>
                      <idno>MS Asiat. Misc. b. 9 (R)</idno>
                   </altIdentifier>
                </msIdentifier>
